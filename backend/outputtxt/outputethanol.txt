@@ -1,0 +1,430 @@
+SAFETY DATA SHEET
+Creation Date 21-May-2009 Revision Date 18-Dec-2025 Revision Number 11
+This safety data sheet was created pursuant to the requirements of: US OSHA Hazard Communication Standard 2024 (29
+CFR 1910.1200)
+1. Identification
+Product Name Ethanol Solution 96%
+Cat No. : BP8202-1; BP8202-4; BP8202-500
+CAS No 64-17-5
+Synonyms Ethyl alcohol
+Recommended Use Laboratory chemicals.
+Uses advised against Food, drug, pesticide or biocidal product use.
+Details of the supplier of the safety data sheet
+Company
+Fisher Scientific Company
+One Reagent Lane
+Fair Lawn, NJ 07410
+Tel: (201) 796-7100
+Emergency Telephone Number
+CHEMTRECÒ, Inside the USA: 800-424-9300
+CHEMTRECÒ, Outside the USA: 001-703-527-3887
+2. Hazard(s) identification
+Classification
+This chemical is considered hazardous according to [US] OSHA (29 CFR 1910.1200, 2024)
+Flammable liquids Category 2
+Serious Eye Damage/Eye Irritation Category 2
+Label Elements
+Signal Word
+Danger
+Hazard Statements
+Highly flammable liquid and vapor
+Causes serious eye irritation
+______________________________________________________________________________________________
+Page 1 / 10
+Ethanol Solution 96% Revision Date 18-Dec-2025
+______________________________________________________________________________________________
+Precautionary Statements
+Prevention
+Wash face, hands and any exposed skin thoroughly after handling
+Wear eye/face protection
+Do not breathe dust/fume/gas/mist/vapors/spray
+Use only outdoors or in a well-ventilated area
+Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking
+Keep container tightly closed
+Ground and bond container and receiving equipment
+Use explosion-proof electrical/ventilating/lighting equipment
+Keep cool
+Wear protective gloves/protective clothing/eye protection/face protection
+Take action to prevent static discharges
+Use non-sparking tools
+Response
+IF exposed or concerned: Get medical attention/advice
+Inhalation
+IF INHALED: Remove person to fresh air and keep comfortable for breathing
+Skin
+IF ON SKIN (or hair): Take off immediately all contaminated clothing. Rinse skin with water or shower
+Eyes
+IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing
+If eye irritation persists: Get medical advice/attention
+Fire
+In case of fire: Use CO2, dry chemical, or foam to extinguish
+Storage
+Store locked up
+Store in a well-ventilated place. Keep container tightly closed
+Disposal
+Dispose of contents/container to an approved waste disposal plant
+Hazards not otherwise classified (HNOC)
+Hazards classified under paragraph (d)(1)(ii) of 1910.1200
+No information available
+WARNING. Cancer and Reproductive Harm - https://www.p65warnings.ca.gov/.
+3. Composition/information on Ingredients
+Component CAS No Weight %
+Ethyl alcohol 64-17-5 95-96
+4. First-aid measures
+General Advice If symptoms persist, call a physician.
+Eye Contact Rinse immediately with plenty of water, also under the eyelids, for at least 15 minutes. Get
+medical attention.
+Skin Contact Wash off immediately with plenty of water for at least 15 minutes. If skin irritation persists,
+______________________________________________________________________________________________
+Page 2 / 10
+Ethanol Solution 96% Revision Date 18-Dec-2025
+______________________________________________________________________________________________
+call a physician.
+Inhalation Remove to fresh air. If not breathing, give artificial respiration. Get medical attention if
+symptoms occur.
+Ingestion Clean mouth with water and drink afterwards plenty of water.
+Most important symptoms and Difficulty in breathing. Inhalation of high vapor concentrations may cause symptoms like
+effects headache, dizziness, tiredness, nausea and vomiting
+Notes to Physician Treat symptomatically
+5. Fire-fighting measures
+Suitable Extinguishing Media Water spray, carbon dioxide (CO2), dry chemical, alcohol-resistant foam. Water mist may
+be used to cool closed containers.
+Unsuitable Extinguishing Media Water may be ineffective
+Flash Point 13 - 17 °C / 55.4 - 62.6 °F
+Method - No information available
+Autoignition Temperature 363 °C / 685.4 °F
+Explosion Limits
+Upper 19 vol %
+Lower 3.3 vol %
+Sensitivity to Mechanical ImpactNo information available
+Sensitivity to Static Discharge No information available
+Specific Hazards Arising from the Chemical
+Flammable. Risk of ignition. Vapors may form explosive mixtures with air. Vapors may travel to source of ignition and flash back.
+Containers may explode when heated. Thermal decomposition can lead to release of irritating gases and vapors. Keep product and
+empty container away from heat and sources of ignition. Vapors may form explosive mixtures with air.
+Hazardous Combustion Products
+Carbon monoxide (CO). Carbon dioxide (CO2).
+Protective Equipment and Precautions for Firefighters
+As in any fire, wear self-contained breathing apparatus pressure-demand, MSHA/NIOSH (approved or equivalent) and full
+protective gear.
+NFPA
+Health Flammability Instability Physical hazards
+2 3 0 N/A
+6. Accidental release measures
+Personal Precautions Use personal protective equipment as required. Ensure adequate ventilation. Remove all
+sources of ignition. Take precautionary measures against static discharges.
+Environmental Precautions Do not flush into surface water or sanitary sewer system.
+Methods for Containment and CleanSoak up with inert absorbent material. Keep in suitable, closed containers for disposal.
+Up Remove all sources of ignition. Use spark-proof tools and explosion-proof equipment.
+7. Handling and Storage
+Handling Wear personal protective equipment/face protection. Ensure adequate ventilation. Avoid
+ingestion and inhalation. Do not get in eyes, on skin, or on clothing. Keep away from open
+flames, hot surfaces and sources of ignition. Use only non-sparking tools. To avoid ignition
+of vapors by static electricity discharge, all metal parts of the equipment must be grounded.
+______________________________________________________________________________________________
+Page 3 / 10
+Ethanol Solution 96% Revision Date 18-Dec-2025
+______________________________________________________________________________________________
+Take precautionary measures against static discharges.
+Storage. Keep containers tightly closed in a dry, cool and well-ventilated place. Keep away from
+heat, sparks and flame. Flammables area. Incompatible Materials. Strong oxidizing
+agents. Strong acids. Acid anhydrides. Acid chlorides.
+8. Exposure controls / personal protection
+Exposure Guidelines
+Component ACGIH TLV OSHA PEL NIOSH Mexico OEL (TWA)
+Ethyl alcohol STEL: 1000 ppm (Vacated) TWA: 1000 ppm IDLH: 3300 ppm STEL: 1000 ppm
+(Vacated) TWA: 1900 mg/m3 REL = 1000 ppm (TWA)
+TWA: 1000 ppm REL = 1900 mg/m3 (TWA)
+TWA: 1900 mg/m3
+Legend
+ACGIH - American Conference of Governmental Industrial Hygienists
+OSHA - Occupational Safety and Health Administration
+NIOSH: NIOSH - National Institute for Occupational Safety and Health
+Engineering Measures Ensure adequate ventilation, especially in confined areas. Use explosion-proof
+electrical/ventilating/lighting equipment. Ensure that eyewash stations and safety showers
+are close to the workstation location.
+Personal Protective Equipment
+Eye/face Protection Wear appropriate protective eyeglasses or chemical safety goggles as described by
+OSHA's eye and face protection regulations in 29 CFR 1910.133 or European Standard
+EN166.
+Skin and body protection Wear appropriate protective gloves and clothing to prevent skin exposure.
+Respiratory Protection Follow the OSHA respirator regulations found in 29 CFR 1910.134 or European Standard
+EN 149. Use a NIOSH/MSHA or European Standard EN 149 approved respirator if
+exposure limits are exceeded or if irritation or other symptoms are experienced.
+Recommended Filter type: Organic gases and vapours filter. Type A. Brown. conforming to EN14387.
+Hygiene Measures When using do not eat, drink or smoke. Provide regular cleaning of equipment, work area
+and clothing.
+9. Physical and chemical properties
+Appearance
+Physical State Liquid
+Color Clear, Colorless
+Odor sweet, Characteristic
+Odor Threshold No information available
+Property Values Remarks • Method
+Melting Point/Range -114 °C / -173.2 °F
+Softening Point No data available
+Boiling Point/Range 78 °C / 172.4 °F
+Flash Point 13 - 17 °C / 55.4 - 62.6 °F Method - No information available
+Flammability (liquid) Highly flammable On basis of test data
+Flammability (solid,gas) Not applicable Liquid
+Explosion Limits Lower 3.3 vol %
+Upper 19 vol %
+______________________________________________________________________________________________
+Page 4 / 10
+Ethanol Solution 96% Revision Date 18-Dec-2025
+______________________________________________________________________________________________
+Autoignition Temperature 363 °C / 685.4 °F
+Decomposition Temperature No data available
+pH No information available
+Viscosity No data available
+Water Solubility Soluble
+Solubility in other solvents No information available
+Partition Coefficient (n-octanol/water)
+Component log Pow
+Ethyl alcohol -0.32
+Vapor Pressure No data available
+Density / Specific Gravity 0.80
+Bulk Density Not applicable Liquid
+Vapor Density No data available (Air = 1.0)
+Particle characteristics Not applicable (liquid)
+Other Information
+Molecular Formula C2 H6 O
+Molecular Weight 46.07
+Explosive Properties Vapors may form explosive mixtures with air
+10. Stability and reactivity
+Reactive Hazard None known, based on information available
+Stability Stable under normal conditions.
+Conditions to Avoid Keep away from open flames, hot surfaces and sources of ignition. Incompatible products.
+Incompatible Materials Strong oxidizing agents, Strong acids, Acid anhydrides, Acid chlorides
+Hazardous Decomposition ProductsCarbon monoxide (CO), Carbon dioxide (CO2)
+Hazardous Polymerization Hazardous polymerization does not occur.
+Hazardous Reactions None under normal processing.
+11. Toxicological information
+Information on expected route of exposure
+Inhalation May cause irritation of respiratory tract. May be harmful if inhaled. INHALATION MAY
+CAUSE CENTRAL NERVOUS SYSTEM EFFECTS.
+Ingestion May be harmful if swallowed. Aspiration hazard if swallowed - can enter lungs and cause
+damage. Ingestion may cause gastrointestinal irritation, nausea, vomiting and diarrhea.
+Eyes Irritating to eyes.
+Skin Irritating to skin. May be harmful in contact with skin.
+Toxicology data for the components
+Component LD50 Oral LD50 Dermal LC50 Inhalation
+Ethyl alcohol LD50 = 10470 mg/kg - LC50 = 117-125 mg/l (4h)
+OECD 401 (Rat) OECD 403 (rat)
+3450 mg/kg ( Mouse ) 20000 ppm/10H (rat)
+Toxicologically Synergistic No information available
+Products
+(b) skin corrosion/irritation; Based on available data, the classification criteria are not met
+______________________________________________________________________________________________
+Page 5 / 10
+Ethanol Solution 96% Revision Date 18-Dec-2025
+______________________________________________________________________________________________
+(c) serious eye damage/irritation; Category 2
+(d) respiratory or skin sensitization;
+Respiratory Based on available data, the classification criteria are not met
+Skin Based on available data, the classification criteria are not met
+Component Test method Test species Study result
+Ethyl alcohol Mouse Ear Swelling Test (MEST) mouse non-sensitising
+64-17-5 ( 95-96 ) ------------------------------------------ ------------------------------------------
+------------------------------------------ mouse non-sensitising
+OECD Test Guideline 429
+Local Lymph Node Assay
+(e) germ cell mutagenicity; Based on available data, the classification criteria are not met
+Component Test method Test species Study result
+Ethyl alcohol AMES test in vitro negative
+64-17-5 ( 95-96 ) OECD Test Guideline 471 Bacteria
+------------------------------------------
+Gene cell mutation ------------------------------------------ ------------------------------------------
+OECD Test Guideline 476 in vitro negative
+Mammalian
+(f) carcinogenicity; Based on available data, the classification criteria are not met
+Ethanol has been shown to be carcinogenic in long-term studies only when consumed and
+abused as an alcoholic beverage.
+Component CAS No IARC NTP ACGIH OSHA Mexico
+Ethyl alcohol 64-17-5 Not listed Known A3 Not listed A3
+IARC (International Agency for Research on Cancer) IARC (International Agency for Research on Cancer)
+Group 1 - Carcinogenic to Humans
+Group 2A - Probably Carcinogenic to Humans
+Group 2B - Possibly Carcinogenic to Humans
+NTP: (National Toxicity Program) NTP: (National Toxicity Program)
+Known - Known Carcinogen
+Reasonably Anticipated - Reasonably Anticipated to be a Human
+Carcinogen
+ACGIH: (American Conference of Governmental Industrial A1 - Known Human Carcinogen
+Hygienists) A2 - Suspected Human Carcinogen
+A3 - Animal Carcinogen
+ACGIH: (American Conference of Governmental Industrial Hygienists)
+OSHA: (Occupational Safety & Health Administration) OSHA: (Occupational Safety & Health Administration)
+X - Present
+Mexico - Occupational Exposure Limits - Carcinogens Mexico - Occupational Exposure Limits - Carcinogens
+A1 - Confirmed Human Carcinogen
+A2 - Suspected Human Carcinogen
+A3 - Confirmed Animal Carcinogen
+A4 - Not Classifiable as a Human Carcinogen
+A5 - Not Suspected as a Human Carcinogen
+(g) reproductive toxicity; Based on available data, the classification criteria are not met
+Component Test method Test species / Duration Study result
+Ethyl alcohol OECD Test Guideline 416 Oral / mouse NOAEL = 13.8 g/kg/day
+64-17-5 ( 95-96 ) ------------------------------------------ 2 Generation
+OECD Test Guideline 414 ------------------------------------------ ------------------------------------------
+Inhalation / Rat NOAEC =
+16000 ppm
+(h) STOT-single exposure; Based on available data, the classification criteria are not met
+______________________________________________________________________________________________
+Page 6 / 10
+Ethanol Solution 96% Revision Date 18-Dec-2025
+______________________________________________________________________________________________
+(i) STOT-repeated exposure; Based on available data, the classification criteria are not met
+Target Organs None known.
+(j) aspiration hazard; Based on available data, the classification criteria are not met
+Other Adverse Effects The hazards associated with ethanol may be seen in this product.
+Symptoms / effects,both acute and Inhalation of high vapor concentrations may cause symptoms like headache, dizziness,
+delayed tiredness, nausea and vomiting.
+Other Adverse Effects The hazards associated with ethanol may be seen in this product.
+Endocrine Disrupting Properties This product does not contain any known or suspected endocrine disruptors.
+12. Ecological information
+Ecotoxicity
+Do not empty into drains.
+Component Freshwater Algae Freshwater Fish Microtox Water Flea
+Ethyl alcohol EC50 (72h) = 275 mg/l Fathead minnow Photobacterium EC50 = 9268 mg/L/48h
+(Chlorella vulgaris) (Pimephales promelas) phosphoreum:EC50 = 34634 EC50 = 10800 mg/L/24h
+LC50 = 14200 mg/l/96h mg/L/30 min
+Photobacterium
+phosphoreum:EC50 = 35470
+mg/L/5 min
+Persistence and Degradability Persistence is unlikely based on information available.
+Bioaccumulation/ Accumulation No information available.
+Mobility Will likely be mobile in the environment due to its volatility.
+Component log Pow
+Ethyl alcohol -0.32
+13. Disposal considerations
+Waste Disposal Methods Chemical waste generators must determine whether a discarded chemical is classified as a
+hazardous waste. Chemical waste generators must also consult local, regional, and
+national hazardous waste regulations to ensure complete and accurate classification.
+14. Transport information
+DOT
+UN-No UN1170
+Proper Shipping Name ETHANOL
+Hazard Class 3
+Packing Group II
+TDG
+UN-No UN1170
+Proper Shipping Name ETHANOL
+Hazard Class 3
+Packing Group II
+IATA
+UN-No UN1170
+Proper Shipping Name ETHANOL
+Hazard Class 3
+______________________________________________________________________________________________
+Page 7 / 10
+Ethanol Solution 96% Revision Date 18-Dec-2025
+______________________________________________________________________________________________
+Packing Group II
+IMDG/IMO
+UN-No UN1170
+Proper Shipping Name ETHANOL
+Hazard Class 3
+Packing Group II
+15. Regulatory Information
+United States of America Inventory
+Component CAS No TSCA TSCA Inventory notification - TSCA - EPA Regulatory
+Active-Inactive Flags
+Ethyl alcohol 64-17-5 X ACTIVE -
+Legend:
+TSCA US EPA (TSCA) - Toxic Substances Control Act, (40 CFR Part 710)
+X - Listed
+'-' - Not Listed
+TSCA - Per 40 CFR 751, Regulation of Certain Chemical Not applicable
+Substances & Mixtures, Under TSCA Section 6(h) (PBT)
+TSCA 12(b) - Notices of Export Not applicable
+International Inventories
+Canada (DSL/NDSL), Europe (EINECS/ELINCS/NLP), Philippines (PICCS), Japan (ENCS), Japan (ISHL), Australia (AICS), China (IECSC), Korea
+(KECL).
+Component CAS No DSL NDSL EINECS PICCS ENCS ISHL AICS IECSC KECL
+Ethyl alcohol 64-17-5 X - 200-578-6 X X X X X KE-13217
+KECL - NIER number or KE number (http://ncis.nier.go.kr/en/main.do)
+U.S. Federal Regulations
+SARA 313
+Section 313 of Title III of the Superfund Amendments and Reauthorization Act of 1986 (SARA). This product does not contain any
+chemicals which are subject to the reporting requirements of the Act and Title 40 of the Code of Federal Regulations, Part 372
+SARA 311/312 Hazard Categories
+Should this product meet EPCRA 311/312 Tier reporting criteria at 40 CFR 370, refer to Section 2 of this SDS for appropriate
+classifications.
+CWA (Clean Water Act) Not applicable
+Clean Air Act Not applicable
+OSHA - Occupational Safety and Not applicable
+Health Administration
+CERCLA
+This material, as supplied, does not contain any substances regulated as hazardous substances under the Comprehensive
+Environmental Response Compensation and Liability Act (CERCLA) (40 CFR 302) or the Superfund Amendments and
+Reauthorization Act (SARA) (40 CFR 355). There may be specific reporting requirements at the local, regional, or state level
+pertaining to releases of this material.
+California Proposition 65 This product contains the following Proposition 65 chemicals. Ethyl alcohol is only a
+______________________________________________________________________________________________
+Page 8 / 10
+Ethanol Solution 96% Revision Date 18-Dec-2025
+______________________________________________________________________________________________
+considered a Proposition 65 developmental hazard when it is ingested as an alcoholic
+beverage.
+Component CAS No California Prop. 65 Prop 65 NSRL Category
+Ethyl alcohol 64-17-5 Development (alcoholic - Developmental
+beverages only) Carcinogen
+Carcinogen
+U.S. State Right-to-Know
+Regulations
+Component Massachusetts New Jersey Pennsylvania Illinois Rhode Island
+Ethyl alcohol X X X X X
+U.S. Department of Transportation
+Reportable Quantity (RQ): N
+DOT Marine Pollutant N
+DOT Severe Marine Pollutant N
+U.S. Department of Homeland This product does not contain any DHS chemicals.
+Security
+Other International Regulations
+Mexico - Grade Serious risk, Grade 3
+Authorisation/Restrictions according to EU REACH Not applicable
+Component CAS No REACH (1907/2006) - REACH (1907/2006) - REACH Regulation (EC
+Annex XIV - Substances Annex XVII - Restrictions 1907/2006) article 59 -
+Subject to Authorization on Certain Dangerous Candidate List of
+Substances Substances of Very High
+Concern (SVHC)
+Ethyl alcohol 64-17-5 - - -
+Safety, health and environmental regulations/legislation specific for the substance or mixture
+Component CAS No OECD HPV Persistent Organic Ozone Depletion Restriction of
+Pollutant Potential Hazardous
+Substances (RoHS)
+Ethyl alcohol 64-17-5 Listed Not applicable Not applicable Not applicable
+Contains component(s) that meet a 'definition' of per & poly fluoroalkyl substance (PFAS)?
+Not applicable
+Other International Regulations
+Component CAS No Seveso III Directive Seveso III Directive Rotterdam Basel Convention
+(2012/18/EC) - (2012/18/EC) - Convention (PIC) (Hazardous Waste)
+Qualifying QuantitiesQualifying Quantities
+for Major Accident for Safety Report
+Notification Requirements
+Ethyl alcohol 64-17-5 Not applicable Not applicable Not applicable Annex I - Y42
+16. Other Information
+Prepared By Product stewardship (Regulatory Affairs)
+Thermo Fisher Scientific
+______________________________________________________________________________________________
+Page 9 / 10
+Ethanol Solution 96% Revision Date 18-Dec-2025
+______________________________________________________________________________________________
+Email: EMSDS.RA@thermofisher.com
+Creation Date 21-May-2009
+Revision Date 18-Dec-2025
+Print Date 18-Dec-2025
+Revision Summary Updated to the U.S. Department of Labor’s Occupational Safety and Health Administration
+(OSHA) which published its Final Rule in the Federal Register revising the Hazard
+Communication Standard (HCS/HazCom), 29 CFR 1910.1200 (2024) (HCS §1910.1200,
+2024), May 20, 2024, effective July 19, 2024.
+Disclaimer
+The information provided in this Safety Data Sheet is correct to the best of our knowledge, information and belief at the
+date of its publication. The information given is designed only as a guidance for safe handling, use, processing, storage,
+transportation, disposal and release and is not to be considered a warranty or quality specification. The information
+relates only to the specific material designated and may not be valid for such material used in combination with any other
+materials or in any process, unless specified in the text
+End of SDS
+______________________________________________________________________________________________
+Page 10 / 10

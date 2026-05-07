@@ -1,0 +1,82 @@
+SAFETY DATA SHEET
+HYDROGEN PEROXIDE
+SECTION 1. PRODUCT AND COMPANY IDENTIFICATION
+Product name : HYDROGEN PEROXIDE
+Other means of identification : Not applicable
+Recommended use : Laundry product
+Restrictions on use : Reserved for industrial and professional use.
+Product dilution information : Product is sold ready to use.
+Company : Ecolab Inc.
+1 Ecolab Place
+St. Paul, Minnesota USA 55102
+1-800-352-5326
+Emergency health : 1-800-328-0026 (US/Canada), 1-651-222-5352 (outside US)
+information
+Issuing date : 03/14/2019
+SECTION 2. HAZARDS IDENTIFICATION
+GHS Classification
+Oxidizing liquids : Category 3
+Acute toxicity (Oral) : Category 4
+Serious eye damage : Category 1
+GHS label elements
+Hazard pictograms :
+Signal Word : Danger
+Hazard Statements : May intensify fire; oxidizer.
+Harmful if swallowed.
+Causes serious eye damage.
+Precautionary Statements : Prevention:
+Keep away from heat. Keep/Store away from clothing/ combustible
+materials. Take any precaution to avoid mixing with combustibles.
+Wash skin thoroughly after handling. Do not eat, drink or smoke when
+using this product. Wear protective gloves/ eye protection/ face
+protection.
+Response:
+IF SWALLOWED: Call a POISON CENTER/doctor if you feel unwell.
+Rinse mouth. IF IN EYES: Rinse cautiously with water for several
+minutes. Remove contact lenses, if present and easy to do. Continue
+rinsing. Immediately call a POISON CENTER/doctor. In case of fire:
+Use dry sand, dry chemical or alcohol-resistant foam to extinguish.
+Disposal:
+Dispose of contents/ container to an approved waste disposal plant.
+Other hazards : None known.
+959320-02 1 / 8
+SAFETY DATA SHEET
+HYDROGEN PEROXIDE
+SECTION 3. COMPOSITION/INFORMATION ON INGREDIENTS
+Pure substance/mixture : Mixture
+Chemical name CAS-No. Concentration (%)
+Hydrogen peroxide 7722-84-1 33
+SECTION 4. FIRST AID MEASURES
+In case of eye contact : Rinse immediately with plenty of water, also under the eyelids, for at
+least 15 minutes. Remove contact lenses, if present and easy to do.
+Continue rinsing. Get medical attention immediately.
+In case of skin contact : Rinse with plenty of water.
+If swallowed : Rinse mouth. Get medical attention if symptoms occur.
+If inhaled : Remove to fresh air. Treat symptomatically. Get medical attention if
+symptoms occur.
+Protection of first-aiders : If potential for exposure exists refer to Section 8 for specific personal
+protective equipment.
+Notes to physician : Treat symptomatically.
+Most important symptoms : See Section 11 for more detailed information on health effects and
+and effects, both acute and symptoms.
+delayed
+SECTION 5. FIRE-FIGHTING MEASURES
+Suitable extinguishing media : Use extinguishing measures that are appropriate to local
+circumstances and the surrounding environment.
+Unsuitable extinguishing : None known.
+media
+Specific hazards during fire : Oxidizer. Contact with other material may cause fire.
+fighting
+Hazardous combustion : Decomposition products may include the following materials:
+products Carbon oxides
+Special protective equipment : Use personal protective equipment.
+for fire-fighters
+Specific extinguishing : Fire residues and contaminated fire extinguishing water must be
+methods disposed of in accordance with local regulations. In the event of fire
+and/or explosion do not breathe fumes.
+SECTION 6. ACCIDENTAL RELEASE MEASURES
+Personal precautions, : Ensure adequate ventilation. Keep people away from and upwind of
+protective equipment and spill/leak. Avoid inhalation, ingestion and contact with skin and eyes.
+emergency procedures When workers are facing concentrations above the exposure limit they
+must use appropriate certified respirators. Ensure clean-up is
+959320-02 2 / 8

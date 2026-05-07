@@ -1,0 +1,276 @@
+TCP Reliable Inc.
+551 Raritan Center Parkway
+Edison, NJ 07650
+(732)346-9200
+MSDSCODE: Phase 22 REVISION DATE: NA
+REVISION: 0 PRINT DATE: 12-20-02
+MATERIAL SAFETY DATA SHEET
+1. HAZARDS IDENTIFICATION
+Emergency Overview
+Colorless liquid. Sweet, pungent odor.
+HEALTH HAZARD: CAUTION! MAY CAUSE EYE IRRITATION. In high
+concentrations, vapor
+may cause irritation of the eyes, nose, and upper respiratory tract, and headache.
+FIRE OR EXPLOSION: This product may burn but will not ignite readily.
+SPILL PRECAUTIONS: Slippery, may cause falls if walked on.
+Potential Health Effects
+EYES:
+Irritation may occur with exposure to vapors. The liquid is a moderate contact
+irritant. May cause corneal inflammation.
+SKIN:
+Repeated or prolonged contact can cause redness, irritation, and scaling of the
+skin (dermatitis). Normal care and personal hygiene should prevent skin effects.
+INHALATION:
+In high concentrations, vapor may cause irritation of the nose and throat,
+dizziness, and headache. Should not be a hazard at ambient temperatures.
+INGESTION:
+Low order of toxicity. No hazard by this route in normal use. Ingestion of large
+amounts may be irritating to the gastrointestinal tract.
+(See Section 9 for Toxicological Information)
+2. FIRST AID MEASURES
+EYES:
+Immediately flush eyes with plenty of water for at least 15 minutes. Seek medical
+attention.
+SKIN:
+Page 1 of 8
+TCP Reliable Inc.
+551 Raritan Center Parkway
+Edison, NJ 07650
+(732)346-9200
+MSDSCODE: Phase 22 REVISION DATE: NA
+REVISION: 0 PRINT DATE: 12-20-02
+Remove contaminated clothing. Wash skin with soap and plenty of water. Get
+medical attention if symptoms occur. Wash clothing before reuse.
+INHALATION:
+Remove to fresh air. If not breathing, give artificial respiration and seek medical
+attention immediately. Oxygen should only be administered by trained personnel.
+INGESTION:
+If swallowed, call a physician immediately. ONLY induce vomiting at the
+instruction of a physician. Never give anything by mouth to an unconscious
+person.
+3. FIRE FIGHTING MEASURES
+Flammable Properties
+FLASH POINT / METHOD:
+265°F (129°C) / PM
+AUTOIGNITION TEMPERATURE:
+500°F (260°C)
+FLAMMABLE LIMITS IN AIR % BY VOLUME:
+LOWER: Approximately 0.6
+UPPER: Approximately 4.0
+FIRE AND EXPLOSION HAZARD:
+None expected.
+EXTINGUISHING MEDIA:
+Water spray, fog or alcohol compatible foam is recommended.
+FIRE FIGHTING INSTRUCTIONS:
+Cool exposed equipment with water spray until well after fire is out. Self-
+contained breathing apparatus (SCBA) and structural firefighter’s protective
+clothing will provide limited protection.
+4. ACCIDENTAL RELEASE MEASURES
+STEPS TO BE TAKEN IN CASE OF SPILL OR LEAK:
+Absorb spill with inert material, then place in a chemical waste container. For
+large spills, dike for later disposal. Avoid runoff to waterways and sewers.
+Dispose of according to local, state, and federal regulations.
+Page 2 of 8
+TCP Reliable Inc.
+551 Raritan Center Parkway
+Edison, NJ 07650
+(732)346-9200
+MSDSCODE: Phase 22 REVISION DATE: NA
+REVISION: 0 PRINT DATE: 12-20-02
+SPILL PRECAUTIONS:
+Slippery, may cause falls if walked on.
+CERCLA HAZARDOUS SUBSTANCE:
+Contains no chemicals on the CERCLA Hazardous Substance List.
+5. HANDLING AND STORAGE
+ELECTROSTATIC ACCUMMIJLATION HAZARD:
+Precautions should be taken to prevent electrostatic discharge.
+USUAL SHIPPING CONTAINERS:
+Tank cars, tank trucks, and drums.
+STORAGE/TRANSPORT TEMPERATURE:
+Hot water system recommended for temperature control. Temperature should not
+be held at over 110 °F (43 °C) for long periods.
+STORAGE / TRANSPORT PRESSURE:
+Ambient
+LOAD / UNLOAD TEMPERATURE:
+90 - 110°F (32 - 43°C)
+STORAGE AND HANDLING MATERIALS:
+TANKS: Carbon steel with effective moisture control, carbon steel coated with
+baked phenolic, fiberglass reinforced plastic with epoxy or polyester resin, or
+metallic zinc in an inorganic binder.
+NOTE: Any moisture may cause rusting of carbon steel. Product contamination
+may result.
+SPECIAL PRECAUTIONS:
+Inert gas blanket and breathing system needed to maintain color stability. Use dry
+inert gas having at least -40°F dew point.
+6. EXPOSURE CONTROLS / PERSONAL PROTECTION
+Engineering Controls
+Mechanical ventilation may be necessary if working with the product in enclosed
+areas or at elevated temperatures.
+Personal Protective Equipment
+Page 3 of 8
+TCP Reliable Inc.
+551 Raritan Center Parkway
+Edison, NJ 07650
+(732)346-9200
+MSDSCODE: Phase 22 REVISION DATE: NA
+REVISION: 0 PRINT DATE: 12-20-02
+EYES:
+When contact with liquid is possible, use a face shield. Otherwise use safety
+glasses with side shields or goggles.
+SKIN:
+Full protective clothing, chemical boots, and chemical gloves when contact with
+liquid is possible.
+RESPIRATORY PROTECTION:
+Respiratory protection is normally not required except in emergencies or when
+conditions cause excessive airborne levels of mists or vapors. Select the
+appropriate NIOSH-approved organic vapor air-purifying respirator, self-
+contained breathing apparatus, or air-supplied respirators in situations where there
+may be potential for overexposure.
+Exposure Guidelines:
+None established.
+Carcinogenicity
+No carcinogenic ingredients.
+7. PHYSICAL AND CHEMICAL PROPERTIES
+APPEARANCE:
+Colorless liquid.
+VISCOSITY:
+12.3 cSt @ 100°F/38°C
+ODOR:
+Sweet, pungent odor.
+PHYSICAL STATE:
+Liquid
+VAPOR PRESSURE (mm Hg.):
+0.014 @ l00°F/38°C
+BOILING POINT:
+490 - 498°F (254 - 259°C)
+MELTING POINT:
+74°F (23°C)
+Page 4 of 8
+TCP Reliable Inc.
+551 Raritan Center Parkway
+Edison, NJ 07650
+(732)346-9200
+MSDSCODE: Phase 22 REVISION DATE: NA
+REVISION: 0 PRINT DATE: 12-20-02
+SOLUBILITY IN WATER:
+0.0016 g/100g
+SPECIFIC GRAVITY (H2O=1):
+0.830 @ 60°F /15°C
+8. STABILITY AND REACTIVITY
+CONDITIONS TO AVOID:
+High temperatures.
+INCOMPATIBILITY WITH OTHER MATERIALS:
+Can react with strong oxidizers, inorganic acids, and halogens.
+HAZARDOUS DECOMPOSITION PRODUCTS:
+None expected.
+HAZARDOUS POLYMERIZATION:
+Should not occur.
+9. TOXICOLOGICAL INFORMATION
+EYES:
+Primary Eye Irritation Index (Rabbits): 27 at 24 hours; (Maximum score is
+110). Corneal opacity was observed. Irritation not completely gone by day 3, the
+last day of observation.
+SKIN:
+Acute Dermal LD (Rabbits): 8 - 12 g/kg.
+50
+Primary Skin Irritation Index (Rabbits): 4.6 (Maximum score is 8.0)
+INHALATION:
+No specific data available.
+INGESTION:
+No mortality in rats given a dose of 26.5 g/kg.
+10. ECOLOGICAL INFORMATION
+ECOTOXICOLOGICAL INFORMATION:
+Phase 22 toxicity to fathead minnows: 96h LC = 1.01 mg/l.
+50
+Page 5 of 8
+TCP Reliable Inc.
+551 Raritan Center Parkway
+Edison, NJ 07650
+(732)346-9200
+MSDSCODE: Phase 22 REVISION DATE: NA
+REVISION: 0 PRINT DATE: 12-20-02
+CHEMICAL FATE INFORMATION:
+Phase 22 is biodegradable (75% removal after 46 days in OECD Test 301B).
+11. DISPOSAL CONSIDERATIONS
+SPECIAL INSTRUCTIONS:
+Dispose of in accordance with local, state, provincial and federal laws and
+regulations. Do not contaminate any lakes, streams, ponds, groundwater or soil.
+WASTE CLASSIFICATION:
+Any unused product or empty containers may be disposed of as non-hazardous in
+accordance with state and federal requirements. Re-evaluation of the product may
+be required by the user at the time of disposal, since the product uses,
+transformations, mixtures, contamination, and spillage may change the
+classification to hazardous. If the resulting material is determined to be hazardous,
+please dispose in accordance with state and federal (40 CFR 264) hazardous waste
+regulations.
+EMPTY CONTAINERS:
+Empty containers retain product residue (liquid and/or vapor) and can be
+dangerous. DO NOT PRESSURIZE, CUT, WELD, BRAZE, SOLDER, DRILL,
+GRIND, OR EXPOSE SUCH CONTAINERS TO HEAT, FLAME, SPARKS,
+STATIC ELECTRICITY, OR OTHER SOURCES OF IGNITION; THEY MAY
+EXPLODE AND CAUSE INJURY OR DEATH. Empty drums should be
+completely drained, properly bunged and promptly returned to a drum
+reconditioner, or properly disposed of.
+(See Section 4 for CERCLA Reporting Requirements)
+12. TRANSPORT INFORMATION
+DOT DESCRIPTION:
+This product is not a hazardous material according to DOT regulations for ground
+transportation.
+ICAO / IATA DESCRIPTION:
+This product is not a dangerous good as defined by IATA for air transportation.
+IMO DESCRIPTION (IMDG CODE):
+This product is not a dangerous good as defined by IMO in the IMDG Code for
+water transportation.
+Page 6 of 8
+TCP Reliable Inc.
+551 Raritan Center Parkway
+Edison, NJ 07650
+(732)346-9200
+MSDSCODE: Phase 22 REVISION DATE: NA
+REVISION: 0 PRINT DATE: 12-20-02
+13. REGULATORY INFORMATION U.S. Federal Regulations
+OSHA HAZARD COMMUNICATION STANDARD CLASSIFICATION:
+Eye irritant as defined by the OSHA Hazard Communication Standard.
+SARA 302 STATUS:
+Contains no chemicals subject to SARA 302 reporting.
+SARA 311/312 CLASSIFICATION:
+SARA 311/312 “Immediate (acute) health hazard”.
+SARA 313 CHEMICALS:
+Contains no chemicals subject to SARA 313 reporting.
+(See Section 4 for CERCLA Reporting Requirements.)
+International Regulations
+WORKPLACE HAZARDOUS MATERIALS INFORMATION SYSTEM (WHMIS)
+CLASSIFICATION:
+Class D, Division 2, Subdivision B: Toxic material.
+State Regulations
+CAUFORNIA SAFE DRINKING WATER ACT (PROP 65) LISTING:
+**No ingredients listed in this section**
+Based on current analytical information, this product contains no detectable quantities of
+chemicals on the California Proposition 65 list.
+14. OTHER INFORMATION
+Hazard Ratings NFPA HMIS
+HEALTH: 2 2
+FLAMMABILITY: 1 1
+REACTIVITY: 1 1
+Revision Summary
+NA
+THE DATA AND INFORMATION CONTAINED HEREIN ARE BEING FURNISHED FOR INFORMATIONAL
+PURPOSES ONLY, UPON THE EXPRESS CONDITION THAT EACH CUSTOMER SHALL MAKE ITS OWN
+ASSESSMENT OF APPROPRIATE USE AND APPROPRIATE SHIPPING, TRANSFER AND STORAGE
+MATERIALS AND PROCEDURES FOR TCP RELIABLE INC PRODUCTS. ALTHOUGH BASED ON
+INFORMATION SOURCES WHICH TCP RELIABLE INC. CONSIDERS ACCURATE AND RELIABLE, TCP
+Page 7 of 8
+TCP Reliable Inc.
+551 Raritan Center Parkway
+Edison, NJ 07650
+(732)346-9200
+MSDSCODE: Phase 22 REVISION DATE: NA
+REVISION: 0 PRINT DATE: 12-20-02
+RELIABLE INC. MAKES NO WARRANTY, EITHER EXPRESS OR IMPLIED, INCLUDING ANY
+WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, REGARDING THE
+VALIDITY OF THIS INFORMATION, THE INFORMATION SOURCES UPON WHICH THE SAME ARE
+BASED, OR THE RESULTS TO BE OBTAINED, AND EXPRESSLY DISCLAIMS LIABILITIES FOR DAMAGES
+OR INJURIES RESULTING FROM THE USE THEREOF.
+PREPARED BY: TCP Reliable Inc.
+PHONE NUMBER: (732) 346-9200
+Page 8 of 8

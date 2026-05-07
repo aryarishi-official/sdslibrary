@@ -1,0 +1,508 @@
+SAFETY DATA SHEET
+ECOLAB
+
+SECTION 1. PRODUCT AND COMPANY IDENTIFICATION
+
+Product name . HYDROGEN PEROXIDE
+
+Other means of identification : Not applicable
+
+Recommended use . Laundry product
+
+Restrictions on use . Reserved for industrial and professional use.
+Product dilution information  : Product is sold ready to use.
+
+Company . Ecolab Inc.
+
+1 Ecolab Place
+St. Paul, Minnesota USA 55102
+1-800-352-5326
+
+Emergency health . 1-800-328-0026 (US/Canada), 1-651-222-5352 (outside US)
+information
+Issuing date . 03/14/2019
+
+SECTION 2. HAZARDS IDENTIFICATION
+
+GHS Classification
+
+Oxidizing liquids . Category 3
+Acute toxicity (Oral) . Category 4
+Serious eye damage . Category 1
+
+GHS label elements
+
+Hazard pictograms
+
+Signal Word . Danger
+Hazard Statements . May intensify fire; oxidizer.
+
+Harmful if swallowed.
+Causes serious eye damage.
+
+Precautionary Statements : Prevention:
+Keep away from heat. Keep/Store away from clothing/ combustible
+materials. Take any precaution to avoid mixing with combustibles.
+Wash skin thoroughly after handling. Do not eat, drink or smoke when
+using this product. Wear protective gloves/ eye protection/ face
+protection.
+Response:
+IF SWALLOWED: Call a POISON CENTER/doctor if you feel unwell.
+Rinse mouth. IF IN EYES: Rinse cautiously with water for several
+minutes. Remove contact lenses, if present and easy to do. Continue
+rinsing. Immediately call a POISON CENTER/doctor. In case of fire:
+Use dry sand, dry chemical or alcohol-resistant foam to extinguish.
+Disposal:
+Dispose of contents/ container to an approved waste disposal plant.
+
+Other hazards : None known.
+
+959320-02 1/8
+
+SAFETY DATA SHEET
+HYDROGEN PEROXIDE
+
+SECTION 3. COMPOSITION/INFORMATION ON INGREDIENTS
+
+Pure substance/mixture . Mixture
+Chemical name CAS-No. Concentration (%)
+Hydrogen peroxide 7722-84-1 33
+
+SECTION 4. FIRST AID MEASURES
+
+In case of eye contact . Rinse immediately with plenty of water, also under the eyelids, for at
+least 15 minutes. Remove contact lenses, If present and easy to do.
+Continue rinsing. Get medical attention immediately.
+
+In case of skin contact . Rinse with plenty of water.
+If swallowed . Rinse mouth. Get medical attention if symptoms occur.
+If inhaled . Remove to fresh air. Treat symptomatically. Get medical attention if
+
+symptoms occur.
+
+Protection of first-aiders . If potential for exposure exists refer to Section 8 for specific personal
+protective equipment.
+
+Notes to physician . Treat symptomatically.
+
+Most important symptoms . See Section 11 for more detailed information on health effects and
+and effects, both acute and symptoms.
+
+delayed
+
+SECTION 5. FIRE-FIGHTING MEASURES
+
+Suitable extinguishing media : Use extinguishing measures that are appropriate to local
+circumstances and the surrounding environment.
+
+Unsuitable extinguishing . None known.
+
+media
+
+Specific hazards during fire . Oxidizer. Contact with other material may cause fire.
+
+fighting
+
+Hazardous combustion . Decomposition products may include the following materials:
+products Carbon oxides
+
+Special protective equipment : Use personal protective equipment.
+
+for fire-fighters
+
+Specific extinguishing . Fire residues and contaminated fire extinguishing water must be
+
+methods disposed of in accordance with local regulations. In the event of fire
+and/or explosion do not breathe fumes.
+
+SECTION 6. ACCIDENTAL RELEASE MEASURES
+
+Personal precautions, . Ensure adequate ventilation. Keep people away from and upwind of
+protective equipment and spill/leak. Avoid inhalation, ingestion and contact with skin and eyes.
+emergency procedures When workers are facing concentrations above the exposure limit they
+
+must use appropriate certified respirators. Ensure clean-up is
+
+959320-02 2/8
+
+SAFETY DATA SHEET
+HYDROGEN PEROXIDE
+
+conducted by trained personnel only. Refer to protective measures
+listed in sections 7 and 8.
+
+Environmental precautions . Do not allow contact with soll, surface or ground water.
+Methods and materials for . Stop leak if safe to do so. Contain spillage, and then collect with non-
+containment and cleaning up combustible absorbent material, (e.g. sand, earth, diatomaceous
+
+earth, vermiculite) and place in container for disposal according to
+local / national regulations (see section 13). Flush away traces with
+water. Isolate absorbed wastes contaminated with this product from
+other waste streams containing combustible materials (paper, wood
+fibers, cloth, etc.). Combustible materials exposed to this product
+should be rinsed immediately with large amounts of water to ensure
+that all product is removed. Residual product which is allowed to dry
+on organic materials such as rags, cloths, paper, fabrics, cotton,
+leather, wood, or other combustibles may spontaneously ignite and
+result in a fire.
+
+SECTION 7. HANDLING AND STORAGE
+
+Advice on safe handling . Do not ingest. Do not get in eyes, on skin, or on clothing. Do not
+breathe dust/ fume/ gas/ mist/ vapors/ spray. Use only with adequate
+ventilation. Wash hands thoroughly after handling.
+
+Conditions for safe storage . Do not store on wooden pallets. Keep in a cool, well-ventilated place.
+Keep away from reducing agents. Keep away from combustible
+material. Keep out of reach of children. Keep container tightly closed.
+Store in suitable labeled containers.
+
+Storage temperature . 0°C to 50°C
+
+SECTION 8. EXPOSURE CONTROLS/PERSONAL PROTECTION
+
+Ingredients with workplace control parameters
+
+Components CAS-No. Form of Permissible Basis
+exposure concentration
+
+Hydrogen peroxide 7722-84-1 ACGIH
+
+™ e [T
+1.4 mg/m3
+
+™ e [P
+1.4 mg/m3
+
+Engineering measures . Effective exhaust ventilation system. Maintain air concentrations
+below occupational exposure standards.
+
+Personal protective equipment
+Eye protection . Wear eye protection/ face protection.
+Hand protection . Wear the following personal protective equipment:
+Standard glove type.
+Gloves should be discarded and replaced if there is any indication of
+
+degradation or chemical breakthrough.
+
+Skin protection . No special protective equipment required.
+
+959320-02 3/8
+
+SAFETY DATA SHEET
+HYDROGEN PEROXIDE
+
+Respiratory protection . No personal respiratory protective equipment normally required.
+
+Hygiene measures . Handle in accordance with good industrial hygiene and safety
+practice. Wash face, hands and any exposed skin thoroughly after
+handling. Provide suitable facilities for quick drenching or flushing of
+the eyes and body in case of contact or splash hazard.
+
+SECTION 9. PHYSICAL AND CHEMICAL PROPERTIES
+
+Appearance . liquid
+
+Color . clear, colorless
+Odor . pungent
+
+pH  1.7-3.2, (100 %)
+Flash point . Not applicable, Sustains combustion
+Odor Threshold . No data available
+Melting point/freezing point . No data avalilable
+Initial boiling point and . > 100 °C
+
+boiling range
+
+Evaporation rate . No data available
+Flammability (solid, gas) . No data available
+Upper explosion limit . No data available
+Lower explosion limit . No data available
+Vapor pressure . No data avalilable
+Relative vapor density . No data avalilable
+Relative density . 1.08-1.18
+Water solubility . soluble
+
+Solubility in other solvents . No data available
+Partition coetficient: n- . No data available
+octanol/water
+
+Autoignition temperature . No data avalilable
+Thermal decomposition . No data avalilable
+Viscosity, kinematic . No data avalilable
+Explosive properties . No data avalilable
+Oxidizing properties . No data available
+Molecular weight . No data avalilable
+VOC . No data available
+
+SECTION 10. STABILITY AND REACTIVITY
+
+Chemical stability . Contamination may result in dangerous pressure increases - closed
+containers may rupture.
+
+Possibility of hazardous . No dangerous reaction known under conditions of normal use.
+reactions
+Conditions to avoid . None known.
+
+959320-02 4/8
+
+SAFETY DATA SHEET
+HYDROGEN PEROXIDE
+
+Incompatible materials . Acids and bases
+Metals
+Organic materials
+
+Hazardous decomposition . Decomposition products may include the following materials:
+products Carbon oxides
+
+SECTION 11. TOXICOLOGICAL INFORMATION
+
+Information on likely routes of : Inhalation, Eye contact, Skin contact
+exposure
+
+Potential Health Effects
+
+Eyes . Causes serious eye damage.
+
+Skin . Health injuries are not known or expected under normal use.
+Ingestion . Harmful if swallowed.
+
+Inhalation . Health injuries are not known or expected under normal use.
+Chronic Exposure . Health injuries are not known or expected under normal use.
+
+Experience with human exposure
+
+Eye contact . Redness, Pain, Corrosion
+
+Skin contact . No symptoms known or expected.
+
+Ingestion : No information available.
+
+Inhalation . No symptoms known or expected.
+
+Toxicity
+
+Product
+
+Acute oral toxicity . Acute toxicity estimate : 1,462 mg/kg
+
+Acute inhalation toxicity . 4 h Acute toxicity estimate : 33.08 mg/|
+Test atmosphere: vapor
+
+Acute dermal toxicity . No data avalilable
+
+Skin corrosion/irritation : No skin irritation
+
+Serious eye damage/eye . Irreversible effects on the eye
+
+irritation
+
+Respiratory or skin . No data available
+
+sensitization
+
+Carcinogenicity . No data available
+
+Reproductive effects . No data avalilable
+
+Germ cell mutagenicity . No data available
+
+Teratogenicity . No data available
+
+STOT-single exposure . No data available
+
+STOT-repeated exposure . No data available
+
+959320-02 5/8
+
+SAFETY DATA SHEET
+HYDROGEN PEROXIDE
+
+Aspiration toxicity :  No data available
+
+SECTION 12. ECOLOGICAL INFORMATION
+
+Ecotoxicity
+
+Environmental Effects . Harmful to aquatic life.
+Product
+
+Toxicity to fish . 96 h LC50: 58.0 mg/l
+Toxicity to daphnia and other : No data available
+aquatic invertebrates
+
+Toxicity to algae . No data available
+Components
+
+Toxicity to algae . Hydrogen peroxide
+
+72 h EC50: 1.38 mg/l
+
+Persistence and degradability
+
+Not applicable - inorganic
+
+Bioaccumulative potential
+
+No data available
+
+Mobility In soil
+
+No data available
+
+Other adverse effects
+
+No data available
+SECTION 13. DISPOSAL CONSIDERATIONS
+
+Disposal methods . Do not contaminate ponds, waterways or ditches with chemical or
+used container. Where possible recycling is preferred to disposal or
+iIncineration. If recycling is not practicable, dispose of in compliance
+with local regulations. Dispose of wastes in an approved waste
+disposal facility.
+
+Disposal considerations . Dispose of as unused product. Empty containers should be taken to
+an approved waste handling site for recycling or disposal. Do not re-
+use empty containers. Dispose of in accordance with local, state, and
+federal regulations.
+
+RCRA - Resource . D002 (Corrosive)
+Conservation and Recovery
+
+Authorization Act Hazardous
+
+waste
+
+SECTION 14. TRANSPORT INFORMATION
+
+The shipper/consignor/sender Is responsible to ensure that the packaging, labeling, and markings are
+iIn compliance with the selected mode of transport.
+
+Land transport (DOT)
+UN number . 2014
+
+959320-02 /8
+
+SAFETY DATA SHEET
+HYDROGEN PEROXIDE
+
+Description of the goods . Hydrogen peroxide, aqueous solutions
+Class - 5.1 (8)
+
+Packing group |
+
+Environmentally hazardous gl
+
+Sea transport (IMDG/IMO)
+
+UN number . 2014
+
+Description of the goods . HYDROGEN PEROXIDE, AQUEOUS SOLUTION
+Class - 5.1 (8)
+
+Packing group |
+
+Marine pollutant . Nno
+
+SECTION 15. REGULATORY INFORMATION
+
+EPCRA - Emergency Planning and Community Right-to-Know
+
+CERCLA Reportable Quantity
+This material does not contain any components with a CERCLA RQ.
+
+SARA 304 Extremely Hazardous Substances Reportable Quantity
+This material does not contain any components with a section 304 EHS RQ.
+
+SARA 311/312 Hazards . Oxidizer (liguid, solid or gas)
+Acute toxicity (any route of exposure)
+Serious eye damage or eye irritation
+
+SARA 302 . The tollowing components are subject to reporting levels established
+by SARA Title Ill, Section 302:
+
+Hydrogen peroxide 7722-84-1 33 %
+
+SARA 313 . This material does not contain any chemical components with known
+CAS numbers that exceed the threshold (De Minimis) reporting levels
+established by SARA Title Ill, Section 313.
+
+California Prop. 65
+
+This product does not contain any chemicals known to the State of California to cause cancer, birth, or
+any other reproductive defects.
+
+California Cleaning Product Right to Know Act of 2017 (SB 258)
+This regulation applies to this product.
+
+Chemical Name CAS-No.
+7732-18-5 Not Applicable
+7722-84-1 Cleaning Agent Not Applicable
+
+“refer to ecolab.com/sds for electronic links to designated lists
+
+The ingredients of this product are reported in the following inventories:
+
+United States TSCA Inventory :
+On the inventory, or in compliance with the inventory
+
+Canadian Domestic Substances List (DSL) :
+All components of this product are on the Canadian DSL
+
+959320-02 /7/8
+
+SAFETY DATA SHEET
+HYDROGEN PEROXIDE
+
+Australia Inventory of Chemical Substances (AICS) :
+On the inventory, or in compliance with the inventory
+
+New Zealand. Inventory of Chemical Substances
+On the inventory, or in compliance with the inventory
+
+Japan. ENCS - Existing and New Chemical Substances Inventory :
+On the inventory, or in compliance with the inventory
+
+Korea. Korean Existing Chemicals Inventory (KECI) :
+On the inventory, or in compliance with the inventory
+
+Philippines Inventory of Chemicals and Chemical Substances (PICCS) :
+On the inventory, or in compliance with the inventory
+
+China. Inventory of Existing Chemical Substances in China (IECSC) :
+On the inventory, or in compliance with the inventory
+
+Taiwan Chemical Substance Inventory (TCSI) :
+On the inventory, or in compliance with the inventory
+
+SECTION 16. OTHER INFORMATION
+
+NFPA: HMIS III:
+
+Flammability
+HEALTH -
+
+0
+= 2 FLAMMABILITY n
+1 —
+< PHYSICAL HAZARD '
+| = not significant, 1 =Slight,
+Special hazard. 2 Moderate, 3 = High
+4 = Extreme, * = Chronic
+
+Issuing date : 03/14/2019
+Version 1.2
+Prepared by . Regulatory Affairs
+
+REVISED INFORMATION: Significant changes to regulatory or health information for this revision is
+indicated by a bar in the left-hand margin of the SDS.
+
+The information provided in this Material Safety Data Sheet is correct to the best of our knowledge,
+information and belief at the date of its publication. The information given is designed only as a
+guidance for safe handling, use, processing, storage, transportation, disposal and release and is
+not to be considered a warranty or quality specification. The information relates only to the specific
+material designated and may not be valid for such material used in combination with any other
+materials or in any process, unless specified in the text.
+
+959320-02 8/8

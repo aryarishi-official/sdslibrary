@@ -1,0 +1,1085 @@
+{
+    "file_name": "sds copy.pdf",
+    "product_name": "HYDROGEN PEROXIDE",
+    "sections": [
+        {
+            "section_number": "1",
+            "section_title": "PRODUCT AND COMPANY IDENTIFICATION",
+            "subsections": [
+                {
+                    "title": "Product name",
+                    "normalised_key": "product_name",
+                    "content": "HYDROGEN PEROXIDE"
+                },
+                {
+                    "title": "Other means of identification",
+                    "normalised_key": "other_means_of_identification",
+                    "content": "Not applicable"
+                },
+                {
+                    "title": "Recommended use",
+                    "normalised_key": "recommended_use",
+                    "content": "Laundry product"
+                },
+                {
+                    "title": "Restrictions on use",
+                    "normalised_key": "restrictions_on_use",
+                    "content": "Reserved for industrial and professional use."
+                },
+                {
+                    "title": "Product dilution information",
+                    "normalised_key": "product_dilution_information",
+                    "content": "Product is sold ready to use."
+                },
+                {
+                    "title": "Company",
+                    "normalised_key": "company",
+                    "content": "Ecolab Inc. 1 Ecolab Place St. Paul, Minnesota USA 55102 1-800-352-5326",
+                    "list_items": [
+                        "Ecolab Inc",
+                        "1 Ecolab Place St",
+                        "Paul, Minnesota USA 55102 1-800-352-5326"
+                    ]
+                },
+                {
+                    "title": "Emergency health information",
+                    "normalised_key": "emergency_health_information",
+                    "content": "1-800-328-0026 (US/Canada), 1-651-222-5352 (outside US)"
+                },
+                {
+                    "title": "Issuing date",
+                    "normalised_key": "issuing_date",
+                    "content": "03/14/2019"
+                }
+            ],
+            "page_range": [
+                0,
+                0
+            ]
+        },
+        {
+            "section_number": "2",
+            "section_title": "HAZARDS IDENTIFICATION",
+            "subsections": [
+                {
+                    "title": "GHS Classification",
+                    "normalised_key": "ghs_classification",
+                    "content": ""
+                },
+                {
+                    "title": "Oxidizing liquids",
+                    "normalised_key": "oxidizing_liquids",
+                    "content": "Category 3"
+                },
+                {
+                    "title": "Acute toxicity (Oral)",
+                    "normalised_key": "acute_toxicity_oral",
+                    "content": "Category 4"
+                },
+                {
+                    "title": "Serious eye damage",
+                    "normalised_key": "serious_eye_damage",
+                    "content": "Category 1"
+                },
+                {
+                    "title": "GHS label elements",
+                    "normalised_key": "ghs_label_elements",
+                    "content": "",
+                    "group": "GHS label elements"
+                },
+                {
+                    "title": "Hazard pictograms",
+                    "normalised_key": "hazard_pictograms",
+                    "content": "",
+                    "group": "GHS label elements"
+                },
+                {
+                    "title": "Signal Word",
+                    "normalised_key": "signal_word",
+                    "content": "Danger",
+                    "group": "GHS label elements",
+                    "entities": [
+                        {
+                            "text": "Danger",
+                            "label": "SIGNAL_WORD"
+                        }
+                    ]
+                },
+                {
+                    "title": "Hazard Statements",
+                    "normalised_key": "hazard_statements",
+                    "content": "May intensify fire; oxidizer. Harmful if swallowed. Causes serious eye damage.",
+                    "list_items": [
+                        "May intensify fire",
+                        "oxidizer. Harmful if swallowed. Causes serious eye damage"
+                    ],
+                    "group": "GHS label elements"
+                },
+                {
+                    "title": "Precautionary Statements",
+                    "normalised_key": "precautionary_statements",
+                    "content": "Prevention: Keep away from heat. Keep/Store away from clothing/ combustible materials. Take any precaution to avoid mixing with combustibles. Wash skin thoroughly after handling. Do not eat, drink or smoke when using this product. Wear protective gloves/ eye protection/ face protection. Response: IF SWALLOWED: Call a POISON CENTER/doctor if you feel unwell. Rinse mouth. IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing. Immediately call a POISON CENTER/doctor. In case of fire: Use dry sand, dry chemical or alcohol-resistant foam to extinguish. Disposal: Dispose of contents/ container to an approved waste disposal plant.",
+                    "group": "Precautionary Statements",
+                    "properties": [
+                        {
+                            "key": "prevention",
+                            "value": "Keep away from heat"
+                        },
+                        {
+                            "key": "response",
+                            "value": "IF SWALLOWED: Call a POISON CENTER/doctor if you feel unwell"
+                        },
+                        {
+                            "key": "if_in_eyes",
+                            "value": "Rinse cautiously with water for several minutes"
+                        },
+                        {
+                            "key": "in_case_of_fire",
+                            "value": "Use dry sand, dry chemical or alcohol-resistant foam to extinguish"
+                        },
+                        {
+                            "key": "disposal",
+                            "value": "Dispose of contents/ container to an approved waste disposal plant"
+                        }
+                    ]
+                },
+                {
+                    "title": "Other hazards",
+                    "normalised_key": "other_hazards",
+                    "content": "None known.",
+                    "group": "Precautionary Statements"
+                }
+            ],
+            "page_range": [
+                0,
+                1
+            ]
+        },
+        {
+            "section_number": "3",
+            "section_title": "COMPOSITION/INFORMATION ON INGREDIENTS",
+            "subsections": [
+                {
+                    "title": "Pure substance/mixture",
+                    "normalised_key": "pure_substance_or_mixture",
+                    "content": "Mixture"
+                },
+                {
+                    "title": "Chemical name",
+                    "normalised_key": "chemical_name",
+                    "content": "CAS-No. Concentration (%)",
+                    "list_items": [
+                        "CAS-No",
+                        "Concentration (%)"
+                    ]
+                },
+                {
+                    "title": "Hydrogen peroxide",
+                    "normalised_key": "hydrogen_peroxide",
+                    "content": "7722-84-1 33"
+                }
+            ],
+            "page_range": [
+                1,
+                1
+            ]
+        },
+        {
+            "section_number": "4",
+            "section_title": "FIRST AID MEASURES",
+            "subsections": [
+                {
+                    "title": "If swallowed",
+                    "normalised_key": "if_swallowed",
+                    "content": "Rinse mouth. Get medical attention if symptoms occur."
+                },
+                {
+                    "title": "If inhaled",
+                    "normalised_key": "if_inhaled",
+                    "content": "Remove to fresh air. Treat symptomatically. Get medical attention if symptoms occur."
+                },
+                {
+                    "title": "Protection of first-aiders",
+                    "normalised_key": "protection_of_first_aiders",
+                    "content": "If potential for exposure exists refer to Section 8 for specific personal protective equipment.",
+                    "group": "Protection of first-aiders"
+                },
+                {
+                    "title": "Notes to physician",
+                    "normalised_key": "notes_to_physician",
+                    "content": "Treat symptomatically.",
+                    "group": "Protection of first-aiders"
+                },
+                {
+                    "title": "Most important symptoms",
+                    "normalised_key": "most_important_symptoms",
+                    "content": "See Section 11 for more detailed information on health effects and",
+                    "group": "Most important symptoms"
+                },
+                {
+                    "title": "and effects, both acute and delayed",
+                    "normalised_key": "and_effects_both_acute_and_delayed",
+                    "content": "symptoms.",
+                    "group": "Most important symptoms"
+                }
+            ],
+            "page_range": [
+                1,
+                1
+            ]
+        },
+        {
+            "section_number": "5",
+            "section_title": "FIRE-FIGHTING MEASURES",
+            "subsections": [
+                {
+                    "title": "Suitable extinguishing media",
+                    "normalised_key": "suitable_extinguishing_media",
+                    "content": "Use extinguishing measures that are appropriate to local circumstances and the surrounding environment."
+                },
+                {
+                    "title": "Unsuitable extinguishing media",
+                    "normalised_key": "unsuitable_extinguishing_media",
+                    "content": "None known."
+                },
+                {
+                    "title": "Specific hazards during fire fighting",
+                    "normalised_key": "specific_hazards_during_fire_fighting",
+                    "content": "Oxidizer. Contact with other material may cause fire."
+                },
+                {
+                    "title": "Hazardous combustion products",
+                    "normalised_key": "hazardous_combustion_products",
+                    "content": "Decomposition products may include the following materials: Carbon oxides"
+                },
+                {
+                    "title": "Special protective equipment for fire-fighters",
+                    "normalised_key": "special_protective_equipment_for_fire_fighters",
+                    "content": "Use personal protective equipment."
+                },
+                {
+                    "title": "Specific extinguishing methods",
+                    "normalised_key": "specific_extinguishing_methods",
+                    "content": "Fire residues and contaminated fire extinguishing water must be disposed of in accordance with local regulations. In the event of fire and/or explosion do not breathe fumes."
+                }
+            ],
+            "page_range": [
+                1,
+                1
+            ]
+        },
+        {
+            "section_number": "6",
+            "section_title": "ACCIDENTAL RELEASE MEASURES",
+            "subsections": [
+                {
+                    "title": "Personal precautions, protective equipment and emergency procedures",
+                    "normalised_key": "personal_precautions_protective_equipment_and_emergency_procedures",
+                    "content": "Ensure adequate ventilation. Keep people away from and upwind of spill/leak. Avoid inhalation, ingestion and contact with skin and eyes. When workers are facing concentrations above the exposure limit they must use appropriate certified respirators. Ensure clean-up is conducted by trained personnel only. Refer to protective measures listed in sections 7 and 8."
+                },
+                {
+                    "title": "Environmental precautions",
+                    "normalised_key": "environmental_precautions",
+                    "content": "Do not allow contact with soil, surface or ground water."
+                },
+                {
+                    "title": "Methods and materials for containment and cleaning up",
+                    "normalised_key": "methods_and_materials_for_containment_and_cleaning_up",
+                    "content": "Stop leak if safe to do so. Contain spillage, and then collect with non- combustible absorbent material, (e.g. sand, earth, diatomaceous earth, vermiculite) and place in container for disposal according to local / national regulations (see section 13). Flush away traces with water. Isolate absorbed wastes contaminated with this product from other waste streams containing combustible materials (paper, woodfibers, cloth, etc.). Combustible materials exposed to this product should be rinsed immediately with large amounts of water to ensure that all product is removed. Residual product which is allowed to dry on organic materials such as rags, cloths, paper, fabrics, cotton, leather, wood, or other combustibles may spontaneously ignite and result in a fire."
+                }
+            ],
+            "page_range": [
+                1,
+                2
+            ]
+        },
+        {
+            "section_number": "7",
+            "section_title": "HANDLING AND STORAGE",
+            "subsections": [
+                {
+                    "title": "Advice on safe handling",
+                    "normalised_key": "advice_on_safe_handling",
+                    "content": "Do not ingest. Do not get in eyes, on skin, or on clothing. Do not breathe dust/ fume/ gas/ mist/ vapors/ spray. Use only with adequate ventilation. Wash hands thoroughly after handling."
+                },
+                {
+                    "title": "Conditions for safe storage",
+                    "normalised_key": "conditions_for_safe_storage",
+                    "content": "Do not store on wooden pallets. Keep in a cool, well-ventilated place. Keep away from reducing agents. Keep away from combustible material. Keep out of reach of children. Keep container tightly closed. Store in suitable labeled containers."
+                },
+                {
+                    "title": "Storage temperature",
+                    "normalised_key": "storage_temperature",
+                    "content": "0 \u00b0C to 50 \u00b0C"
+                }
+            ],
+            "page_range": [
+                2,
+                2
+            ]
+        },
+        {
+            "section_number": "8",
+            "section_title": "EXPOSURE CONTROLS/PERSONAL PROTECTION",
+            "subsections": [
+                {
+                    "title": "Ingredients with workplace control parameters",
+                    "normalised_key": "ingredients_with_workplace_control_parameters",
+                    "content": ""
+                },
+                {
+                    "title": "Components",
+                    "normalised_key": "components",
+                    "content": "CAS-No. Form of Permissible Basis exposure concentration"
+                },
+                {
+                    "title": "Hydrogen peroxide",
+                    "normalised_key": "hydrogen_peroxide",
+                    "content": "7722-84-1 TWA 1 ppm ACGIH TWA 1 ppm NIOSH REL",
+                    "entities": [
+                        {
+                            "text": "1 ppm",
+                            "label": "EXPOSURE_LIMIT"
+                        }
+                    ]
+                },
+                {
+                    "title": "1.4 mg/m3",
+                    "normalised_key": "mg_or_m3",
+                    "content": "",
+                    "is_group_header": true
+                },
+                {
+                    "title": "TWA 1 ppm OSHA Z1",
+                    "normalised_key": "twa_1_ppm_osha_z1",
+                    "content": "",
+                    "group": "1.4 mg/m3"
+                },
+                {
+                    "title": "1.4 mg/m3",
+                    "normalised_key": "mg_or_m3",
+                    "content": "",
+                    "is_group_header": true
+                },
+                {
+                    "title": "Engineering measures",
+                    "normalised_key": "engineering_measures",
+                    "content": "Effective exhaust ventilation system. Maintain air concentrations below occupational exposure standards.",
+                    "group": "1.4 mg/m3"
+                },
+                {
+                    "title": "Personal protective equipment",
+                    "normalised_key": "personal_protective_equipment",
+                    "content": "",
+                    "group": "1.4 mg/m3"
+                },
+                {
+                    "title": "Eye protection",
+                    "normalised_key": "eye_protection",
+                    "content": "Wear eye protection/ face protection.",
+                    "group": "1.4 mg/m3"
+                },
+                {
+                    "title": "Hand protection",
+                    "normalised_key": "hand_protection",
+                    "content": "Wear the following personal protective equipment: Standard glove type. Gloves should be discarded and replaced if there is any indication of degradation or chemical breakthrough.",
+                    "group": "1.4 mg/m3"
+                },
+                {
+                    "title": "Skin protection",
+                    "normalised_key": "skin_protection",
+                    "content": "No special protective equipment required.",
+                    "group": "1.4 mg/m3"
+                },
+                {
+                    "title": "Respiratory protection",
+                    "normalised_key": "respiratory_protection",
+                    "content": "No personal respiratory protective equipment normally required.",
+                    "group": "1.4 mg/m3"
+                },
+                {
+                    "title": "Hygiene measures",
+                    "normalised_key": "hygiene_measures",
+                    "content": "Handle in accordance with good industrial hygiene and safety practice. Wash face, hands and any exposed skin thoroughly after handling. Provide suitable facilities for quick drenching or flushing of the eyes and body in case of contact or splash hazard.",
+                    "group": "1.4 mg/m3"
+                }
+            ],
+            "page_range": [
+                2,
+                3
+            ]
+        },
+        {
+            "section_number": "9",
+            "section_title": "PHYSICAL AND CHEMICAL PROPERTIES",
+            "subsections": [
+                {
+                    "title": "Appearance",
+                    "normalised_key": "appearance",
+                    "content": "liquid"
+                },
+                {
+                    "title": "Color",
+                    "normalised_key": "color",
+                    "content": "clear, colorless"
+                },
+                {
+                    "title": "Odor",
+                    "normalised_key": "odor",
+                    "content": "pungent"
+                },
+                {
+                    "title": "pH",
+                    "normalised_key": "ph",
+                    "content": "1.7 - 3.2, (100 %)",
+                    "entities": [
+                        {
+                            "text": "100 %",
+                            "label": "PERCENTAGE"
+                        }
+                    ]
+                },
+                {
+                    "title": "Flash point",
+                    "normalised_key": "flash_point",
+                    "content": "Not applicable, Sustains combustion"
+                },
+                {
+                    "title": "Odor Threshold",
+                    "normalised_key": "odor_threshold",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Melting point/freezing point",
+                    "normalised_key": "melting_point_or_freezing_point",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Initial boiling point and boiling range",
+                    "normalised_key": "initial_boiling_point_and_boiling_range",
+                    "content": "> 100 \u00b0C"
+                },
+                {
+                    "title": "Evaporation rate",
+                    "normalised_key": "evaporation_rate",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Flammability (solid, gas)",
+                    "normalised_key": "flammability_solid_gas",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Upper explosion limit",
+                    "normalised_key": "upper_explosion_limit",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Lower explosion limit",
+                    "normalised_key": "lower_explosion_limit",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Vapor pressure",
+                    "normalised_key": "vapor_pressure",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Relative vapor density",
+                    "normalised_key": "relative_vapor_density",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Relative density",
+                    "normalised_key": "relative_density",
+                    "content": "1.08 - 1.18"
+                },
+                {
+                    "title": "Water solubility",
+                    "normalised_key": "water_solubility",
+                    "content": "soluble"
+                },
+                {
+                    "title": "Solubility in other solvents",
+                    "normalised_key": "solubility_in_other_solvents",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Partition coefficient: n- octanol/water",
+                    "normalised_key": "partition_coefficient_n_octanol_or_water",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Autoignition temperature",
+                    "normalised_key": "autoignition_temperature",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Thermal decomposition",
+                    "normalised_key": "thermal_decomposition",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Viscosity, kinematic",
+                    "normalised_key": "viscosity_kinematic",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Explosive properties",
+                    "normalised_key": "explosive_properties",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Oxidizing properties",
+                    "normalised_key": "oxidizing_properties",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Molecular weight",
+                    "normalised_key": "molecular_weight",
+                    "content": "No data available"
+                },
+                {
+                    "title": "VOC",
+                    "normalised_key": "voc",
+                    "content": "No data available"
+                }
+            ],
+            "page_range": [
+                3,
+                3
+            ]
+        },
+        {
+            "section_number": "10",
+            "section_title": "STABILITY AND REACTIVITY",
+            "subsections": [
+                {
+                    "title": "Chemical stability",
+                    "normalised_key": "chemical_stability",
+                    "content": "Contamination may result in dangerous pressure increases - closed containers may rupture."
+                },
+                {
+                    "title": "Possibility of hazardous reactions",
+                    "normalised_key": "possibility_of_hazardous_reactions",
+                    "content": "No dangerous reaction known under conditions of normal use."
+                },
+                {
+                    "title": "Conditions to avoid",
+                    "normalised_key": "conditions_to_avoid",
+                    "content": "None known."
+                },
+                {
+                    "title": "Incompatible materials",
+                    "normalised_key": "incompatible_materials",
+                    "content": "Acids and bases Metals Organic materials"
+                },
+                {
+                    "title": "Hazardous decomposition products",
+                    "normalised_key": "hazardous_decomposition_products",
+                    "content": "Decomposition products may include the following materials: Carbon oxides"
+                }
+            ],
+            "page_range": [
+                3,
+                4
+            ]
+        },
+        {
+            "section_number": "11",
+            "section_title": "TOXICOLOGICAL INFORMATION",
+            "subsections": [
+                {
+                    "title": "Information on likely routes of exposure",
+                    "normalised_key": "information_on_likely_routes_of_exposure",
+                    "content": "Inhalation, Eye contact, Skin contact"
+                },
+                {
+                    "title": "Potential Health Effects",
+                    "normalised_key": "potential_health_effects",
+                    "content": ""
+                },
+                {
+                    "title": "Eyes",
+                    "normalised_key": "eyes",
+                    "content": "Causes serious eye damage."
+                },
+                {
+                    "title": "Skin",
+                    "normalised_key": "skin",
+                    "content": "Health injuries are not known or expected under normal use."
+                },
+                {
+                    "title": "Ingestion",
+                    "normalised_key": "ingestion",
+                    "content": "Harmful if swallowed.",
+                    "context": "Routes of exposure"
+                },
+                {
+                    "title": "Inhalation",
+                    "normalised_key": "inhalation",
+                    "content": "Health injuries are not known or expected under normal use.",
+                    "context": "Routes of exposure"
+                },
+                {
+                    "title": "Chronic Exposure",
+                    "normalised_key": "chronic_exposure",
+                    "content": "Health injuries are not known or expected under normal use."
+                },
+                {
+                    "title": "Experience with human exposure",
+                    "normalised_key": "experience_with_human_exposure",
+                    "content": ""
+                },
+                {
+                    "title": "Eye contact",
+                    "normalised_key": "eye_contact",
+                    "content": "Redness, Pain, Corrosion",
+                    "context": "Routes of exposure"
+                },
+                {
+                    "title": "Skin contact",
+                    "normalised_key": "skin_contact",
+                    "content": "No symptoms known or expected.",
+                    "context": "Routes of exposure"
+                },
+                {
+                    "title": "Ingestion",
+                    "normalised_key": "ingestion",
+                    "content": "No information available.",
+                    "context": "Acute health effects"
+                },
+                {
+                    "title": "Inhalation",
+                    "normalised_key": "inhalation",
+                    "content": "No symptoms known or expected.",
+                    "context": "Acute health effects"
+                },
+                {
+                    "title": "Toxicity",
+                    "normalised_key": "toxicity",
+                    "content": ""
+                },
+                {
+                    "title": "Product",
+                    "normalised_key": "product",
+                    "content": ""
+                },
+                {
+                    "title": "Acute oral toxicity",
+                    "normalised_key": "acute_oral_toxicity",
+                    "content": "Acute toxicity estimate : 1,462 mg/kg"
+                },
+                {
+                    "title": "Acute inhalation toxicity",
+                    "normalised_key": "acute_inhalation_toxicity",
+                    "content": "4 h Acute toxicity estimate : 33.08 mg/l Test atmosphere: vapor"
+                },
+                {
+                    "title": "Acute dermal toxicity",
+                    "normalised_key": "acute_dermal_toxicity",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Skin corrosion/irritation",
+                    "normalised_key": "skin_corrosion_or_irritation",
+                    "content": "No skin irritation"
+                },
+                {
+                    "title": "Serious eye damage/eye irritation",
+                    "normalised_key": "serious_eye_damage_or_eye_irritation",
+                    "content": "Irreversible effects on the eye"
+                },
+                {
+                    "title": "Respiratory or skin sensitization",
+                    "normalised_key": "respiratory_or_skin_sensitization",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Carcinogenicity",
+                    "normalised_key": "carcinogenicity",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Reproductive effects",
+                    "normalised_key": "reproductive_effects",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Germ cell mutagenicity",
+                    "normalised_key": "germ_cell_mutagenicity",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Teratogenicity",
+                    "normalised_key": "teratogenicity",
+                    "content": "No data available"
+                },
+                {
+                    "title": "STOT-single exposure",
+                    "normalised_key": "stot_single_exposure",
+                    "content": "No data available"
+                },
+                {
+                    "title": "STOT-repeated exposure",
+                    "normalised_key": "stot_repeated_exposure",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Aspiration toxicity",
+                    "normalised_key": "aspiration_toxicity",
+                    "content": "No data available"
+                }
+            ],
+            "page_range": [
+                4,
+                5
+            ]
+        },
+        {
+            "section_number": "12",
+            "section_title": "ECOLOGICAL INFORMATION",
+            "subsections": [
+                {
+                    "title": "Ecotoxicity",
+                    "normalised_key": "ecotoxicity",
+                    "content": ""
+                },
+                {
+                    "title": "Environmental Effects",
+                    "normalised_key": "environmental_effects",
+                    "content": "Harmful to aquatic life."
+                },
+                {
+                    "title": "Product",
+                    "normalised_key": "product",
+                    "content": ""
+                },
+                {
+                    "title": "Toxicity to fish",
+                    "normalised_key": "toxicity_to_fish",
+                    "content": "96 h LC50: 58.0 mg/l"
+                },
+                {
+                    "title": "Toxicity to daphnia and other",
+                    "normalised_key": "toxicity_to_daphnia_and_other",
+                    "content": "No data available aquatic invertebrates"
+                },
+                {
+                    "title": "Toxicity to algae",
+                    "normalised_key": "toxicity_to_algae",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Components",
+                    "normalised_key": "components",
+                    "content": ""
+                },
+                {
+                    "title": "Toxicity to algae",
+                    "normalised_key": "toxicity_to_algae",
+                    "content": "Hydrogen peroxide 72 h EC50: 1.38 mg/l"
+                },
+                {
+                    "title": "Persistence and degradability",
+                    "normalised_key": "persistence_and_degradability",
+                    "content": "Not applicable - inorganic"
+                },
+                {
+                    "title": "Bioaccumulative potential",
+                    "normalised_key": "bioaccumulative_potential",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Mobility in soil",
+                    "normalised_key": "mobility_in_soil",
+                    "content": "No data available"
+                },
+                {
+                    "title": "Other adverse effects",
+                    "normalised_key": "other_adverse_effects",
+                    "content": "No data available"
+                }
+            ],
+            "page_range": [
+                5,
+                5
+            ]
+        },
+        {
+            "section_number": "13",
+            "section_title": "DISPOSAL CONSIDERATIONS",
+            "subsections": [
+                {
+                    "title": "Disposal methods",
+                    "normalised_key": "disposal_methods",
+                    "content": "Do not contaminate ponds, waterways or ditches with chemical or used container. Where possible recycling is preferred to disposal or incineration. If recycling is not practicable, dispose of in compliance with local regulations. Dispose of wastes in an approved waste disposal facility."
+                },
+                {
+                    "title": "Disposal considerations",
+                    "normalised_key": "disposal_considerations",
+                    "content": "Dispose of as unused product. Empty containers should be taken to an approved waste handling site for recycling or disposal. Do not re- use empty containers. Dispose of in accordance with local, state, and federal regulations."
+                },
+                {
+                    "title": "RCRA - Resource waste",
+                    "normalised_key": "rcra_resource_waste",
+                    "content": "D002 (Corrosive) Conservation and Recovery Authorization Act Hazardous"
+                }
+            ],
+            "page_range": [
+                5,
+                5
+            ]
+        },
+        {
+            "section_number": "14",
+            "section_title": "TRANSPORT INFORMATION",
+            "subsections": [
+                {
+                    "title": "Land transport (DOT)",
+                    "normalised_key": "land_transport_dot",
+                    "content": ""
+                },
+                {
+                    "title": "UN number",
+                    "normalised_key": "un_number",
+                    "content": "2014"
+                },
+                {
+                    "title": "Description of the goods",
+                    "normalised_key": "description_of_the_goods",
+                    "content": "Hydrogen peroxide, aqueous solutions"
+                },
+                {
+                    "title": "Class",
+                    "normalised_key": "class",
+                    "content": "5.1 (8)"
+                },
+                {
+                    "title": "Packing group",
+                    "normalised_key": "packing_group",
+                    "content": "II"
+                },
+                {
+                    "title": "Environmentally hazardous",
+                    "normalised_key": "environmentally_hazardous",
+                    "content": "no"
+                },
+                {
+                    "title": "Sea transport (IMDG/IMO)",
+                    "normalised_key": "sea_transport_imdg_or_imo",
+                    "content": ""
+                },
+                {
+                    "title": "UN number",
+                    "normalised_key": "un_number",
+                    "content": "2014"
+                },
+                {
+                    "title": "Description of the goods",
+                    "normalised_key": "description_of_the_goods",
+                    "content": "HYDROGEN PEROXIDE, AQUEOUS SOLUTION"
+                },
+                {
+                    "title": "Class",
+                    "normalised_key": "class",
+                    "content": "5.1 (8)"
+                },
+                {
+                    "title": "Packing group",
+                    "normalised_key": "packing_group",
+                    "content": "II"
+                },
+                {
+                    "title": "Marine pollutant",
+                    "normalised_key": "marine_pollutant",
+                    "content": "no"
+                }
+            ],
+            "page_range": [
+                5,
+                6
+            ]
+        },
+        {
+            "section_number": "15",
+            "section_title": "REGULATORY INFORMATION",
+            "subsections": [
+                {
+                    "title": "EPCRA - Emergency Planning and Community Right-to-Know",
+                    "normalised_key": "epcra_emergency_planning_and_community_right_to_know",
+                    "content": ""
+                },
+                {
+                    "title": "CERCLA Reportable Quantity",
+                    "normalised_key": "cercla_reportable_quantity",
+                    "content": "This material does not contain any components with a CERCLA RQ."
+                },
+                {
+                    "title": "SARA 304 Extremely Hazardous Substances Reportable Quantity",
+                    "normalised_key": "sara_304_extremely_hazardous_substances_reportable_quantity",
+                    "content": "This material does not contain any components with a section 304 EHS RQ."
+                },
+                {
+                    "title": "SARA 311/312 Hazards",
+                    "normalised_key": "sara_311_or_312_hazards",
+                    "content": "Oxidizer (liquid, solid or gas) Acute toxicity (any route of exposure) Serious eye damage or eye irritation SARA 302 The following components are subject to reporting levels established by SARA Title III, Section 302: Hydrogen peroxide 7722-84-1 33 % SARA 313 This material does not contain any chemical components with known",
+                    "entities": [
+                        {
+                            "text": "33 %",
+                            "label": "PERCENTAGE"
+                        }
+                    ]
+                },
+                {
+                    "title": "CAS number",
+                    "normalised_key": "cas_number",
+                    "content": "s that exceed the threshold (De Minimis) reporting levels established by SARA Title III, Section 313."
+                },
+                {
+                    "title": "California Prop. 65",
+                    "normalised_key": "california_prop_65",
+                    "content": "This product does not contain any chemicals known to the State of California to cause cancer, birth, or any other reproductive defects. California Cleaning Product Right to Know Act of 2017 (SB 258) This regulation applies to this product."
+                },
+                {
+                    "title": "Chemical Name CAS-No. Function List(s)",
+                    "normalised_key": "chemical_name_cas_no_function_lists",
+                    "content": "",
+                    "table": {
+                        "headers": [
+                            "Chemical Name",
+                            "CAS-No.",
+                            "Function",
+                            "List(s)"
+                        ],
+                        "rows": [
+                            {
+                                "Chemical Name": "water",
+                                "CAS-No.": "7732-18-5",
+                                "Function": "Diluent",
+                                "List(s)": "Not Applicable"
+                            },
+                            {
+                                "Chemical Name": "Hydrogen peroxide",
+                                "CAS-No.": "7722-84-1",
+                                "Function": "Cleaning Agent",
+                                "List(s)": "Not Applicable"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Chemical Name",
+                    "content": "water"
+                },
+                {
+                    "title": "CAS-No.",
+                    "content": "7732-18-5"
+                },
+                {
+                    "title": "Function",
+                    "content": "Diluent"
+                },
+                {
+                    "title": "List(s)",
+                    "content": "Not Applicable"
+                },
+                {
+                    "title": "Chemical Name",
+                    "content": "Hydrogen peroxide"
+                },
+                {
+                    "title": "CAS-No.",
+                    "content": "7722-84-1"
+                },
+                {
+                    "title": "Function",
+                    "content": "Cleaning Agent"
+                },
+                {
+                    "title": "List(s)",
+                    "content": "Not Applicable"
+                },
+                {
+                    "title": "Canadian Domestic Substances List (DSL)",
+                    "normalised_key": "canadian_domestic_substances_list_dsl",
+                    "content": "All components of this product are on the Canadian DSL"
+                },
+                {
+                    "title": "Australia Inventory of Chemical Substances (AICS)",
+                    "normalised_key": "australia_inventory_of_chemical_substances_aics",
+                    "content": "On the inventory, or in compliance with the inventory"
+                },
+                {
+                    "title": "New Zealand. Inventory of Chemical Substances",
+                    "normalised_key": "new_zealand_inventory_of_chemical_substances",
+                    "content": "On the inventory, or in compliance with the inventory"
+                },
+                {
+                    "title": "Japan. ENCS - Existing and New Chemical Substances Inventory",
+                    "normalised_key": "japan_encs_existing_and_new_chemical_substances_inventory",
+                    "content": "On the inventory, or in compliance with the inventory"
+                },
+                {
+                    "title": "Korea. Korean Existing Chemicals Inventory (KECI)",
+                    "normalised_key": "korea_korean_existing_chemicals_inventory_keci",
+                    "content": "On the inventory, or in compliance with the inventory"
+                },
+                {
+                    "title": "Philippines Inventory of Chemicals and Chemical Substances (PICCS)",
+                    "normalised_key": "philippines_inventory_of_chemicals_and_chemical_substances_piccs",
+                    "content": "On the inventory, or in compliance with the inventory"
+                },
+                {
+                    "title": "China. Inventory of Existing Chemical Substances in China (IECSC)",
+                    "normalised_key": "china_inventory_of_existing_chemical_substances_in_china_iecsc",
+                    "content": "On the inventory, or in compliance with the inventory"
+                },
+                {
+                    "title": "Taiwan Chemical Substance Inventory (TCSI)",
+                    "normalised_key": "taiwan_chemical_substance_inventory_tcsi",
+                    "content": "On the inventory, or in compliance with the inventory"
+                }
+            ],
+            "page_range": [
+                6,
+                7
+            ]
+        },
+        {
+            "section_number": "16",
+            "section_title": "OTHER INFORMATION",
+            "subsections": [
+                {
+                    "title": "NFPA",
+                    "normalised_key": "nfpa",
+                    "content": "HMIS III: Flammability HEALTH 3 0 Health 3 2 FLAMMABILITY 0 Instability"
+                },
+                {
+                    "title": "OX",
+                    "normalised_key": "ox",
+                    "content": "PHYSICAL HAZARD 2 0 = not significant, 1 =Slight, Special hazard. 2 = Moderate, 3 = High 4 = Extreme, * = Chronic"
+                },
+                {
+                    "title": "Issuing date",
+                    "normalised_key": "issuing_date",
+                    "content": "03/14/2019"
+                },
+                {
+                    "title": "Version",
+                    "normalised_key": "version",
+                    "content": "1.2"
+                },
+                {
+                    "title": "Prepared by",
+                    "normalised_key": "prepared_by",
+                    "content": "Regulatory Affairs REVISED INFORMATION: Significant changes to regulatory or health information for this revision is indicated by a bar in the left-hand margin of the SDS. The information provided in this Material Safety Data Sheet is correct to the best of our knowledge, information and belief at the date of its publication. The information given is designed only as a guidance for safe handling, use, processing, storage, transportation, disposal and release and is not to be considered a warranty or quality specification. The information relates only to the specific material designated and may not be valid for such material used in combination with any other materials or in any process, unless specified in the text."
+                }
+            ],
+            "page_range": [
+                7,
+                7
+            ]
+        }
+    ]
+}

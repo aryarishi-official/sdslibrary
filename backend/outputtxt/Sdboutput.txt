@@ -1,0 +1,698 @@
+Safety data sheet Safety Data Sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623 date of compilation: 2015-10-15
+Version: 7.0 en Revision: 2025-08-04
+Replaces version of: 2024-09-19
+Version: (6)
+SECTION 1: Identification of the substance/mixture and of the
+company/undertaking
+1.1 Product identifier
+Identification of the substance Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+Article number 4623
+Index No (GB CLP) 016-020-00-8
+EC number 231-639-5
+CAS number 7664-93-9
+1.2 Relevant identified uses of the substance or mixture and uses advised against
+Relevant identified uses: Laboratory chemical
+Laboratory and analytical use
+Uses advised against: Do not use for squirting or spraying. Do not use
+for products which come into direct contact with
+the skin. Do not use for private purposes (house-
+hold). Food, drink and animal feedingstuffs.
+1.3 Details of the supplier of the safety data sheet
+Carl Roth GmbH + Co. KG
+Schoemperlenstr. 3-5
+D-76185 Karlsruhe
+Germany
+Telephone:+49 (0) 721 - 56 06 0
+Telefax: +49 (0) 721 - 56 06 149
+e-mail: sicherheit@carlroth.de
+Website: www.carlroth.de
+Competent person responsible for the safety data Department Health, Safety and Environment
+sheet:
+e-mail (competent person): sicherheit@carlroth.de
+1.4 Emergency telephone number
+Name Street Postal Telephone Website
+code/city
+National Poisons Information Dudley Rd B187QH 844 892 0111
+Service Birming-
+City Hospital ham
+SECTION 2: Hazards identification
+2.1 Classification of the substance or mixture
+Classification acc. to GHS
+United Kingdom (en) Page 1 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+Section Hazard class Cat- Hazard class and Hazard
+egory category statement
+2.16 Substance or mixture corrosive to metals 1 Met. Corr. 1 H290
+3.2 Skin corrosion/irritation 1A Skin Corr. 1A H314
+3.3 Serious eye damage/eye irritation 1 Eye Dam. 1 H318
+For full text of abbreviations: see SECTION 16
+The most important adverse physicochemical, human health and environmental effects
+Skin corrosion produces an irreversible damage to the skin; namely, visible necrosis through the epi-
+dermis and into the dermis.
+2.2 Label elements
+Labelling
+Signal word Danger
+Pictograms
+GHS05
+Hazard statements
+H290 May be corrosive to metals
+H314 Causes severe skin burns and eye damage
+Precautionary statements
+Precautionary statements - prevention
+P280 Wear protective gloves/protective clothing/eye protection/face protection
+Precautionary statements - response
+P301+P330+P331 IF SWALLOWED: rinse mouth. Do NOT induce vomiting
+P303+P361+P353 IF ON SKIN (or hair): Take off immediately all contaminated clothing. Rinse skin
+with water [or shower]
+P305+P351+P338 IF IN EYES: Rinse cautiously with water for several minutes. Remove contact
+lenses, if present and easy to do. Continue rinsing
+P310 Immediately call a POISON CENTER/doctor
+2.3 Other hazards
+Results of PBT and vPvB assessment
+According to the results of its assessment, this substance is not a PBT or a vPvB.
+Endocrine disrupting properties
+Does not contain an endocrine disruptor (ED) at a concentration of ≥ 0,1%.
+SECTION 3: Composition/information on ingredients
+3.1 Substances
+Name of substance Sulphuric acid
+Molecular formula H₂O₄S
+Molar mass 98,07 g/
+mol
+United Kingdom (en) Page 2 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+CAS No 7664-93-9
+EC No 231-639-5
+Index No (GB CLP) 016-020-00-8
+Substance, Specific Conc. Limits, M-factors, ATE
+Specific Conc. Limits M-Factors ATE Exposure route
+Skin Corr. 1A; H314: C ≥ 15 % - -
+Skin Irrit. 2; H315: 5 % ≤ C < 15 %
+Eye Dam. 1; H318: C ≥ 15 %
+Eye Irrit. 2; H319: 5 % ≤ C < 15 %
+SECTION 4: First aid measures
+4.1 Description of first aid measures
+General notes
+Take off immediately all contaminated clothing. Self-protection of the first aider.
+Following inhalation
+Provide fresh air. In all cases of doubt, or when symptoms persist, seek medical advice.
+Following skin contact
+Remove mechanically (e.g. dab away using wadding or cellulose material) then thoroughly wash the
+affected skin with a mild cleansing agent and water. Immediate medical treatment required because
+corrosive injuries that are not treated are hard to cure.
+Following eye contact
+In case of contact with eyes flush immediately with plenty of flowing water for 10 to 15 minutes hold-
+ing eyelids apart and consult an ophthalmologist. Protect uninjured eye.
+Following ingestion
+Rinse mouth immediately and drink plenty of water. Call a physician immediately. If swallowed
+danger of perforation of the esophagus and the stomach (strong corrosive effects).
+4.2 Most important symptoms and effects, both acute and delayed
+Corrosion, Gastric perforation, Risk of serious damage to eyes, Risk of blindness
+4.3 Indication of any immediate medical attention and special treatment needed
+none
+SECTION 5: Firefighting measures
+5.1 Extinguishing media
+Suitable extinguishing media
+co-ordinate firefighting measures to the fire surroundings!
+water spray, dry extinguishing powder, BC-powder, carbon dioxide (CO₂)
+Unsuitable extinguishing media
+water jet
+United Kingdom (en) Page 3 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+5.2 Special hazards arising from the substance or mixture
+Non-combustible.
+Hazardous combustion products
+In case of fire may be liberated: Sulphur oxides (SOx)
+5.3 Advice for firefighters
+In case of fire and/or explosion do not breathe fumes. Fight fire with normal precautions from a reas-
+onable distance. Wear self-contained breathing apparatus. Wear full chemical protective clothing.
+SECTION 6: Accidental release measures
+6.1 Personal precautions, protective equipment and emergency procedures
+For non-emergency personnel
+Use personal protective equipment as required. Avoid contact with skin, eyes and clothes. Do not
+breathe vapour/spray.
+6.2 Environmental precautions
+Keep away from drains, surface and ground water. Retain contaminated washing water and dispose
+of it. The product is an acid. Before discharge into sewage plants the product normally needs to be
+neutralised.
+6.3 Methods and material for containment and cleaning up
+Advice on how to contain a spill
+Covering of drains.
+Advice on how to clean up a spill
+Absorb with liquid-binding material (sand, diatomaceous earth, acid- or universal binding agents).
+Other information relating to spills and releases
+Place in appropriate containers for disposal.
+6.4 Reference to other sections
+Hazardous combustion products: see section 5. Personal protective equipment: see section 8. Incom-
+patible materials: see section 10. Disposal considerations: see section 13.
+SECTION 7: Handling and storage
+7.1 Precautions for safe handling
+Handle and open container with care. Clear contaminated areas thoroughly.
+Advice on general occupational hygiene
+Wash hands before breaks and after work. Keep away from food, drink and animal feedingstuffs.
+7.2 Conditions for safe storage, including any incompatibilities
+Keep container tightly closed. Store in a dry place. Hygroscopic.
+Incompatible substances or mixtures
+Observe hints for combined storage. Incompatible materials: see section 10.
+Protect against external exposure, such as
+humidity
+Consideration of other advice:
+Specific designs for storage rooms or vessels
+Recommended storage temperature: 15 – 25 °C
+7.3 Specific end use(s)
+United Kingdom (en) Page 4 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+No information available.
+SECTION 8: Exposure controls/personal protection
+8.1 Control parameters
+National limit values
+Occupational exposure limit values (Workplace Exposure Limits)
+Cou Name of agent CAS No Identi- TW TWA STE STEL Ceil Ceil- Nota- Source
+ntr fier A [mg/ L [mg/ ing- ing-C tion
+y [pp m³] [pp m³] C [mg/
+m] m] [pp m³]
+m]
+EU sulfuric acid 7664- IOELV 0,05 mist, t 2009/161
+93-9 /EU
+GB sulfuric acid 7664- WEL 0,05 t, mist EH40/20
+93-9 05
+Notation
+Ceiling-C Ceiling value is a limit value above which exposure should not occur
+mist As mists
+STEL Short-term exposure limit: a limit value above which exposure should not occur and which is related to a 15-
+minute period (unless otherwise specified)
+t Thoracic fraction
+TWA Time-weighted average (long-term exposure limit): measured or calculated in relation to a reference period of 8
+hours time-weighted average (unless otherwise specified)
+Human health values
+Relevant DNELs and other threshold levels
+Endpoint Threshold Protection goal, Used in Exposure time
+level route of exposure
+DNEL 0,05 mg/m³ human, inhalatory worker (industry) chronic - local effects
+DNEL 0,1 mg/m³ human, inhalatory worker (industry) acute - local effects
+Environmental values
+Relevant PNECs and other threshold levels
+End- Threshold Organism Environmental com- Exposure time
+point level partment
+PNEC 0,003 mg/l aquatic organisms freshwater short-term (single instance)
+PNEC 0 mg/l aquatic organisms marine water short-term (single instance)
+PNEC 8,8 mg/l aquatic organisms sewage treatment plant short-term (single instance)
+(STP)
+PNEC 0,002 mg/kg aquatic organisms freshwater sediment short-term (single instance)
+PNEC 0,002 mg/kg aquatic organisms marine sediment short-term (single instance)
+8.2 Exposure controls
+Individual protection measures (personal protective equipment)
+Eye/face protection
+Use safety goggle with side protection. Wear face protection.
+United Kingdom (en) Page 5 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+Skin protection
+• hand protection
+Wear suitable gloves. Chemical protection gloves are suitable, which are tested according to EN 374.
+Check leak-tightness/impermeability prior to use. For special purposes, it is recommended to check
+the resistance to chemicals of the protective gloves mentioned above together with the supplier of
+these gloves. The times are approximate values from measurements at 22 ° C and permanent con-
+tact. Increased temperatures due to heated substances, body heat etc. and a reduction of the effect-
+ive layer thickness by stretching can lead to a considerable reduction of the breakthrough time. If in
+doubt, contact manufacturer. At an approx. 1.5 times larger / smaller layer thickness, the respective
+breakthrough time is doubled / halved. The data apply only to the pure substance. When transferred
+to substance mixtures, they may only be considered as a guide.
+• type of material
+FKM (fluoro rubber)
+• material thickness
+≥0,4 mm
+• breakthrough times of the glove material
+>480 minutes (permeation: level 6)
+• Splash protection - Protective gloves
+• type of material: Butyl caoutchouc (butyl rubber)
+• material 0,7 mm
+thickness:
+• breakthrough times of the glove material: >120 minutes (permeation: level 4)
+• other protection measures
+Take recovery periods for skin regeneration. Preventive skin protection (barrier creams/ointments) is
+recommended.
+Respiratory protection
+Respiratory protection necessary at: Aerosol or mist formation. Type: E (against acidic gases like sul-
+phur dioxide or hydrogen chloride, colour code: Yellow). Type: B-P2 (combined filters for acidic gases
+and particles, colour code: Grey/White).
+Environmental exposure controls
+Keep away from drains, surface and ground water.
+SECTION 9: Physical and chemical properties
+9.1 Information on basic physical and chemical properties
+Physical state liquid
+Colour colourless
+Odour odourless
+Melting point/freezing point -15 °C
+Boiling point or initial boiling point and boiling 295 – 315 °C
+range
+Flammability non-combustible
+United Kingdom (en) Page 6 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+Lower and upper explosion limit not determined
+Flash point not determined
+Auto-ignition temperature not determined
+Decomposition temperature 338 °C
+pH (value) <1 (20 °C)
+Kinematic viscosity 14,62 mm²/ at 20 °C
+s
+Dynamic viscosity 26,9 mPa s at 20 °C
+Solubility(ies)
+Water solubility (soluble)
+Partition coefficient
+Partition coefficient n-octanol/water (log value): not relevant (inorganic)
+Vapour pressure <0,01 hPa at 20 °C
+Density and/or relative density
+Density 1,84 g/ at 20 °C
+cm³
+Relative vapour density Information on this property is not available.
+Particle characteristics not relevant (liquid)
+Other safety parameters
+Oxidising properties none
+9.2 Other information
+Information with regard to physical hazard
+classes:
+Corrosive to metals category 1: corrosive to metals
+Other safety characteristics: There is no additional information.
+SECTION 10: Stability and reactivity
+10.1 Reactivity
+It's a reactive substance. Substance or mixture corrosive to metals.
+10.2 Chemical stability
+The material is stable under normal ambient and anticipated storage and handling conditions of tem-
+perature and pressure.
+10.3 Possibility of hazardous reactions
+Violent reaction with: Aldehydes, Alkali (lye), Alkali metals, Ammonia (NH3), Bromates, Carbide,
+Chlorates, Alkaline earth metal, Halogenated hydrocarbons, Metals, Metal powder, Nitrate, Nitriles,
+Nitro compound, Organic substances, Perchlorates, Permanganates, Peroxides, Phosphorus, Phos-
+phorus oxides (e.g. P2O5), Acids, Strong alkali, Water, Hydrogen peroxide
+United Kingdom (en) Page 7 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+10.4 Conditions to avoid
+Keep away from heat. Decompostion takes place from temperatures above: 338 °C.
+10.5 Incompatible materials
+different metals
+10.6 Hazardous decomposition products
+Hazardous combustion products: see section 5.
+SECTION 11: Toxicological information
+11.1 Information on toxicological effects
+Classification acc. to GHS
+Acute toxicity
+Shall not be classified as acutely toxic.
+GHS of the United Nations, annex 4. May be harmful if swallowed.
+Acute toxicity
+Exposure route Endpoint Value Species Method Source
+oral LD50 2.140 mg/kg rat ECHA
+Skin corrosion/irritation
+Causes severe skin burns and eye damage.
+Serious eye damage/eye irritation
+Causes serious eye damage.
+Respiratory or skin sensitisation
+Shall not be classified as a respiratory or skin sensitiser.
+Germ cell mutagenicity
+Shall not be classified as germ cell mutagenic.
+Carcinogenicity
+Shall not be classified as carcinogenic.
+Reproductive toxicity
+Shall not be classified as a reproductive toxicant.
+Specific target organ toxicity - single exposure
+Shall not be classified as a specific target organ toxicant (single exposure).
+Specific target organ toxicity - repeated exposure
+Shall not be classified as a specific target organ toxicant (repeated exposure).
+Aspiration hazard
+Shall not be classified as presenting an aspiration hazard.
+Endocrine disruptor for human health
+Shall not be classified as an endocrine disruptor for human health.
+Symptoms related to the physical, chemical and toxicological characteristics
+• If swallowed
+If swallowed danger of perforation of the esophagus and the stomach (strong corrosive effects)
+• If in eyes
+causes burns, Causes serious eye damage, risk of blindness
+• If inhaled
+cough, pain, choking, and breathing difficulties
+United Kingdom (en) Page 8 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+• If on skin
+causes severe burns, causes poorly healing wounds
+• Other information
+none
+11.2 Information on other hazards
+There is no additional information.
+SECTION 12: Ecological information
+12.1 Toxicity
+Shall not be classified as hazardous to the aquatic environment.
+.
+Aquatic toxicity (acute)
+Endpoint Value Species Source Exposure
+time
+EC50 >100 mg/l aquatic invertebrates ECHA 48 h
+ErC50 >100 mg/l algae ECHA 72 h
+Aquatic toxicity (chronic)
+Endpoint Value Species Source Exposure
+time
+NOEC 0,025 mg/l fish ECHA 65 d
+12.2 Persistence and degradability
+Data are not available.
+12.3 Bioaccumulative potential
+Data are not available.
+12.4 Mobility in soil
+Data are not available.
+12.5 Results of PBT and vPvB assessment
+According to the results of its assessment, this substance is not a PBT or a vPvB.
+12.6 Endocrine disrupting properties
+Does not contain an endocrine disruptor (ED) at a concentration of ≥ 0,1%.
+12.7 Other adverse effects
+Data are not available.
+SECTION 13: Disposal considerations
+13.1 Waste treatment methods
+This material and its container must be disposed of as hazardous waste. Dispose of contents/contain-
+er in accordance with local/regional/national/international regulations.
+Sewage disposal-relevant information
+Do not empty into drains.
+Waste treatment of containers/packagings
+United Kingdom (en) Page 9 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+It is a dangerous waste; only packagings which are approved (e.g. acc. to ADR) may be used. Handle
+contaminated packages in the same way as the substance itself. Completely emptied packages can be
+recycled.
+13.2 Relevant provisions relating to waste
+The allocation of waste identity numbers/waste descriptions must be carried out according to the
+EEC, specific to the industry and process.
+Properties of waste which render it hazardous
+HP 4 irritant - skin irritation and eye damage
+HP 8 corrosive
+13.3 Remarks
+Waste shall be separated into the categories that can be handled separately by the local or national
+waste management facilities. Please consider the relevant national or regional provisions. Non-con-
+taminated packages may be recycled.
+SECTION 14: Transport information
+14.1 UN number or ID number
+ADRRID UN 1830
+IMDG-Code UN 1830
+ICAO-TI UN 1830
+14.2 UN proper shipping name
+ADRRID SULPHURIC ACID
+IMDG-Code SULPHURIC ACID
+ICAO-TI Sulphuric acid
+14.3 Transport hazard class(es)
+ADRRID 8
+IMDG-Code 8
+ICAO-TI 8
+14.4 Packing group
+ADRRID II
+IMDG-Code II
+ICAO-TI II
+14.5 Environmental hazards non-environmentally hazardous acc. to the dan-
+gerous goods regulations
+14.6 Special precautions for user
+Provisions for dangerous goods (ADR) should be complied within the premises.
+14.7 Maritime transport in bulk according to IMO instruments
+The cargo is not intended to be carried in bulk.
+14.8 Information for each of the UN Model Regulations
+Agreement concerning the International Carriage of Dangerous Goods by Road (ADR)Additional
+information
+Proper shipping name SULPHURIC ACID
+United Kingdom (en) Page 10 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+Particulars in the transport document UN1830, SULPHURIC ACID, 8, II, (E)
+Classification code C1
+Danger label(s) 8
+Excepted quantities (EQ) E2
+Limited quantities (LQ) 1 L
+Transport category (TC) 2
+Tunnel restriction code (TRC) E
+Hazard identification No 80
+Emergency Action Code 2P
+Regulations concerning the International Carriage of Dangerous Goods by Rail (RID)Additional
+information
+Classification code C1
+Danger label(s) 8
+Excepted quantities (EQ) E2
+Limited quantities (LQ) 1 L
+Transport category (TC) 2
+Hazard identification No 80
+International Maritime Dangerous Goods Code (IMDG) - Additional information
+Proper shipping name SULPHURIC ACID
+Particulars in the shipper's declaration UN1830, SULPHURIC ACID, 8, II
+Marine pollutant -
+Danger label(s) 8
+Excepted quantities (EQ) E2
+Limited quantities (LQ) 1 L
+EmS F-A, S-B
+Stowage category C
+Segregation group 1 - Acids
+International Civil Aviation Organization (ICAO-IATA/DGR) - Additional information
+Proper shipping name Sulphuric acid
+Particulars in the shipper's declaration UN1830, Sulphuric acid, 8, II
+United Kingdom (en) Page 11 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+Danger label(s) 8
+Excepted quantities (EQ) E2
+Limited quantities (LQ) 0,5 L
+SECTION 15: Regulatory information
+15.1 Safety, health and environmental regulations/legislation specific for the substance or mixture
+Relevant provisions of the European Union (EU)
+Seveso Directive
+2012/18/EU (Seveso III)
+No Dangerous substance/hazard categories Qualifying quantity (tonnes) for the ap- Notes
+plication of lower and upper-tier re-
+quirements
+not assigned
+Deco-Paint Directive
+VOC content 0 %
+VOC content 0 g/
+l
+Industrial Emissions Directive (IED)
+VOC content 0 %
+VOC content 0 g/
+l
+Directive on the restriction of the use of certain hazardous substances in electrical and
+electronic equipment (RoHS)
+not listed
+Regulation concerning the establishment of a European Pollutant Release and Transfer
+Register (PRTR)
+not listed
+Water Framework Directive (WFD)
+List of pollutants (WFD)
+Name of substance Name acc. to inventory CAS No Listed Remarks
+in
+Sulphuric acid Substances and preparations, or a)
+the breakdown products of such,
+which have been proved to pos-
+sess carcinogenic or mutagenic
+properties or properties which
+may affect steroidogenic, thyroid,
+reproduction or other endocrine-
+related functions in or via the
+aquatic environment
+Legend
+a) Indicative list of the main pollutants
+United Kingdom (en) Page 12 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+Regulation on the marketing and use of explosives precursors
+Explosives precursors which are subject to restrictions
+Name of substance CAS No Wt% Type of registration Re- Limit Upper
+marks value limit
+value
+for the
+purpose
+of li-
+censing
+under
+Article
+5(3)
+Sulphuric acid 7664-93-9 100 Annex I 15 % w/w 40 % w/w
+Legend
+Annex I Substances which shall not be made available to members of the general public on their own, or in mixtures or
+substances including them, except if the concentration is equal to or lower than the limit values set out below
+Additional statements
+If the product is passed on to third parties, in accordance with Article 7 "Notification of the supply chain" of Regulation EU
+2019/1148, the information obligation is subject to the entire supply chain and all other provisions mentioned in Article 7 on re-
+stricted and regulated raw materials.
+-
+Regulation on drug precursors
+Name of substance CAS No Wt% Classification CN Code Threshold
+level
+Sulphuric acid 7664-93-9 100 Category 3 2807 00
+00
+Regulation on substances that deplete the ozone layer (ODS)
+not listed
+Regulation concerning the export and import of hazardous chemicals (PIC)
+not listed
+Regulation on persistent organic pollutants (POP)
+not listed
+National regulations(GB)
+List of substances subject to authorisation (GB REACH, Annex 14) / SVHC - candidate list
+not listed
+Restrictions according to GB REACH, Annex 17
+Dangerous substances with restrictions (GB REACH, Annex 17)
+Name of substance Name acc. to inventory CAS No No
+Sulphuric acid this product meets the criteria for classi- 3
+fication in accordance with Regulation No
+1272/2008/EC
+Other information
+Directive 94/33/EC on the protection of young people at work. Observe employment restrictions un-
+der the Maternity Protection Directive (92/85/EEC) for expectant or nursing mothers.
+United Kingdom (en) Page 13 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+UN Convention against Illicit Traffic in Narcotic Drugs and Psychotropic Substances
+Name of substance CAS No Listed in HS code
+Sulphuric acid 7664-93-9 Table II 2807.00
+National inventories
+Country Inventory Status
+AU AIIC substance is listed
+CA DSL substance is listed
+CN IECSC substance is listed
+EU ECSI substance is listed
+EU REACH Reg. substance is listed
+JP CSCL-ENCS substance is listed
+JP ISHA-ENCS substance is listed
+KR KECI substance is listed
+MX INSQ substance is listed
+NZ NZIoC substance is listed
+PH PICCS substance is listed
+TR CICR substance is listed
+TW TCSI substance is listed
+US TSCA substance is listed (ACTIVE)
+Legend
+AIIC Australian Inventory of Industrial Chemicals
+CICR Chemical Inventory and Control Regulation
+CSCL-ENCS List of Existing and New Chemical Substances (CSCL-ENCS)
+DSL Domestic Substances List (DSL)
+ECSI EC Substance Inventory (EINECS, ELINCS, NLP)
+IECSC Inventory of Existing Chemical Substances Produced or Imported in China
+INSQ National Inventory of Chemical Substances
+ISHA-ENCS Inventory of Existing and New Chemical Substances (ISHA-ENCS)
+KECI Korea Existing Chemicals Inventory
+NZIoC New Zealand Inventory of Chemicals
+PICCS Philippine Inventory of Chemicals and Chemical Substances (PICCS)
+REACH Reg. REACH registered substances
+TCSI Taiwan Chemical Substance Inventory
+TSCA Toxic Substance Control Act
+15.2 Chemical safety assessment
+No Chemical Safety Assessment has been carried out for this substance.
+SECTION 16: Other information
+Indication of changes (revised safety data sheet)
+Section Former entry (text/value) Actual entry (text/value) Safety-
+relev-
+ant
+15.1 National inventories: yes
+change in the listing (table)
+United Kingdom (en) Page 14 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+Abbreviations and acronyms
+Abbr. Descriptions of used abbreviations
+2009/161/EU Commission Directive establishing a third list of indicative occupational exposure limit values in imple-
+mentation of Council Directive 98/24/EC and amending Commission Directive 2000/39/EC
+ADR Accord relatif au transport international des marchandises dangereuses par route (Agreement concern-
+ing the International Carriage of Dangerous Goods by Road)
+ATE Acute Toxicity Estimate
+CAS Chemical Abstracts Service (service that maintains the most comprehensive list of chemical substances)
+Ceiling-C Ceiling value
+CN Code Combined Nomenclature
+DGR Dangerous Goods Regulations (see IATA/DGR)
+DNEL Derived No-Effect Level
+EC50 Effective Concentration 50 %. The EC50 corresponds to the concentration of a tested substance causing
+50 % changes in response (e.g. on growth) during a specified time interval
+EC No The EC Inventory (EINECS, ELINCS and the NLP-list) is the source for the seven-digit EC number, an identi-
+fier of substances commercially available within the EU (European Union)
+ED Endocrine disruptor
+EH40/2005 EH40/2005 Workplace exposure limits (http://www.nationalarchives.gov.uk/doc/open-government-li-
+cence/)
+EINECS European Inventory of Existing Commercial Chemical Substances
+ELINCS European List of Notified Chemical Substances
+EmS Emergency Schedule
+ErC50 ≡ EC50: in this method, that concentration of test substance which results in a 50 % reduction in either
+growth (EbC50) or growth rate (ErC50) relative to the control
+GB CLP The Chemicals (Health and Safety) and Genetically Modified Organisms (Contained Use) (Amendment
+etc.) (EU Exit) Regulations 2019, SI 2019/720 (as amended)
+GB REACH The REACH etc. (Amendment etc.) (EU Exit) Regulations 2019, SI 2019/758 (as amended)
+GHS "Globally Harmonized System of Classification and Labelling of Chemicals" developed by the United Na-
+tions
+HS Harmonized Commodity Description and Coding System (Harmonized System, drawn up by the World
+Customs Organisation)
+IATA International Air Transport Association
+IATA/DGR Dangerous Goods Regulations (DGR) for the air transport (IATA)
+ICAO International Civil Aviation Organization
+ICAO-TI Technical instructions for the safe transport of dangerous goods by air
+IMDG International Maritime Dangerous Goods Code
+IMDG-Code International Maritime Dangerous Goods Code
+index No The Index number is the identification code given to the substance in Part 3 of Annex VI to Regulation
+(EC) No 1272/2008
+IOELV Indicative occupational exposure limit value
+LD50 Lethal Dose 50 %: the LD50 corresponds to the dose of a tested substance causing 50 % lethality during a
+specified time interval
+NLP No-Longer Polymer
+NOEC No Observed Effect Concentration
+PBT Persistent, Bioaccumulative and Toxic
+PNEC Predicted No-Effect Concentration
+United Kingdom (en) Page 15 / 16
+Safety data sheet Safety data sheet
+acc. to Regulation (EC) No. 1907/2006 (REACH)
+Sulphuric acid ROTIPURAN® 96 %, p.a., ISO
+article number: 4623
+Abbr. Descriptions of used abbreviations
+ppm Parts per million
+REACH Registration, Evaluation, Authorisation and Restriction of Chemicals
+RID Règlement concernant le transport International ferroviaire des marchandises Dangereuses (Regulations
+concerning the International carriage of Dangerous goods by Rail)
+STEL Short-term exposure limit
+TWA Time-weighted average
+VOC Volatile Organic Compounds
+vPvB Very Persistent and very Bioaccumulative
+WEL Workplace exposure limit
+Key literature references and sources for data
+Agreement concerning the International Carriage of Dangerous Goods by Road (ADR). Regulations
+concerning the International Carriage of Dangerous Goods by Rail (RID). International Maritime Dan-
+gerous Goods Code (IMDG). Dangerous Goods Regulations (DGR) for the air transport (IATA).
+List of relevant phrases (code and full text as stated in section 2 and 3)
+Code Text
+H290 May be corrosive to metals.
+H314 Causes severe skin burns and eye damage.
+H318 Causes serious eye damage.
+Disclaimer
+This information is based upon the present state of our knowledge. This SDS has been compiled and
+is solely intended for this product.
+United Kingdom (en) Page 16 / 16
