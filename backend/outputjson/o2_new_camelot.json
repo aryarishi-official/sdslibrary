@@ -1,6 +1,7 @@
 {
   "o2": {
     "product_name": "Oxygen",
+    "hazard_pictograms": [],
     "sections": [
       {
         "section_number": "1",
@@ -501,27 +502,38 @@
           {
             "title": "Personal precautions, protective equipment and emergency procedures personnel",
             "normalised_key": "personal_precautions_protective_equipment_and_emergency_procedures_personnel",
-            "content": "Evacuate surrounding areas. Keep unnecessary and unprotected personnel from entering. Shut off all ignition sources. No flares, smoking or flames in hazard area. Put on appropriate personal protective equipment. For emergency responders If specialized clothing is required to deal with the spillage, take note of any information in Section 8 on suitable and unsuitable materials. See also the information in \"For non- emergency personnel\"."
+            "content": "Evacuate surrounding areas. Keep unnecessary and unprotected personnel from entering. Shut off all ignition sources. No flares, smoking or flames in hazard area. Put on appropriate personal protective equipment.",
+            "group": "Personal precautions, protective equipment and emergency procedures"
+          },
+          {
+            "title": "For emergency responders If specialized clothing is required to deal with the spillage, take note of any information in",
+            "normalised_key": "for_emergency_responders_if_specialized_clothing_is_required_to_deal_with_the_spillage_take_note_of_any_information_in",
+            "content": "Section 8 on suitable and unsuitable materials. See also the information in \"For non- emergency personnel\".",
+            "group": "For emergency responders If specialized clothing is required to deal with the spillage, take note of any information in"
           },
           {
             "title": "Environmental precautions",
             "normalised_key": "environmental_precautions",
-            "content": "Ensure emergency procedures to deal with accidental gas releases are in place to avoid contamination of the environment. Inform the relevant authorities if the product has caused environmental pollution (sewers, waterways, soil or air)."
+            "content": "Ensure emergency procedures to deal with accidental gas releases are in place to avoid contamination of the environment. Inform the relevant authorities if the product has caused environmental pollution (sewers, waterways, soil or air).",
+            "group": "Environmental precautions"
           },
           {
             "title": "Methods and materials for containment and cleaning up",
             "normalised_key": "methods_and_materials_for_containment_and_cleaning_up",
-            "content": ""
+            "content": "",
+            "group": "Methods and materials for containment and cleaning up"
           },
           {
             "title": "Small spill",
             "normalised_key": "small_spill",
-            "content": "Immediately contact emergency personnel. Stop leak if without risk. Use spark-proof tools and explosion-proof equipment."
+            "content": "Immediately contact emergency personnel. Stop leak if without risk. Use spark-proof tools and explosion-proof equipment.",
+            "group": "Small spill"
           },
           {
             "title": "Large spill",
             "normalised_key": "large_spill",
-            "content": "Immediately contact emergency personnel. Stop leak if without risk. Use spark-proof tools and explosion-proof equipment."
+            "content": "Immediately contact emergency personnel. Stop leak if without risk. Use spark-proof tools and explosion-proof equipment.",
+            "group": "Large spill"
           }
         ],
         "page_range": [
@@ -536,7 +548,8 @@
           {
             "title": "Precautions for safe handling",
             "normalised_key": "precautions_for_safe_handling",
-            "content": ""
+            "content": "",
+            "group": "Precautions for safe handling"
           },
           {
             "title": "Protective measures",
@@ -545,17 +558,20 @@
             "list_items": [
               "Put on appropriate personal protective equipment (see Section 8). Contains gas under pressure. Avoid breathing gas. Do not puncture or incinerate container. Use equipment rated for cylinder pressure. Close valve after each use and when empty. Protect cylinders from physical damage",
               "do not drag, roll, slide, or drop. Use a suitable hand truck for cylinder movement. Avoid contact with eyes, skin and clothing. Empty containers retain product residue and can be hazardous. Keep away from clothing, incompatible materials and combustible materials. Keep reduction valves free from grease and oil"
-            ]
+            ],
+            "group": "Precautions for safe handling"
           },
           {
             "title": "Advice on general occupational hygiene",
             "normalised_key": "advice_on_general_occupational_hygiene",
-            "content": "Eating, drinking and smoking should be prohibited in areas where this material is handled, stored and processed. Workers should wash hands and face before eating, drinking and smoking. Remove contaminated clothing and protective equipment before entering eating areas. See also Section 8 for additional information on hygiene measures."
+            "content": "Eating, drinking and smoking should be prohibited in areas where this material is handled, stored and processed. Workers should wash hands and face before eating, drinking and smoking. Remove contaminated clothing and protective equipment before entering eating areas. See also Section 8 for additional information on hygiene measures.",
+            "group": "Precautions for safe handling"
           },
           {
             "title": "Conditions for safe storage, including any incompatibilities",
             "normalised_key": "conditions_for_safe_storage_including_any_incompatibilities",
-            "content": "Store in accordance with local regulations. Store in a segregated and approved area. Store away from direct sunlight in a dry, cool and well-ventilated area, away from incompatible materials (see Section 10). Separate from reducing agents and combustible materials. Store away from grease and oil. Keep container tightly closed and sealed until ready for use. See Section 10 for incompatible materials before handling or use. Cylinders should be stored upright, with valve protection cap in place, and firmly secured to prevent falling or being knocked over. Cylinder temperatures should not exceed 52 °C (125 °F)."
+            "content": "Store in accordance with local regulations. Store in a segregated and approved area. Store away from direct sunlight in a dry, cool and well-ventilated area, away from incompatible materials (see Section 10). Separate from reducing agents and combustible materials. Store away from grease and oil. Keep container tightly closed and sealed until ready for use. See Section 10 for incompatible materials before handling or use. Cylinders should be stored upright, with valve protection cap in place, and firmly secured to prevent falling or being knocked over. Cylinder temperatures should not exceed 52 °C (125 °F).",
+            "group": "Precautions for safe handling"
           }
         ],
         "page_range": [
@@ -591,17 +607,20 @@
           {
             "title": "Control parameters",
             "normalised_key": "control_parameters",
-            "content": ""
+            "content": "",
+            "group": "Control parameters"
           },
           {
             "title": "Occupational exposure limits",
             "normalised_key": "occupational_exposure_limits",
-            "content": ""
+            "content": "",
+            "group": "Occupational exposure limits"
           },
           {
-            "title": "Ingredient name Exposure limits",
-            "normalised_key": "ingredient_name_exposure_limits",
-            "content": "",
+            "title": "Ingredient name Exposure limits controls",
+            "normalised_key": "ingredient_name_exposure_limits_controls",
+            "content": "contaminants.",
+            "group": "Occupational exposure limits",
             "table": {
               "headers": [
                 "Ingredient name",
@@ -616,54 +635,58 @@
             }
           },
           {
-            "title": "Appropriate engineering controls",
-            "normalised_key": "appropriate_engineering_controls",
-            "content": "Good general ventilation should be sufficient to control worker exposure to airborne contaminants."
-          },
-          {
             "title": "Environmental exposure controls",
             "normalised_key": "environmental_exposure_controls",
-            "content": "Emissions from ventilation or work process equipment should be checked to ensure they comply with the requirements of environmental protection legislation. In some cases, fume scrubbers, filters or engineering modifications to the process equipment will be necessary to reduce emissions to acceptable levels."
+            "content": "Emissions from ventilation or work process equipment should be checked to ensure they comply with the requirements of environmental protection legislation. In some cases, fume scrubbers, filters or engineering modifications to the process equipment will be necessary to reduce emissions to acceptable levels.",
+            "group": "Occupational exposure limits"
           },
           {
             "title": "Individual protection measures",
             "normalised_key": "individual_protection_measures",
-            "content": ""
+            "content": "",
+            "group": "Individual protection measures"
           },
           {
             "title": "Hygiene measures",
             "normalised_key": "hygiene_measures",
-            "content": "Wash hands, forearms and face thoroughly after handling chemical products, before eating, smoking and using the lavatory and at the end of the working period. Appropriate techniques should be used to remove potentially contaminated clothing. Wash contaminated clothing before reusing. Ensure that eyewash stations and safety showers are close to the workstation location."
+            "content": "Wash hands, forearms and face thoroughly after handling chemical products, before eating, smoking and using the lavatory and at the end of the working period. Appropriate techniques should be used to remove potentially contaminated clothing. Wash contaminated clothing before reusing. Ensure that eyewash stations and safety showers are close to the workstation location.",
+            "group": "Individual protection measures"
           },
           {
             "title": "Eye/face protection",
             "normalised_key": "eye_or_face_protection",
-            "content": "Safety eyewear complying with an approved standard should be used when a risk assessment indicates this is necessary to avoid exposure to liquid splashes, mists, gases or dusts. If contact is possible, the following protection should be worn, unless the assessment indicates a higher degree of protection: safety glasses with side- shields."
+            "content": "Safety eyewear complying with an approved standard should be used when a risk assessment indicates this is necessary to avoid exposure to liquid splashes, mists, gases or dusts. If contact is possible, the following protection should be worn, unless the assessment indicates a higher degree of protection: safety glasses with side- shields.",
+            "group": "Individual protection measures"
           },
           {
             "title": "Skin protection",
             "normalised_key": "skin_protection",
-            "content": ""
+            "content": "",
+            "group": "Skin protection"
           },
           {
             "title": "Hand protection",
             "normalised_key": "hand_protection",
-            "content": "Chemical-resistant, impervious gloves complying with an approved standard should be worn at all times when handling chemical products if a risk assessment indicates this is necessary. Considering the parameters specified by the glove manufacturer, check during use that the gloves are still retaining their protective properties. It should be noted that the time to breakthrough for any glove material may be different for different glove manufacturers. In the case of mixtures, consisting of several substances, the protection time of the gloves cannot be accurately estimated."
+            "content": "Chemical-resistant, impervious gloves complying with an approved standard should be worn at all times when handling chemical products if a risk assessment indicates this is necessary. Considering the parameters specified by the glove manufacturer, check during use that the gloves are still retaining their protective properties. It should be noted that the time to breakthrough for any glove material may be different for different glove manufacturers. In the case of mixtures, consisting of several substances, the protection time of the gloves cannot be accurately estimated.",
+            "group": "Skin protection"
           },
           {
             "title": "Body protection",
             "normalised_key": "body_protection",
-            "content": "Personal protective equipment for the body should be selected based on the task being performed and the risks involved and should be approved by a specialist before handling this product."
+            "content": "Personal protective equipment for the body should be selected based on the task being performed and the risks involved and should be approved by a specialist before handling this product.",
+            "group": "Skin protection"
           },
           {
             "title": "Other skin protection",
             "normalised_key": "other_skin_protection",
-            "content": "Appropriate footwear and any additional skin protection measures should be selected based on the task being performed and the risks involved and should be approved by a specialist before handling this product."
+            "content": "Appropriate footwear and any additional skin protection measures should be selected based on the task being performed and the risks involved and should be approved by a specialist before handling this product.",
+            "group": "Skin protection"
           },
           {
             "title": "Respiratory protection",
             "normalised_key": "respiratory_protection",
-            "content": "Based on the hazard and potential for exposure, select a respirator that meets the appropriate standard or certification. Respirators must be used according to a respiratory protection program to ensure proper fitting, training, and other important aspects of use. Respirator selection must be based on known or anticipated exposure levels, the hazards of the product and the safe working limits of the selected respirator."
+            "content": "Based on the hazard and potential for exposure, select a respirator that meets the appropriate standard or certification. Respirators must be used according to a respiratory protection program to ensure proper fitting, training, and other important aspects of use. Respirator selection must be based on known or anticipated exposure levels, the hazards of the product and the safe working limits of the selected respirator.",
+            "group": "Skin protection"
           }
         ],
         "page_range": [
@@ -862,25 +885,25 @@
           {
             "title": "Acute toxicity",
             "normalised_key": "acute_toxicity",
-            "content": "Not available. Not available.",
+            "content": "Not available.",
             "group": "Information on toxicological effects"
           },
           {
             "title": "Skin corrosion/irritation",
             "normalised_key": "skin_corrosion_or_irritation",
-            "content": "Not available. Not available.",
+            "content": "Not available.",
             "group": "Information on toxicological effects"
           },
           {
             "title": "Serious eye damage/eye irritation",
             "normalised_key": "serious_eye_damage_or_eye_irritation",
-            "content": "Not available. Not available.",
+            "content": "Not available.",
             "group": "Information on toxicological effects"
           },
           {
             "title": "Respiratory corrosion/irritation",
             "normalised_key": "respiratory_corrosion_or_irritation",
-            "content": "Not available. Not available.",
+            "content": "Not available.",
             "group": "Information on toxicological effects"
           },
           {
@@ -896,27 +919,21 @@
             "group": "Information on toxicological effects"
           },
           {
-            "title": "Respiratory",
-            "normalised_key": "respiratory",
-            "content": "Not available.",
-            "group": "Information on toxicological effects"
-          },
-          {
             "title": "Germ cell mutagenicity",
             "normalised_key": "germ_cell_mutagenicity",
-            "content": "Not available. Not available.",
+            "content": "Not available.",
             "group": "Information on toxicological effects"
           },
           {
             "title": "Carcinogenicity",
             "normalised_key": "carcinogenicity",
-            "content": "Not available. Not available.",
+            "content": "Not available.",
             "group": "Information on toxicological effects"
           },
           {
             "title": "Reproductive toxicity",
             "normalised_key": "reproductive_toxicity",
-            "content": "Not available. Not available.",
+            "content": "Not available.",
             "group": "Information on toxicological effects"
           },
           {
@@ -947,23 +964,7 @@
             "title": "Potential acute health effects",
             "normalised_key": "potential_acute_health_effects",
             "content": "",
-            "group": "Potential acute health effects",
-            "table": {
-              "headers": [
-                "Product/ingredient name",
-                "LogPow",
-                "BCF",
-                "Potential"
-              ],
-              "rows": [
-                {
-                  "Product/ingredient name": "oxygen",
-                  "LogPow": "0.65",
-                  "BCF": "-",
-                  "Potential": "Low"
-                }
-              ]
-            }
+            "group": "Potential acute health effects"
           },
           {
             "title": "Eye contact",
@@ -1072,7 +1073,7 @@
           {
             "title": "Potential chronic health effects",
             "normalised_key": "potential_chronic_health_effects",
-            "content": "Not available. Not available.",
+            "content": "Not available.",
             "group": "Potential chronic health effects"
           },
           {
@@ -1115,90 +1116,6 @@
         "page_range": [
           5,
           7
-        ],
-        "tables": [
-          {
-            "page": 7,
-            "bbox": [
-              -1,
-              -1,
-              -1,
-              -1
-            ],
-            "headers": [
-              "Field",
-              "DOT",
-              "TDG",
-              "Mexico",
-              "IMDG",
-              "IATA"
-            ],
-            "rows": [
-              {
-                "Field": "UN number",
-                "DOT": "UN1072",
-                "TDG": "UN1072",
-                "Mexico": "UN1072",
-                "IMDG": "UN1072",
-                "IATA": "UN1072"
-              },
-              {
-                "Field": "UN proper shipping name",
-                "DOT": "Oxygen, compressed",
-                "TDG": "OXYGEN, COMPRESSED",
-                "Mexico": "OXIGENO COMPRIMIDO",
-                "IMDG": "OXYGEN, COMPRESSED",
-                "IATA": "Oxygen, compressed"
-              },
-              {
-                "Field": "Transport hazard class(es)",
-                "DOT": "2.2 (5.1)",
-                "TDG": "2.2 (5.1)",
-                "Mexico": "2.2 (5.1)",
-                "IMDG": "2.2 (5.1)",
-                "IATA": "2.2 (5.1)"
-              },
-              {
-                "Field": "Packing group",
-                "DOT": "-",
-                "TDG": "-",
-                "Mexico": "-",
-                "IMDG": "-",
-                "IATA": "-"
-              },
-              {
-                "Field": "Environmental hazards",
-                "DOT": "No. (or authority revision",
-                "TDG": "No. having jurisdiction) :12/3/2025 Date of",
-                "Mexico": "No. to determine the previous issue",
-                "IMDG": "No. information required :10/9/2025",
-                "IATA": "No. for shipment of the Version :5.12 8/11"
-              }
-            ]
-          },
-          {
-            "page": 7,
-            "bbox": [
-              -1,
-              -1,
-              -1,
-              -1
-            ],
-            "headers": [
-              "Product/ingredient name",
-              "LogPow",
-              "BCF",
-              "Potential"
-            ],
-            "rows": [
-              {
-                "Product/ingredient name": "oxygen",
-                "LogPow": "0.65",
-                "BCF": "-",
-                "Potential": "Low"
-              }
-            ]
-          }
         ]
       },
       {
@@ -1208,12 +1125,12 @@
           {
             "title": "Toxicity",
             "normalised_key": "toxicity",
-            "content": "Not available. Not available."
+            "content": "Not available."
           },
           {
             "title": "Persistence and degradability",
             "normalised_key": "persistence_and_degradability",
-            "content": "Not available. Not available."
+            "content": "Not available."
           },
           {
             "title": "Bioaccumulative potential",
@@ -1250,6 +1167,31 @@
         "page_range": [
           7,
           7
+        ],
+        "tables": [
+          {
+            "page": 7,
+            "bbox": [
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "headers": [
+              "Product/ingredient name",
+              "LogPow",
+              "BCF",
+              "Potential"
+            ],
+            "rows": [
+              {
+                "Product/ingredient name": "oxygen",
+                "LogPow": "0.65",
+                "BCF": "-",
+                "Potential": "Low"
+              }
+            ]
+          }
         ]
       },
       {
@@ -1272,83 +1214,30 @@
         "section_title": "Transport information",
         "subsections": [
           {
-            "title": "DOT TDG Mexico IMDG IATA",
-            "normalised_key": "dot_tdg_mexico_imdg_iata",
-            "content": "",
-            "table": {
-              "headers": [
-                "DOT",
-                "TDG",
-                "Mexico",
-                "IMDG",
-                "IATA"
-              ],
-              "rows": [
-                {
-                  "DOT": "UN number UN1072",
-                  "TDG": "UN1072 UN1072 UN1072 UN1072",
-                  "Mexico": "",
-                  "IMDG": "",
-                  "IATA": ""
-                },
-                {
-                  "DOT": "UN proper Oxygen,",
-                  "TDG": "OXYGEN, OXIGENO OXYGEN, Oxygen,",
-                  "Mexico": "",
-                  "IMDG": "",
-                  "IATA": ""
-                },
-                {
-                  "DOT": "shipping name compressed",
-                  "TDG": "COMPRESSED COMPRIMIDO COMPRESSED compressed",
-                  "Mexico": "",
-                  "IMDG": "",
-                  "IATA": ""
-                },
-                {
-                  "DOT": "Transport 2.2 (5.1)",
-                  "TDG": "2.2 (5.1) 2.2 (5.1) 2.2 (5.1) 2.2 (5.1)",
-                  "Mexico": "",
-                  "IMDG": "",
-                  "IATA": ""
-                },
-                {
-                  "DOT": "hazard class(es)",
-                  "TDG": "",
-                  "Mexico": "",
-                  "IMDG": "",
-                  "IATA": ""
-                },
-                {
-                  "DOT": "Packing group -",
-                  "TDG": "- - - -",
-                  "Mexico": "",
-                  "IMDG": "",
-                  "IATA": ""
-                },
-                {
-                  "DOT": "Environmental No. No. No. No. No.",
-                  "TDG": "",
-                  "Mexico": "",
-                  "IMDG": "",
-                  "IATA": ""
-                },
-                {
-                  "DOT": "hazards",
-                  "TDG": "",
-                  "Mexico": "",
-                  "IMDG": "",
-                  "IATA": ""
-                },
-                {
-                  "DOT": "“Refer to CFR 49 (or authority having jurisdiction) to determine the information required for shipment of the product.”",
-                  "TDG": "",
-                  "Mexico": "",
-                  "IMDG": "",
-                  "IATA": ""
-                }
-              ]
-            }
+            "title": "UN number UN1072",
+            "normalised_key": "un_number_un1072",
+            "content": "UN1072 UN1072",
+            "entities": [
+              {
+                "text": "UN1072",
+                "label": "UN_NUMBER"
+              }
+            ]
+          },
+          {
+            "title": "UN proper Oxygen, shipping name compressed",
+            "normalised_key": "un_proper_oxygen_shipping_name_compressed",
+            "content": "OXYGEN, OXIGENO OXYGEN, Oxygen, COMPRESSED COMPRIMIDO COMPRESSED compressed"
+          },
+          {
+            "title": "Transport 2.2 (5.1) hazard class(es)",
+            "normalised_key": "transport_22_51_hazard_classes",
+            "content": "2.2 (5.1) 2.2 (5.1)"
+          },
+          {
+            "title": "Packing group -",
+            "normalised_key": "packing_group",
+            "content": "- - - - Environmental No. hazards “Refer to CFR 49 (or authority having jurisdiction) to determine the information required for shipment of the product.”"
           },
           {
             "title": "Additional information",
@@ -1430,6 +1319,67 @@
         "page_range": [
           7,
           8
+        ],
+        "tables": [
+          {
+            "page": 7,
+            "bbox": [
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "headers": [
+              "Field",
+              "DOT",
+              "TDG",
+              "Mexico",
+              "IMDG",
+              "IATA"
+            ],
+            "rows": [
+              {
+                "Field": "UN number",
+                "DOT": "UN1072",
+                "TDG": "UN1072",
+                "Mexico": "UN1072",
+                "IMDG": "UN1072",
+                "IATA": "UN1072"
+              },
+              {
+                "Field": "UN proper shipping name",
+                "DOT": "Oxygen, compressed",
+                "TDG": "OXYGEN, COMPRESSED",
+                "Mexico": "OXIGENO COMPRIMIDO",
+                "IMDG": "OXYGEN, COMPRESSED",
+                "IATA": "Oxygen, compressed"
+              },
+              {
+                "Field": "Transport hazard class(es)",
+                "DOT": "2.2 (5.1)",
+                "TDG": "2.2 (5.1)",
+                "Mexico": "2.2 (5.1)",
+                "IMDG": "2.2 (5.1)",
+                "IATA": "2.2 (5.1)"
+              },
+              {
+                "Field": "Packing group",
+                "DOT": "-",
+                "TDG": "-",
+                "Mexico": "-",
+                "IMDG": "-",
+                "IATA": "-"
+              },
+              {
+                "Field": "Environmental hazards",
+                "DOT": "No. (or authority revision",
+                "TDG": "No. having jurisdiction) :12/3/2025 Date of",
+                "Mexico": "No. to determine the previous issue",
+                "IMDG": "No. information required :10/9/2025",
+                "IATA": "No. for shipment of the Version :5.12 8/11"
+              }
+            ]
+          }
         ]
       },
       {
@@ -1444,12 +1394,12 @@
           {
             "title": "TSCA 8(a) CDR Exempt/Partial exemption",
             "normalised_key": "tsca_8a_cdr_exempt_or_partial_exemption",
-            "content": "This material is listed or exempted."
+            "content": "This material is listed or exempted. Clean Air Act Section 112 Not listed"
           },
           {
             "title": "TSCA 12(b) - Chemical export notification",
             "normalised_key": "tsca_12b_chemical_export_notification",
-            "content": "Not applicable. Clean Air Act Section 112 Not listed"
+            "content": "Not applicable."
           },
           {
             "title": "(b) Hazardous Air",

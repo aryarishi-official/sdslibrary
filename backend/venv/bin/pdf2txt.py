@@ -1,4 +1,4 @@
-#!/Users/ponnu/Documents/Airizz/sds-analyzer-project/backend/venv/bin/python3.11
+#!/Users/Arya/Documents/Airizz/sdsmanager/backend/venv/bin/python3.12
 """A command line tool for extracting text and images from PDF and
 output it to plain text, html, xml or tags.
 """

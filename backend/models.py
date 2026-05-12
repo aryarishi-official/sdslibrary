@@ -21,6 +21,7 @@ class SDSDocument(Base):
     id = Column(Integer, primary_key=True)
     file_name = Column(String)
     product_name = Column(String)
+    hazard_pictograms = Column(JSON, default=list)
 
     sections = relationship(
         "Section",

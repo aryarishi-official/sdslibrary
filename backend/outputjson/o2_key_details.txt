@@ -1,0 +1,909 @@
+============================================================
+  PAGE 1
+============================================================
+Oxygen
+E 948; R732; oxygen gas; gaseous oxygen; OXYGEN (LIQUID); Liquid oxygen; Oxygen,
+refrigerated liquid; LOX; OXYGEN, COMPRESSED
+Gas.
+SAFETY DATA SHEET
+GHS product identifier
+Other means of 
+identification
+Product type
+Section 1. Identification
+:
+:
+:
+Chemical name
+: oxygen
+Supplier's details
+:
+Oxygen
+Product use
+: Synthetic/Analytical chemistry.
+Synonym
+: E 948; R732; oxygen gas; gaseous oxygen; OXYGEN (LIQUID); Liquid oxygen;
+Oxygen, refrigerated liquid; LOX; OXYGEN, COMPRESSED
+SDS #
+: 001043
+:
+24-hour telephone
+Airgas USA, LLC and its affiliates
+259 North Radnor-Chester Road
+Suite 100
+Radnor, PA 19087-5283
+1-610-687-5253
+Inside the US: 1-800-424-9300 (Chemtrec, 24 hours)
+Outside the US: 1-703-527-3887 (Chemtrec, 24 hours)
+Airgas Emergency Response Center 1-866-734-3438
+Section 2. Hazards identification
+OXIDIZING GASES - Category 1
+GASES UNDER PRESSURE - Compressed gas
+Classification of the 
+substance or mixture
+:
+Signal word
+: Danger
+Hazard statements
+: H270 - May cause or intensify fire; oxidizer.
+H280 - Contains gas under pressure; may explode if heated.
+Hazard pictograms
+:
+Precautionary statements
+Prevention
+: P220 - Keep away from clothing and other combustible materials.
+P244 - Keep valves and fittings free from oil and grease.
+Response
+: P370 + P376 - In case of fire: Stop leak if safe to do so.
+Storage
+: P410 + P403 - Protect from sunlight. Store in a well-ventilated place.
+Disposal
+: Not applicable.
+GHS label elements
+General
+:
+Hazards not otherwise 
+classified
+:
+OSHA/HCS status
+: This material is considered hazardous by the OSHA Hazard Communication Standard 
+(29 CFR 1910.1200).
+Read and follow all Safety Data Sheets (SDS’S) before use.  Read label before use.
+Keep out of reach of children.  If medical advice is needed, have product container or 
+label at hand.  Close valve after each use and when empty.  Use equipment rated for 
+cylinder pressure.  Do not open valve until connected to equipment prepared for use.
+Use a back flow preventative device in the piping.  Use only equipment of compatible 
+materials of construction.  Open valve slowly.  Use only with equipment cleaned for 
+Oxygen service.
+None known.
+Hazards identified when 
+used
+: No known significant effects or critical hazards.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 10/9/2025
+Version
+: 5.12
+1/11
+
+============================================================
+  PAGE 2
+============================================================
+Oxygen
+Section 3. Composition/information on ingredients
+Chemical name
+: oxygen
+Other means of 
+identification
+: E 948; R732; oxygen gas; gaseous oxygen; OXYGEN (LIQUID); Liquid oxygen; Oxygen,
+refrigerated liquid; LOX; OXYGEN, COMPRESSED
+Substance/mixture
+: Substance
+Product code
+: 001043
+Ingredient name
+CAS number
+%
+There are no additional ingredients present which, within the current knowledge of the supplier and in the 
+concentrations applicable, are classified as hazardous to health or the environment and hence require reporting 
+in this section.
+Occupational exposure limits, if available, are listed in Section 8.
+Any concentration shown as a range is to protect confidentiality or is due to batch variation.
+Oxygen
+100
+7782-44-7
+As this product is a gas, refer to the inhalation section.
+Immediately flush eyes with plenty of water, occasionally lifting the upper and lower 
+eyelids.  Check for and remove any contact lenses.  Get medical attention.
+Flush contaminated skin with plenty of water.  Remove contaminated clothing and 
+shoes.  Get medical attention if symptoms occur.
+Remove victim to fresh air and keep at rest in a position comfortable for breathing.
+Section 4. First aid measures
+Eye contact
+Skin contact
+Inhalation
+Ingestion
+:
+:
+:
+:
+Protection of first-aiders
+: No action shall be taken involving any personal risk or without suitable training.
+Notes to physician
+: Treat symptomatically.  Contact poison treatment specialist immediately if large 
+quantities have been ingested or inhaled.
+Description of necessary first aid measures
+Specific treatments
+: No specific treatment.
+Most important symptoms/effects, acute and delayed
+Inhalation
+: No known significant effects or critical hazards.
+As this product is a gas, refer to the inhalation section.
+:
+Ingestion
+Skin contact
+: Contact with rapidly expanding gas may cause burns or frostbite.
+Contact with rapidly expanding gas may cause burns or frostbite.
+:
+Eye contact
+Over-exposure signs/symptoms
+Skin contact
+Ingestion
+Inhalation
+No specific data.
+No specific data.
+No specific data.
+:
+:
+:
+Eye contact
+: No specific data.
+Potential acute health effects
+See toxicological information (Section 11)
+Indication of immediate medical attention and special treatment needed, if necessary
+Frostbite
+: Try to warm up the frozen tissues and seek medical attention.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 10/9/2025
+Version
+: 5.12
+2/11
+
+============================================================
+  PAGE 3
+============================================================
+Oxygen
+Section 5. Fire-fighting measures
+Promptly isolate the scene by removing all persons from the vicinity of the incident if 
+there is a fire.  No action shall be taken involving any personal risk or without suitable 
+training.  Contact supplier immediately for specialist advice.  Move containers from fire 
+area if this can be done without risk.  Use water spray to keep fire-exposed containers 
+cool.  If involved in fire, shut off flow immediately if it can be done without risk.
+Hazardous thermal 
+decomposition products
+Specific hazards arising 
+from the chemical
+No specific data.
+Contains gas under pressure.  Oxidizing material.  This material increases the risk of 
+fire and may aid combustion.  Contact with combustible material may cause fire.  In a 
+fire or if heated, a pressure increase will occur and the container may burst or explode.
+Fire-fighters should wear appropriate protective equipment and self-contained breathing 
+apparatus (SCBA) with a full face-piece operated in positive pressure mode.
+Special protective 
+equipment for fire-fighters
+Use an extinguishing agent suitable for the surrounding fire.
+Extinguishing media
+:
+:
+:
+None known.
+Suitable extinguishing 
+media
+:
+Unsuitable extinguishing 
+media
+:
+Special protective actions 
+for fire-fighters
+:
+Section 6. Accidental release measures
+Environmental precautions
+Personal precautions, protective equipment and emergency procedures
+Immediately contact emergency personnel.  Stop leak if without risk.  Use spark-proof 
+tools and explosion-proof equipment.
+:
+: No action shall be taken involving any personal risk or without suitable training.
+Evacuate surrounding areas.  Keep unnecessary and unprotected personnel from 
+entering.  Shut off all ignition sources.  No flares, smoking or flames in hazard area.  Put 
+on appropriate personal protective equipment.
+Ensure emergency procedures to deal with accidental gas releases are in place to avoid 
+contamination of the environment.  Inform the relevant authorities if the product has 
+caused environmental pollution (sewers, waterways, soil or air).
+Large spill
+:
+Immediately contact emergency personnel.  Stop leak if without risk.  Use spark-proof 
+tools and explosion-proof equipment.
+Small spill
+:
+Methods and materials for containment and cleaning up
+For non-emergency 
+personnel
+For emergency responders
+: If specialized clothing is required to deal with the spillage, take note of any information in 
+Section 8 on suitable and unsuitable materials.  See also the information in "For non-
+emergency personnel".
+Section 7. Handling and storage
+Advice on general 
+occupational hygiene
+Eating, drinking and smoking should be prohibited in areas where this material is 
+handled, stored and processed.  Workers should wash hands and face before eating,
+drinking and smoking.  Remove contaminated clothing and protective equipment before 
+entering eating areas.  See also Section 8 for additional information on hygiene 
+measures.
+:
+Protective measures
+Put on appropriate personal protective equipment (see Section 8).  Contains gas under 
+pressure.  Avoid breathing gas.  Do not puncture or incinerate container.  Use 
+equipment rated for cylinder pressure.  Close valve after each use and when empty.
+Protect cylinders from physical damage; do not drag, roll, slide, or drop.  Use a suitable 
+hand truck for cylinder movement.
+ Avoid contact with eyes, skin and clothing.  Empty containers retain product residue 
+and can be hazardous.  Keep away from clothing, incompatible materials and 
+combustible materials.  Keep reduction valves free from grease and oil.
+:
+Precautions for safe handling
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 10/9/2025
+Version
+: 5.12
+3/11
+
+============================================================
+  PAGE 4
+============================================================
+Oxygen
+Section 7. Handling and storage
+Conditions for safe storage,
+including any 
+incompatibilities
+Store in accordance with local regulations.  Store in a segregated and approved area.
+Store away from direct sunlight in a dry, cool and well-ventilated area, away from 
+incompatible materials (see Section 10).  Separate from reducing agents and 
+combustible materials.  Store away from grease and oil.  Keep container tightly closed 
+and sealed until ready for use.  See Section 10 for incompatible materials before 
+handling or use.  Cylinders should be stored upright, with valve protection cap in place,
+and firmly secured to prevent falling or being knocked over. Cylinder temperatures 
+should not exceed 52 °C (125 °F).
+:
+Section 8. Exposure controls/personal protection
+Hand protection
+Based on the hazard and potential for exposure, select a respirator that meets the 
+appropriate standard or certification.  Respirators must be used according to a 
+respiratory protection program to ensure proper fitting, training, and other important 
+aspects of use.  Respirator selection must be based on known or anticipated exposure 
+levels, the hazards of the product and the safe working limits of the selected respirator.
+Chemical-resistant, impervious gloves complying with an approved standard should be 
+worn at all times when handling chemical products if a risk assessment indicates this is 
+necessary.  Considering the parameters specified by the glove manufacturer, check 
+during use that the gloves are still retaining their protective properties.  It should be 
+noted that the time to breakthrough for any glove material may be different for different 
+glove manufacturers.  In the case of mixtures, consisting of several substances, the 
+protection time of the gloves cannot be accurately estimated.
+Safety eyewear complying with an approved standard should be used when a risk 
+assessment indicates this is necessary to avoid exposure to liquid splashes, mists,
+gases or dusts.  If contact is possible, the following protection should be worn, unless 
+the assessment indicates a higher degree of protection:  safety glasses with side-
+shields.
+Eye/face protection
+Respiratory protection
+:
+:
+:
+Body protection
+Personal protective equipment for the body should be selected based on the task being 
+performed and the risks involved and should be approved by a specialist before 
+handling this product.
+:
+Environmental exposure 
+controls
+: Emissions from ventilation or work process equipment should be checked to ensure 
+they comply with the requirements of environmental protection legislation.  In some 
+cases, fume scrubbers, filters or engineering modifications to the process equipment 
+will be necessary to reduce emissions to acceptable levels.
+Appropriate engineering 
+controls
+: Good general ventilation should be sufficient to control worker exposure to airborne 
+contaminants.
+Wash hands, forearms and face thoroughly after handling chemical products, before 
+eating, smoking and using the lavatory and at the end of the working period.
+Appropriate techniques should be used to remove potentially contaminated clothing.
+Wash contaminated clothing before reusing.  Ensure that eyewash stations and safety 
+showers are close to the workstation location.
+Hygiene measures
+:
+Control parameters
+Individual protection measures
+Occupational exposure limits
+Skin protection
+Other skin protection
+: Appropriate footwear and any additional skin protection measures should be selected 
+based on the task being performed and the risks involved and should be approved by a 
+specialist before handling this product.
+Biological exposure indices
+No exposure indices known.
+oxygen
+None.
+Ingredient name
+Exposure limits
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 10/9/2025
+Version
+: 5.12
+4/11
+
+============================================================
+  PAGE 5
+============================================================
+Oxygen
+Section 9. Physical and chemical properties
+Physical state
+Relative density
+Gas. [Compressed gas.]
+Not applicable.
+Odorless.
+Odor
+pH
+Colorless. Blue.
+Color
+Evaporation rate
+Not available.
+Auto-ignition temperature
+Flash point
+Not available.
+[Product does not sustain combustion.]
+0.65 [Calculated]
+Not applicable.
+Not available.
+Odor threshold
+Partition coefficient: n-
+octanol/water
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+Appearance
+Flammability (solid, gas)
+: Extremely flammable in the presence of the following materials or conditions: reducing 
+materials, combustible materials and organic materials.
+Lower and upper explosive 
+(flammable) limits
+: Not available.
+Decomposition temperature
+: Not available.
+Solubility in water
+: Not available.
+: 32 g/mole
+Molecular weight
+Flow time (ISO 2431)
+: Not available.
+Vapor pressure
+Not available.
+:
+Specific Volume (ft 3/lb)
+: 12.0482
+Gas Density (lb/ft 3)
+: 0.0892 
+Melting point/freezing point
+: -218.4°C (-361.1°F)
+Boiling point or initial 
+boiling point and boiling 
+range
+: -183°C (-297.4°F)
+Relative vapor density
+: 1.1 [Air = 1]
+Section 10. Stability and reactivity
+Hazardous decomposition 
+products
+Conditions to avoid
+No specific data.
+Under normal conditions of storage and use, hazardous decomposition products should 
+not be produced.
+The product is stable.
+Chemical stability
+Highly reactive or incompatible with the following materials:
+combustible materials
+reducing materials
+grease
+oil
+:
+:
+:
+Incompatible materials
+:
+Possibility of hazardous 
+reactions
+: Hazardous reactions or instability may occur under certain conditions of storage or use.
+Conditions may include the following:
+contact with combustible materials
+Reactions may include the following:
+risk of causing fire
+Reactivity
+: No specific test data related to reactivity available for this product or its ingredients.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 10/9/2025
+Version
+: 5.12
+5/11
+
+============================================================
+  PAGE 6
+============================================================
+Oxygen
+Section 10. Stability and reactivity
+Under normal conditions of storage and use, hazardous polymerization will not occur.
+Hazardous polymerization
+:
+Section 11. Toxicological information
+Acute toxicity
+Information on toxicological effects
+Not available.
+Conclusion/Summary [Product]
+: Not available.
+Skin corrosion/irritation
+Not available.
+Conclusion/Summary [Product]
+: Not available.
+Not available.
+Conclusion/Summary [Product]
+Serious eye damage/eye irritation
+:
+: Not available.
+Conclusion/Summary [Product]
+Respiratory corrosion/irritation
+Not available.
+Respiratory or skin sensitization
+Not available.
+Skin
+: Not available.
+Respiratory
+: Not available.
+Conclusion/Summary [Product]
+Conclusion/Summary [Product]
+Germ cell mutagenicity
+Not available.
+: Not available.
+Conclusion/Summary [Product]
+Carcinogenicity
+Not available.
+: Not available.
+Conclusion/Summary [Product]
+Reproductive toxicity
+: Not available.
+Not available.
+Conclusion/Summary [Product]
+Not available.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 10/9/2025
+Version
+: 5.12
+6/11
+
+============================================================
+  PAGE 7
+============================================================
+Oxygen
+Section 11. Toxicological information
+Inhalation
+: No known significant effects or critical hazards.
+As this product is a gas, refer to the inhalation section.
+:
+Ingestion
+Skin contact
+: Contact with rapidly expanding gas may cause burns or frostbite.
+Contact with rapidly expanding gas may cause burns or frostbite.
+:
+Eye contact
+No known significant effects or critical hazards.
+General
+:
+No known significant effects or critical hazards.
+Carcinogenicity
+:
+No known significant effects or critical hazards.
+Mutagenicity
+:
+No known significant effects or critical hazards.
+Reproductive toxicity
+:
+Symptoms related to the physical, chemical and toxicological characteristics
+Skin contact
+Ingestion
+Inhalation
+No specific data.
+No specific data.
+No specific data.
+:
+:
+:
+Eye contact
+: No specific data.
+Delayed and immediate effects and also chronic effects from short and long term exposure
+Numerical measures of toxicity
+Acute toxicity estimates
+Potential acute health effects
+Potential immediate 
+effects
+: Not available.
+Short term exposure
+Potential delayed effects
+: Not available.
+Potential immediate 
+effects
+: Not available.
+Long term exposure
+Potential delayed effects
+: Not available.
+N/A
+Specific target organ toxicity (single exposure)
+Specific target organ toxicity (repeated exposure)
+Not available.
+Not available.
+Aspiration hazard
+Not available.
+Information on the likely routes of exposure
+Not available.
+Potential chronic health effects
+Conclusion/Summary [Product]
+: Not available.
+Not available.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 10/9/2025
+Version
+: 5.12
+7/11
+
+============================================================
+  PAGE 8
+============================================================
+Oxygen
+Section 12. Ecological information
+LogPow
+BCF
+Potential
+Bioaccumulative potential
+Other adverse effects
+No known significant effects or critical hazards.
+Product/ingredient name
+oxygen
+0.65
+-
+Low
+Toxicity
+Persistence and degradability
+Soil/Water partition 
+coefficient
+: Not available.
+Mobility in soil
+Not available.
+: Not available.
+Conclusion/Summary [Product]
+Not available.
+: Not available.
+Conclusion/Summary [Product]
+Section 13. Disposal considerations
+The generation of waste should be avoided or minimized wherever possible.  Disposal 
+of this product, solutions and any by-products should at all times comply with the 
+requirements of environmental protection and waste disposal legislation and any 
+regional local authority requirements.  Dispose of surplus and non-recyclable products 
+via a licensed waste disposal contractor.  Waste should not be disposed of untreated to 
+the sewer unless fully compliant with the requirements of all authorities with jurisdiction.
+Empty pressure vessels should be returned to the supplier.  Waste packaging should be 
+recycled.  Incineration or landfill should only be considered when recycling is not 
+feasible.  This material and its container must be disposed of in a safe way.  Empty 
+containers or liners may retain some product residues.  Do not puncture or incinerate 
+container.
+:
+Disposal methods
+Section 14. Transport information
+Oxygen,
+compressed
+2.2 (5.1)
+-
+OXYGEN,
+COMPRESSED
+2.2 (5.1)
+-
+Oxygen,
+compressed
+UN1072
+2.2 (5.1)
+-
+UN1072
+UN1072
+DOT
+IMDG
+IATA
+UN number
+UN proper 
+shipping name
+Transport 
+hazard class(es)
+Packing group
+Environmental 
+hazards
+No.
+No.
+No.
+TDG
+UN1072
+OXYGEN,
+COMPRESSED
+2.2 (5.1)
+-
+No.
+Mexico
+UN1072
+OXIGENO 
+COMPRIMIDO
+2.2 (5.1)
+-
+No.
+“Refer to CFR 49 (or authority having jurisdiction) to determine the information required for shipment of the 
+product.” 
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 10/9/2025
+Version
+: 5.12
+8/11
+
+============================================================
+  PAGE 9
+============================================================
+Oxygen
+Section 14. Transport information
+Limited quantity Yes.
+Packaging instruction Exceptions: 306.  Non-bulk: 302.  Bulk: 314, 315.
+Quantity limitation Passenger aircraft/rail: 75 kg.  Cargo aircraft: 150 kg.
+Special provisions 110, A14
+Emergency schedules _F-C_, _S-W_
+Special provisions 355
+Quantity limitation Passenger and Cargo Aircraft: 75 kg. Packaging instructions: 200.
+Cargo Aircraft Only: 150 kg. Packaging instructions: 200.  Limited Quantities -
+Passenger Aircraft: Forbidden. Packaging instructions: Forbidden.
+Special provisions A175, A302
+Additional information
+Special precautions for user
+Transport in bulk according 
+to IMO instruments
+Transport within user’s premises: always transport in closed containers that are 
+upright and secure. Ensure that persons transporting the product know what to do in the 
+event of an accident or spillage.
+: Not available.
+:
+Product classified as per the following sections of the Transportation of Dangerous 
+Goods Regulations: 2.13-2.17 (Class 2), 2.23-2.25 (Class 5).
+Explosive Limit and Limited Quantity Index 0.125
+ERAP Index 3000
+Passenger Carrying Road or Rail Index 75
+Special provisions 355
+DOT Classification
+TDG Classification
+Mexico Classification
+IMDG
+IATA
+:
+:
+:
+:
+:
+Section 15. Regulatory information
+This material is listed.
+Massachusetts
+:
+Clean Air Act  Section 112
+(b) Hazardous Air 
+Pollutants (HAPs)
+: Not listed
+Clean Air Act Section 602 
+Class I Substances
+: Not listed
+Clean Air Act Section 602 
+Class II Substances
+: Not listed
+DEA List I Chemicals 
+(Precursor Chemicals)
+: Not listed
+DEA List II Chemicals 
+(Essential Chemicals)
+: Not listed
+New York
+: This material is not listed.
+New Jersey
+: This material is listed.
+State regulations
+SARA 302/304
+SARA 304 RQ
+: Not applicable.
+No products were found.
+Composition/information on ingredients
+SARA 311/312
+Classification
+:
+Refer to Section 2: Hazards Identification of this SDS for classification of substance.
+Not applicable.
+TSCA 12(b) - Chemical export notification
+U.S. Federal regulations
+TSCA 8(a) CDR Exempt/Partial exemption: This material is listed or exempted.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 10/9/2025
+Version
+: 5.12
+9/11
+
+============================================================
+  PAGE 10
+============================================================
+Oxygen
+Section 15. Regulatory information
+This product does not require a Safe Harbor warning under California Prop. 65.
+California Prop. 65
+Pennsylvania
+: This material is listed.
+International regulations
+Chemical Weapon Convention List Schedules I, II & III Chemicals
+Montreal Protocol
+Not listed.
+Stockholm Convention on Persistent Organic Pollutants
+Not listed.
+Rotterdam Convention on Prior Informed Consent (PIC)
+Not listed.
+UNECE Aarhus Protocol on POPs and Heavy Metals
+Not listed.
+Inventory list
+Australia
+: This material is listed or exempted.
+Canada
+: This material is listed or exempted.
+China
+: This material is listed or exempted.
+Japan
+: Japan inventory (CSCL): Not determined.
+Japan inventory (ISHL): Not determined.
+Republic of Korea
+: This material is listed or exempted.
+New Zealand
+: This material is listed or exempted.
+Philippines
+: This material is listed or exempted.
+Taiwan
+: This material is listed or exempted.
+Turkey
+: Not determined.
+United States
+: This material is active or exempted.
+Thailand
+: This material is listed or exempted.
+Viet Nam
+: This material is listed or exempted.
+Not listed.
+Eurasian Economic Union
+: Russian Federation inventory: This material is listed or exempted.
+Section 16. Other information
+Hazardous Material Information System (U.S.A.)
+0
+0
+3
+/
+National Fire Protection Association (U.S.A.)
+Health
+Flammability
+Physical hazards
+Caution: HMIS® ratings are based on a 0-4 rating scale, with 0 representing minimal hazards or risks, and 4 
+representing significant hazards or risks. Although HMIS® ratings and the associated label are not required on 
+SDSs or products leaving a facility under 29 CFR 1910.1200, the preparer may choose to provide them. HMIS® 
+ratings are to be used with a fully implemented HMIS® program. HMIS® is a registered trademark and service 
+mark of the American Coatings Association, Inc.
+The customer is responsible for determining the PPE code for this material. For more information on HMIS® 
+Personal Protective Equipment (PPE) codes, consult the HMIS® Implementation Manual.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 10/9/2025
+Version
+: 5.12
+10/11
+
+============================================================
+  PAGE 11
+============================================================
+Oxygen
+Section 16. Other information
+12/3/2025
+History
+Date of printing
+Date of issue/Date of 
+revision
+Version
+Notice to reader
+Date of previous issue
+:
+:
+:
+:
+References
+: Not available.
+Key to abbreviations
+: ATE = Acute Toxicity Estimate
+BCF = Bioconcentration Factor
+GHS = Globally Harmonized System of Classification and Labelling of Chemicals
+IATA = International Air Transport Association
+IBC = Intermediate Bulk Container
+IMDG = International Maritime Dangerous Goods
+LogPow = logarithm of the octanol/water partition coefficient
+MARPOL = International Convention for the Prevention of Pollution From Ships, 1973 
+as modified by the Protocol of 1978. ("Marpol" = marine pollution)
+UN = United Nations
+12/3/2025
+10/9/2025
+5.12
+0
+0
+0
+Health
+Special
+Instability/Reactivity
+Flammability
+Reprinted with permission from NFPA 704-2001, Identification of the Hazards of Materials for Emergency 
+Response Copyright ©1997, National Fire Protection Association, Quincy, MA 02269. This reprinted material is 
+not the complete and official position of the National Fire Protection Association, on the referenced subject 
+which is represented only by the standard in its entirety.
+Copyright ©2001, National Fire Protection Association, Quincy, MA 02269. This warning system is intended to be 
+interpreted and applied only by properly trained individuals to identify fire, health and reactivity hazards of 
+chemicals. The user is referred to certain limited number of chemicals with recommended classifications in 
+NFPA 49 and NFPA 325, which would be used as a guideline only. Whether the chemicals are classified by NFPA 
+or not, anyone using the 704 systems to classify chemicals does so at their own risk.
+Procedure used to derive the classification
+Classification
+Justification
+OXIDIZING GASES - Category 1
+Expert judgment
+GASES UNDER PRESSURE - Compressed gas
+Expert judgment
+OX
+To the best of our knowledge, the information contained herein is accurate. However, neither the above-named 
+supplier, nor any of its subsidiaries, assumes any liability whatsoever for the accuracy or completeness of the 
+information contained herein.
+Final determination of suitability of any material is the sole responsibility of the user. All materials may present 
+unknown hazards and should be used with caution. Although certain hazards are described herein, we cannot 
+guarantee that these are the only hazards that exist.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 10/9/2025
+Version
+: 5.12
+11/11
+

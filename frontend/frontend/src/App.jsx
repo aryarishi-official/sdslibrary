@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import Subsection from "./components/subsection";
+import Subsection, { BasicDetailsGroup } from "./components/subsection";
+import HazardPictograms from "./components/HazardPictograms";
 
 function App() {
   const [file, setFile] = useState(null);
@@ -36,7 +37,7 @@ function App() {
         body: formData,
       });
 
-      const { document_id } = await res.json();
+      const { document_id, hazard_pictograms } = await res.json();
 
       // Step 2: Fetch parsed result
       const docRes = await fetch(
@@ -44,6 +45,10 @@ function App() {
       );
 
       const data = await docRes.json();
+      // Merge freshly-extracted pictograms (DB col may lag after first run)
+      if (hazard_pictograms?.length && !data.hazard_pictograms?.length) {
+        data.hazard_pictograms = hazard_pictograms;
+      }
 
       setResult(data);
       setSelectedId(document_id);
@@ -189,10 +194,32 @@ function App() {
             </p>
 
             {result.sections?.map((sec) => {
-              // ✅ KEY FIX: compute inside map
-              const hasTable = sec.subsections?.some(
-                (sub) => sub.table && sub.table.headers?.length > 0
-              );
+              const isSection16 = sec.section_number === "16";
+
+              // ── Section 16: split subsections into "basic details" block
+              //    and the rest (Version, Key to abbreviations, References, etc.)
+              // The split point is the first subsection that has a table OR whose
+              // normalised_key is one of the well-known keyed fields.
+              const SECTION16_KEYED = new Set([
+                "version",
+                "key_to_abbreviations",
+                "references",
+                "notice_to_reader",
+                "procedure_used_to_derive_the_classification",
+              ]);
+
+              let basicSubs = [];
+              let keyedSubs = [];
+              if (isSection16 && sec.subsections?.length > 0) {
+                let splitIdx = sec.subsections.findIndex(
+                  (sub) =>
+                    sub.table ||
+                    SECTION16_KEYED.has(sub.normalised_key)
+                );
+                if (splitIdx === -1) splitIdx = sec.subsections.length;
+                basicSubs = sec.subsections.slice(0, splitIdx);
+                keyedSubs = sec.subsections.slice(splitIdx);
+              }
 
               return (
                 <div
@@ -209,7 +236,20 @@ function App() {
                     {sec.section_number}. {sec.section_title}
                   </h3>
 
-                  {sec.subsections && sec.subsections.length > 0 ? (
+                  {/* Hazard pictograms injected into Section 2 */}
+                  {sec.section_number === "2" && (
+                    <HazardPictograms pictograms={result.hazard_pictograms} />
+                  )}
+                  {isSection16 ? (
+                    <>
+                      {basicSubs.length > 0 && (
+                        <BasicDetailsGroup subsections={basicSubs} />
+                      )}
+                      {keyedSubs.map((sub, i) => (
+                        <Subsection key={i} sub={sub} />
+                      ))}
+                    </>
+                  ) : sec.subsections && sec.subsections.length > 0 ? (
                     sec.subsections.map((sub, i) => (
                       <Subsection key={i} sub={sub} />
                     ))

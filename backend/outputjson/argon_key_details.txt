@@ -1,0 +1,907 @@
+============================================================
+  PAGE 1
+============================================================
+Argon
+ARGON, COMPRESSED
+Gas.
+SAFETY DATA SHEET
+GHS product identifier
+Other means of 
+identification
+Product type
+Section 1. Identification
+:
+:
+:
+Chemical name
+: argon
+Supplier's details
+:
+Argon
+Product use
+: Synthetic/Analytical chemistry.
+Synonym
+: ARGON, COMPRESSED
+SDS #
+: 001004
+:
+24-hour telephone
+Airgas USA, LLC and its affiliates
+259 North Radnor-Chester Road
+Suite 100
+Radnor, PA 19087-5283
+1-610-687-5253
+Inside the US: 1-800-424-9300 (Chemtrec, 24 hours)
+Outside the US: 1-703-527-3887 (Chemtrec, 24 hours)
+Airgas Emergency Response Center 1-866-734-3438
+Section 2. Hazards identification
+GASES UNDER PRESSURE - Compressed gas
+SIMPLE ASPHYXIANTS
+Classification of the 
+substance or mixture
+:
+Signal word
+: Warning
+Hazard statements
+: H280 - Contains gas under pressure; may explode if heated.
+May displace oxygen and cause rapid suffocation.
+Hazard pictograms
+:
+Precautionary statements
+Prevention
+: Not applicable.
+Response
+: Not applicable.
+Storage
+: P410 + P403 - Protect from sunlight. Store in a well-ventilated place.
+Disposal
+: Not applicable.
+GHS label elements
+General
+:
+Supplemental label 
+elements
+: Keep container tightly closed.  Use only with adequate ventilation.  Do not enter storage 
+areas and confined spaces unless adequately ventilated.
+Hazards not otherwise 
+classified
+:
+OSHA/HCS status
+: This material is considered hazardous by the OSHA Hazard Communication Standard 
+(29 CFR 1910.1200).
+Read and follow all Safety Data Sheets (SDS’S) before use.  Read label before use.
+Keep out of reach of children.  If medical advice is needed, have product container or 
+label at hand.  Close valve after each use and when empty.  Use equipment rated for 
+cylinder pressure.  Do not open valve until connected to equipment prepared for use.
+Use a back flow preventative device in the piping.  Use only equipment of compatible 
+materials of construction.
+In addition to any other important health or physical hazards, this product may displace 
+oxygen and cause rapid suffocation.
+Hazards identified when 
+used
+: No known significant effects or critical hazards.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 11/18/2025
+Version
+: 7.1
+1/11
+
+============================================================
+  PAGE 2
+============================================================
+Argon
+Section 3. Composition/information on ingredients
+Chemical name
+: argon
+Other means of 
+identification
+: ARGON, COMPRESSED
+Substance/mixture
+: Substance
+Product code
+: 001004
+Ingredient name
+CAS number
+%
+There are no additional ingredients present which, within the current knowledge of the supplier and in the 
+concentrations applicable, are classified as hazardous to health or the environment and hence require reporting 
+in this section.
+Occupational exposure limits, if available, are listed in Section 8.
+Any concentration shown as a range is to protect confidentiality or is due to batch variation.
+Argon
+100
+7440-37-1
+As this product is a gas, refer to the inhalation section.
+Immediately flush eyes with plenty of water, occasionally lifting the upper and lower 
+eyelids.  Check for and remove any contact lenses.  Get medical attention if irritation 
+occurs.
+Flush contaminated skin with plenty of water.  Remove contaminated clothing and 
+shoes.  Get medical attention if symptoms occur.
+Remove victim to fresh air and keep at rest in a position comfortable for breathing.  If it 
+is suspected that fumes are still present, the rescuer should wear an appropriate mask 
+or self-contained breathing apparatus.  Get medical attention if adverse health effects 
+persist or are severe.
+Section 4. First aid measures
+Eye contact
+Skin contact
+Inhalation
+Ingestion
+:
+:
+:
+:
+Protection of first-aiders
+: No action shall be taken involving any personal risk or without suitable training.  If it is 
+suspected that fumes are still present, the rescuer should wear an appropriate mask or 
+self-contained breathing apparatus.
+Notes to physician
+: Treat symptomatically.  Contact poison treatment specialist immediately if large 
+quantities have been ingested or inhaled.
+Description of necessary first aid measures
+Specific treatments
+: No specific treatment.
+Most important symptoms/effects, acute and delayed
+Inhalation
+: At very high concentrations, can displace the normal air and cause suffocation from lack 
+of oxygen.
+As this product is a gas, refer to the inhalation section.
+:
+Ingestion
+Skin contact
+: Contact with rapidly expanding gas may cause burns or frostbite.
+Contact with rapidly expanding gas may cause burns or frostbite.
+:
+Eye contact
+Over-exposure signs/symptoms
+Skin contact
+Ingestion
+Inhalation
+No specific data.
+No specific data.
+No specific data.
+:
+:
+:
+Eye contact
+: No specific data.
+Potential acute health effects
+See toxicological information (Section 11)
+Indication of immediate medical attention and special treatment needed, if necessary
+Frostbite
+: Try to warm up the frozen tissues and seek medical attention.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 11/18/2025
+Version
+: 7.1
+2/11
+
+============================================================
+  PAGE 3
+============================================================
+Argon
+Section 5. Fire-fighting measures
+Promptly isolate the scene by removing all persons from the vicinity of the incident if 
+there is a fire.  No action shall be taken involving any personal risk or without suitable 
+training.  Contact supplier immediately for specialist advice.  Move containers from fire 
+area if this can be done without risk.  Use water spray to keep fire-exposed containers 
+cool.
+Hazardous thermal 
+decomposition products
+Specific hazards arising 
+from the chemical
+No specific data.
+Contains gas under pressure.  In a fire or if heated, a pressure increase will occur and 
+the container may burst or explode.
+Fire-fighters should wear appropriate protective equipment and self-contained breathing 
+apparatus (SCBA) with a full face-piece operated in positive pressure mode.
+Special protective 
+equipment for fire-fighters
+Use an extinguishing agent suitable for the surrounding fire.
+Extinguishing media
+:
+:
+:
+None known.
+Suitable extinguishing 
+media
+:
+Unsuitable extinguishing 
+media
+:
+Special protective actions 
+for fire-fighters
+:
+Section 6. Accidental release measures
+Environmental precautions
+Personal precautions, protective equipment and emergency procedures
+Immediately contact emergency personnel.  Stop leak if without risk.
+:
+: No action shall be taken involving any personal risk or without suitable training.
+Evacuate surrounding areas.  Keep unnecessary and unprotected personnel from 
+entering.  Put on appropriate personal protective equipment.
+Ensure emergency procedures to deal with accidental gas releases are in place to avoid 
+contamination of the environment.  Inform the relevant authorities if the product has 
+caused environmental pollution (sewers, waterways, soil or air).
+Large spill
+:
+Immediately contact emergency personnel.  Stop leak if without risk.
+Small spill
+:
+Methods and materials for containment and cleaning up
+For non-emergency 
+personnel
+For emergency responders
+: If specialized clothing is required to deal with the spillage, take note of any information in 
+Section 8 on suitable and unsuitable materials.  See also the information in "For non-
+emergency personnel".
+Section 7. Handling and storage
+Advice on general 
+occupational hygiene
+Eating, drinking and smoking should be prohibited in areas where this material is 
+handled, stored and processed.  Workers should wash hands and face before eating,
+drinking and smoking.  Remove contaminated clothing and protective equipment before 
+entering eating areas.  See also Section 8 for additional information on hygiene 
+measures.
+:
+Protective measures
+Put on appropriate personal protective equipment (see Section 8).  Contains gas under 
+pressure.  Avoid breathing gas.  Use only with adequate ventilation.  Wear appropriate 
+respirator when ventilation is inadequate.  Do not puncture or incinerate container.  Use 
+equipment rated for cylinder pressure.  Close valve after each use and when empty.
+Protect cylinders from physical damage; do not drag, roll, slide, or drop.  Use a suitable 
+hand truck for cylinder movement.
+ Avoid contact with eyes, skin and clothing.  Empty containers retain product residue 
+and can be hazardous.
+:
+Precautions for safe handling
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 11/18/2025
+Version
+: 7.1
+3/11
+
+============================================================
+  PAGE 4
+============================================================
+Argon
+Section 7. Handling and storage
+Conditions for safe storage,
+including any 
+incompatibilities
+Store in accordance with local regulations.  Store in a segregated and approved area.
+Store away from direct sunlight in a dry, cool and well-ventilated area, away from 
+incompatible materials (see Section 10).  Keep container tightly closed and sealed until 
+ready for use.  See Section 10 for incompatible materials before handling or use.
+Cylinders should be stored upright, with valve protection cap in place, and firmly 
+secured to prevent falling or being knocked over. Cylinder temperatures should not 
+exceed 52 °C (125 °F).
+:
+Section 8. Exposure controls/personal protection
+Hand protection
+Chemical-resistant, impervious gloves complying with an approved standard should be 
+worn at all times when handling chemical products if a risk assessment indicates this is 
+necessary.  Considering the parameters specified by the glove manufacturer, check 
+during use that the gloves are still retaining their protective properties.  It should be 
+noted that the time to breakthrough for any glove material may be different for different 
+glove manufacturers.  In the case of mixtures, consisting of several substances, the 
+protection time of the gloves cannot be accurately estimated.
+Safety eyewear complying with an approved standard should be used when a risk 
+assessment indicates this is necessary to avoid exposure to liquid splashes, mists,
+gases or dusts.  If contact is possible, the following protection should be worn, unless 
+the assessment indicates a higher degree of protection:  safety glasses with side-
+shields.
+Eye/face protection
+:
+:
+Body protection
+Personal protective equipment for the body should be selected based on the task being 
+performed and the risks involved and should be approved by a specialist before 
+handling this product.
+:
+Environmental exposure 
+controls
+: Emissions from ventilation or work process equipment should be checked to ensure 
+they comply with the requirements of environmental protection legislation.  In some 
+cases, fume scrubbers, filters or engineering modifications to the process equipment 
+will be necessary to reduce emissions to acceptable levels.
+Appropriate engineering 
+controls
+: Use only with adequate ventilation.  Use process enclosures, local exhaust ventilation or 
+other engineering controls to keep worker exposure to airborne contaminants below any 
+recommended or statutory limits.
+Wash hands, forearms and face thoroughly after handling chemical products, before 
+eating, smoking and using the lavatory and at the end of the working period.
+Appropriate techniques should be used to remove potentially contaminated clothing.
+Wash contaminated clothing before reusing.  Ensure that eyewash stations and safety 
+showers are close to the workstation location.
+Hygiene measures
+:
+Control parameters
+Individual protection measures
+Occupational exposure limits
+Skin protection
+Other skin protection
+: Appropriate footwear and any additional skin protection measures should be selected 
+based on the task being performed and the risks involved and should be approved by a 
+specialist before handling this product.
+Biological exposure indices
+No exposure indices known.
+Argon
+ACGIH TLV (United States, 1/2025) Oxygen 
+depletion [asphyxiant].
+Ingredient name
+Exposure limits
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 11/18/2025
+Version
+: 7.1
+4/11
+
+============================================================
+  PAGE 5
+============================================================
+Argon
+Section 8. Exposure controls/personal protection
+The gas can cause asphyxiation without warning by replacing the oxygen in the air.
+Based on the hazard and potential for exposure, select a respirator that meets the 
+appropriate standard or certification.  If operating conditions cause high gas 
+concentrations to be produced or any recommended or statutory exposure limit is 
+exceeded, use an air-fed respirator or self-contained breathing apparatus.  Respirators 
+must be used according to a respiratory protection program to ensure proper fitting,
+training, and other important aspects of use.  Respirator selection must be based on 
+known or anticipated exposure levels, the hazards of the product and the safe working 
+limits of the selected respirator.
+Respiratory protection
+:
+Section 9. Physical and chemical properties
+Physical state
+Relative density
+Gas. [Compressed gas.]
+Not applicable.
+Odorless.
+Odor
+pH
+Colorless.
+Color
+Evaporation rate
+Not available.
+Auto-ignition temperature
+Flash point
+Not available.
+[Product does not sustain combustion.]
+0.74 [Calculated]
+Not applicable.
+Not available.
+Odor threshold
+Partition coefficient: n-
+octanol/water
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+Appearance
+Flammability (solid, gas)
+: Not available.
+Lower and upper explosive 
+(flammable) limits
+: Not available.
+Decomposition temperature
+: Not available.
+Solubility in water
+: Not available.
+: 39.95 g/mole
+Molecular weight
+Flow time (ISO 2431)
+: Not available.
+Vapor pressure
+Not available.
+:
+Specific Volume (ft 3/lb)
+: 9.7087
+Gas Density (lb/ft 3)
+: 0.103 
+Melting point/freezing point
+: -189.2°C (-308.6°F)
+Boiling point or initial 
+boiling point and boiling 
+range
+: -185.9°C (-302.6°F)
+Relative vapor density
+: 1.66 [Air = 1]
+Section 10. Stability and reactivity
+Conditions to avoid
+Do not allow gas to accumulate in low or confined areas.
+The product is stable.
+Chemical stability
+No specific data.
+:
+:
+Incompatible materials
+:
+Possibility of hazardous 
+reactions
+: Under normal conditions of storage and use, hazardous reactions will not occur.
+Reactivity
+: No specific test data related to reactivity available for this product or its ingredients.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 11/18/2025
+Version
+: 7.1
+5/11
+
+============================================================
+  PAGE 6
+============================================================
+Argon
+Section 10. Stability and reactivity
+Hazardous decomposition 
+products
+Under normal conditions of storage and use, hazardous decomposition products should 
+not be produced.
+:
+Under normal conditions of storage and use, hazardous polymerization will not occur.
+Hazardous polymerization
+:
+Section 11. Toxicological information
+Acute toxicity
+Information on toxicological effects
+Not available.
+Conclusion/Summary [Product]
+: Not available.
+Skin corrosion/irritation
+Not available.
+Conclusion/Summary [Product]
+: Not available.
+Not available.
+Conclusion/Summary [Product]
+Serious eye damage/eye irritation
+:
+: Not available.
+Conclusion/Summary [Product]
+Respiratory corrosion/irritation
+Not available.
+Respiratory or skin sensitization
+Not available.
+Skin
+: Not available.
+Respiratory
+: Not available.
+Conclusion/Summary [Product]
+Conclusion/Summary [Product]
+Germ cell mutagenicity
+Not available.
+: Not available.
+Conclusion/Summary [Product]
+Carcinogenicity
+Not available.
+: Not available.
+Conclusion/Summary [Product]
+Reproductive toxicity
+Not available.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 11/18/2025
+Version
+: 7.1
+6/11
+
+============================================================
+  PAGE 7
+============================================================
+Argon
+Section 11. Toxicological information
+Inhalation
+: At very high concentrations, can displace the normal air and cause suffocation from 
+lack of oxygen.
+As this product is a gas, refer to the inhalation section.
+:
+Ingestion
+Skin contact
+: Contact with rapidly expanding gas may cause burns or frostbite.
+Contact with rapidly expanding gas may cause burns or frostbite.
+:
+Eye contact
+No known significant effects or critical hazards.
+General
+:
+No known significant effects or critical hazards.
+Carcinogenicity
+:
+No known significant effects or critical hazards.
+Mutagenicity
+:
+No known significant effects or critical hazards.
+Reproductive toxicity
+:
+Symptoms related to the physical, chemical and toxicological characteristics
+Skin contact
+Ingestion
+Inhalation
+No specific data.
+No specific data.
+No specific data.
+:
+:
+:
+Eye contact
+: No specific data.
+Delayed and immediate effects and also chronic effects from short and long term exposure
+Potential acute health effects
+Potential immediate 
+effects
+: Not available.
+Short term exposure
+Potential delayed effects
+: Not available.
+Potential immediate 
+effects
+: Not available.
+Long term exposure
+Potential delayed effects
+: Not available.
+: Not available.
+Not available.
+Conclusion/Summary [Product]
+Specific target organ toxicity (single exposure)
+Specific target organ toxicity (repeated exposure)
+Not available.
+Not available.
+Aspiration hazard
+Not available.
+Information on the likely routes of exposure
+Not available.
+Potential chronic health effects
+Conclusion/Summary [Product]
+: Not available.
+Not available.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 11/18/2025
+Version
+: 7.1
+7/11
+
+============================================================
+  PAGE 8
+============================================================
+Argon
+Section 11. Toxicological information
+Numerical measures of toxicity
+Acute toxicity estimates
+N/A
+Section 12. Ecological information
+LogPow
+BCF
+Potential
+Bioaccumulative potential
+Other adverse effects
+No known significant effects or critical hazards.
+Product/ingredient name
+Argon
+0.74
+-
+Low
+Toxicity
+Persistence and degradability
+Soil/Water partition 
+coefficient
+: Not available.
+Mobility in soil
+Not available.
+: Not available.
+Conclusion/Summary [Product]
+Not available.
+: Not available.
+Conclusion/Summary [Product]
+Section 13. Disposal considerations
+The generation of waste should be avoided or minimized wherever possible.  Disposal 
+of this product, solutions and any by-products should at all times comply with the 
+requirements of environmental protection and waste disposal legislation and any 
+regional local authority requirements.  Dispose of surplus and non-recyclable products 
+via a licensed waste disposal contractor.  Waste should not be disposed of untreated to 
+the sewer unless fully compliant with the requirements of all authorities with jurisdiction.
+Empty pressure vessels should be returned to the supplier.  Waste packaging should be 
+recycled.  Incineration or landfill should only be considered when recycling is not 
+feasible.  This material and its container must be disposed of in a safe way.  Empty 
+containers or liners may retain some product residues.  Do not puncture or incinerate 
+container.
+:
+Disposal methods
+Section 14. Transport information
+Argon,
+compressed
+2.2
+ARGON,
+COMPRESSED
+2.2
+Argon,
+compressed
+UN1006
+2.2
+UN1006
+UN1006
+DOT
+IMDG
+IATA
+UN number
+UN proper 
+shipping name
+Transport 
+hazard class(es)
+TDG
+UN1006
+ARGON,
+COMPRESSED
+2.2
+Mexico
+UN1006
+ARGON 
+COMPRIMIDO
+2.2
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 11/18/2025
+Version
+: 7.1
+8/11
+
+============================================================
+  PAGE 9
+============================================================
+Argon
+Section 14. Transport information
+-
+-
+-
+Limited quantity Yes.
+Packaging instruction Exceptions: 306, 307.  Non-bulk: 302.  Bulk: 314, 315.
+Quantity limitation Passenger aircraft/rail: 75 kg.  Cargo aircraft: 150 kg.
+Emergency schedules F-C, S-V
+Special provisions 378, 392
+Quantity limitation Passenger and Cargo Aircraft: 75 kg. Packaging instructions: 200.
+Cargo Aircraft Only: 150 kg. Packaging instructions: 200.  Limited Quantities -
+Passenger Aircraft: Forbidden. Packaging instructions: Forbidden.
+Special provisions A69, A202
+Packing group
+Additional information
+Environmental 
+hazards
+Special precautions for user
+Transport in bulk according 
+to IMO instruments
+No.
+No.
+No.
+Transport within user’s premises: always transport in closed containers that are 
+upright and secure. Ensure that persons transporting the product know what to do in the 
+event of an accident or spillage.
+: Not available.
+:
+-
+No.
+Product classified as per the following sections of the Transportation of Dangerous 
+Goods Regulations: 2.13-2.17 (Class 2).
+Explosive Limit and Limited Quantity Index 0.125
+Passenger Carrying Road or Rail Index 75
+Special provisions 148
+-
+No.
+DOT Classification
+TDG Classification
+IMDG
+IATA
+:
+:
+:
+:
+“Refer to CFR 49 (or authority having jurisdiction) to determine the information required for shipment of the 
+product.” 
+Section 15. Regulatory information
+Clean Air Act  Section 112
+(b) Hazardous Air 
+Pollutants (HAPs)
+: Not listed
+Clean Air Act Section 602 
+Class I Substances
+: Not listed
+Clean Air Act Section 602 
+Class II Substances
+: Not listed
+DEA List I Chemicals 
+(Precursor Chemicals)
+: Not listed
+DEA List II Chemicals 
+(Essential Chemicals)
+: Not listed
+SARA 302/304
+SARA 304 RQ
+: Not applicable.
+No products were found.
+Composition/information on ingredients
+SARA 311/312
+Classification
+:
+Refer to Section 2: Hazards Identification of this SDS for classification of substance.
+Not applicable.
+TSCA 12(b) - Chemical export notification
+U.S. Federal regulations
+TSCA 8(a) CDR Exempt/Partial exemption: This material is listed or exempted.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 11/18/2025
+Version
+: 7.1
+9/11
+
+============================================================
+  PAGE 10
+============================================================
+Argon
+Section 15. Regulatory information
+This material is listed.
+This product does not require a Safe Harbor warning under California Prop. 65.
+Massachusetts
+:
+California Prop. 65
+New York
+: This material is not listed.
+New Jersey
+: This material is listed.
+Pennsylvania
+: This material is listed.
+State regulations
+International regulations
+Chemical Weapon Convention List Schedules I, II & III Chemicals
+Montreal Protocol
+Not listed.
+Stockholm Convention on Persistent Organic Pollutants
+Not listed.
+Rotterdam Convention on Prior Informed Consent (PIC)
+Not listed.
+UNECE Aarhus Protocol on POPs and Heavy Metals
+Not listed.
+Inventory list
+Australia
+: This material is listed or exempted.
+Canada
+: This material is listed or exempted.
+China
+: This material is listed or exempted.
+Japan
+: Japan inventory (CSCL): Not determined.
+Japan inventory (ISHL): Not determined.
+Republic of Korea
+: This material is listed or exempted.
+New Zealand
+: This material is listed or exempted.
+Philippines
+: This material is listed or exempted.
+Taiwan
+: This material is listed or exempted.
+Turkey
+: Not determined.
+United States
+: This material is active or exempted.
+Thailand
+: This material is listed or exempted.
+Viet Nam
+: This material is listed or exempted.
+Not listed.
+Eurasian Economic Union
+: Russian Federation inventory: This material is listed or exempted.
+Section 16. Other information
+Hazardous Material Information System (U.S.A.)
+0
+0
+3
+/
+Health
+Flammability
+Physical hazards
+Caution: HMIS® ratings are based on a 0-4 rating scale, with 0 representing minimal hazards or risks, and 4 
+representing significant hazards or risks. Although HMIS® ratings and the associated label are not required on 
+SDSs or products leaving a facility under 29 CFR 1910.1200, the preparer may choose to provide them. HMIS® 
+ratings are to be used with a fully implemented HMIS® program. HMIS® is a registered trademark and service 
+mark of the American Coatings Association, Inc.
+The customer is responsible for determining the PPE code for this material. For more information on HMIS® 
+Personal Protective Equipment (PPE) codes, consult the HMIS® Implementation Manual.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 11/18/2025
+Version
+: 7.1
+10/11
+
+============================================================
+  PAGE 11
+============================================================
+Argon
+Section 16. Other information
+12/3/2025
+History
+Date of printing
+Date of issue/Date of 
+revision
+Version
+Notice to reader
+Date of previous issue
+:
+:
+:
+:
+References
+: Not available.
+Key to abbreviations
+: ATE = Acute Toxicity Estimate
+BCF = Bioconcentration Factor
+GHS = Globally Harmonized System of Classification and Labelling of Chemicals
+IATA = International Air Transport Association
+IBC = Intermediate Bulk Container
+IMDG = International Maritime Dangerous Goods
+LogPow = logarithm of the octanol/water partition coefficient
+MARPOL = International Convention for the Prevention of Pollution From Ships, 1973 
+as modified by the Protocol of 1978. ("Marpol" = marine pollution)
+UN = United Nations
+12/3/2025
+11/18/2025
+7.1
+0
+0
+0
+National Fire Protection Association (U.S.A.)
+Health
+Special
+Instability/Reactivity
+Flammability
+Reprinted with permission from NFPA 704-2001, Identification of the Hazards of Materials for Emergency 
+Response Copyright ©1997, National Fire Protection Association, Quincy, MA 02269. This reprinted material is 
+not the complete and official position of the National Fire Protection Association, on the referenced subject 
+which is represented only by the standard in its entirety.
+Copyright ©2001, National Fire Protection Association, Quincy, MA 02269. This warning system is intended to be 
+interpreted and applied only by properly trained individuals to identify fire, health and reactivity hazards of 
+chemicals. The user is referred to certain limited number of chemicals with recommended classifications in 
+NFPA 49 and NFPA 325, which would be used as a guideline only. Whether the chemicals are classified by NFPA 
+or not, anyone using the 704 systems to classify chemicals does so at their own risk.
+Procedure used to derive the classification
+Classification
+Justification
+GASES UNDER PRESSURE - Compressed gas
+Expert judgment
+SIMPLE ASPHYXIANTS
+Expert judgment
+SA
+To the best of our knowledge, the information contained herein is accurate. However, neither the above-named 
+supplier, nor any of its subsidiaries, assumes any liability whatsoever for the accuracy or completeness of the 
+information contained herein.
+Final determination of suitability of any material is the sole responsibility of the user. All materials may present 
+unknown hazards and should be used with caution. Although certain hazards are described herein, we cannot 
+guarantee that these are the only hazards that exist.
+Date of issue/Date of revision
+: 12/3/2025
+Date of previous issue
+: 11/18/2025
+Version
+: 7.1
+11/11
+

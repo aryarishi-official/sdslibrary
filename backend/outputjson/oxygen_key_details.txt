@@ -1,0 +1,932 @@
+============================================================
+  PAGE 1
+============================================================
+ SAFETY DATA SHEET
+Doc. No.:
+SDS   – AL008A
+Page:
+Page  1 of  7
+Owner:
+SHEQ
+Rev. Date:       September 2022
+Oxygen (Compressed Gas)
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+_______________________________________________________________________________________________________________________
+ 
+ 
+     
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Trade name
+SDS No.
+Chemical Formula
+Company Identification
+: Oxygen
+: AL008A
+: O2
+: A ir Liquide  Egypt
+:Polyom Building - 2nd floor
+Area 22 - 1st Sector
+Road 90 (Downtown)-5th Settlement-11835 New Cairo-
+Cairo
+Main Office 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Phone No.
+:  +20 2 23221100 
+:  +20 2 25213100
+Classification of the substance 
+ 
+Physical Hazard 
+ 
+ 
+ 
+: Gases under pressure  - compressed gas 
+: Oxidizing gas 
+ 
+Health Hazard  
+ 
+ 
+ 
+: no acute toxicity  
+ 
+Label Elements 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Hazard Pictogram
+ 
+Signal word 
+ 
+ 
+ 
+: Danger 
+ 
+Hazard Statement  
+ 
+ 
+: Contains gas under pressure - may explode if heated  
+: May cause or intensify fire; oxidizer 
+2 HAZARDS IDENTIFICATION 
+1 IDENTIFICATION OF THE SUBSTANCE / PREPARATION AND OF THE COMPANY / UNDERTAKING 
+ 
+ 
+ 
+ 
+ 
+FAX 
+Air Liquide Egypt
+
+============================================================
+  PAGE 2
+============================================================
+ 
+ 
+ 
+ 
+  
+Doc. No.: 
+ 
+  
+ 
+ 
+ 
+SDS   –  AL008A 
+Page: 
+ 
+ 
+Page 2 of 7
+Owner: 
+ 
+ 
+SHEQ
+ 
+Rev. Date:       September 2022
+ 
+ 
+ 
+Oxygen (Compressed Gas)
+ 
+_______________________________________________________________________________________________________________________
+ 
+ 
+     
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Precautionary statements 
+ 
+o 
+Prevention  
+ 
+ 
+: Store away from combustible materials 
+: Keep reduction values free from grease and oil 
+Note: EIGA has proposed a new wording that has been accepted by the UN WG on PS: 
+“Keep value and fittings free from oil and grease” 
+ 
+o 
+Response  
+ 
+ 
+: In case of fire, stop leak is safe to do so 
+o 
+Storage 
+ 
+ 
+ 
+: Store in a well ventilated area 
+ 
+Other Hazard 
+ 
+ 
+Other hazards 
+ 
+ 
+ 
+: Oxidant – strongly supports combustion. May react violently  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+with combustible materials. 
+ 
+ 
+Substance / Preparation 
+ 
+ 
+: Substance 
+ 
+ 
+Substance Name 
+Contents 
+CAS No. 
+EC No.  
+Index No. 
+Classification 
+ 
+Oxygen (refrigerated)   100% 
+ 
+7782-44-7 
+231-956-9 
+ 008-001-00-8       O; R8 
+ 
+ 
+Contains no other components or impurities which will influence the classification of the product. 
+ 
+ 
+ 
+First Aid Measures 
+- Inhalation 
+: Continuous inhalation of concentrations higher than 75% may cause nausea,    
+dizziness, respiratory difficulty and convulsion. 
+ 
+Remove victim to uncontaminated area. 
+ 
+ 
+ 
+Flammable class 
+ 
+ 
+ 
+: Non flammable 
+Specific hazards 
+: Exposure to fire may cause containers to rupture / explode. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  Supports combustion. 
+Hazardous Combustion Products 
+ 
+: None 
+ 
+Extinguishing media 
+- Suitable extinguishing media 
+:  All known extinguishants can be used. 
+Specific methods 
+ 
+ 
+: If possible stop flow of product 
+4 FIRST AID MEASURES 
+3 COMPOSITION / INFORMATION ON INGREDIENTS 
+2 HAZARDS IDENTIFICATION (continued) 
+5 FIRE FIGHTING MEASURES  
+Air Liquide Egypt
+ SAFETY DATA SHEET
+
+============================================================
+  PAGE 3
+============================================================
+ 
+ 
+ 
+ 
+  
+Doc. No.: 
+ 
+  
+ 
+ 
+SDS   – AL008A
+Page: 
+Page 3 of 7 
+Owner: 
+ 
+ 
+SHEQ
+ 
+Rev. Date:        September 2022
+ 
+ 
+ 
+Oxygen (Compressed Gas)
+ 
+_______________________________________________________________________________________________________________________
+ 
+ 
+     
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+: Move away from   the container and cool with water from a 
+protected position.  
+Special protective equipment for 
+: None 
+fire fighters 
+ 
+ 
+Personal precautions 
+: Evacuate area 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ensure adequate air ventilation. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Eliminate ignition sources. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Environmental Precautions 
+ 
+ 
+: Try to stop release. 
+Prevent from entering sewers, basements and workpits, or any 
+place where its accumulation can be dangerous. 
+Clean up methods 
+ 
+ 
+ 
+: Ventilate area. 
+ 
+ 
+ 
+Storage 
+: Segregate from flammable gases and other flammable 
+materials in store. 
+Keep container below 50 degrees C in a well ventilated place. 
+Handling 
+: Use no oil or grease. 
+Open valves slowly to avoid pressure shock. 
+Suck back of water into the container must be prevented 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Do not allow backfeed into the container. 
+Use only properly specified equipment which is suitable for this 
+product, its supply pressure and temperature. Contact your gas 
+supplier if in doubt.  
+Keep away from ignition sources (including static discharge)  
+Refer to supplier’s container handling instructions. 
+ 
+ 
+ 
+ 
+6 ACCIDENTAL RELEASE MEASURES 
+7 HANDLING AND STORAGE 
+5 FIRE FIGHTING MEASURES (continued) 
+Air Liquide Egypt
+ SAFETY DATA SHEET
+
+============================================================
+  PAGE 4
+============================================================
+ 
+ 
+ 
+ 
+  
+Doc. No.: 
+ 
+  
+ 
+ 
+ 
+SDS   – A L 0 0 8 A
+Page: 
+Page 4 of 7 
+Owner: 
+ 
+ 
+SHEQ
+ 
+Rev. Date:        September 2022
+ 
+ 
+ 
+ 
+_______________________________________________________________________________________________________________________
+ 
+ 
+     
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+Personal protection 
+ 
+ 
+ 
+: Do not smoke while handling product. 
+Wear suitable hand, body and head protection. Wear goggles 
+with suitable filter lenses when use is cutting / welding. 
+Ensure adequate ventilation. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Protect eyes, face and skin from liquid splashes. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Avoid oxygen rich (>21%) atmospheres. 
+ 
+ 
+ 
+Physical state at 20 degrees C 
+ 
+: Compressed gas 
+Color  
+ 
+ 
+ 
+ 
+: Colorless gas 
+Odor 
+ 
+ 
+ 
+ 
+ 
+: No odor warning properties 
+Molecular Weight 
+ 
+ 
+ 
+: 32 
+Melting point (degrees C) 
+ 
+ 
+: -219 
+Boiling point (degrees C) 
+ 
+ 
+: -183 
+Critical temperature (degrees C) 
+ 
+: -118 
+Vapour pressure, 20 degrees C 
+ 
+: Not Applicable 
+Relative density, gas (air =1)  
+ 
+: 1.1 
+Relative density, liquid (water = 1) 
+ 
+: 1.1 
+Solubility in water [mg/l] 
+ 
+ 
+: 39 
+ 
+Flammability range [vol% in air] 
+ 
+: Oxidizer 
+ 
+Auto – ignition temperature (degrees C) 
+: Not applicable 
+Other data 
+: Gas/vapor heavier than air. May accumulate in confined 
+spaces, particularly at or below ground level. 
+ 
+9 PHYSICAL AND CHEMICAL PROPERTIES 
+8 EXPOSURE CONTROLS / PERSONAL PROTECTION 
+Air Liquide Egypt
+Oxygen (Compressed Gas)
+ SAFETY DATA SHEET
+
+============================================================
+  PAGE 5
+============================================================
+ 
+ 
+ 
+ 
+  
+Doc. No.: 
+ 
+  
+ 
+ 
+SDS   – AL008A
+Page: 
+Page 5 of 7 
+Owner: 
+ 
+ 
+SHEQ
+ 
+Rev. Date:        September 2022
+ 
+ 
+ 
+ 
+_______________________________________________________________________________________________________________________
+ 
+ 
+     
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+Stability and reactivity  
+ 
+ 
+: May react violently with combustible materials. 
+May react violently with reducing agents. 
+Violently oxidizes organic material. 
+ 
+ 
+ 
+Toxicity information 
+ 
+ 
+ 
+: No toxicological effects from this product 
+ 
+ 
+ 
+Ecological effects information 
+: No ecological damage caused by this product 
+ 
+ 
+General 
+: To atmosphere in a well ventilated place.  
+Do not discharge into any place where its accumulation could 
+be dangerous.  
+Contact supplier if guidance is required. 
+ 
+ 
+UN No.  
+ 
+ 
+ 
+ 
+: 1072 
+ 
+H.I. nr  
+ 
+ 
+ 
+ 
+: 25 
+ 
+ 
+ADR / RID 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+- Proper shipping name 
+ 
+ 
+ 
+ 
+- ADR Class 
+ 
+ 
+ 
+ 
+ 
+ 
+- ADR / RID Classification code 
+  
+ 
+ 
+- Labelling ADR 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+: 2.2: Non flammable, non toxic gas.  5.1. Oxidizing substances 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+: OXYGEN, COMPRESSED
+: 2
+: 1 O
+: 
+10 STABILITY AND REACTIVITY 
+11 TOXICOLOGICAL INFORMATION 
+12 ECOLOGICAL INFORMATION 
+13 DISPOSAL CONSIDERATIONS 
+14 TRANSPORT INFORMATION 
+Air Liquide Egypt
+Oxygen (Compressed Gas)
+ SAFETY DATA SHEET
+
+============================================================
+  PAGE 6
+============================================================
+ 
+ 
+ 
+ 
+  
+Doc. No.: 
+ 
+  
+ 
+ 
+  
+SDS   – AL008A
+Page: 
+ 
+ 
+Page  6 of  7
+Owner: 
+ 
+ 
+SHEQ
+ 
+Rev. Date:        September 2022
+ 
+ 
+ 
+ 
+_______________________________________________________________________________________________________________________
+ 
+ 
+     
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+Other transport information 
+: Avoid transport on vehicles where the load space is not 
+separated from the driver’s compartment. 
+ 
+Ensure vehicle driver is aware of the potential hazards of the 
+load and knows what to do in the event of an accident or an 
+emergency. 
+ 
+Before transporting product containers: 
+- 
+Ensure that containers are firmly secured. 
+- 
+Ensure cylinder valve is closed and not leaking. 
+ 
+- 
+ 
+ 
+ 
+- 
+Ensure valve outlet cap nut or plug (where provided) is 
+correctly fitted. 
+- 
+Ensure valve protection device (where provided) is 
+correctly fitted. 
+- 
+Ensure there is adequate ventilation. 
+- 
+Compliance with applicable regulations 
+ 
+ 
+ 
+EC Classification 
+ 
+ 
+ 
+: Index No: 008-001-00-8 
+O; R8 
+EC Labeling 
+ 
+ 
+ 
+ 
+- Symbol (s) 
+ 
+ 
+ 
+ 
+: O: Oxidizing 
+- R Phrase (s) 
+: R8: Contact with combustible material may cause fire. 
+- S Phrase (s)  
+ 
+ 
+ 
+: S17: Keep away from combustible material. 
+ 
+  
+ 
+ 
+May cause frostbite. 
+ 
+Ensure all national / local regulations are observed. 
+ 
+Ensure all operators understand the hazard of oxygen enrichment. 
+ 
+This Material Safety Data Sheet has been established in accordance with the applicable European 
+Directives and applies to all countries that have translated the Directives in their national laws. 
+ 
+Before using this product in any new process or experiment, a thorough material compatibility and safety 
+study should be carried out. 
+ 
+Details given in this document are believed to be correct at the time of going to press. Whilst proper care 
+has been taken in the preparation of this document, no liability for injury or damage resulting from its use 
+can be accepted. 
+ 
+ 
+15 REGULATORY INFORMATION 
+16 OTHER INFORMATION 
+14 TRANSPORT INFORMATION (continued) 
+Air Liquide Egypt
+Oxygen (Compressed Gas)
+ SAFETY DATA SHEET
+
+============================================================
+  PAGE 7
+============================================================
+ 
+ 
+ 
+ 
+  
+Doc. No.: 
+ 
+  
+ 
+ 
+SDS   – AL008A
+Page: 
+ 
+ 
+Page  7 of  7
+Owner: 
+ 
+ 
+SHEQ
+ 
+Rev. Date:        September 2022
+ 
+ 
+ 
+ 
+_______________________________________________________________________________________________________________________
+ 
+ 
+     
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+Recommended uses and restrictions:  
+This MSDS is for information purposes only and is subject to change 
+without prior notice. [Prior to purchase of products, please contact 
+your 
+local 
+AIR 
+LIQUIDE 
+office 
+for 
+complete 
+MSDS 
+(with 
+Manufacturer’s name and emergency phone number)].  
+ 
+ 
+ 
+End of Document 
+Air Liquide Egypt
+Oxygen (Compressed Gas)
+ SAFETY DATA SHEET
+

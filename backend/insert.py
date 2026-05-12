@@ -13,7 +13,8 @@ def insert_sds(json_data):
     # Create main document
     doc = SDSDocument(
         file_name=json_data.get("file_name"),
-        product_name=json_data.get("product_name")
+        product_name=json_data.get("product_name"),
+        hazard_pictograms=json_data.get("hazard_pictograms", [])
     )
 
     for i, sec in enumerate(json_data["sections"]):

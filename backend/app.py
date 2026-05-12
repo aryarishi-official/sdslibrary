@@ -2,7 +2,7 @@
 from fastapi import FastAPI, UploadFile, File
 import shutil
 import os
-from jsonextractor_up import  extract_layout_lines,layout_lines_to_text_and_kvs,extract_pdf_tables,extract_tables_camelot,extract, extract_product_name
+from jsonextractor_up import  extract_layout_lines,layout_lines_to_text_and_kvs,extract_pdf_tables,extract_tables_camelot,extract, extract_product_name, extract_hazard_pictograms
 from insert import insert_sds
 from models import SDSDocument, Section, Subsection
 from database import engine, Base
@@ -53,13 +53,22 @@ async def analyze(file: UploadFile = File(...)):
         layout_lines = extract_layout_lines(file_path)
         sections = extract(layout_lines, pdf_tables=pdf_tables)
         product_name = extract_product_name(sections, layout_lines)
-        
+
+        # Extract GHS hazard pictograms
+        pictograms = extract_hazard_pictograms(file_path)
+        # Attach to Section 2 subsections for inline display
+        if pictograms:
+            sec2 = next((s for s in sections if s.get('section_number') == '2'), None)
+            if sec2 is not None:
+                sec2['hazard_pictograms'] = pictograms
+
         if not product_name:
             product_name = file.filename.replace(".pdf", "")
-            
+
         structured = {
             "file_name": file.filename,
             "product_name": product_name,
+            "hazard_pictograms": pictograms,
             "sections": sections
         }
     else:
@@ -113,7 +122,7 @@ async def analyze(file: UploadFile = File(...)):
 
     doc = insert_sds(structured)
 
-    return {"document_id": doc.id}
+    return {"document_id": doc.id, "hazard_pictograms": doc.hazard_pictograms or []}
 @app.get("/documents/{doc_id}")
 def get_document(doc_id: int, db: Session = Depends(get_db)):
     doc = db.query(SDSDocument).filter(SDSDocument.id == doc_id).first()
@@ -128,6 +137,7 @@ def get_document(doc_id: int, db: Session = Depends(get_db)):
     result = {
         "file_name": doc.file_name,
         "product_name": doc.product_name,
+        "hazard_pictograms": doc.hazard_pictograms or [],
         "sections": []
     }
 

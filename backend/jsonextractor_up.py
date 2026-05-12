@@ -210,7 +210,7 @@ def _group_spans_into_lines(spans: list[dict], y_tol: float = 4.0) -> list[Layou
                 and not lines[i + 1].is_section_header()):
             nxt = lines[i + 1]
             nxt_clean = nxt.text.strip()
-            if nxt_clean and abs(nxt.x0 - ll.x0) < 30:
+            if nxt_clean and abs(nxt.x0 - ll.x0) < 60:
                 is_suffix = nxt_clean.lower() in _sfx_lower
                 # Only merge short continuation words that are clearly continuations:
                 # must start lowercase, have 1–3 words, be >2 chars, and not be a sentence
@@ -283,35 +283,49 @@ def _extract_kv_from_columns(line: LayoutLine,
 
 def _detect_column_layout(layout_lines: list[LayoutLine]) -> tuple[float, float]:
     """
-    Auto-detect the label/value column boundary from the most common
-    x0 positions of bold (label) vs non-bold (value) spans.
+    Auto-detect the label/value column boundary.
+
+    KEY FIX: only count spans from lines that GENUINELY have both a
+    bold span on the left AND a non-bold span on the right — i.e. true
+    two-column KV lines.  Page headers, product names, section titles,
+    and bold-only lines all used to pollute the counter and shift
+    value_min_x to a wrong position.
 
     Returns (label_max_x, value_min_x).
     """
     from collections import Counter
-    bold_x0s = Counter()
-    nonbold_x0s = Counter()
+    label_x0s = Counter()
+    value_x0s = Counter()
+
     for ll in layout_lines:
-        for (x, t, bold) in ll.spans:
-            if not t.strip() or t.strip() == ':':
-                continue
-            bucket = round(x / 5) * 5   # bucket to nearest 5px
-            if bold:
-                bold_x0s[bucket] += 1
-            else:
-                nonbold_x0s[bucket] += 1
+        if len(ll.spans) < 2:
+            continue
+        # Must have at least one bold span on the left and one non-bold span to the right
+        bold_spans   = [(x, t) for (x, t, b) in ll.spans if b     and t.strip() and t.strip() != ':']
+        nonbold_spans= [(x, t) for (x, t, b) in ll.spans if not b and t.strip() and t.strip() != ':']
+        if not bold_spans or not nonbold_spans:
+            continue
+        # The rightmost bold span must be left of the leftmost non-bold span
+        bold_max_x    = max(x for x, _ in bold_spans)
+        nonbold_min_x = min(x for x, _ in nonbold_spans)
+        if bold_max_x >= nonbold_min_x - 20:
+            continue   # overlapping — not a proper two-column line
+        # Use leftmost bold span x0 as label column
+        lx = min(x for x, _ in bold_spans)
+        label_x0s[round(lx / 5) * 5] += 1
+        # Use leftmost non-bold span x0 as value column
+        vx = nonbold_min_x
+        value_x0s[round(vx / 5) * 5] += 1
 
-    # Most common bold x0 = label column
-    label_x = bold_x0s.most_common(1)[0][0] if bold_x0s else 25
-    # Most common non-bold x0 > label_x = value column
-    value_candidates = [(x, c) for x, c in nonbold_x0s.items() if x > label_x + 50]
-    value_x = sorted(value_candidates, key=lambda t: -t[1])[0][0] if value_candidates else label_x + 150
+    if label_x0s and value_x0s:
+        label_x = label_x0s.most_common(1)[0][0]
+        value_x = value_x0s.most_common(1)[0][0]
+    else:
+        # Fallback: Airgas default geometry
+        label_x, value_x = 55, 230
 
-    # label_max_x = midpoint between label and value columns
     label_max_x = (label_x + value_x) / 2
-    # value_min_x = a bit less than the value column start
     value_min_x = value_x - 20
-
     return label_max_x, value_min_x
 
 
@@ -330,6 +344,275 @@ def extract_layout_lines(pdf_path: str) -> list[LayoutLine]:
         all_lines.extend(lines)
     doc.close()
     return all_lines
+
+
+# ══════════════════════════════════════════════════════
+#  GHS HAZARD PICTOGRAM EXTRACTION
+#  Three-tier strategy (most → least reliable):
+#   1. Explicit "GHS0X" codes found in the PDF text (Section 2 or full doc)
+#   2. H-code → pictogram mapping (every H-code mandates specific pictograms)
+#   3. Embedded raster/vector image scan with name + nearby-text matching
+# ══════════════════════════════════════════════════════
+
+_GHS_DESCRIPTIONS = {
+    'GHS01': 'Exploding Bomb (Explosive)',
+    'GHS02': 'Flame (Flammable)',
+    'GHS03': 'Flame Over Circle (Oxidizing)',
+    'GHS04': 'Gas Cylinder (Compressed Gas)',
+    'GHS05': 'Corrosion (Corrosive)',
+    'GHS06': 'Skull and Crossbones (Acute Toxicity)',
+    'GHS07': 'Exclamation Mark (Irritant/Harmful)',
+    'GHS08': 'Health Hazard (Serious Health Hazard)',
+    'GHS09': 'Environmental Hazard (Aquatic Toxicity)',
+}
+
+# GHS H-code → pictogram codes  (UN GHS Rev 9 Table)
+# Each H-code mandates one or more specific pictograms.
+_HCODE_TO_PICTOGRAM: dict[str, list[str]] = {
+    # Explosives
+    'H200': ['GHS01'], 'H201': ['GHS01'], 'H202': ['GHS01'],
+    'H203': ['GHS01'], 'H204': ['GHS01'], 'H205': ['GHS01'],
+    # Flammables
+    'H220': ['GHS02'], 'H221': ['GHS02'], 'H222': ['GHS02'],
+    'H223': ['GHS02'], 'H224': ['GHS02'], 'H225': ['GHS02'],
+    'H226': ['GHS02'], 'H228': ['GHS02'], 'H229': ['GHS02'],
+    'H230': ['GHS02'], 'H231': ['GHS02'],
+    # Oxidizing
+    'H270': ['GHS03'], 'H271': ['GHS01', 'GHS03'], 'H272': ['GHS03'],
+    # Compressed gas
+    'H280': ['GHS04'], 'H281': ['GHS04'], 'H282': ['GHS02', 'GHS04'],
+    'H283': ['GHS02', 'GHS04'], 'H284': ['GHS04'],
+    # Corrosive
+    'H290': ['GHS05'],
+    'H314': ['GHS05'], 'H318': ['GHS05'],
+    # Acute toxicity (fatal/toxic)
+    'H300': ['GHS06'], 'H301': ['GHS06'], 'H310': ['GHS06'],
+    'H311': ['GHS06'], 'H330': ['GHS06'], 'H331': ['GHS06'],
+    'H370': ['GHS08'], 'H371': ['GHS08'],
+    'H372': ['GHS08'], 'H373': ['GHS08'],
+    # Irritant / harmful (lower acute tox)
+    'H302': ['GHS07'], 'H303': ['GHS07'], 'H312': ['GHS07'],
+    'H313': ['GHS07'], 'H315': ['GHS07'], 'H316': ['GHS07'],
+    'H317': ['GHS07'], 'H319': ['GHS07'], 'H320': ['GHS07'],
+    'H332': ['GHS07'], 'H333': ['GHS07'], 'H335': ['GHS07'],
+    'H336': ['GHS07'],
+    # Serious health hazard
+    'H304': ['GHS08'],
+    'H340': ['GHS08'], 'H341': ['GHS08'],
+    'H350': ['GHS08'], 'H351': ['GHS08'],
+    'H360': ['GHS08'], 'H361': ['GHS08'],
+    'H362': ['GHS08'],
+    'H374': ['GHS08'], 'H375': ['GHS08'],
+    'H376': ['GHS08'], 'H377': ['GHS08'],
+    'H378': ['GHS08'], 'H379': ['GHS08'],
+    'H380': ['GHS08'], 'H381': ['GHS08'],
+    # Environmental
+    'H400': ['GHS09'], 'H401': ['GHS09'], 'H402': ['GHS09'],
+    'H410': ['GHS09'], 'H411': ['GHS09'], 'H412': ['GHS09'],
+    'H413': ['GHS09'], 'H420': ['GHS09'],
+}
+
+# Image xref-name / filename keyword → GHS code
+_GHS_IMAGE_NAMES: dict[str, list[str]] = {
+    'GHS01': ['explosive',     'exploding_bomb', 'explodingbomb', 'ghs01', 'ghspict01'],
+    'GHS02': ['flammable',     'flame',          'ghs02',         'ghspict02'],
+    'GHS03': ['oxidizing',     'oxidiser',       'oxidizer',      'flame_over', 'ghs03', 'ghspict03'],
+    'GHS04': ['compressed',    'gas_cylinder',   'gascylinder',   'ghs04', 'ghspict04'],
+    'GHS05': ['corrosive',     'corrosion',      'ghs05',         'ghspict05'],
+    'GHS06': ['toxic',         'skull',          'crossbones',    'ghs06', 'ghspict06'],
+    'GHS07': ['irritant',      'exclamation',    'harmful',       'ghs07', 'ghspict07'],
+    'GHS08': ['health_hazard', 'healthhazard',   'silhouette',    'ghs08', 'ghspict08'],
+    'GHS09': ['environment',   'environmental',  'dead_fish',     'aquatic', 'ghs09', 'ghspict09'],
+}
+
+# Text-hint keywords for nearby-text fallback
+_GHS_TEXT_HINTS: dict[str, list[str]] = {
+    'GHS01': ['explosiv', 'explod', 'self-react', 'pyrophor'],
+    'GHS02': ['flamm', 'flammable', 'self-heat'],
+    'GHS03': ['oxidiz', 'oxidis'],
+    'GHS04': ['compress', 'gas cyl', 'liquefied gas'],
+    'GHS05': ['corros', 'metal corros'],
+    'GHS06': ['acute tox', 'skull', 'poison'],
+    'GHS07': ['irritant', 'harmful', 'exclamation', 'skin irrit', 'eye irrit'],
+    'GHS08': ['health haz', 'carcinogen', 'mutagen', 'reproduct', 'aspirat', 'sensitiz'],
+    'GHS09': ['environ', 'aquatic', 'dead fish', 'ozone'],
+}
+
+
+def _match_ghs_code_by_name(name: str) -> Optional[str]:
+    """Return GHS code if image xref name matches a known pictogram keyword."""
+    n = name.lower().replace('-', '_').replace(' ', '_')
+    # Direct 'GHS0X' substring
+    m = re.search(r'ghs\s*0?([1-9])', n, re.IGNORECASE)
+    if m:
+        return f'GHS0{m.group(1)}'
+    for code, keywords in _GHS_IMAGE_NAMES.items():
+        if any(kw in n for kw in keywords):
+            return code
+    return None
+
+
+def _pictograms_from_h_codes(h_codes: list[str]) -> list[str]:
+    """Return sorted unique GHS pictogram codes implied by the given H-codes."""
+    codes: set[str] = set()
+    for h in h_codes:
+        for pic in _HCODE_TO_PICTOGRAM.get(h.upper(), []):
+            codes.add(pic)
+    return sorted(codes)
+
+
+def _extract_all_text_from_pdf(pdf_path: str) -> str:
+    """Fast full-document text dump (for GHS code and H-code scanning)."""
+    doc = fitz.open(pdf_path)
+    parts = []
+    try:
+        for page in doc:
+            parts.append(page.get_text('text'))
+    finally:
+        doc.close()
+    return '\n'.join(parts)
+
+
+def extract_hazard_pictograms(pdf_path: str) -> list[dict]:
+    """
+    Extract GHS hazard pictogram information from an SDS PDF.
+
+    Uses three strategies, combined and deduplicated:
+
+    1. **Explicit GHS codes in text** — scans the full PDF text for strings like
+       "GHS02", "GHS 02", etc.  Most reliable when the SDS lists them by code.
+
+    2. **H-code inference** — collects all H-codes (H2xx–H4xx) from the PDF text
+       and maps each to its mandatory GHS pictogram(s) per UN GHS Rev 9.
+       Catches PDFs that show pictogram images but never write the GHS code.
+
+    3. **Embedded image scan** — scans raster images via PyMuPDF; matches by
+       xref name and by nearby-text keywords.  Handles PDFs that embed PNGs.
+
+    Returns a list of dicts (one per unique GHS code, sorted GHS01→GHS09):
+        {
+            'ghs_code':    'GHS02',
+            'description': 'Flame (Flammable)',
+            'source':      'text'  | 'h_code' | 'image' | 'text+image',
+        }
+    """
+    full_text = _extract_all_text_from_pdf(pdf_path)
+    found: dict[str, str] = {}   # ghs_code → source label
+
+    # ── Strategy 1: explicit GHS0X codes in text ─────────────────────────────
+    for m in re.finditer(r'\bGHS\s*0?([1-9])\b', full_text, re.IGNORECASE):
+        code = f'GHS0{m.group(1)}'
+        if code not in found:
+            found[code] = 'text'
+
+    # ── Strategy 2: H-code → pictogram inference ──────────────────────────────
+    """ h_codes = re.findall(r'\bH[2-4]\d{2}\b', full_text) """
+    h_codes = re.findall(r'\bH[2-4]\d{2}[a-zA-Z]?\b', full_text)
+    for code in _pictograms_from_h_codes(h_codes):
+        if code not in found:
+            found[code] = 'h_code'
+        elif found[code] == 'text':
+            pass
+      # already confirmed by text; keep 'text'
+    # ── Strategy 2B: hazard statement → pictogram inference ──────────
+    hazard_text = full_text.lower()
+    STATEMENT_TO_GHS = {
+        'highly flammable liquid and vapor': ['GHS02'],
+        'highly flammable liquid and vapour': ['GHS02'],
+        'flammable liquid and vapor': ['GHS02'],
+    'flammable liquid and vapour': ['GHS02'],
+
+    'causes serious eye irritation': ['GHS07'],
+    'causes skin irritation': ['GHS07'],
+    'may cause drowsiness or dizziness': ['GHS07'],
+
+    'fatal if swallowed': ['GHS06'],
+    'fatal in contact with skin': ['GHS06'],
+    'fatal if inhaled': ['GHS06'],
+
+    'may cause cancer': ['GHS08'],
+    'suspected of damaging fertility': ['GHS08'],
+    }
+
+    for stmt, pictos in STATEMENT_TO_GHS.items():
+        if stmt in hazard_text:
+            for code in pictos:
+                if code not in found:
+                    found[code] = 'hazard_statement'
+
+    # ── Strategy 3: embedded raster image scan ────────────────────────────────
+    try:
+        doc = fitz.open(pdf_path)
+        try:
+            for page_no, page in enumerate(doc):
+                page_words_cache: Optional[list] = None
+                for img_info in page.get_images(full=True):
+                    xref   = img_info[0]
+                    width  = img_info[2]
+                    height = img_info[3]
+                    iname  = img_info[7] or ''
+
+                    if width < 20 or height < 20:
+                        continue
+                    aspect = max(width, height) / max(min(width, height), 1)
+                    if aspect > 4.0:
+                        continue
+
+                    # Try name first
+                    code = _match_ghs_code_by_name(iname)
+
+                    # Try nearby text
+                    if not code:
+                        raw_rects = page.get_image_rects(xref)
+                        if raw_rects:
+                            r0 = raw_rects[0]
+                            if hasattr(r0, 'rect'):
+                                bbox = r0.rect
+                            elif isinstance(r0, fitz.Rect):
+                                bbox = r0
+                            else:
+                                try:
+                                    bbox = fitz.Rect(r0)
+                                except Exception:
+                                    continue
+
+                            if page_words_cache is None:
+                                page_words_cache = page.get_text('words')
+                            search_rect = fitz.Rect(
+                                bbox.x0 - 10, bbox.y0 - 80,
+                                bbox.x1 + 10, bbox.y1 + 80,
+                            )
+                            nearby = ' '.join(
+                                w[4] for w in page_words_cache
+                                if fitz.Rect(w[:4]).intersects(search_rect)
+                            )
+                            code = _match_ghs_code_by_name(nearby)
+                            if not code:
+                                nl = nearby.lower()
+                                for c, hints in _GHS_TEXT_HINTS.items():
+                                    if any(h in nl for h in hints):
+                                        code = c
+                                        break
+
+                    if code:
+                        if code not in found:
+                            found[code] = 'image'
+                        elif found[code] in ('text', 'h_code'):
+                            found[code] = found[code] + '+image'
+        finally:
+            doc.close()
+    except Exception as e:
+        print(f'⚠  Image scan skipped: {e}')
+
+    # ── Build result list, sorted by GHS code ────────────────────────────────
+    results = []
+    for code in sorted(found.keys()):
+        results.append({
+            'ghs_code':    code,
+            'description': _GHS_DESCRIPTIONS.get(code, 'Unknown pictogram'),
+            'source':      found[code],
+        })
+    return results
 
 
 # ══════════════════════════════════════════════════════
@@ -580,6 +863,21 @@ def _extract_transport_table(page) -> Optional[dict]:
             row_dict[a] = r.get(a, '')
         rows.append(row_dict)
 
+    # ── Fix 14-A: Validate rows — reject corrupt Airgas tables ───────────
+    # In some Airgas PDFs, the table geometry causes row-label text to bleed
+    # into agency cells (e.g. DOT cell = "UN number UN1072").  Detect and
+    # reject the whole table so the per-agency KV subsections take priority.
+    _ROW_LABEL_KWS = {'un number', 'shipping', 'packing', 'environmental', 'hazard class'}
+    def _row_corrupt(r: dict) -> bool:
+        for agency in _TRANSPORT_AGENCIES:
+            cell = r.get(agency, '').lower()
+            if any(kw in cell for kw in _ROW_LABEL_KWS):
+                return True
+        return False
+
+    if any(_row_corrupt(r) for r in rows):
+        return None
+
     return {'headers': headers, 'rows': rows}
 
 
@@ -772,24 +1070,76 @@ NOISE_RE = re.compile(
     re.IGNORECASE
 )
 
+# Patterns that are noise ONLY as page headers/footers, but are VALID content
+# inside Section 16 "Other information" (date, version, revision fields).
+_SEC16_DATE_RE = re.compile(
+    r'^\s*('
+    r'Version:\s*\d.*'
+    r'|Replaces\s+version.*'
+    r'|Date\s+of\s+issue/Date\s+of\s+revision\s*:.*'
+    r'|Date\s+of\s+(issue|revision|preparation|print)\s*:.*'
+    r'|Revision\s+(date|no\.?|number)\s*:.*'
+    r'|Print\s+date\s*:.*'
+    r'|Issue\s+date\s*:.*'
+    r'|\d+/\d{2}/\d{4}\s+Date\s+of\s+previous.*'
+    r'|Version\s*:\s*\d+\.\d+.*'
+    r'|Supersedes\s+(date|version)\s*:.*'
+    r')\s*$',
+    re.IGNORECASE
+)
+
 _FOOTER_INLINE_RE = re.compile(
     r'\s*Date\s+of\s+issue/Date\s+of\s+revision\s*:.*?(?:\d+/\d+\s*)?$',
     re.IGNORECASE
 )
 
 
-def is_noise(text: str, layout_line: Optional[LayoutLine] = None) -> bool:
-    """Return True if this line should be dropped entirely."""
-    if layout_line and layout_line.is_footer():
+def is_noise(text: str, layout_line: Optional[LayoutLine] = None,
+             current_section_num: Optional[str] = None) -> bool:
+    """Return True if this line should be dropped entirely.
+
+    When current_section_num == '16', date/version/revision lines are NOT
+    treated as noise — they are valid content for Section 16 Other information.
+    """
+    """ if layout_line and layout_line.is_footer():
+        return True """
+    if (
+    layout_line
+        and layout_line.is_footer()
+        and not (
+            current_section_num == '16'
+            and _SEC16_DATE_RE.match(text.strip())
+        )
+    ):
         return True
-    return bool(NOISE_RE.match(text.strip()))
+    t = text.strip()
+    # The per-page product-name header (e.g. "Oxygen") only becomes noise
+    # from page 2 onwards — on page 1 it IS the product identifier.
+    if layout_line and layout_line.page_no > 0 and re.fullmatch(r'Oxygen', t, re.IGNORECASE):
+        return True
+    # Inside Section 16, date/version lines are meaningful content, not noise.
+    if current_section_num == '16' and _SEC16_DATE_RE.match(t):
+        return False
+    return bool(NOISE_RE.match(t))
 
 
-def clean_content(text: str) -> str:
-    text = _FOOTER_INLINE_RE.sub('', text)
+def clean_content(text: str, section_num: Optional[str] = None) -> str:
+    # In Section 16, do NOT strip date/version lines — they are valid content.
+    if section_num != '16':
+        text = _FOOTER_INLINE_RE.sub('', text)
     text = text.replace("SDS'S", 'SDSs').replace("SDS\u2019S", 'SDSs')
     text = re.sub(r'  +', ' ', text)
     return text.strip()
+
+
+# Regex to parse Section 16 date/version lines as key-value pairs
+_SEC16_KV_RE = re.compile(
+    r'^(Version|Revision\s+(?:date|no\.?|number)|Date\s+of\s+(?:issue|revision|'
+    r'preparation|print)|Print\s+date|Issue\s+date|Replaces\s+version|'
+    r'Supersedes\s+(?:date|version)|Date\s+of\s+issue/Date\s+of\s+revision)'
+    r'\s*[:/]\s*(.+)$',
+    re.IGNORECASE
+)
 
 
 def deduplicate_sentences(text: str) -> str:
@@ -938,6 +1288,17 @@ _GROUP_HEADERS = {
            'most important symptoms', 'over-exposure signs/symptoms',
            'overexposure', 'potential acute health effects',
            'indication of immediate medical attention', 'protection of first-aiders'],
+    '6':  ['personal precautions, protective equipment and emergency procedures',
+           'personal precautions', 'environmental precautions',
+           'methods and materials for containment and cleaning up',
+           'methods and materials for containment',
+           'for non-emergency personnel', 'for emergency responders',
+           'large spill', 'small spill'],
+    '7':  ['precautions for safe handling', 'conditions for safe storage',
+           'advice on general occupational hygiene'],
+    '8':  ['control parameters', 'individual protection measures',
+           'occupational exposure limits', 'biological exposure indices',
+           'skin protection'],
     '11': ['information on the likely routes of exposure',
            'information on toxicological effects', 'potential acute health effects',
            'symptoms related to the physical', 'delayed and immediate effects',
@@ -1122,27 +1483,46 @@ def parse_kv(text: str, layout_line: Optional[LayoutLine] = None):
     return None
 
 def assign_tables_to_sections(sections, tables):
+    # Fix 11-B: Some table schemas must only be assigned to a specific section.
+    # This prevents, e.g., the Section-12 LogPow/BCF table from being
+    # page-range matched into Section 11 when pages overlap.
+    _SCHEMA_SECTION_LOCK = {
+        'product/ingredient name logpow bcf potential': '12',
+        'logpow bcf potential':                        '12',
+        'field dot tdg mexico imdg iata':              '14',
+        'dot tdg mexico imdg iata':                    '14',
+    }
+
     for table in tables:
         page = int(table.get('page', 0))
         headers = table.get('headers', [])
         hdr_key = _normalise_header(' '.join(headers))
 
+        # Determine if this schema is locked to a specific section
+        locked_section = _SCHEMA_SECTION_LOCK.get(hdr_key)
+
         matched = False
         for sec in sections:
             if 'page_range' not in sec:
                 continue
+            # Skip sections that don't match the locked section number
+            if locked_section and sec['section_number'] != locked_section:
+                continue
             start, end = sec['page_range']
-            if start <= page <= end:
-                # Try to attach to a matching subsection by schema
-                for sub in sec.get('subsections', []):
-                    sub_key = sub.get('normalised_key', '')
-                    # Match by header content similarity
-                    if any(h.lower() in sub_key or sub_key in h.lower()
-                           for h in headers if h):
-                        if 'table' not in sub:
-                            sub['table'] = {'headers': headers, 'rows': table.get('rows', [])}
-                            matched = True
-                            break
+            # For locked schemas: assign regardless of page; for others: page-range match
+            if locked_section or (start <= page <= end):
+                # For locked schemas, only attach at section level (not to a specific
+                # subsection) to avoid mis-attaching a transport/ecological table to an
+                # unrelated subsection matched by keyword overlap.
+                if not locked_section:
+                    for sub in sec.get('subsections', []):
+                        sub_key = sub.get('normalised_key', '')
+                        if any(h.lower() in sub_key or sub_key in h.lower()
+                               for h in headers if h):
+                            if 'table' not in sub:
+                                sub['table'] = {'headers': headers, 'rows': table.get('rows', [])}
+                                matched = True
+                                break
                 # Always also attach at section level for access
                 sec.setdefault('tables', []).append(table)
                 matched = True
@@ -1372,9 +1752,24 @@ def layout_lines_to_text_and_kvs(
         structured_lines: list of ('kv', key, val, ll) | ('text', text, ll)
         clean_lines:      LayoutLine list with noise removed
     """
-    # Filter noise
-    clean = [ll for ll in layout_lines
-             if not is_noise(ll.text, ll) and ll.text.strip()]
+    # Filter noise — section-aware so Section 16 date/version lines are kept.
+    # Pre-scan to find which page Section 16 starts on.
+    _sec16_page_start: Optional[int] = None
+    for _ll in layout_lines:
+        _sec = parse_section_header(_ll.text, _ll)
+        if _sec and _sec[0] == '16':
+            _sec16_page_start = _ll.page_no
+            break
+
+    def _in_sec16(ll: LayoutLine) -> bool:
+        return _sec16_page_start is not None and ll.page_no >= _sec16_page_start
+
+    clean = [
+        ll for ll in layout_lines
+        if not is_noise(ll.text, ll,
+                        current_section_num='16' if _in_sec16(ll) else None)
+        and ll.text.strip()
+    ]
 
     label_max_x, value_min_x = _detect_column_layout(clean)
 
@@ -1448,7 +1843,15 @@ def layout_lines_to_text_and_kvs(
 
         # ── Value continuation for pending label ──────────────────
         if prev_label is not None:
-            if ll.x0 >= value_min_x - 10 and not ll.is_bold:
+            # Accept non-bold continuation lines even if their x0 is slightly
+            # left of value_min_x (e.g. address lines, wrapped phone numbers).
+            # Only stop if we hit a new bold label-like line or a section header.
+            is_nonbold_cont = (
+                not ll.is_bold
+                and not parse_section_header(ll.text, ll)
+                and not ll.is_section_header()
+            )
+            if is_nonbold_cont:
                 prev_val_parts.append(ll.text.strip())
                 continue
             else:
@@ -1535,7 +1938,7 @@ def extract(layout_lines: list[LayoutLine], pdf_tables: list = None) -> list:
             current_sub = None
             return
 
-        c = clean_content(c)
+        c = clean_content(c, section_num=current_section['section_number'] if current_section else None)
         c = deduplicate_sentences(c)
 
         # ── Title fragment merger ──────────────────────────────────────
@@ -1693,6 +2096,15 @@ def extract(layout_lines: list[LayoutLine], pdf_tables: list = None) -> list:
                 ptbl_key  = _normalise_header(' '.join(headers))
                 ptbl_rows = _ptbl_lookup.get(ptbl_key)
 
+                # Fix 14-B (KV path): For transport schemas with no clean structured
+                # data, skip table building — let the following lines parse normally.
+                _TRANSPORT_HDRS = {'DOT', 'TDG', 'IMDG', 'IATA'}
+                if ptbl_rows is None and any(h in _TRANSPORT_HDRS for h in headers):
+                    if current_sub is not None:
+                        sep = ' ' if current_sub['content'] else ''
+                        current_sub['content'] += sep + _combined
+                    continue
+
                 if ptbl_rows:
                     table_rows = ptbl_rows
                     # Skip over any flat-text duplicate rows
@@ -1776,6 +2188,37 @@ def extract(layout_lines: list[LayoutLine], pdf_tables: list = None) -> list:
                 else:
                     break
 
+            # ── Fix 11-A: Conclusion/Summary suppression ──────────────────
+            # These lines ("Conclusion/Summary [Product] : Not available.") are
+            # internal sub-notes, not new subsections.  Fold their value into
+            # the previous subsection (or current open sub) and skip.
+            if re.match(r'^Conclusion/Summary\b', key, re.IGNORECASE):
+                _target = None
+                if current_sub is not None:
+                    _target = current_sub
+                elif current_section is not None and current_section['subsections']:
+                    _target = current_section['subsections'][-1]
+                if _target and val.strip():
+                    pc = _target.get('content', '')
+                    _target['content'] = (pc + (' ' if pc else '') + val.strip()).strip()
+                continue
+
+            # ── Fix 11-C: Single-word component-label suppression ─────────
+            # e.g. "Skin : Not available." and "Respiratory : Not available."
+            # after "Respiratory or skin sensitization" — these are sub-items
+            # of the previous subsection, not new top-level subsections.
+            if (len(key.split()) == 1
+                    and key[0].isupper()
+                    and len(key) >= 3
+                    and current_section is not None
+                    and current_section['subsections']):
+                _prev_sub = current_section['subsections'][-1]
+                if key.lower() in _prev_sub['title'].lower():
+                    if val.strip():
+                        pc = _prev_sub.get('content', '')
+                        _prev_sub['content'] = (pc + (' ' if pc else '') + val.strip()).strip()
+                    continue
+
             # Check group-header
             norm_key = key.lower()
             group_markers = _GROUP_HEADERS.get(sec_num, [])
@@ -1825,6 +2268,29 @@ def extract(layout_lines: list[LayoutLine], pdf_tables: list = None) -> list:
                 })
                 continue
 
+            # ── Fix 11-C (text path): Single-word component-label suppression ──
+            # e.g. plain-text "Skin" or "Respiratory" arriving after
+            # "Respiratory or skin sensitization" — fold as content, not new sub.
+            if (len(stripped.split()) == 1
+                    and stripped[0].isupper()
+                    and len(stripped) >= 3
+                    and current_section is not None
+                    and current_section['subsections']):
+                _prev_sub = current_section['subsections'][-1]
+                if stripped.lower() in _prev_sub['title'].lower():
+                    # Absorb the next non-bold value line as content too
+                    _next_val = ''
+                    if idx < len(items) and items[idx][0] in ('text', 'kv'):
+                        _nxt = items[idx]
+                        _nxt_text = _nxt[1] if _nxt[0] == 'text' else _nxt[2]
+                        if _nxt_text.strip() and not parse_section_header(_nxt_text):
+                            _next_val = _nxt_text.strip()
+                            idx += 1
+                    if _next_val:
+                        pc = _prev_sub.get('content', '')
+                        _prev_sub['content'] = (pc + (' ' if pc else '') + _next_val).strip()
+                    continue
+
             # Table schema detection
             schema = _detect_table_schema(stripped)
             # 🔧 Fallback for transport tables (Section 14 type)
@@ -1849,6 +2315,19 @@ def extract(layout_lines: list[LayoutLine], pdf_tables: list = None) -> list:
                 r_hints = schema.get('right_hints')
                 ptbl_key  = _normalise_header(' '.join(headers))
                 ptbl_rows = _ptbl_lookup.get(ptbl_key)
+
+                # Fix 14-B: For transport table schemas, if we have no clean
+                # structured data (ptbl_rows), don't attempt to reconstruct
+                # from the garbled text stream.  The per-agency subsections
+                # (DOT Classification, TDG Classification, …) already carry
+                # the correct content.  Let this header line fall through as
+                # plain content instead.
+                _TRANSPORT_HDRS = {'DOT', 'TDG', 'IMDG', 'IATA'}
+                if ptbl_rows is None and any(h in _TRANSPORT_HDRS for h in headers):
+                    if current_sub is not None:
+                        sep = ' ' if current_sub['content'] else ''
+                        current_sub['content'] += sep + stripped
+                    continue
 
                 if ptbl_rows:
                     table_rows = ptbl_rows
@@ -1902,11 +2381,43 @@ def extract(layout_lines: list[LayoutLine], pdf_tables: list = None) -> list:
                     current_sub = {'title': stripped, 'content': '', 'table': tbl}
                 continue
 
+            # ── Section 16 date/version field interceptor ─────────────────
+            # Lines like "Date of issue/Date of revision : 01/30/2023" or
+            # "Version: 1.0" are preserved from the noise filter when we are
+            # in Section 16.  Parse them as proper KV subsections here so they
+            # appear as structured fields rather than raw content.
+            if sec_num == '16':
+                _m16 = _SEC16_KV_RE.match(stripped)
+                if _m16:
+                    _k16 = _m16.group(1).strip().rstrip(':').strip()
+                    _v16 = _m16.group(2).strip()
+                    flush_sub()
+                    current_sub = {'title': _k16, 'content': _v16}
+                    continue
+
             # Plain content
             if current_sub is not None:
                 sep = ' ' if current_sub['content'] else ''
                 current_sub['content'] += sep + stripped
             else:
+                # ── Orphaned content recovery ──────────────────────────────
+                # Instead of silently dropping paragraph sentences or long lines
+                # that arrive with no active subsection, try to append them to
+                # the most recent subsection in the current section.  This
+                # recovers content from Section 6, 7, 8 where bold group-headers
+                # are followed immediately by paragraph body without a KV label.
+                if (current_section is not None
+                        and current_section['subsections']
+                        and stripped):
+                    last_sub = current_section['subsections'][-1]
+                    # Only append if it looks like body text, not a new title
+                    if (re.search(r'[.!?]$', stripped)
+                            or len(stripped.split()) > 6
+                            or stripped[0].islower()):
+                        pc = last_sub.get('content', '')
+                        last_sub['content'] = (pc + (' ' if pc else '') + stripped).strip()
+                        continue
+
                 # ❌ Reject sentences as titles — drop silently (no sub to append to)
                 if re.search(r'[.!?]$', stripped):
                     continue
@@ -1938,7 +2449,7 @@ FILES = {
 }
 
 if __name__ == '__main__':
-    print('✦  Script version: 2025-v2 (17-issues-fixed)')
+    print('✦  Script version: 2025-v4 (sec16-dates + pictograms-text+hcode+image)')
     all_output = {}
 
     for name, path in FILES.items():
@@ -1949,6 +2460,22 @@ if __name__ == '__main__':
 
         print(f'→  Processing {name} …')
         layout_lines = extract_layout_lines(str(pdf_path))
+
+        # ── Dump raw PyMuPDF text to .txt for review ───────────────────
+        raw_txt_dir = Path('outputjson')
+        raw_txt_dir.mkdir(parents=True, exist_ok=True)
+        txt_filename = f'{pdf_path.stem}_new_camelot.txt'
+        txt_path = raw_txt_dir / txt_filename
+        with fitz.open(str(pdf_path)) as _doc:
+            with open(txt_path, 'w', encoding='utf-8') as _f:
+                for _page_no, _page in enumerate(_doc, start=1):
+                    _f.write(f'{"=" * 60}\n')
+                    _f.write(f'  PAGE {_page_no}\n')
+                    _f.write(f'{"=" * 60}\n')
+                    _page_text = _page.get_text('text')
+                    _f.write(_page_text)
+                    _f.write('\n')
+        print(f'✓  Saved raw text → {txt_path}')
 
         # Debug: show which lines the structured stream classifies as section events
         structured_debug, _ = layout_lines_to_text_and_kvs(layout_lines)
@@ -1967,8 +2494,19 @@ if __name__ == '__main__':
         assign_tables_to_sections(sections, pdf_tables)
         product_name = extract_product_name(sections, layout_lines)
 
+        # ── Extract GHS hazard pictograms ──────────────────────────────
+        pictograms = extract_hazard_pictograms(str(pdf_path))
+        # Attach pictograms to Section 2 (Hazards identification) if present,
+        # and also include at top level for easy access.
+        if pictograms:
+            sec2 = next((s for s in sections if s['section_number'] == '2'), None)
+            if sec2 is not None:
+                sec2['hazard_pictograms'] = pictograms
+        print(f'   Pictograms found: {[p["ghs_code"] for p in pictograms]}')
+
         all_output[name] = {
             'product_name': product_name,
+            'hazard_pictograms': pictograms,
             'sections':     sections,
         }
         sec_nums = [s['section_number'] for s in sections]
@@ -2024,14 +2562,61 @@ if __name__ == '__main__':
         return ''.join(parts) or ''
 
     for name, data in all_output.items():
+        # ── Pictogram summary block ──────────────────────────────────────
+        pictogram_html = ''
+        if data.get('hazard_pictograms'):
+            badges = ''.join(
+                f'<span style="display:inline-block;background:#ffeeba;border:1px solid #d4a017;'
+                f'border-radius:4px;padding:3px 10px;margin:3px 2px;font-size:12px;font-weight:bold">'
+                f'{_esc(p["ghs_code"])}'
+                f'<span style="font-weight:normal;font-size:11px;margin-left:6px;color:#555">'
+                f'{_esc(p["description"])}</span>'
+                f'<em style="font-size:9px;color:#999;margin-left:4px">[{_esc(p["source"])}]</em>'
+                f'</span>'
+                for p in data['hazard_pictograms']
+            )
+            pictogram_html = (
+                f'<div style="margin-bottom:14px;padding:8px 12px;'
+                f'background:#fffdf0;border:1px solid #e0c060;border-radius:6px">'
+                f'<strong style="font-size:13px">⚠ GHS Hazard Pictograms:</strong><br>'
+                f'<div style="margin-top:6px">{badges}</div></div>'
+            )
+
         table_rows_html = ''
         for sec in data.get('sections', []):
             sec_label = f'§{sec["section_number"]} {_esc(sec["section_title"])}'
             subs = sec.get('subsections', [])
-            span = max(len(subs), 1)
+            # For Section 2, prepend a pictograms row if they exist on this section
+            extra_rows = ''
+            if sec['section_number'] == '2' and sec.get('hazard_pictograms'):
+                pics = sec['hazard_pictograms']
+                pic_badges = ''.join(
+                    f'<span style="display:inline-block;background:#ffeeba;border:1px solid #d4a017;'
+                    f'border-radius:4px;padding:2px 6px;margin:2px;font-size:11px;font-weight:bold">'
+                    f'{_esc(p["ghs_code"])} {_esc(p["description"])}</span>'
+                    for p in pics
+                )
+                span = max(len(subs) + 1, 1)
+                extra_rows = (
+                    f'<tr>'
+                    f'<td class="sec" rowspan="{span}">{sec_label}</td>'
+                    f'<td><strong>Hazard Pictograms</strong></td>'
+                    f'<td></td>'
+                    f'<td>{pic_badges}</td>'
+                    f'</tr>\n'
+                )
+                sec_label = None  # already emitted
+
             for idx, sub in enumerate(subs):
                 ctx_grp = _esc(sub.get('context') or sub.get('group', ''))
-                sec_td  = f'<td class="sec" rowspan="{span}">{sec_label}</td>' if idx == 0 else ''
+                if extra_rows:
+                    sec_td = ''   # sec cell already in extra_rows
+                elif idx == 0:
+                    sec_td = f'<td class="sec" rowspan="{max(len(subs), 1)}">{sec_label}</td>'
+                else:
+                    sec_td = ''
+                table_rows_html += extra_rows  # emit once before first sub
+                extra_rows = ''
                 table_rows_html += (
                     f'<tr>{sec_td}'
                     f'<td>{_esc(sub["title"])}</td>'
@@ -2039,6 +2624,8 @@ if __name__ == '__main__':
                     f'<td>{_render_content(sub)}</td>'
                     f'</tr>\n'
                 )
+            if extra_rows:   # section had no subsections
+                table_rows_html += extra_rows
 
         html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -2070,6 +2657,7 @@ if __name__ == '__main__':
 </head>
 <body>
   <h2>SDS Extracted Data – {_esc(data.get("product_name", name))}</h2>
+  {pictogram_html}
   <table>
     <thead>
       <tr>
