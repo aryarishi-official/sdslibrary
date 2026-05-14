@@ -1,6 +1,6 @@
 {
-    "file_name": "carbon.pdf",
-    "product_name": "Carbon Dioxide",
+    "file_name": "argon.pdf",
+    "product_name": "Argon",
     "hazard_pictograms": [
         {
             "ghs_code": "GHS04",
@@ -8,6 +8,7 @@
             "source": "h_code"
         }
     ],
+    "signal_word": "Warning",
     "sections": [
         {
             "section_number": "1",
@@ -16,17 +17,17 @@
                 {
                     "title": "GHS product identifier",
                     "normalised_key": "ghs_product_identifier",
-                    "content": "Carbon Dioxide"
+                    "content": "Argon"
                 },
                 {
                     "title": "Chemical name",
                     "normalised_key": "chemical_name",
-                    "content": "Carbon Dioxide"
+                    "content": "argon"
                 },
                 {
                     "title": "Other means of identification",
                     "normalised_key": "other_means_of_identification",
-                    "content": "Not available."
+                    "content": "ARGON, COMPRESSED"
                 },
                 {
                     "title": "Product type",
@@ -39,9 +40,14 @@
                     "content": "Synthetic/Analytical chemistry."
                 },
                 {
+                    "title": "Synonym",
+                    "normalised_key": "synonym",
+                    "content": "ARGON, COMPRESSED"
+                },
+                {
                     "title": "SDS #",
                     "normalised_key": "sds_number",
-                    "content": "001013"
+                    "content": "001004"
                 },
                 {
                     "title": "Supplier's details",
@@ -71,7 +77,7 @@
                 {
                     "title": "Classification of the substance or mixture",
                     "normalised_key": "classification_of_the_substance_or_mixture",
-                    "content": "GASES UNDER PRESSURE - Liquefied gas"
+                    "content": "GASES UNDER PRESSURE - Compressed gas SIMPLE ASPHYXIANTS"
                 },
                 {
                     "title": "GHS label elements",
@@ -100,10 +106,10 @@
                 {
                     "title": "Hazard statements",
                     "normalised_key": "hazard_statements",
-                    "content": "H280 - Contains gas under pressure; may explode if heated. May displace oxygen and cause rapid suffocation. May increase respiration and heart rate.",
+                    "content": "H280 - Contains gas under pressure; may explode if heated. May displace oxygen and cause rapid suffocation.",
                     "list_items": [
                         "H280 - Contains gas under pressure",
-                        "may explode if heated. May displace oxygen and cause rapid suffocation. May increase respiration and heart rate"
+                        "may explode if heated. May displace oxygen and cause rapid suffocation"
                     ],
                     "group": "GHS label elements",
                     "entities": [
@@ -122,7 +128,7 @@
                 {
                     "title": "General",
                     "normalised_key": "general",
-                    "content": "Read and follow all Safety Data Sheets (SDSs) before use. Read label before use. Keep out of reach of children. If medical advice is needed, have product container or label at hand. Close valve after each use and when empty. Use equipment rated for cylinder pressure. Do not open valve until connected to equipment prepared for use. Use a back flow preventative device in the piping. Use only equipment of compatible materials of construction. Always keep container in upright position.",
+                    "content": "Read and follow all Safety Data Sheets (SDSs) before use. Read label before use. Keep out of reach of children. If medical advice is needed, have product container or label at hand. Close valve after each use and when empty. Use equipment rated for cylinder pressure. Do not open valve until connected to equipment prepared for use. Use a back flow preventative device in the piping. Use only equipment of compatible materials of construction.",
                     "group": "Precautionary statements"
                 },
                 {
@@ -160,9 +166,26 @@
                     "group": "Precautionary statements"
                 },
                 {
+                    "title": "Supplemental label elements",
+                    "normalised_key": "supplemental_label_elements",
+                    "content": "Keep container tightly closed. Use only with adequate ventilation. Do not enter storage areas and confined spaces unless adequately ventilated.",
+                    "list_items": [
+                        "Keep container tightly closed",
+                        "Use only with adequate ventilation",
+                        "Do not enter storage"
+                    ],
+                    "group": "Precautionary statements"
+                },
+                {
                     "title": "Hazards not otherwise classified",
                     "normalised_key": "hazards_not_otherwise_classified",
                     "content": "In addition to any other important health or physical hazards, this product may displace oxygen and cause rapid suffocation.",
+                    "group": "Precautionary statements"
+                },
+                {
+                    "title": "Hazards identified when used",
+                    "normalised_key": "hazards_identified_when_used",
+                    "content": "No known significant effects or critical hazards.",
                     "group": "Precautionary statements"
                 }
             ],
@@ -190,17 +213,17 @@
                 {
                     "title": "Chemical name",
                     "normalised_key": "chemical_name",
-                    "content": "Carbon Dioxide"
+                    "content": "argon"
                 },
                 {
                     "title": "Other means of identification",
                     "normalised_key": "other_means_of_identification",
-                    "content": "Not available."
+                    "content": "ARGON, COMPRESSED"
                 },
                 {
                     "title": "Product code",
                     "normalised_key": "product_code",
-                    "content": "001013"
+                    "content": "001004"
                 },
                 {
                     "title": "Ingredient name % CAS number",
@@ -214,16 +237,16 @@
                         ],
                         "rows": [
                             {
-                                "Ingredient name": "Carbon Dioxide",
+                                "Ingredient name": "Argon",
                                 "%": "100",
-                                "CAS number": "124-38-9"
+                                "CAS number": "7440-37-1"
                             }
                         ]
                     }
                 },
                 {
                     "title": "Ingredient name",
-                    "content": "Carbon Dioxide"
+                    "content": "Argon"
                 },
                 {
                     "title": "%",
@@ -231,7 +254,7 @@
                 },
                 {
                     "title": "CAS number",
-                    "content": "124-38-9"
+                    "content": "7440-37-1"
                 }
             ],
             "page_range": [
@@ -259,7 +282,7 @@
                 {
                     "title": "Inhalation",
                     "normalised_key": "inhalation",
-                    "content": "Remove victim to fresh air and keep at rest in a position comfortable for breathing.",
+                    "content": "Remove victim to fresh air and keep at rest in a position comfortable for breathing. If it is suspected that fumes are still present, the rescuer should wear an appropriate mask or self-contained breathing apparatus. Get medical attention if adverse health effects persist or are severe.",
                     "context": "First aid measures",
                     "group": "Description of necessary first aid measures"
                 },
@@ -292,21 +315,21 @@
                 {
                     "title": "Eye contact",
                     "normalised_key": "eye_contact",
-                    "content": "No known significant effects or critical hazards.",
+                    "content": "Contact with rapidly expanding gas may cause burns or frostbite.",
                     "context": "Potential acute health effects",
                     "group": "Potential acute health effects"
                 },
                 {
                     "title": "Inhalation",
                     "normalised_key": "inhalation",
-                    "content": "No known significant effects or critical hazards.",
+                    "content": "At very high concentrations, can displace the normal air and cause suffocation from lack of oxygen.",
                     "context": "Potential acute health effects",
                     "group": "Potential acute health effects"
                 },
                 {
                     "title": "Skin contact",
                     "normalised_key": "skin_contact",
-                    "content": "No known significant effects or critical hazards.",
+                    "content": "Contact with rapidly expanding gas may cause burns or frostbite.",
                     "context": "Potential acute health effects",
                     "group": "Potential acute health effects"
                 },
@@ -378,7 +401,7 @@
                 {
                     "title": "Protection of first-aiders",
                     "normalised_key": "protection_of_first_aiders",
-                    "content": "No action shall be taken involving any personal risk or without suitable training. See toxicological information (Section 11)",
+                    "content": "No action shall be taken involving any personal risk or without suitable training. If it is suspected that fumes are still present, the rescuer should wear an appropriate mask or self-contained breathing apparatus. See toxicological information (Section 11)",
                     "group": "Protection of first-aiders"
                 }
             ],
@@ -412,14 +435,9 @@
                     "content": "Contains gas under pressure. In a fire or if heated, a pressure increase will occur and the container may burst or explode."
                 },
                 {
-                    "title": "Hazardous thermal",
-                    "normalised_key": "hazardous_thermal",
-                    "content": "Decomposition products may include the following materials:"
-                },
-                {
-                    "title": "decomposition products carbon monoxide",
-                    "normalised_key": "decomposition_products_carbon_monoxide",
-                    "content": "carbon dioxide"
+                    "title": "Hazardous thermal decomposition products",
+                    "normalised_key": "hazardous_thermal_decomposition_products",
+                    "content": "No specific data."
                 },
                 {
                     "title": "Special protective actions for fire-fighters",
@@ -504,9 +522,9 @@
                 {
                     "title": "Protective measures",
                     "normalised_key": "protective_measures",
-                    "content": "Put on appropriate personal protective equipment (see Section 8). Contains gas under pressure. Avoid breathing gas. Do not puncture or incinerate container. Use equipment rated for cylinder pressure. Close valve after each use and when empty. Protect cylinders from physical damage; do not drag, roll, slide, or drop. Use a suitable hand truck for cylinder movement. Avoid contact with eyes, skin and clothing. Empty containers retain product residue and can be hazardous.",
+                    "content": "Put on appropriate personal protective equipment (see Section 8). Contains gas under pressure. Avoid breathing gas. Use only with adequate ventilation. Wear appropriate respirator when ventilation is inadequate. Do not puncture or incinerate container. Use equipment rated for cylinder pressure. Close valve after each use and when empty. Protect cylinders from physical damage; do not drag, roll, slide, or drop. Use a suitable hand truck for cylinder movement. Avoid contact with eyes, skin and clothing. Empty containers retain product residue and can be hazardous.",
                     "list_items": [
-                        "Put on appropriate personal protective equipment (see Section 8). Contains gas under pressure. Avoid breathing gas. Do not puncture or incinerate container. Use equipment rated for cylinder pressure. Close valve after each use and when empty. Protect cylinders from physical damage",
+                        "Put on appropriate personal protective equipment (see Section 8). Contains gas under pressure. Avoid breathing gas. Use only with adequate ventilation. Wear appropriate respirator when ventilation is inadequate. Do not puncture or incinerate container. Use equipment rated for cylinder pressure. Close valve after each use and when empty. Protect cylinders from physical damage",
                         "do not drag, roll, slide, or drop. Use a suitable hand truck for cylinder movement. Avoid contact with eyes, skin and clothing. Empty containers retain product residue and can be hazardous"
                     ],
                     "group": "Precautions for safe handling"
@@ -546,9 +564,9 @@
                     "group": "Occupational exposure limits"
                 },
                 {
-                    "title": "Ingredient name Exposure limits controls",
-                    "normalised_key": "ingredient_name_exposure_limits_controls",
-                    "content": "contaminants.",
+                    "title": "Ingredient name Exposure limits",
+                    "normalised_key": "ingredient_name_exposure_limits",
+                    "content": "",
                     "group": "Occupational exposure limits",
                     "table": {
                         "headers": [
@@ -557,19 +575,25 @@
                         ],
                         "rows": [
                             {
-                                "Ingredient name": "Carbon Dioxide",
-                                "Exposure limits": "None."
+                                "Ingredient name": "Argon",
+                                "Exposure limits": "ACGIH TLV (United States, 1/2025) Oxygen depletion [asphyxiant]."
                             }
                         ]
                     }
                 },
                 {
                     "title": "Ingredient name",
-                    "content": "Carbon Dioxide"
+                    "content": "Argon"
                 },
                 {
                     "title": "Exposure limits",
-                    "content": "None."
+                    "content": "ACGIH TLV (United States, 1/2025) Oxygen depletion [asphyxiant]."
+                },
+                {
+                    "title": "Appropriate engineering controls",
+                    "normalised_key": "appropriate_engineering_controls",
+                    "content": "Use only with adequate ventilation. Use process enclosures, local exhaust ventilation or other engineering controls to keep worker exposure to airborne contaminants below any recommended or statutory limits.",
+                    "group": "Occupational exposure limits"
                 },
                 {
                     "title": "Environmental exposure controls",
@@ -622,8 +646,14 @@
                 {
                     "title": "Respiratory protection",
                     "normalised_key": "respiratory_protection",
-                    "content": "Based on the hazard and potential for exposure, select a respirator that meets the appropriate standard or certification. Respirators must be used according to a respiratory protection program to ensure proper fitting, training, and other important aspects of use. Respirator selection must be based on known or anticipated exposure levels, the hazards of the product and the safe working limits of the selected respirator.",
-                    "group": "Skin protection"
+                    "content": "The gas can cause asphyxiation without warning by replacing the oxygen in the air. Based on the hazard and potential for exposure, select a respirator that meets the appropriate standard or certification. If operating conditions cause high gas concentrations to be produced or any recommended or statutory exposure limit is exceeded, use an air-fed respirator or self-contained breathing apparatus. Respirators must be used according to a respiratory protection program to ensure proper fitting, training, and other important aspects of use. Respirator selection must be based on known or anticipated exposure levels, the hazards of the product and the safe working limits of the selected respirator.",
+                    "group": "Skin protection",
+                    "entities": [
+                        {
+                            "text": "warning",
+                            "label": "SIGNAL_WORD"
+                        }
+                    ]
                 }
             ],
             "page_range": [
@@ -672,12 +702,12 @@
                 {
                     "title": "Melting point/freezing point",
                     "normalised_key": "melting_point_or_freezing_point",
-                    "content": "Sublimes"
+                    "content": "-189.2\u00b0C (-308.6\u00b0F)"
                 },
                 {
                     "title": "Boiling point or initial boiling point and boiling range",
                     "normalised_key": "boiling_point_or_initial_boiling_point_and_boiling_range",
-                    "content": "Not available."
+                    "content": "-185.9\u00b0C (-302.6\u00b0F)"
                 },
                 {
                     "title": "Flash point",
@@ -702,22 +732,22 @@
                 {
                     "title": "Vapor pressure",
                     "normalised_key": "vapor_pressure",
-                    "content": "830 (psig)"
+                    "content": "Not available."
                 },
                 {
                     "title": "Relative vapor density",
                     "normalised_key": "relative_vapor_density",
-                    "content": "1.5 [Air = 1]"
+                    "content": "1.66 [Air = 1]"
                 },
                 {
                     "title": "Specific Volume (ft3/lb)",
                     "normalised_key": "specific_volume_ft3_or_lb",
-                    "content": "8.7719"
+                    "content": "9.7087"
                 },
                 {
                     "title": "Gas Density (lb/ft3)",
                     "normalised_key": "gas_density_lb_or_ft3",
-                    "content": "0.114"
+                    "content": "0.103"
                 },
                 {
                     "title": "Relative density",
@@ -732,7 +762,7 @@
                 {
                     "title": "Partition coefficient: n- octanol/water",
                     "normalised_key": "partition_coefficient_n_octanol_or_water",
-                    "content": "0.83"
+                    "content": "0.74 [Calculated]"
                 },
                 {
                     "title": "Auto-ignition temperature",
@@ -752,7 +782,7 @@
                 {
                     "title": "Molecular weight",
                     "normalised_key": "molecular_weight",
-                    "content": "44.01 g/mole"
+                    "content": "39.95 g/mole"
                 }
             ],
             "page_range": [
@@ -782,7 +812,7 @@
                 {
                     "title": "Conditions to avoid",
                     "normalised_key": "conditions_to_avoid",
-                    "content": "No specific data."
+                    "content": "Do not allow gas to accumulate in low or confined areas."
                 },
                 {
                     "title": "Incompatible materials",
@@ -902,21 +932,21 @@
                 {
                     "title": "Eye contact",
                     "normalised_key": "eye_contact",
-                    "content": "No known significant effects or critical hazards.",
+                    "content": "Contact with rapidly expanding gas may cause burns or frostbite.",
                     "context": "Routes of exposure",
                     "group": "Potential acute health effects"
                 },
                 {
                     "title": "Inhalation",
                     "normalised_key": "inhalation",
-                    "content": "No known significant effects or critical hazards.",
+                    "content": "At very high concentrations, can displace the normal air and cause suffocation from lack of oxygen.",
                     "context": "Routes of exposure",
                     "group": "Potential acute health effects"
                 },
                 {
                     "title": "Skin contact",
                     "normalised_key": "skin_contact",
-                    "content": "No known significant effects or critical hazards.",
+                    "content": "Contact with rapidly expanding gas may cause burns or frostbite.",
                     "context": "Routes of exposure",
                     "group": "Potential acute health effects"
                 },
@@ -1083,8 +1113,8 @@
                         ],
                         "rows": [
                             {
-                                "Product/ingredient name": "Carbon Dioxide",
-                                "LogPow": "0.83",
+                                "Product/ingredient name": "Argon",
+                                "LogPow": "0.74",
                                 "BCF": "-",
                                 "Potential": "Low"
                             }
@@ -1093,11 +1123,11 @@
                 },
                 {
                     "title": "Product/ingredient name",
-                    "content": "Carbon Dioxide"
+                    "content": "Argon"
                 },
                 {
                     "title": "LogPow",
-                    "content": "0.83"
+                    "content": "0.74"
                 },
                 {
                     "title": "BCF",
@@ -1138,20 +1168,20 @@
             "section_title": "Transport information",
             "subsections": [
                 {
-                    "title": "UN number UN1013",
-                    "normalised_key": "un_number_un1013",
-                    "content": "UN1013 UN1013",
+                    "title": "UN number UN1006",
+                    "normalised_key": "un_number_un1006",
+                    "content": "UN1006 UN1006",
                     "entities": [
                         {
-                            "text": "UN1013",
+                            "text": "UN1006",
                             "label": "UN_NUMBER"
                         }
                     ]
                 },
                 {
-                    "title": "UN proper CARBON shipping name DIOXIDE",
-                    "normalised_key": "un_proper_carbon_shipping_name_dioxide",
-                    "content": "CARBON CARBON DIOXIDE DIOXIDE"
+                    "title": "UN proper Argon, shipping name compressed",
+                    "normalised_key": "un_proper_argon_shipping_name_compressed",
+                    "content": "ARGON, ARGON , Argon, COMPRESSED COMPRIMIDO COMPRESSED compressed"
                 },
                 {
                     "title": "Transport 2.2 hazard class(es)",
@@ -1171,17 +1201,58 @@
                 {
                     "title": "DOT Classification",
                     "normalised_key": "dot_classification",
-                    "content": "Limited quantity Yes. Quantity limitation Passenger aircraft/rail: 75 kg. Cargo aircraft: 150 kg."
+                    "content": "Limited quantity Yes. Packaging instruction Exceptions: 306, 307. Non-bulk: 302. Bulk: 314, 315. Quantity limitation Passenger aircraft/rail: 75 kg. Cargo aircraft: 150 kg.",
+                    "properties": [
+                        {
+                            "key": "packaging_instruction_exceptions",
+                            "value": "306, 307"
+                        },
+                        {
+                            "key": "non_bulk",
+                            "value": "302"
+                        },
+                        {
+                            "key": "bulk",
+                            "value": "314, 315"
+                        },
+                        {
+                            "key": "cargo_aircraft",
+                            "value": "150 kg"
+                        }
+                    ]
                 },
                 {
                     "title": "TDG Classification",
                     "normalised_key": "tdg_classification",
-                    "content": "Product classified as per the following sections of the Transportation of Dangerous Goods Regulations: 2.13-2.17 (Class 2). Explosive Limit and Limited Quantity Index 0.125 Passenger Carrying Road or Rail Index 75"
+                    "content": "Product classified as per the following sections of the Transportation of Dangerous Goods Regulations: 2.13-2.17 (Class 2). Explosive Limit and Limited Quantity Index 0.125 Passenger Carrying Road or Rail Index 75 Special provisions 148"
+                },
+                {
+                    "title": "IMDG",
+                    "normalised_key": "imdg",
+                    "content": "Emergency schedules F-C, S-V Special provisions 378, 392"
                 },
                 {
                     "title": "IATA",
                     "normalised_key": "iata",
-                    "content": "Quantity limitation Passenger and Cargo Aircraft: 75 kg. Cargo Aircraft Only: 150 kg."
+                    "content": "Quantity limitation Passenger and Cargo Aircraft: 75 kg. Packaging instructions: 200. Cargo Aircraft Only: 150 kg. Limited Quantities - Passenger Aircraft: Forbidden. Packaging instructions: Forbidden. Special provisions A69, A202",
+                    "properties": [
+                        {
+                            "key": "packaging_instructions",
+                            "value": "200"
+                        },
+                        {
+                            "key": "cargo_aircraft_only",
+                            "value": "150 kg"
+                        },
+                        {
+                            "key": "limited_quantities_passenger_aircraft",
+                            "value": "Forbidden"
+                        },
+                        {
+                            "key": "packaging_instructions",
+                            "value": "Forbidden"
+                        }
+                    ]
                 },
                 {
                     "title": "Special precautions for user",
@@ -1372,17 +1443,17 @@
                 {
                     "title": "Eurasian Economic Union",
                     "normalised_key": "eurasian_economic_union",
-                    "content": "Russian Federation inventory : Not determined."
+                    "content": "Russian Federation inventory : This material is listed or exempted."
                 },
                 {
                     "title": "Japan",
                     "normalised_key": "japan",
-                    "content": "Japan inventory (CSCL) : This material is listed or exempted."
+                    "content": "Japan inventory (CSCL) : Not determined."
                 },
                 {
                     "title": "Japan inventory (ISHL)",
                     "normalised_key": "japan_inventory_ishl",
-                    "content": "This material is listed or exempted."
+                    "content": "Not determined."
                 },
                 {
                     "title": "New Zealand",
@@ -1412,7 +1483,7 @@
                 {
                     "title": "Turkey",
                     "normalised_key": "turkey",
-                    "content": "This material is listed or exempted."
+                    "content": "Not determined."
                 },
                 {
                     "title": "United States",
@@ -1442,7 +1513,7 @@
                 {
                     "title": "Health",
                     "normalised_key": "health",
-                    "content": "/ 1"
+                    "content": "/ 0"
                 },
                 {
                     "title": "Flammability",
@@ -1452,17 +1523,17 @@
                 {
                     "title": "Physical hazards",
                     "normalised_key": "physical_hazards",
-                    "content": "0 Caution: HMIS\u00ae ratings are based on a 0-4 rating scale, with 0 representing minimal hazards or risks, and 4 representing significant hazards or risks. Although HMIS\u00ae ratings and the associated label are not required on SDSs or products leaving a facility under 29 CFR 1910.1200, the preparer may choose to provide them. HMIS\u00ae ratings are to be used with a fully implemented HMIS\u00ae program. HMIS\u00ae is a registered trademark and service mark of the American Coatings Association, Inc. The customer is responsible for determining the PPE code for this material. For more information on HMIS\u00ae Personal Protective Equipment (PPE) codes, consult the HMIS\u00ae Implementation Manual. 0 Flammability Health 2 0 Instability/Reactivity"
-                },
-                {
-                    "title": "National Fire Protection Association (U.S.A.)",
-                    "normalised_key": "national_fire_protection_association_usa",
-                    "content": "Special Reprinted with permission from NFPA 704-2001, Identification of the Hazards of Materials for Emergency Response Copyright \u00a91997, National Fire Protection Association, Quincy, MA 02269. This reprinted material is not the complete and official position of the National Fire Protection Association, on the referenced subject which is represented only by the standard in its entirety."
+                    "content": "3 Caution: HMIS\u00ae ratings are based on a 0-4 rating scale, with 0 representing minimal hazards or risks, and 4 representing significant hazards or risks. Although HMIS\u00ae ratings and the associated label are not required on SDSs or products leaving a facility under 29 CFR 1910.1200, the preparer may choose to provide them. HMIS\u00ae ratings are to be used with a fully implemented HMIS\u00ae program. HMIS\u00ae is a registered trademark and service mark of the American Coatings Association, Inc. The customer is responsible for determining the PPE code for this material. For more information on HMIS\u00ae Personal Protective Equipment (PPE) codes, consult the HMIS\u00ae Implementation Manual."
                 },
                 {
                     "title": "Date of issue/Date of revision",
                     "normalised_key": "date_of_issue_or_date_of_revision",
-                    "content": "3/28/2025 Date of previous issue : 3/13/2025 Version : 8.02 10/11 Copyright \u00a92001, National Fire Protection Association, Quincy, MA 02269. This warning system is intended to be interpreted and applied only by properly trained individuals to identify fire, health and reactivity hazards of chemicals. The user is referred to certain limited number of chemicals with recommended classifications in NFPA 49 and NFPA 325, which would be used as a guideline only. Whether the chemicals are classified by NFPA or not, anyone using the 704 systems to classify chemicals does so at their own risk.",
+                    "content": "12/3/2025 Date of previous issue : 11/18/2025 Version : 7.1 0/11 0 Flammability Health 0 Instability/Reactivity"
+                },
+                {
+                    "title": "National Fire Protection Association (U.S.A.)",
+                    "normalised_key": "national_fire_protection_association_usa",
+                    "content": "SA Special Reprinted with permission from NFPA 704-2001, Identification of the Hazards of Materials for Emergency Response Copyright \u00a91997, National Fire Protection Association, Quincy, MA 02269. This reprinted material is not the complete and official position of the National Fire Protection Association, on the referenced subject which is represented only by the standard in its entirety. Copyright \u00a92001, National Fire Protection Association, Quincy, MA 02269. This warning system is intended to be interpreted and applied only by properly trained individuals to identify fire, health and reactivity hazards of chemicals. The user is referred to certain limited number of chemicals with recommended classifications in NFPA 49 and NFPA 325, which would be used as a guideline only. Whether the chemicals are classified by NFPA or not, anyone using the 704 systems to classify chemicals does so at their own risk.",
                     "entities": [
                         {
                             "text": "warning",
@@ -1481,7 +1552,11 @@
                         ],
                         "rows": [
                             {
-                                "Classification": "GASES UNDER PRESSURE - Liquefied gas",
+                                "Classification": "GASES UNDER PRESSURE - Compressed gas",
+                                "Justification": "Expert judgment"
+                            },
+                            {
+                                "Classification": "SIMPLE ASPHYXIANTS",
                                 "Justification": "Expert judgment"
                             }
                         ]
@@ -1489,26 +1564,24 @@
                 },
                 {
                     "title": "Classification",
-                    "content": "GASES UNDER PRESSURE - Liquefied gas"
+                    "content": "GASES UNDER PRESSURE - Compressed gas"
                 },
                 {
                     "title": "Justification",
                     "content": "Expert judgment"
                 },
                 {
-                    "title": "Date of issue/Date of revision",
-                    "normalised_key": "date_of_issue_or_date_of_revision",
-                    "content": "3/28/2025"
+                    "title": "Classification",
+                    "content": "SIMPLE ASPHYXIANTS"
                 },
                 {
-                    "title": "Date of previous issue",
-                    "normalised_key": "date_of_previous_issue",
-                    "content": "3/13/2025"
+                    "title": "Justification",
+                    "content": "Expert judgment"
                 },
                 {
                     "title": "Version",
                     "normalised_key": "version",
-                    "content": "8.02"
+                    "content": "7.1"
                 },
                 {
                     "title": "Key to abbreviations",
@@ -1528,7 +1601,7 @@
                 {
                     "title": "Date of issue/Date of revision",
                     "normalised_key": "date_of_issue_or_date_of_revision",
-                    "content": "3/28/2025 Date of previous issue : 3/13/2025 Version : 8.02 11/11"
+                    "content": "12/3/2025 Date of previous issue : 11/18/2025 Version : 7.1 /11"
                 }
             ],
             "page_range": [

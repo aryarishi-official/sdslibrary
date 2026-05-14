@@ -1,0 +1,917 @@
+{
+  "pu": {
+    "product_name": "Other Means of Identification: Not applicable.",
+    "hazard_pictograms": [
+      {
+        "ghs_code": "GHS05",
+        "description": "Corrosion (Corrosive)",
+        "source": "h_code"
+      },
+      {
+        "ghs_code": "GHS08",
+        "description": "Health Hazard (Serious Health Hazard)",
+        "source": "image"
+      }
+    ],
+    "sections": [
+      {
+        "section_number": "1",
+        "section_title": "S UBSTANCE AND S OURCE I DENTIFICATION",
+        "subsections": [
+          {
+            "title": "Product Identifier",
+            "normalised_key": "product_identifier",
+            "content": "Other Means of Identification: Not applicable."
+          },
+          {
+            "title": "SRM Number: 4330C",
+            "normalised_key": "srm_number_4330c",
+            "content": "SRM Name: Plutonium-239 Radioactivity Standard"
+          },
+          {
+            "title": "Recommended Use of This Material and Restrictions of Use",
+            "normalised_key": "recommended_use_of_this_material_and_restrictions_of_use",
+            "content": "This Standard Reference Material (SRM) is intended primarily for the calibration of instruments that are used to measure radioactivity and for the monitoring of radiochemical procedures. A unit of SRM 4330C consists of 3 mL of a 3.4 M (20 %) nitric acid solution in which a certified quantity of radioactive plutonium-239 is dissolved. The solution is contained in a 5 mL flame sealed borosilicate glass ampoule.",
+            "entities": [
+              {
+                "text": "20 %",
+                "label": "PERCENTAGE"
+              }
+            ]
+          },
+          {
+            "title": "Company Information",
+            "normalised_key": "company_information",
+            "content": "National Institute of Standards and Technology Standard Reference Materials Program 100 Bureau Drive, Stop 2300 Gaithersburg, Maryland 20899-2300 Telephone: 301-975-2200 Emergency Telephone ChemTrec:"
+          },
+          {
+            "title": "FAX:  301-948-3730 1-800-424-9300",
+            "normalised_key": "fax_301_948_3730_1_800_424_9300",
+            "content": "(North America)"
+          },
+          {
+            "title": "E-mail:  SRMMSDS@nist.gov +1-703-527-3887",
+            "normalised_key": "e_mail_srmmsds@nistgov_1_703_527_3887",
+            "content": "(International) Website: http://www.nist.gov/srm"
+          }
+        ],
+        "page_range": [
+          0,
+          0
+        ]
+      },
+      {
+        "section_number": "2",
+        "section_title": "H AZARDS I DENTIFICATION",
+        "subsections": [
+          {
+            "title": "Radiological Hazard",
+            "normalised_key": "radiological_hazard",
+            "content": "This product contains licensed radioactive material and is therefore subject to the requirements of 10 CFR Part 20 (e.g., public and occupational exposure limits, waste disposal). At a minimum, the basic radiation safety principles of time, distance, and shielding, and appropriate radiation contamination control should be practiced to avoid/minimize any external and/or internal exposure. Consult with your Radiation Safety office for your facility’s radiation safety requirements/precautions specific to the radionuclide(s) (including its activity and chemical/physicalform) in this Radioactive SRM. Physical Hazard: There are no known physical hazards associated with this material. Health Hazard: Skin Corrosion/Irritation Category 1B Serious Eye Damage/Irritation Category 1",
+            "properties": [
+              {
+                "key": "physical_hazard",
+                "value": "There are no known physical hazards associated with this material"
+              },
+              {
+                "key": "health_hazard",
+                "value": "Skin Corrosion/Irritation Category 1B Serious Eye Damage/Irritation Category 1"
+              }
+            ]
+          },
+          {
+            "title": "Label Elements",
+            "normalised_key": "label_elements",
+            "content": "",
+            "group": "Label Elements"
+          },
+          {
+            "title": "Symbol",
+            "normalised_key": "symbol",
+            "content": "",
+            "group": "Label Elements"
+          },
+          {
+            "title": "Signal Word",
+            "normalised_key": "signal_word",
+            "content": "DANGER",
+            "group": "Label Elements",
+            "entities": [
+              {
+                "text": "DANGER",
+                "label": "SIGNAL_WORD"
+              }
+            ]
+          },
+          {
+            "title": "SRM 4330C",
+            "normalised_key": "srm_4330c",
+            "content": "Page 1 of 7",
+            "group": "Label Elements"
+          },
+          {
+            "title": "Hazard Statement(s)",
+            "normalised_key": "hazard_statements",
+            "content": "H314 Causes severe skin burns and eye damage. Hazards Not Otherwise Classified: None. Ingredients(s) with Unknown Acute Toxicity: None.",
+            "group": "Label Elements",
+            "entities": [
+              {
+                "text": "H314",
+                "label": "GHS_H_CODE"
+              }
+            ]
+          },
+          {
+            "title": "Precautionary Statement(s)",
+            "normalised_key": "precautionary_statements",
+            "content": "P260 Do not breathe fumes, mists, vapors, or spray. P264 Wash hands thoroughly after handling. P280 Wear protective gloves, protective clothing, and eye protection. P301+P330+P331 If swallowed: Rinse mouth. Do NOT induce vomiting. P303+P361+P353 If on skin (or hair): Remove immediately all contaminated clothing. Rinse skin with water. P304+P340 If inhaled: Remove person to fresh air and keep comfortable for breathing. P305+P351+P338 If in eyes: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing. P310 Immediately call a doctor. P363 Wash contaminated clothing before reuse. P405 Store locked up. P501 Dispose of contents and container according to local regulations.",
+            "group": "Label Elements",
+            "entities": [
+              {
+                "text": "P260",
+                "label": "GHS_P_CODE"
+              },
+              {
+                "text": "P264",
+                "label": "GHS_P_CODE"
+              },
+              {
+                "text": "P280",
+                "label": "GHS_P_CODE"
+              },
+              {
+                "text": "P301+P330+P331",
+                "label": "GHS_P_CODE"
+              },
+              {
+                "text": "P303+P361+P353",
+                "label": "GHS_P_CODE"
+              },
+              {
+                "text": "P304+P340",
+                "label": "GHS_P_CODE"
+              },
+              {
+                "text": "P305+P351+P338",
+                "label": "GHS_P_CODE"
+              },
+              {
+                "text": "P310",
+                "label": "GHS_P_CODE"
+              },
+              {
+                "text": "P363",
+                "label": "GHS_P_CODE"
+              },
+              {
+                "text": "P405",
+                "label": "GHS_P_CODE"
+              },
+              {
+                "text": "P501",
+                "label": "GHS_P_CODE"
+              }
+            ]
+          },
+          {
+            "title": "3. C OMPOSITION AND I NFORMATION ON H AZARDOUS I",
+            "normalised_key": "3_c_omposition_and_i_nformation_on_h_azardous_i",
+            "content": "NGREDIENTS Substance: Radioactive plutonium-239 in 3.4 M nitric acid.",
+            "group": "Label Elements"
+          },
+          {
+            "title": "Other Designations",
+            "normalised_key": "other_designations",
+            "content": "Nitric Acid: Aqua fortis; hydronitrate; azotic acid; engraver’s acid. Plutonium-239: Not applicable. Components are listed in compliance with OSHA’s 29 CFR 1910.1200; for the actual values see the NIST Certificate.",
+            "list_items": [
+              "Nitric Acid: Aqua fortis",
+              "hydronitrate",
+              "azotic acid",
+              "engraver’s acid. Plutonium-239: Not applicable. Components are listed in compliance with OSHA’s 29 CFR 1910.1200",
+              "for the actual values see the NIST Certificate"
+            ],
+            "group": "Label Elements",
+            "properties": [
+              {
+                "key": "nitric_acid",
+                "value": "Aqua fortis; hydronitrate; azotic acid; engraver’s acid"
+              },
+              {
+                "key": "plutonium_239",
+                "value": "Not applicable"
+              }
+            ]
+          },
+          {
+            "title": "Hazardous Component(s) CAS Number EC Number",
+            "normalised_key": "hazardous_components_cas_number_ec_number",
+            "content": "Nominal Mass Concentration",
+            "group": "Label Elements"
+          },
+          {
+            "title": "(EINECS)",
+            "normalised_key": "einecs",
+            "content": "(%)",
+            "group": "Label Elements"
+          },
+          {
+            "title": "Nitric acid 7697-37-2 231-714-2",
+            "normalised_key": "nitric_acid_7697_37_2_231_714_2",
+            "content": "20",
+            "group": "Label Elements"
+          },
+          {
+            "title": "Plutonium-239 Not applicable Not applicable",
+            "normalised_key": "plutonium_239_not_applicable_not_applicable",
+            "content": "0.000 002",
+            "group": "Label Elements"
+          },
+          {
+            "title": "Non-Hazardous Component(s)",
+            "normalised_key": "non_hazardous_components",
+            "content": "",
+            "group": "Label Elements"
+          },
+          {
+            "title": "Water 7732-18-5 231-791-2",
+            "normalised_key": "water_7732_18_5_231_791_2",
+            "content": ">79",
+            "group": "Label Elements"
+          }
+        ],
+        "page_range": [
+          0,
+          1
+        ],
+        "hazard_pictograms": [
+          {
+            "ghs_code": "GHS05",
+            "description": "Corrosion (Corrosive)",
+            "source": "h_code"
+          },
+          {
+            "ghs_code": "GHS08",
+            "description": "Health Hazard (Serious Health Hazard)",
+            "source": "image"
+          }
+        ]
+      },
+      {
+        "section_number": "4",
+        "section_title": "F IRST A ID M EASURES",
+        "subsections": [
+          {
+            "title": "Description of First Aid Measures",
+            "normalised_key": "description_of_first_aid_measures",
+            "content": "Inhalation: If adverse effects occur, remove to uncontaminated area. If not breathing, give artificial respiration or oxygen by qualified personnel. Seek immediate medical attention. Skin Contact: Rinse affected area with copious amounts of water followed by washing with soap and water for at least 15 minutes while removing contaminated clothing. Seek medical attention, if needed. Eye Contact: Immediately flush eyes, including under the eyelids with copious amounts of water for at least 30 minutes. Ingestion: Contact a poison control center immediately for instructions. Wash out mouth with water, but do not induce vomiting. Seek medical aid at once, and bring the container or label. symptoms are present, seek immediate medical attention.",
+            "properties": [
+              {
+                "key": "inhalation",
+                "value": "If adverse effects occur, remove to uncontaminated area"
+              },
+              {
+                "key": "skin_contact",
+                "value": "Rinse affected area with copious amounts of water followed by washing with soap and water for at least 15 minutes while removing contaminated clothing"
+              },
+              {
+                "key": "eye_contact",
+                "value": "Immediately flush eyes, including under the eyelids with copious amounts of water for at least 30 minutes"
+              },
+              {
+                "key": "ingestion",
+                "value": "Contact a poison control center immediately for instructions"
+              }
+            ]
+          }
+        ],
+        "page_range": [
+          1,
+          1
+        ]
+      },
+      {
+        "section_number": "5",
+        "section_title": "F IRE F IGHTING M EASURES",
+        "subsections": [
+          {
+            "title": "SRM 4330C",
+            "normalised_key": "srm_4330c",
+            "content": "Page 2 of 7 Specific Hazards Arising from the Chemical: Oxides of nitrogen."
+          },
+          {
+            "title": "Extinguishing Media",
+            "normalised_key": "extinguishing_media",
+            "content": "Suitable: Use extinguishing media appropriate to the surrounding fire. Unsuitable: None listed.",
+            "properties": [
+              {
+                "key": "suitable",
+                "value": "Use extinguishing media appropriate to the surrounding fire"
+              },
+              {
+                "key": "unsuitable",
+                "value": "None listed"
+              }
+            ]
+          },
+          {
+            "title": "Special Protective Equipment and Precautions for Fire-Fighters",
+            "normalised_key": "special_protective_equipment_and_precautions_for_fire_fighters",
+            "content": "Avoid inhalation of material or combustion byproducts. Wear full protective clothing and NIOSH approved self-contained breathing apparatus (SCBA). NFPA Ratings: (0 = Minimal; 1 = Slight; 2 = Moderate; 3 = Serious; 4 = Severe) Health = 3 Fire = 0 Reactivity = 0",
+            "list_items": [
+              "Avoid inhalation of material or combustion byproducts. Wear full protective clothing and NIOSH approved self-contained breathing apparatus (SCBA). NFPA Ratings: (0 = Minimal",
+              "1 = Slight",
+              "2 = Moderate",
+              "3 = Serious",
+              "4 = Severe) Health = 3 Fire = 0 Reactivity = 0"
+            ]
+          }
+        ],
+        "page_range": [
+          1,
+          2
+        ]
+      },
+      {
+        "section_number": "6",
+        "section_title": "A CCIDENTAL R ELEASE M EASURES",
+        "subsections": [
+          {
+            "title": "Radiological Emergency Procedures",
+            "normalised_key": "radiological_emergency_procedures",
+            "content": "The following is a guide for first responders. The following actions, including remediation, should be carried out by qualified individuals. In cases where a life-threatening injury occurs concurrent with personal contamination, treat the injury first. Do not touch damaged packages or spilled material. Handle as a radioactive material spill. In addition to those actions described below, the guidelines in the Emergency Response Guidebook (ERG) provide more specific measures that should be followed."
+          },
+          {
+            "title": "Spill and Leak Control",
+            "normalised_key": "spill_and_leak_control",
+            "content": "Alert and clear everyone from the area affected by the spill. Take actions to limit the spread of contamination. Summon aid."
+          },
+          {
+            "title": "Damage to the Radioactive Source",
+            "normalised_key": "damage_to_the_radioactive_source",
+            "content": "Evacuate the immediate vicinity around the source. Place a barrier at a safe distance from the source. Identify area as a radiation hazard."
+          },
+          {
+            "title": "Suggested Emergency Protective Equipment",
+            "normalised_key": "suggested_emergency_protective_equipment",
+            "content": "Gloves Footwear Covers Outer layer or easily removed protective clothing (as situation requires)"
+          }
+        ],
+        "page_range": [
+          2,
+          2
+        ]
+      },
+      {
+        "section_number": "7",
+        "section_title": "H ANDLING AND S TORAGE",
+        "subsections": [],
+        "page_range": [
+          2,
+          2
+        ]
+      },
+      {
+        "section_number": "8",
+        "section_title": "E XPOSURE C ONTROLS AND P ERSONAL P ROTECTION",
+        "subsections": [
+          {
+            "title": "Exposure Limits",
+            "normalised_key": "exposure_limits",
+            "content": ""
+          },
+          {
+            "title": "Plutonium-239",
+            "normalised_key": "plutonium_239",
+            "content": "ALI inh : 0.006 μCi or 0.222 kBq (bone surface) (See NRC 10 CFR 20 Appendix B) ALI ing : 0.8 μCi or 29.6 kBq (bone surface) OSHA: See OSHA 29 CFR and NRC 10 CFR 20. ACGIH: See International Commission on Radiological Protection guidelines.",
+            "properties": [
+              {
+                "key": "ali_inh",
+                "value": "0"
+              },
+              {
+                "key": "acgih",
+                "value": "See International Commission on Radiological Protection guidelines"
+              }
+            ]
+          },
+          {
+            "title": "Nitric Acid",
+            "normalised_key": "nitric_acid",
+            "content": "NIOSH (REL): 5 mg/m 3 (2 ppm; TWA) 10 mg/m 3 (4 ppm; STEL) 65 mg/m 3 (25 ppm; IDLH) ACGIH (TLV): 5 mg/m 3 (2 ppm; TWA) 10 mg/m 3 (4 ppm; STEL) OSHA (PEL): 5 mg/m 3 (2 ppm; TWA) Engineering Controls: Provide local exhaust or process enclosure ventilation system. Ensure compliance with applicable exposure limits.",
+            "list_items": [
+              "NIOSH (REL): 5 mg/m 3 (2 ppm",
+              "TWA) 10 mg/m 3 (4 ppm",
+              "STEL) 65 mg/m 3 (25 ppm",
+              "IDLH) ACGIH (TLV): 5 mg/m 3 (2 ppm",
+              "TWA) 10 mg/m 3 (4 ppm",
+              "STEL) OSHA (PEL): 5 mg/m 3 (2 ppm",
+              "TWA) Engineering Controls: Provide local exhaust or process enclosure ventilation system. Ensure compliance with applicable exposure limits"
+            ],
+            "entities": [
+              {
+                "text": "2 ppm",
+                "label": "EXPOSURE_LIMIT"
+              },
+              {
+                "text": "4 ppm",
+                "label": "EXPOSURE_LIMIT"
+              },
+              {
+                "text": "25 ppm",
+                "label": "EXPOSURE_LIMIT"
+              }
+            ]
+          },
+          {
+            "title": "SRM 4330C",
+            "normalised_key": "srm_4330c",
+            "content": "Page 3 of 7 Personal Protection: In accordance with OSHA 29 CFR 1910.132, subpart I, wear appropriate Personal Protective Equipment (PPE) to minimize exposure to this material."
+          },
+          {
+            "title": "Respiratory Protection",
+            "normalised_key": "respiratory_protection",
+            "content": ": If workplace conditions warrant a respirator, a respiratory protection program that meets OSHA 29CFR 1910.134 must be followed. Refer to NIOSH 42 CFR 84 for applicable certified respirators. Eye/Face Protection: Wear splash resistant safety goggles with a face shield. An eye wash station should be readily available near areas of use. Skin and Body Protection: Wear protective clothing to prevent contact with skin. Wear appropriate gloves.",
+            "properties": [
+              {
+                "key": "eye_or_face_protection",
+                "value": "Wear splash resistant safety goggles with a face shield"
+              },
+              {
+                "key": "skin_and_body_protection",
+                "value": "Wear protective clothing to prevent contact with skin"
+              }
+            ]
+          }
+        ],
+        "page_range": [
+          2,
+          3
+        ]
+      },
+      {
+        "section_number": "9",
+        "section_title": "P HYSICAL AND C HEMICAL P ROPERTIES",
+        "subsections": [
+          {
+            "title": "Descriptive Properties",
+            "normalised_key": "descriptive_properties",
+            "content": "Nitric Acid"
+          },
+          {
+            "title": "Appearance (physical state, color, etc.)",
+            "normalised_key": "appearance_physical_state_color_etc",
+            "content": "colorless to yellow liquid"
+          },
+          {
+            "title": "Molecular Formula",
+            "normalised_key": "molecular_formula",
+            "content": "HNO 3"
+          },
+          {
+            "title": "Molar Mass (g/mol)",
+            "normalised_key": "molar_mass_g_or_mol",
+            "content": "63.01"
+          },
+          {
+            "title": "Odor",
+            "normalised_key": "odor",
+            "content": "irritating odor"
+          },
+          {
+            "title": "Odor threshold",
+            "normalised_key": "odor_threshold",
+            "content": "not available"
+          },
+          {
+            "title": "pH",
+            "normalised_key": "ph",
+            "content": "1 (1 M)"
+          },
+          {
+            "title": "Evaporation rate",
+            "normalised_key": "evaporation_rate",
+            "content": "not available"
+          },
+          {
+            "title": "Melting point/freezing point (ºC)",
+            "normalised_key": "melting_point_or_freezing_point_ºc",
+            "content": "–42 (–43 ºF)"
+          },
+          {
+            "title": "Relative Density (g/L) as specific gravity (water = 1)",
+            "normalised_key": "relative_density_g_or_l_as_specific_gravity_water_=_1",
+            "content": "1.5027 at 25 ºC"
+          },
+          {
+            "title": "Vapor Pressure (mmHg)",
+            "normalised_key": "vapor_pressure_mmhg",
+            "content": "47.9 at 20 º C"
+          },
+          {
+            "title": "Vapor Density (air = 1)",
+            "normalised_key": "vapor_density_air_=_1",
+            "content": "3.2"
+          },
+          {
+            "title": "Viscosity (cP)",
+            "normalised_key": "viscosity_cp",
+            "content": "not available"
+          },
+          {
+            "title": "Solubility(ies)",
+            "normalised_key": "solubilityies",
+            "content": "miscible with water and ether"
+          },
+          {
+            "title": "Partition coefficient",
+            "normalised_key": "partition_coefficient",
+            "content": "not available"
+          },
+          {
+            "title": "(n-octanol/water)",
+            "normalised_key": "n_octanol_or_water",
+            "content": ""
+          },
+          {
+            "title": "Thermal Stability Properties",
+            "normalised_key": "thermal_stability_properties",
+            "content": ""
+          },
+          {
+            "title": "Autoignition Temperature (ºC)",
+            "normalised_key": "autoignition_temperature_ºc",
+            "content": "not applicable"
+          },
+          {
+            "title": "Thermal Decomposition (ºC)",
+            "normalised_key": "thermal_decomposition_ºc",
+            "content": "not applicable"
+          },
+          {
+            "title": "Initial boiling point and boiling range (ºC)",
+            "normalised_key": "initial_boiling_point_and_boiling_range_ºc",
+            "content": "83 (181 º F)"
+          },
+          {
+            "title": "Explosive Limits, LEL (Volume %)",
+            "normalised_key": "explosive_limits_lel_volume_%",
+            "content": "not applicable"
+          },
+          {
+            "title": "Explosive Limits, UEL (Volume %)",
+            "normalised_key": "explosive_limits_uel_volume_%",
+            "content": "not applicable"
+          },
+          {
+            "title": "Flash Point (ºC)",
+            "normalised_key": "flash_point_ºc",
+            "content": "not applicable"
+          },
+          {
+            "title": "Flammability (solid, gas)",
+            "normalised_key": "flammability_solid_gas",
+            "content": "not applicable"
+          }
+        ],
+        "page_range": [
+          3,
+          3
+        ]
+      },
+      {
+        "section_number": "10",
+        "section_title": "S TABILITY AND R EACTIVITY",
+        "subsections": [
+          {
+            "title": "Stability",
+            "normalised_key": "stability",
+            "content": ": X Stable Unstable Possible Hazardous Reactions: None listed."
+          },
+          {
+            "title": "Conditions to Avoid",
+            "normalised_key": "conditions_to_avoid",
+            "content": ": Avoid contact with combustible materials and incompatible materials."
+          },
+          {
+            "title": "Incompatible Materials",
+            "normalised_key": "incompatible_materials",
+            "content": ": Acids, combustible materials, halo carbons, amines, bases, oxidizing materials, metals, halogens, metal salts, metal oxides, reducing agents, peroxides, metal carbide, cyanides. Fire/Explosion Information: See Section 5, “Fire Fighting Measures”. Hazardous Decomposition: Oxides of nitrogen.",
+            "properties": [
+              {
+                "key": "fire_or_explosion_information",
+                "value": "See Section 5, “Fire Fighting Measures”"
+              },
+              {
+                "key": "hazardous_decomposition",
+                "value": "Oxides of nitrogen"
+              }
+            ]
+          },
+          {
+            "title": "Hazardous Polymerization",
+            "normalised_key": "hazardous_polymerization",
+            "content": ": Will Occur X Will Not Occur"
+          }
+        ],
+        "page_range": [
+          3,
+          3
+        ]
+      },
+      {
+        "section_number": "11",
+        "section_title": "T OXICOLOGICAL I NFORMATION",
+        "subsections": [
+          {
+            "title": "Route of Exposure: X Inhalation X Skin",
+            "normalised_key": "route_of_exposure_x_inhalation_x_skin",
+            "content": "X Ingestion"
+          },
+          {
+            "title": "Symptoms Related to the Physical, Chemical and Toxicological Characteristics",
+            "normalised_key": "symptoms_related_to_the_physical_chemical_and_toxicological_characteristics",
+            "content": "Burning pain and severe corrosive skin damage. Permanent eye damage including blindness could result."
+          },
+          {
+            "title": "SRM 4330C",
+            "normalised_key": "srm_4330c",
+            "content": "Page 4 of 7"
+          },
+          {
+            "title": "Potential Health Effects (Acute, Chronic and Delayed)",
+            "normalised_key": "potential_health_effects_acute_chronic_and_delayed",
+            "content": "Inhalation: Nitric acid, if inhaled, can damage the mucous membranes and respiratory tract. Short term exposure may cause irritation and inflammation of the upper respiratory tract, coughing, choking, sore throat, shortness of breath, headache, dizziness, and nausea. Long term exposure to acid fumes may cause damage to teeth, bronchial irritation, chronic cough, bronchial pneumonia, and gastrointestinal disturbances. Skin Contact: Nitric acid can cause severe skin burns. Severity of the damage depends on the concentration and duration of exposure. Effects of acid burns may be delayed. Eye Contact: Nitric acid can cause severe eye irritation, corneal burns, permanent eye damage, or blindness. Ingestion: Ingestion of this material is unlikely under normal conditions of use. If ingested, nitric acid can cause severe burns and damage to the gastrointestinal tract. Respiratory Sensitization: No data available. Germ Cell Mutagenicity: No data available.",
+            "properties": [
+              {
+                "key": "inhalation",
+                "value": "Nitric acid, if inhaled, can damage the mucous membranes and respiratory tract"
+              },
+              {
+                "key": "skin_contact",
+                "value": "Nitric acid can cause severe skin burns"
+              },
+              {
+                "key": "eye_contact",
+                "value": "Nitric acid can cause severe eye irritation, corneal burns, permanent eye damage, or blindness"
+              },
+              {
+                "key": "ingestion",
+                "value": "Ingestion of this material is unlikely under normal conditions of use"
+              },
+              {
+                "key": "respiratory_sensitization",
+                "value": "No data available"
+              },
+              {
+                "key": "germ_cell_mutagenicity",
+                "value": "No data available"
+              }
+            ]
+          },
+          {
+            "title": "Numerical Measures of Toxicity",
+            "normalised_key": "numerical_measures_of_toxicity",
+            "content": "Acute Toxicity: Not classified. Nitric acid, Rat, Inhalation LC50: 130 mg/m 3 (4 h) Skin Corrosion/Irritation: This SRM contains 20 % nitric acid and it is classified as Category 1B. Serious Eye Damage/Eye Irritation: This SRM contains 20 % nitric acid and it is classified as Category 1. Skin Sensitization: No data available. Carcinogenicity: No data available.",
+            "group": "Numerical Measures of Toxicity",
+            "properties": [
+              {
+                "key": "acute_toxicity",
+                "value": "Not classified"
+              },
+              {
+                "key": "serious_eye_damage_or_eye_irritation",
+                "value": "This SRM contains 20 % nitric acid and it is classified as Category 1"
+              },
+              {
+                "key": "skin_sensitization",
+                "value": "No data available"
+              },
+              {
+                "key": "carcinogenicity",
+                "value": "No data available"
+              }
+            ],
+            "entities": [
+              {
+                "text": "20 %",
+                "label": "PERCENTAGE"
+              }
+            ]
+          },
+          {
+            "title": "Listed as a Carcinogen/Potential Carcinogen",
+            "normalised_key": "listed_as_a_carcinogen_or_potential_carcinogen",
+            "content": "Yes X No Nitric acid is not listed by NTP, IARC or OSHA as a carcinogen. Reproductive Toxicity: No data available. Specific Target Organ Toxicity, Single Exposure: No data available. Specific Target Organ Toxicity, Repeated Exposure: No data available.",
+            "group": "Numerical Measures of Toxicity"
+          },
+          {
+            "title": "Radiological Hazard :  Plutonium-239",
+            "normalised_key": "radiological_hazard_plutonium_239",
+            "content": "Ionizing radiation is a known carcinogen. Aspiration Hazard: No data available.",
+            "group": "Numerical Measures of Toxicity"
+          }
+        ],
+        "page_range": [
+          3,
+          4
+        ]
+      },
+      {
+        "section_number": "12",
+        "section_title": "E COLOGICAL I NFORMATION",
+        "subsections": [
+          {
+            "title": "Ecotoxicity Data",
+            "normalised_key": "ecotoxicity_data",
+            "content": "Persistence and Degradability: No data available. Bioaccumulative Potential: No data available. Mobility in Soil: No data available. Other Adverse Effects: No data available.",
+            "properties": [
+              {
+                "key": "persistence_and_degradability",
+                "value": "No data available"
+              },
+              {
+                "key": "bioaccumulative_potential",
+                "value": "No data available"
+              },
+              {
+                "key": "mobility_in_soil",
+                "value": "No data available"
+              },
+              {
+                "key": "other_adverse_effects",
+                "value": "No data available"
+              }
+            ]
+          },
+          {
+            "title": "Component: Nitric Acid",
+            "normalised_key": "component_nitric_acid",
+            "content": "Fish: Starfish ( Asterias rubens ), LC50: 100-300 mg/L (48 h, renewal, aerated water) Component: Plutonium-239 No ecotoxicity data listed."
+          }
+        ],
+        "page_range": [
+          4,
+          4
+        ]
+      },
+      {
+        "section_number": "13",
+        "section_title": "D ISPOSAL C ONSIDERATIONS",
+        "subsections": [],
+        "page_range": [
+          4,
+          4
+        ]
+      },
+      {
+        "section_number": "14",
+        "section_title": "T RANSPORTATION I NFORMATION",
+        "subsections": [
+          {
+            "title": "U.S. DOT and IATA",
+            "normalised_key": "us_dot_and_iata",
+            "content": "Primary Risk : UN2031, Nitric Acid, Hazard Class 8, Packing Group II, Excepted Quantity E2. Subsidiary Risk: Not radioactive for shipping purposes.",
+            "properties": [
+              {
+                "key": "primary_risk",
+                "value": "UN2031, Nitric Acid, Hazard Class 8, Packing Group II, Excepted Quantity E2"
+              },
+              {
+                "key": "subsidiary_risk",
+                "value": "Not radioactive for shipping purposes"
+              }
+            ],
+            "entities": [
+              {
+                "text": "UN2031",
+                "label": "UN_NUMBER"
+              }
+            ]
+          },
+          {
+            "title": "SRM 4330C",
+            "normalised_key": "srm_4330c",
+            "content": "Page 5 of 7"
+          }
+        ],
+        "page_range": [
+          4,
+          5
+        ]
+      },
+      {
+        "section_number": "15",
+        "section_title": "R EGULATORY I NFORMATION",
+        "subsections": [
+          {
+            "title": "U.S. Regulations",
+            "normalised_key": "us_regulations",
+            "content": "CERCLA Sections 102a/103 (40 CFR 302.4): Nitric Acid, 1000 lbs; 454 kg final RQ. SARA Title III Section 302 (40 CFR 355.30): Nitric Acid, 1000 lbs TPQ. SARA Title III Section 304 (40 CFR 355.40): Nitric Acid, 1000 lbs EPCRA RQ. SARA Title III Section 313 (40 CFR 372.65): Nitric Acid, 1.0 % de minimis concentrations. OSHA Process Safety (29 CFR 1910.119): Nitric Acid at higher concentrations 500 lbs. TQ (>94.5 %) is regulated. SARA Title III Sections 311/312 Hazardous Categories (40 CFR 370.21): ACUTE HEALTH: Yes. CHRONIC HEALTH: Yes. FIRE: No. REACTIVE: No. PRESSURE: No. TSCA 12(b), Export Notification: No components are listed.",
+            "list_items": [
+              "CERCLA Sections 102a/103 (40 CFR 302.4): Nitric Acid, 1000 lbs",
+              "454 kg final RQ. SARA Title III Section 302 (40 CFR 355.30): Nitric Acid, 1000 lbs TPQ. SARA Title III Section 304 (40 CFR 355.40): Nitric Acid, 1000 lbs EPCRA RQ. SARA Title III Section 313 (40 CFR 372.65): Nitric Acid, 1.0 % de minimis concentrations. OSHA Process Safety (29 CFR 1910.119): Nitric Acid at higher concentrations 500 lbs. TQ (>94.5 %) is regulated. SARA Title III Sections 311/312 Hazardous Categories (40 CFR 370.21): ACUTE HEALTH: Yes. CHRONIC HEALTH: Yes. FIRE: No. REACTIVE: No. PRESSURE: No. TSCA 12(b), Export Notification: No components are listed"
+            ],
+            "properties": [
+              {
+                "key": "chronic_health",
+                "value": "Yes"
+              },
+              {
+                "key": "fire",
+                "value": "No"
+              },
+              {
+                "key": "reactive",
+                "value": "No"
+              },
+              {
+                "key": "pressure",
+                "value": "No"
+              }
+            ]
+          },
+          {
+            "title": "State Regulations",
+            "normalised_key": "state_regulations",
+            "content": "California Proposition 65: No components are regulated. U.S. TSCA Inventory: Nitric acid is listed.",
+            "properties": [
+              {
+                "key": "california_proposition_65",
+                "value": "No components are regulated"
+              },
+              {
+                "key": "tsca_inventory",
+                "value": "Nitric acid is listed"
+              }
+            ]
+          },
+          {
+            "title": "Canadian Regulations",
+            "normalised_key": "canadian_regulations",
+            "content": "WHMIS Information: Not provided for this material."
+          }
+        ],
+        "page_range": [
+          5,
+          5
+        ]
+      },
+      {
+        "section_number": "16",
+        "section_title": "O THER I NFORMATION",
+        "subsections": [
+          {
+            "title": "Issue Date",
+            "normalised_key": "issue_date",
+            "content": "31 July 2015 Sources: ChemAdvisor, Inc., SDS Nitric Acid, 20 March 2015."
+          },
+          {
+            "title": "CDC; NIOSH; NIOSH Pocket Guide to Chemical Hazards",
+            "normalised_key": "cdc;_niosh;_niosh_pocket_guide_to_chemical_hazards",
+            "content": "; Department of Health and Human Services (DHHS), Centers for Disease Control and Prevention (CDC), National Institute for Safety and Health; Nitric Acid , 13 February 2015; available at http://www.cdc.gov/niosh/npg/npgd0447.html (accessedJul 2015).",
+            "list_items": [
+              "Department of Health and Human Services (DHHS), Centers for Disease Control and Prevention (CDC), National Institute for Safety and Health",
+              "Nitric Acid , 13 February 2015",
+              "available at http://www.cdc.gov/niosh/npg/npgd0447.html (accessedJul 2015)"
+            ]
+          },
+          {
+            "title": "United States National Library of Medicine, Hazardous Substance Database (HSDB),",
+            "normalised_key": "united_states_national_library_of_medicine_hazardous_substance_database_hsdb",
+            "content": "Nitric Acid ; available at http://toxnet.nlm.nih.gov/newtoxnet/hsdb.htm (accessed Jul 2015). OSHA 29 CFR, Subpart Z, Ionizing radiation, 1910.1096. NRC 10 CFR 20, Standards for Protection Against Radiation. DOT 49 CFR 173, Shippers General Requirements for Shipments and Packages.",
+            "list_items": [
+              "Nitric Acid",
+              "available at http://toxnet.nlm.nih.gov/newtoxnet/hsdb.htm (accessed Jul 2015). OSHA 29 CFR, Subpart Z, Ionizing radiation, 1910.1096. NRC 10 CFR 20, Standards for Protection Against Radiation. DOT 49 CFR 173, Shippers General Requirements for Shipments and Packages"
+            ]
+          },
+          {
+            "title": "SRM 4330C",
+            "normalised_key": "srm_4330c",
+            "content": "Page 6 of 7"
+          },
+          {
+            "title": "Key of Acronyms",
+            "normalised_key": "key_of_acronyms",
+            "content": "Disclaimer: Physical and chemical data contained in this SDS are provided only for use in assessing the hazardous nature of this material. The SDS was prepared carefully, using current references; however, NIST does not certify the data in the SDS. The certified values for this material are given in the NIST Certificate. Users of this SRM should ensure that the SDS in their possession is current. This can be accomplished by contacting the SRM Program: telephone (301) 975-2200; fax (301) 948-3730; e-mail srmmsds@nist.gov; or via the Internet at http://www.nist.gov/srm.",
+            "list_items": [
+              "Disclaimer: Physical and chemical data contained in this SDS are provided only for use in assessing the hazardous nature of this material. The SDS was prepared carefully, using current references",
+              "however, NIST does not certify the data in the SDS. The certified values for this material are given in the NIST Certificate. Users of this SRM should ensure that the SDS in their possession is current. This can be accomplished by contacting the SRM Program: telephone (301) 975-2200",
+              "fax (301) 948-3730",
+              "e-mail srmmsds@nist.gov",
+              "or via the Internet at http://www.nist.gov/srm"
+            ]
+          },
+          {
+            "title": "SRM 4330C",
+            "normalised_key": "srm_4330c",
+            "content": "Page 7 of 7"
+          }
+        ],
+        "page_range": [
+          5,
+          6
+        ]
+      }
+    ]
+  }
+}

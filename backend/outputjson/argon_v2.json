@@ -1,0 +1,1700 @@
+{
+  "argon": {
+    "product_name": "Argon",
+    "hazard_pictograms": [
+      {
+        "ghs_code": "GHS04",
+        "description": "Gas Cylinder (Compressed Gas)",
+        "source": "h_code"
+      }
+    ],
+    "sections": [
+      {
+        "section_number": "1",
+        "section_title": "Identification",
+        "subsections": [
+          {
+            "title": "GHS product identifier",
+            "normalised_key": "ghs_product_identifier",
+            "content": "Argon"
+          },
+          {
+            "title": "Chemical name",
+            "normalised_key": "chemical_name",
+            "content": "argon"
+          },
+          {
+            "title": "Other means of identification",
+            "normalised_key": "other_means_of_identification",
+            "content": "ARGON, COMPRESSED"
+          },
+          {
+            "title": "Product type",
+            "normalised_key": "product_type",
+            "content": "Gas."
+          },
+          {
+            "title": "Product use",
+            "normalised_key": "product_use",
+            "content": "Synthetic/Analytical chemistry."
+          },
+          {
+            "title": "Synonym",
+            "normalised_key": "synonym",
+            "content": "ARGON, COMPRESSED"
+          },
+          {
+            "title": "SDS #",
+            "normalised_key": "sds_number",
+            "content": "001004"
+          },
+          {
+            "title": "Supplier's details",
+            "normalised_key": "suppliers_details",
+            "content": "Airgas USA, LLC and its affiliates 259 North Radnor-Chester Road Suite 100 Radnor, PA 19087-5283 1-610-687-5253 Inside the US: 1-800-424-9300 (Chemtrec, 24 hours) Outside the US: 1-703-527-3887 (Chemtrec, 24 hours)"
+          },
+          {
+            "title": "24-hour telephone",
+            "normalised_key": "24_hour_telephone",
+            "content": "Airgas Emergency Response Center 1-866-734-3438"
+          }
+        ],
+        "page_range": [
+          0,
+          0
+        ]
+      },
+      {
+        "section_number": "2",
+        "section_title": "Hazards identification",
+        "subsections": [
+          {
+            "title": "OSHA/HCS status",
+            "normalised_key": "osha_or_hcs_status",
+            "content": "This material is considered hazardous by the OSHA Hazard Communication Standard (29 CFR 1910.1200)."
+          },
+          {
+            "title": "Classification of the substance or mixture",
+            "normalised_key": "classification_of_the_substance_or_mixture",
+            "content": "GASES UNDER PRESSURE - Compressed gas SIMPLE ASPHYXIANTS"
+          },
+          {
+            "title": "GHS label elements",
+            "normalised_key": "ghs_label_elements",
+            "content": "",
+            "group": "GHS label elements"
+          },
+          {
+            "title": "Hazard pictograms",
+            "normalised_key": "hazard_pictograms",
+            "content": "",
+            "group": "GHS label elements"
+          },
+          {
+            "title": "Signal word",
+            "normalised_key": "signal_word",
+            "content": "Warning",
+            "group": "GHS label elements",
+            "entities": [
+              {
+                "text": "Warning",
+                "label": "SIGNAL_WORD"
+              }
+            ]
+          },
+          {
+            "title": "Hazard statements",
+            "normalised_key": "hazard_statements",
+            "content": "H280 - Contains gas under pressure; may explode if heated. May displace oxygen and cause rapid suffocation.",
+            "list_items": [
+              "H280 - Contains gas under pressure",
+              "may explode if heated. May displace oxygen and cause rapid suffocation"
+            ],
+            "group": "GHS label elements",
+            "entities": [
+              {
+                "text": "H280",
+                "label": "GHS_H_CODE"
+              }
+            ]
+          },
+          {
+            "title": "Precautionary statements",
+            "normalised_key": "precautionary_statements",
+            "content": "",
+            "group": "Precautionary statements"
+          },
+          {
+            "title": "General",
+            "normalised_key": "general",
+            "content": "Read and follow all Safety Data Sheets (SDSs) before use. Read label before use. Keep out of reach of children. If medical advice is needed, have product container or label at hand. Close valve after each use and when empty. Use equipment rated for cylinder pressure. Do not open valve until connected to equipment prepared for use. Use a back flow preventative device in the piping. Use only equipment of compatible materials of construction.",
+            "group": "Precautionary statements"
+          },
+          {
+            "title": "Prevention",
+            "normalised_key": "prevention",
+            "content": "Not applicable.",
+            "group": "Precautionary statements"
+          },
+          {
+            "title": "Response",
+            "normalised_key": "response",
+            "content": "Not applicable.",
+            "group": "Precautionary statements"
+          },
+          {
+            "title": "Storage",
+            "normalised_key": "storage",
+            "content": "P410 + P403 - Protect from sunlight. Store in a well-ventilated place.",
+            "group": "Precautionary statements",
+            "entities": [
+              {
+                "text": "P410",
+                "label": "GHS_P_CODE"
+              },
+              {
+                "text": "P403",
+                "label": "GHS_P_CODE"
+              }
+            ]
+          },
+          {
+            "title": "Disposal",
+            "normalised_key": "disposal",
+            "content": "Not applicable.",
+            "group": "Precautionary statements"
+          },
+          {
+            "title": "Supplemental label elements",
+            "normalised_key": "supplemental_label_elements",
+            "content": "Keep container tightly closed. Use only with adequate ventilation. Do not enter storage areas and confined spaces unless adequately ventilated.",
+            "list_items": [
+              "Keep container tightly closed",
+              "Use only with adequate ventilation",
+              "Do not enter storage"
+            ],
+            "group": "Precautionary statements"
+          },
+          {
+            "title": "Hazards not otherwise classified",
+            "normalised_key": "hazards_not_otherwise_classified",
+            "content": "In addition to any other important health or physical hazards, this product may displace oxygen and cause rapid suffocation.",
+            "group": "Precautionary statements"
+          },
+          {
+            "title": "Hazards identified when used",
+            "normalised_key": "hazards_identified_when_used",
+            "content": "No known significant effects or critical hazards.",
+            "group": "Precautionary statements"
+          }
+        ],
+        "page_range": [
+          0,
+          1
+        ],
+        "tables": [
+          {
+            "page": 1,
+            "bbox": [
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "headers": [
+              "Ingredient name",
+              "%",
+              "CAS number"
+            ],
+            "rows": [
+              {
+                "Ingredient name": "Argon",
+                "%": "100",
+                "CAS number": "7440-37-1"
+              }
+            ]
+          }
+        ],
+        "hazard_pictograms": [
+          {
+            "ghs_code": "GHS04",
+            "description": "Gas Cylinder (Compressed Gas)",
+            "source": "h_code"
+          }
+        ]
+      },
+      {
+        "section_number": "3",
+        "section_title": "Composition/information on ingredients",
+        "subsections": [
+          {
+            "title": "Substance/mixture",
+            "normalised_key": "substance_or_mixture",
+            "content": "Substance"
+          },
+          {
+            "title": "Chemical name",
+            "normalised_key": "chemical_name",
+            "content": "argon"
+          },
+          {
+            "title": "Other means of identification",
+            "normalised_key": "other_means_of_identification",
+            "content": "ARGON, COMPRESSED"
+          },
+          {
+            "title": "Product code",
+            "normalised_key": "product_code",
+            "content": "001004"
+          },
+          {
+            "title": "Ingredient name % CAS number",
+            "normalised_key": "ingredient_name_%_cas_number",
+            "content": "concentrations applicable, are classified as hazardous to health or the environment and hence require reporting in this section. Occupational exposure limits, if available, are listed in Section 8.",
+            "table": {
+              "headers": [
+                "Ingredient name",
+                "%",
+                "CAS number"
+              ],
+              "rows": [
+                {
+                  "Ingredient name": "Argon",
+                  "%": "100",
+                  "CAS number": "7440-37-1"
+                }
+              ]
+            }
+          }
+        ],
+        "page_range": [
+          1,
+          1
+        ]
+      },
+      {
+        "section_number": "4",
+        "section_title": "First aid measures",
+        "subsections": [
+          {
+            "title": "Description of necessary first aid measures",
+            "normalised_key": "description_of_necessary_first_aid_measures",
+            "content": "",
+            "group": "Description of necessary first aid measures"
+          },
+          {
+            "title": "Eye contact",
+            "normalised_key": "eye_contact",
+            "content": "Immediately flush eyes with plenty of water, occasionally lifting the upper and lower eyelids. Check for and remove any contact lenses. Get medical attention if irritation occurs.",
+            "context": "First aid measures",
+            "group": "Description of necessary first aid measures"
+          },
+          {
+            "title": "Inhalation",
+            "normalised_key": "inhalation",
+            "content": "Remove victim to fresh air and keep at rest in a position comfortable for breathing. If it is suspected that fumes are still present, the rescuer should wear an appropriate mask or self-contained breathing apparatus. Get medical attention if adverse health effects persist or are severe.",
+            "context": "First aid measures",
+            "group": "Description of necessary first aid measures"
+          },
+          {
+            "title": "Skin contact",
+            "normalised_key": "skin_contact",
+            "content": "Flush contaminated skin with plenty of water. Remove contaminated clothing and shoes. Get medical attention if symptoms occur.",
+            "context": "First aid measures",
+            "group": "Description of necessary first aid measures"
+          },
+          {
+            "title": "Ingestion",
+            "normalised_key": "ingestion",
+            "content": "As this product is a gas, refer to the inhalation section.",
+            "context": "First aid measures",
+            "group": "Description of necessary first aid measures"
+          },
+          {
+            "title": "Most important symptoms/effects, acute and delayed",
+            "normalised_key": "most_important_symptoms_or_effects_acute_and_delayed",
+            "content": "",
+            "group": "Description of necessary first aid measures"
+          },
+          {
+            "title": "Potential acute health effects",
+            "normalised_key": "potential_acute_health_effects",
+            "content": "",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Eye contact",
+            "normalised_key": "eye_contact",
+            "content": "Contact with rapidly expanding gas may cause burns or frostbite.",
+            "context": "Potential acute health effects",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Inhalation",
+            "normalised_key": "inhalation",
+            "content": "At very high concentrations, can displace the normal air and cause suffocation from lack of oxygen.",
+            "context": "Potential acute health effects",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Skin contact",
+            "normalised_key": "skin_contact",
+            "content": "Contact with rapidly expanding gas may cause burns or frostbite.",
+            "context": "Potential acute health effects",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Frostbite",
+            "normalised_key": "frostbite",
+            "content": "Try to warm up the frozen tissues and seek medical attention.",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Ingestion",
+            "normalised_key": "ingestion",
+            "content": "As this product is a gas, refer to the inhalation section.",
+            "context": "Potential acute health effects",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Over-exposure signs/symptoms",
+            "normalised_key": "over_exposure_signs_or_symptoms",
+            "content": "",
+            "group": "Over-exposure signs/symptoms"
+          },
+          {
+            "title": "Eye contact",
+            "normalised_key": "eye_contact",
+            "content": "No specific data.",
+            "context": "Over-exposure signs/symptoms",
+            "group": "Over-exposure signs/symptoms"
+          },
+          {
+            "title": "Inhalation",
+            "normalised_key": "inhalation",
+            "content": "No specific data.",
+            "context": "Over-exposure signs/symptoms",
+            "group": "Over-exposure signs/symptoms"
+          },
+          {
+            "title": "Skin contact",
+            "normalised_key": "skin_contact",
+            "content": "No specific data.",
+            "context": "Over-exposure signs/symptoms",
+            "group": "Over-exposure signs/symptoms"
+          },
+          {
+            "title": "Ingestion",
+            "normalised_key": "ingestion",
+            "content": "No specific data.",
+            "context": "Over-exposure signs/symptoms",
+            "group": "Over-exposure signs/symptoms"
+          },
+          {
+            "title": "Indication of immediate medical attention and special treatment needed, if necessary",
+            "normalised_key": "indication_of_immediate_medical_attention_and_special_treatment_needed_if_necessary",
+            "content": "",
+            "group": "Indication of immediate medical attention and special treatment needed, if necessary"
+          },
+          {
+            "title": "Notes to physician",
+            "normalised_key": "notes_to_physician",
+            "content": "Treat symptomatically. Contact poison treatment specialist immediately if large quantities have been ingested or inhaled.",
+            "group": "Indication of immediate medical attention and special treatment needed, if necessary"
+          },
+          {
+            "title": "Specific treatments",
+            "normalised_key": "specific_treatments",
+            "content": "No specific treatment.",
+            "group": "Indication of immediate medical attention and special treatment needed, if necessary"
+          },
+          {
+            "title": "Protection of first-aiders",
+            "normalised_key": "protection_of_first_aiders",
+            "content": "No action shall be taken involving any personal risk or without suitable training. If it is suspected that fumes are still present, the rescuer should wear an appropriate mask or self-contained breathing apparatus. See toxicological information (Section 11)",
+            "group": "Protection of first-aiders"
+          }
+        ],
+        "page_range": [
+          1,
+          2
+        ]
+      },
+      {
+        "section_number": "5",
+        "section_title": "Fire-fighting measures",
+        "subsections": [
+          {
+            "title": "Extinguishing media",
+            "normalised_key": "extinguishing_media",
+            "content": ""
+          },
+          {
+            "title": "Suitable extinguishing media",
+            "normalised_key": "suitable_extinguishing_media",
+            "content": "Use an extinguishing agent suitable for the surrounding fire."
+          },
+          {
+            "title": "Unsuitable extinguishing media",
+            "normalised_key": "unsuitable_extinguishing_media",
+            "content": "None known."
+          },
+          {
+            "title": "Specific hazards arising from the chemical",
+            "normalised_key": "specific_hazards_arising_from_the_chemical",
+            "content": "Contains gas under pressure. In a fire or if heated, a pressure increase will occur and the container may burst or explode."
+          },
+          {
+            "title": "Hazardous thermal decomposition products",
+            "normalised_key": "hazardous_thermal_decomposition_products",
+            "content": "No specific data."
+          },
+          {
+            "title": "Special protective actions for fire-fighters",
+            "normalised_key": "special_protective_actions_for_fire_fighters",
+            "content": "Promptly isolate the scene by removing all persons from the vicinity of the incident if there is a fire. No action shall be taken involving any personal risk or without suitable training. Contact supplier immediately for specialist advice. Move containers from fire area if this can be done without risk. Use water spray to keep fire-exposed containers cool."
+          },
+          {
+            "title": "Special protective equipment for fire-fighters",
+            "normalised_key": "special_protective_equipment_for_fire_fighters",
+            "content": "Fire-fighters should wear appropriate protective equipment and self-contained breathing apparatus (SCBA) with a full face-piece operated in positive pressure mode."
+          }
+        ],
+        "page_range": [
+          2,
+          2
+        ]
+      },
+      {
+        "section_number": "6",
+        "section_title": "Accidental release measures",
+        "subsections": [
+          {
+            "title": "Personal precautions, protective equipment and emergency procedures personnel",
+            "normalised_key": "personal_precautions_protective_equipment_and_emergency_procedures_personnel",
+            "content": "Evacuate surrounding areas. Keep unnecessary and unprotected personnel from entering. Put on appropriate personal protective equipment.",
+            "group": "Personal precautions, protective equipment and emergency procedures"
+          },
+          {
+            "title": "For emergency responders If specialized clothing is required to deal with the spillage, take note of any information in",
+            "normalised_key": "for_emergency_responders_if_specialized_clothing_is_required_to_deal_with_the_spillage_take_note_of_any_information_in",
+            "content": "Section 8 on suitable and unsuitable materials. See also the information in \"For non- emergency personnel\".",
+            "group": "For emergency responders If specialized clothing is required to deal with the spillage, take note of any information in"
+          },
+          {
+            "title": "Environmental precautions",
+            "normalised_key": "environmental_precautions",
+            "content": "Ensure emergency procedures to deal with accidental gas releases are in place to avoid contamination of the environment. Inform the relevant authorities if the product has caused environmental pollution (sewers, waterways, soil or air).",
+            "group": "Environmental precautions"
+          },
+          {
+            "title": "Methods and materials for containment and cleaning up",
+            "normalised_key": "methods_and_materials_for_containment_and_cleaning_up",
+            "content": "",
+            "group": "Methods and materials for containment and cleaning up"
+          },
+          {
+            "title": "Small spill",
+            "normalised_key": "small_spill",
+            "content": "Immediately contact emergency personnel. Stop leak if without risk.",
+            "list_items": [
+              "Immediately contact emergency personnel",
+              "Stop leak if without risk."
+            ],
+            "group": "Small spill"
+          },
+          {
+            "title": "Large spill",
+            "normalised_key": "large_spill",
+            "content": "Immediately contact emergency personnel. Stop leak if without risk.",
+            "list_items": [
+              "Immediately contact emergency personnel",
+              "Stop leak if without risk."
+            ],
+            "group": "Large spill"
+          }
+        ],
+        "page_range": [
+          2,
+          2
+        ]
+      },
+      {
+        "section_number": "7",
+        "section_title": "Handling and storage",
+        "subsections": [
+          {
+            "title": "Precautions for safe handling",
+            "normalised_key": "precautions_for_safe_handling",
+            "content": "",
+            "group": "Precautions for safe handling"
+          },
+          {
+            "title": "Protective measures",
+            "normalised_key": "protective_measures",
+            "content": "Put on appropriate personal protective equipment (see Section 8). Contains gas under pressure. Avoid breathing gas. Use only with adequate ventilation. Wear appropriate respirator when ventilation is inadequate. Do not puncture or incinerate container. Use equipment rated for cylinder pressure. Close valve after each use and when empty. Protect cylinders from physical damage; do not drag, roll, slide, or drop. Use a suitable hand truck for cylinder movement. Avoid contact with eyes, skin and clothing. Empty containers retain product residue and can be hazardous.",
+            "list_items": [
+              "Put on appropriate personal protective equipment (see Section 8). Contains gas under pressure. Avoid breathing gas. Use only with adequate ventilation. Wear appropriate respirator when ventilation is inadequate. Do not puncture or incinerate container. Use equipment rated for cylinder pressure. Close valve after each use and when empty. Protect cylinders from physical damage",
+              "do not drag, roll, slide, or drop. Use a suitable hand truck for cylinder movement. Avoid contact with eyes, skin and clothing. Empty containers retain product residue and can be hazardous"
+            ],
+            "group": "Precautions for safe handling"
+          },
+          {
+            "title": "Advice on general occupational hygiene",
+            "normalised_key": "advice_on_general_occupational_hygiene",
+            "content": "Eating, drinking and smoking should be prohibited in areas where this material is handled, stored and processed. Workers should wash hands and face before eating, drinking and smoking. Remove contaminated clothing and protective equipment before entering eating areas. See also Section 8 for additional information on hygiene measures.",
+            "group": "Precautions for safe handling"
+          },
+          {
+            "title": "Conditions for safe storage, including any incompatibilities",
+            "normalised_key": "conditions_for_safe_storage_including_any_incompatibilities",
+            "content": "Store in accordance with local regulations. Store in a segregated and approved area. Store away from direct sunlight in a dry, cool and well-ventilated area, away from incompatible materials (see Section 10). Keep container tightly closed and sealed until ready for use. See Section 10 for incompatible materials before handling or use. Cylinders should be stored upright, with valve protection cap in place, and firmly secured to prevent falling or being knocked over. Cylinder temperatures should not exceed 52 °C (125 °F).",
+            "group": "Precautions for safe handling"
+          }
+        ],
+        "page_range": [
+          2,
+          3
+        ],
+        "tables": [
+          {
+            "page": 3,
+            "bbox": [
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "headers": [
+              "Ingredient name",
+              "Exposure limits"
+            ],
+            "rows": [
+              {
+                "Ingredient name": "Argon",
+                "Exposure limits": "ACGIH TLV (United States, 1/2025) Oxygen depletion [asphyxiant]."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_number": "8",
+        "section_title": "Exposure controls/personal protection",
+        "subsections": [
+          {
+            "title": "Control parameters",
+            "normalised_key": "control_parameters",
+            "content": "",
+            "group": "Control parameters"
+          },
+          {
+            "title": "Occupational exposure limits",
+            "normalised_key": "occupational_exposure_limits",
+            "content": "",
+            "group": "Occupational exposure limits"
+          },
+          {
+            "title": "Ingredient name Exposure limits",
+            "normalised_key": "ingredient_name_exposure_limits",
+            "content": "",
+            "group": "Occupational exposure limits",
+            "table": {
+              "headers": [
+                "Ingredient name",
+                "Exposure limits"
+              ],
+              "rows": [
+                {
+                  "Ingredient name": "Argon",
+                  "Exposure limits": "ACGIH TLV (United States, 1/2025) Oxygen depletion [asphyxiant]."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Appropriate engineering controls",
+            "normalised_key": "appropriate_engineering_controls",
+            "content": "Use only with adequate ventilation. Use process enclosures, local exhaust ventilation or other engineering controls to keep worker exposure to airborne contaminants below any recommended or statutory limits.",
+            "group": "Occupational exposure limits"
+          },
+          {
+            "title": "Environmental exposure controls",
+            "normalised_key": "environmental_exposure_controls",
+            "content": "Emissions from ventilation or work process equipment should be checked to ensure they comply with the requirements of environmental protection legislation. In some cases, fume scrubbers, filters or engineering modifications to the process equipment will be necessary to reduce emissions to acceptable levels.",
+            "group": "Occupational exposure limits"
+          },
+          {
+            "title": "Individual protection measures",
+            "normalised_key": "individual_protection_measures",
+            "content": "",
+            "group": "Individual protection measures"
+          },
+          {
+            "title": "Hygiene measures",
+            "normalised_key": "hygiene_measures",
+            "content": "Wash hands, forearms and face thoroughly after handling chemical products, before eating, smoking and using the lavatory and at the end of the working period. Appropriate techniques should be used to remove potentially contaminated clothing. Wash contaminated clothing before reusing. Ensure that eyewash stations and safety showers are close to the workstation location.",
+            "group": "Individual protection measures"
+          },
+          {
+            "title": "Eye/face protection",
+            "normalised_key": "eye_or_face_protection",
+            "content": "Safety eyewear complying with an approved standard should be used when a risk assessment indicates this is necessary to avoid exposure to liquid splashes, mists, gases or dusts. If contact is possible, the following protection should be worn, unless the assessment indicates a higher degree of protection: safety glasses with side- shields.",
+            "group": "Individual protection measures"
+          },
+          {
+            "title": "Skin protection",
+            "normalised_key": "skin_protection",
+            "content": "",
+            "group": "Skin protection"
+          },
+          {
+            "title": "Hand protection",
+            "normalised_key": "hand_protection",
+            "content": "Chemical-resistant, impervious gloves complying with an approved standard should be worn at all times when handling chemical products if a risk assessment indicates this is necessary. Considering the parameters specified by the glove manufacturer, check during use that the gloves are still retaining their protective properties. It should be noted that the time to breakthrough for any glove material may be different for different glove manufacturers. In the case of mixtures, consisting of several substances, the protection time of the gloves cannot be accurately estimated.",
+            "group": "Skin protection"
+          },
+          {
+            "title": "Body protection",
+            "normalised_key": "body_protection",
+            "content": "Personal protective equipment for the body should be selected based on the task being performed and the risks involved and should be approved by a specialist before handling this product.",
+            "group": "Skin protection"
+          },
+          {
+            "title": "Other skin protection",
+            "normalised_key": "other_skin_protection",
+            "content": "Appropriate footwear and any additional skin protection measures should be selected based on the task being performed and the risks involved and should be approved by a specialist before handling this product.",
+            "group": "Skin protection"
+          },
+          {
+            "title": "Respiratory protection",
+            "normalised_key": "respiratory_protection",
+            "content": "The gas can cause asphyxiation without warning by replacing the oxygen in the air. Based on the hazard and potential for exposure, select a respirator that meets the appropriate standard or certification. If operating conditions cause high gas concentrations to be produced or any recommended or statutory exposure limit is exceeded, use an air-fed respirator or self-contained breathing apparatus. Respirators must be used according to a respiratory protection program to ensure proper fitting, training, and other important aspects of use. Respirator selection must be based on known or anticipated exposure levels, the hazards of the product and the safe working limits of the selected respirator.",
+            "group": "Skin protection",
+            "entities": [
+              {
+                "text": "warning",
+                "label": "SIGNAL_WORD"
+              }
+            ]
+          }
+        ],
+        "page_range": [
+          3,
+          4
+        ]
+      },
+      {
+        "section_number": "9",
+        "section_title": "Physical and chemical properties",
+        "subsections": [
+          {
+            "title": "Appearance",
+            "normalised_key": "appearance",
+            "content": ""
+          },
+          {
+            "title": "Physical state",
+            "normalised_key": "physical_state",
+            "content": "Gas. [Compressed gas.]",
+            "list_items": [
+              "Gas",
+              "[Compressed gas.]"
+            ]
+          },
+          {
+            "title": "Color",
+            "normalised_key": "color",
+            "content": "Colorless."
+          },
+          {
+            "title": "Odor",
+            "normalised_key": "odor",
+            "content": "Odorless."
+          },
+          {
+            "title": "Odor threshold",
+            "normalised_key": "odor_threshold",
+            "content": "Not available."
+          },
+          {
+            "title": "pH",
+            "normalised_key": "ph",
+            "content": "Not applicable."
+          },
+          {
+            "title": "Melting point/freezing point",
+            "normalised_key": "melting_point_or_freezing_point",
+            "content": "-189.2°C (-308.6°F)"
+          },
+          {
+            "title": "Boiling point or initial boiling point and boiling range",
+            "normalised_key": "boiling_point_or_initial_boiling_point_and_boiling_range",
+            "content": "-185.9°C (-302.6°F)"
+          },
+          {
+            "title": "Flash point",
+            "normalised_key": "flash_point",
+            "content": "[Product does not sustain combustion.]"
+          },
+          {
+            "title": "Evaporation rate",
+            "normalised_key": "evaporation_rate",
+            "content": "Not available."
+          },
+          {
+            "title": "Flammability (solid, gas)",
+            "normalised_key": "flammability_solid_gas",
+            "content": "Not available."
+          },
+          {
+            "title": "Lower and upper explosive (flammable) limits",
+            "normalised_key": "lower_and_upper_explosive_flammable_limits",
+            "content": "Not available."
+          },
+          {
+            "title": "Vapor pressure",
+            "normalised_key": "vapor_pressure",
+            "content": "Not available."
+          },
+          {
+            "title": "Relative vapor density",
+            "normalised_key": "relative_vapor_density",
+            "content": "1.66 [Air = 1]"
+          },
+          {
+            "title": "Specific Volume (ft3/lb)",
+            "normalised_key": "specific_volume_ft3_or_lb",
+            "content": "9.7087"
+          },
+          {
+            "title": "Gas Density (lb/ft3)",
+            "normalised_key": "gas_density_lb_or_ft3",
+            "content": "0.103"
+          },
+          {
+            "title": "Relative density",
+            "normalised_key": "relative_density",
+            "content": "Not applicable."
+          },
+          {
+            "title": "Solubility in water",
+            "normalised_key": "solubility_in_water",
+            "content": "Not available."
+          },
+          {
+            "title": "Partition coefficient: n- octanol/water",
+            "normalised_key": "partition_coefficient_n_octanol_or_water",
+            "content": "0.74 [Calculated]"
+          },
+          {
+            "title": "Auto-ignition temperature",
+            "normalised_key": "auto_ignition_temperature",
+            "content": "Not available."
+          },
+          {
+            "title": "Decomposition temperature",
+            "normalised_key": "decomposition_temperature",
+            "content": "Not available."
+          },
+          {
+            "title": "Flow time (ISO 2431)",
+            "normalised_key": "flow_time_iso_2431",
+            "content": "Not available."
+          },
+          {
+            "title": "Molecular weight",
+            "normalised_key": "molecular_weight",
+            "content": "39.95 g/mole"
+          }
+        ],
+        "page_range": [
+          4,
+          4
+        ]
+      },
+      {
+        "section_number": "10",
+        "section_title": "Stability and reactivity",
+        "subsections": [
+          {
+            "title": "Reactivity",
+            "normalised_key": "reactivity",
+            "content": "No specific test data related to reactivity available for this product or its ingredients."
+          },
+          {
+            "title": "Chemical stability",
+            "normalised_key": "chemical_stability",
+            "content": "The product is stable."
+          },
+          {
+            "title": "Possibility of hazardous reactions",
+            "normalised_key": "possibility_of_hazardous_reactions",
+            "content": "Under normal conditions of storage and use, hazardous reactions will not occur."
+          },
+          {
+            "title": "Conditions to avoid",
+            "normalised_key": "conditions_to_avoid",
+            "content": "Do not allow gas to accumulate in low or confined areas."
+          },
+          {
+            "title": "Incompatible materials",
+            "normalised_key": "incompatible_materials",
+            "content": "No specific data."
+          },
+          {
+            "title": "Hazardous decomposition products",
+            "normalised_key": "hazardous_decomposition_products",
+            "content": "Under normal conditions of storage and use, hazardous decomposition products should not be produced."
+          },
+          {
+            "title": "Hazardous polymerization",
+            "normalised_key": "hazardous_polymerization",
+            "content": "Under normal conditions of storage and use, hazardous polymerization will not occur."
+          }
+        ],
+        "page_range": [
+          4,
+          5
+        ]
+      },
+      {
+        "section_number": "11",
+        "section_title": "Toxicological information",
+        "subsections": [
+          {
+            "title": "Information on toxicological effects",
+            "normalised_key": "information_on_toxicological_effects",
+            "content": "",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Acute toxicity",
+            "normalised_key": "acute_toxicity",
+            "content": "Not available.",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Skin corrosion/irritation",
+            "normalised_key": "skin_corrosion_or_irritation",
+            "content": "Not available.",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Serious eye damage/eye irritation",
+            "normalised_key": "serious_eye_damage_or_eye_irritation",
+            "content": "Not available.",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Respiratory corrosion/irritation",
+            "normalised_key": "respiratory_corrosion_or_irritation",
+            "content": "Not available.",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Respiratory or skin sensitization",
+            "normalised_key": "respiratory_or_skin_sensitization",
+            "content": "Not available.",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Skin",
+            "normalised_key": "skin",
+            "content": "Not available.",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Germ cell mutagenicity",
+            "normalised_key": "germ_cell_mutagenicity",
+            "content": "Not available.",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Carcinogenicity",
+            "normalised_key": "carcinogenicity",
+            "content": "Not available.",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Reproductive toxicity",
+            "normalised_key": "reproductive_toxicity",
+            "content": "Not available.",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Specific target organ toxicity (single exposure)",
+            "normalised_key": "specific_target_organ_toxicity_single_exposure",
+            "content": "Not available.",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Specific target organ toxicity (repeated exposure)",
+            "normalised_key": "specific_target_organ_toxicity_repeated_exposure",
+            "content": "Not available.",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Aspiration hazard",
+            "normalised_key": "aspiration_hazard",
+            "content": "Not available.",
+            "group": "Information on toxicological effects"
+          },
+          {
+            "title": "Information on the likely routes of exposure",
+            "normalised_key": "information_on_the_likely_routes_of_exposure",
+            "content": "Not available.",
+            "group": "Information on the likely routes of exposure"
+          },
+          {
+            "title": "Potential acute health effects",
+            "normalised_key": "potential_acute_health_effects",
+            "content": "",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Eye contact",
+            "normalised_key": "eye_contact",
+            "content": "Contact with rapidly expanding gas may cause burns or frostbite.",
+            "context": "Routes of exposure",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Inhalation",
+            "normalised_key": "inhalation",
+            "content": "At very high concentrations, can displace the normal air and cause suffocation from lack of oxygen.",
+            "context": "Routes of exposure",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Skin contact",
+            "normalised_key": "skin_contact",
+            "content": "Contact with rapidly expanding gas may cause burns or frostbite.",
+            "context": "Routes of exposure",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Ingestion",
+            "normalised_key": "ingestion",
+            "content": "As this product is a gas, refer to the inhalation section.",
+            "context": "Routes of exposure",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Symptoms related to the physical, chemical and toxicological characteristics",
+            "normalised_key": "symptoms_related_to_the_physical_chemical_and_toxicological_characteristics",
+            "content": "",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Eye contact",
+            "normalised_key": "eye_contact",
+            "content": "No specific data.",
+            "context": "Acute health effects",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Inhalation",
+            "normalised_key": "inhalation",
+            "content": "No specific data.",
+            "context": "Acute health effects",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Skin contact",
+            "normalised_key": "skin_contact",
+            "content": "No specific data.",
+            "context": "Acute health effects",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Ingestion",
+            "normalised_key": "ingestion",
+            "content": "No specific data.",
+            "context": "Acute health effects",
+            "group": "Potential acute health effects"
+          },
+          {
+            "title": "Delayed and immediate effects and also chronic effects from short and long term exposure",
+            "normalised_key": "delayed_and_immediate_effects_and_also_chronic_effects_from_short_and_long_term_exposure",
+            "content": "",
+            "group": "Delayed and immediate effects and also chronic effects from short and long term exposure"
+          },
+          {
+            "title": "Short term exposure",
+            "normalised_key": "short_term_exposure",
+            "content": "",
+            "group": "Short term exposure"
+          },
+          {
+            "title": "Potential immediate effects",
+            "normalised_key": "potential_immediate_effects",
+            "content": "Not available.",
+            "group": "Short term exposure"
+          },
+          {
+            "title": "Potential delayed effects",
+            "normalised_key": "potential_delayed_effects",
+            "content": "Not available.",
+            "group": "Short term exposure"
+          },
+          {
+            "title": "Long term exposure",
+            "normalised_key": "long_term_exposure",
+            "content": "",
+            "group": "Long term exposure"
+          },
+          {
+            "title": "Potential immediate effects",
+            "normalised_key": "potential_immediate_effects",
+            "content": "Not available.",
+            "group": "Long term exposure"
+          },
+          {
+            "title": "Potential delayed effects",
+            "normalised_key": "potential_delayed_effects",
+            "content": "Not available.",
+            "group": "Long term exposure"
+          },
+          {
+            "title": "Potential chronic health effects",
+            "normalised_key": "potential_chronic_health_effects",
+            "content": "Not available.",
+            "group": "Potential chronic health effects"
+          },
+          {
+            "title": "General",
+            "normalised_key": "general",
+            "content": "No known significant effects or critical hazards.",
+            "group": "Potential chronic health effects"
+          },
+          {
+            "title": "Carcinogenicity",
+            "normalised_key": "carcinogenicity",
+            "content": "No known significant effects or critical hazards.",
+            "group": "Potential chronic health effects"
+          },
+          {
+            "title": "Mutagenicity",
+            "normalised_key": "mutagenicity",
+            "content": "No known significant effects or critical hazards.",
+            "group": "Potential chronic health effects"
+          },
+          {
+            "title": "Reproductive toxicity",
+            "normalised_key": "reproductive_toxicity",
+            "content": "No known significant effects or critical hazards.",
+            "group": "Potential chronic health effects"
+          },
+          {
+            "title": "Numerical measures of toxicity",
+            "normalised_key": "numerical_measures_of_toxicity",
+            "content": "",
+            "group": "Numerical measures of toxicity"
+          },
+          {
+            "title": "Acute toxicity estimates",
+            "normalised_key": "acute_toxicity_estimates",
+            "content": "N/A",
+            "group": "Numerical measures of toxicity"
+          }
+        ],
+        "page_range": [
+          5,
+          7
+        ]
+      },
+      {
+        "section_number": "12",
+        "section_title": "Ecological information",
+        "subsections": [
+          {
+            "title": "Toxicity",
+            "normalised_key": "toxicity",
+            "content": "Not available."
+          },
+          {
+            "title": "Persistence and degradability",
+            "normalised_key": "persistence_and_degradability",
+            "content": "Not available."
+          },
+          {
+            "title": "Bioaccumulative potential",
+            "normalised_key": "bioaccumulative_potential",
+            "content": ""
+          },
+          {
+            "title": "Product/ingredient name LogP ow BCF Potential",
+            "normalised_key": "product_or_ingredient_name_logp_ow_bcf_potential",
+            "content": "",
+            "table": {
+              "headers": [
+                "Product/ingredient name",
+                "LogPow",
+                "BCF",
+                "Potential"
+              ],
+              "rows": [
+                {
+                  "Product/ingredient name": "Argon",
+                  "LogPow": "0.74",
+                  "BCF": "-",
+                  "Potential": "Low"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Other adverse effects",
+            "normalised_key": "other_adverse_effects",
+            "content": "No known significant effects or critical hazards."
+          }
+        ],
+        "page_range": [
+          7,
+          7
+        ],
+        "tables": [
+          {
+            "page": 7,
+            "bbox": [
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "headers": [
+              "Product/ingredient name",
+              "LogPow",
+              "BCF",
+              "Potential"
+            ],
+            "rows": [
+              {
+                "Product/ingredient name": "Argon",
+                "LogPow": "0.74",
+                "BCF": "-",
+                "Potential": "Low"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_number": "13",
+        "section_title": "Disposal considerations",
+        "subsections": [
+          {
+            "title": "Disposal methods",
+            "normalised_key": "disposal_methods",
+            "content": "The generation of waste should be avoided or minimized wherever possible. Disposal of this product, solutions and any by-products should at all times comply with the requirements of environmental protection and waste disposal legislation and any regional local authority requirements. Dispose of surplus and non-recyclable products via a licensed waste disposal contractor. Waste should not be disposed of untreated to the sewer unless fully compliant with the requirements of all authorities with jurisdiction. Empty pressure vessels should be returned to the supplier. Waste packaging should be recycled. Incineration or landfill should only be considered when recycling is not feasible. This material and its container must be disposed of in a safe way. Empty containers or liners may retain some product residues. Do not puncture or incinerate container."
+          }
+        ],
+        "page_range": [
+          7,
+          7
+        ]
+      },
+      {
+        "section_number": "14",
+        "section_title": "Transport information",
+        "subsections": [
+          {
+            "title": "UN number UN1006",
+            "normalised_key": "un_number_un1006",
+            "content": "UN1006 UN1006",
+            "entities": [
+              {
+                "text": "UN1006",
+                "label": "UN_NUMBER"
+              }
+            ]
+          },
+          {
+            "title": "UN proper Argon, shipping name compressed",
+            "normalised_key": "un_proper_argon_shipping_name_compressed",
+            "content": "ARGON, ARGON , Argon, COMPRESSED COMPRIMIDO COMPRESSED compressed"
+          },
+          {
+            "title": "Transport 2.2 hazard class(es)",
+            "normalised_key": "transport_22_hazard_classes",
+            "content": "2.2 2.2"
+          },
+          {
+            "title": "Packing group -",
+            "normalised_key": "packing_group",
+            "content": "- - - - Environmental No. hazards “Refer to CFR 49 (or authority having jurisdiction) to determine the information required for shipment of the product.”"
+          },
+          {
+            "title": "Additional information",
+            "normalised_key": "additional_information",
+            "content": ""
+          },
+          {
+            "title": "DOT Classification",
+            "normalised_key": "dot_classification",
+            "content": "Limited quantity Yes. Packaging instruction Exceptions: 306, 307. Non-bulk: 302. Bulk: 314, 315. Quantity limitation Passenger aircraft/rail: 75 kg. Cargo aircraft: 150 kg.",
+            "properties": [
+              {
+                "key": "packaging_instruction_exceptions",
+                "value": "306, 307"
+              },
+              {
+                "key": "non_bulk",
+                "value": "302"
+              },
+              {
+                "key": "bulk",
+                "value": "314, 315"
+              },
+              {
+                "key": "cargo_aircraft",
+                "value": "150 kg"
+              }
+            ]
+          },
+          {
+            "title": "TDG Classification",
+            "normalised_key": "tdg_classification",
+            "content": "Product classified as per the following sections of the Transportation of Dangerous Goods Regulations: 2.13-2.17 (Class 2). Explosive Limit and Limited Quantity Index 0.125 Passenger Carrying Road or Rail Index 75 Special provisions 148"
+          },
+          {
+            "title": "IMDG",
+            "normalised_key": "imdg",
+            "content": "Emergency schedules F-C, S-V Special provisions 378, 392"
+          },
+          {
+            "title": "IATA",
+            "normalised_key": "iata",
+            "content": "Quantity limitation Passenger and Cargo Aircraft: 75 kg. Packaging instructions: 200. Cargo Aircraft Only: 150 kg. Limited Quantities - Passenger Aircraft: Forbidden. Packaging instructions: Forbidden. Special provisions A69, A202",
+            "properties": [
+              {
+                "key": "packaging_instructions",
+                "value": "200"
+              },
+              {
+                "key": "cargo_aircraft_only",
+                "value": "150 kg"
+              },
+              {
+                "key": "limited_quantities_passenger_aircraft",
+                "value": "Forbidden"
+              },
+              {
+                "key": "packaging_instructions",
+                "value": "Forbidden"
+              }
+            ]
+          },
+          {
+            "title": "Special precautions for user",
+            "normalised_key": "special_precautions_for_user",
+            "content": "Transport within user’s premises: always transport in closed containers that are upright and secure. Ensure that persons transporting the product know what to do in the event of an accident or spillage."
+          },
+          {
+            "title": "Transport in bulk according to IMO instruments",
+            "normalised_key": "transport_in_bulk_according_to_imo_instruments",
+            "content": "Not available."
+          }
+        ],
+        "page_range": [
+          7,
+          8
+        ],
+        "tables": [
+          {
+            "page": 7,
+            "bbox": [
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "headers": [
+              "Field",
+              "DOT",
+              "TDG",
+              "Mexico",
+              "IMDG",
+              "IATA"
+            ],
+            "rows": [
+              {
+                "Field": "UN number",
+                "DOT": "UN1006",
+                "TDG": "UN1006",
+                "Mexico": "UN1006",
+                "IMDG": "UN1006",
+                "IATA": "UN1006"
+              },
+              {
+                "Field": "UN proper shipping name",
+                "DOT": "Argon, compressed",
+                "TDG": "ARGON, COMPRESSED",
+                "Mexico": "ARGON COMPRIMIDO",
+                "IMDG": "ARGON, COMPRESSED",
+                "IATA": "Argon, compressed"
+              },
+              {
+                "Field": "Transport hazard class(es)",
+                "DOT": "2.2 revision",
+                "TDG": "2.2 :12/3/2025 Date of",
+                "Mexico": "2.2 previous issue",
+                "IMDG": "2.2 :11/18/2025",
+                "IATA": "2.2 Version :7.1 8/11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_number": "15",
+        "section_title": "Regulatory information",
+        "subsections": [
+          {
+            "title": "U.S. Federal regulations",
+            "normalised_key": "us_federal_regulations",
+            "content": ""
+          },
+          {
+            "title": "TSCA 8(a) CDR Exempt/Partial exemption",
+            "normalised_key": "tsca_8a_cdr_exempt_or_partial_exemption",
+            "content": "This material is listed or exempted. Clean Air Act Section 112 Not listed"
+          },
+          {
+            "title": "TSCA 12(b) - Chemical export notification",
+            "normalised_key": "tsca_12b_chemical_export_notification",
+            "content": "Not applicable."
+          },
+          {
+            "title": "(b) Hazardous Air",
+            "normalised_key": "b_hazardous_air",
+            "content": "Clean Air Act Section 602 Not listed"
+          },
+          {
+            "title": "Pollutants (HAPs)",
+            "normalised_key": "pollutants_haps",
+            "content": "Clean Air Act Section 602 Not listed"
+          },
+          {
+            "title": "Class I Substances",
+            "normalised_key": "class_i_substances",
+            "content": ""
+          },
+          {
+            "title": "Class II Substances",
+            "normalised_key": "class_ii_substances",
+            "content": ""
+          },
+          {
+            "title": "DEA List I Chemicals",
+            "normalised_key": "dea_list_i_chemicals",
+            "content": "Not listed"
+          },
+          {
+            "title": "(Precursor Chemicals)",
+            "normalised_key": "precursor_chemicals",
+            "content": ""
+          },
+          {
+            "title": "DEA List II Chemicals",
+            "normalised_key": "dea_list_ii_chemicals",
+            "content": "Not listed"
+          },
+          {
+            "title": "(Essential Chemicals)",
+            "normalised_key": "essential_chemicals",
+            "content": ""
+          },
+          {
+            "title": "SARA 302/304",
+            "normalised_key": "sara_302_or_304",
+            "content": ""
+          },
+          {
+            "title": "Composition/information on ingredients",
+            "normalised_key": "composition_or_information_on_ingredients",
+            "content": "No products were found."
+          },
+          {
+            "title": "SARA 304 RQ",
+            "normalised_key": "sara_304_rq",
+            "content": "Not applicable."
+          },
+          {
+            "title": "SARA 311/312",
+            "normalised_key": "sara_311_or_312",
+            "content": ""
+          },
+          {
+            "title": "Classification",
+            "normalised_key": "classification",
+            "content": "Refer to Section 2: Hazards Identification of this SDS for classification of substance."
+          },
+          {
+            "title": "State regulations",
+            "normalised_key": "state_regulations",
+            "content": ""
+          },
+          {
+            "title": "Massachusetts",
+            "normalised_key": "massachusetts",
+            "content": "This material is listed."
+          },
+          {
+            "title": "New York",
+            "normalised_key": "new_york",
+            "content": "This material is not listed."
+          },
+          {
+            "title": "New Jersey",
+            "normalised_key": "new_jersey",
+            "content": "This material is listed."
+          },
+          {
+            "title": "Pennsylvania",
+            "normalised_key": "pennsylvania",
+            "content": "This material is listed."
+          },
+          {
+            "title": "California Prop. 65",
+            "normalised_key": "california_prop_65",
+            "content": "This product does not require a Safe Harbor warning under California Prop. 65.",
+            "entities": [
+              {
+                "text": "warning",
+                "label": "SIGNAL_WORD"
+              }
+            ]
+          },
+          {
+            "title": "International regulations",
+            "normalised_key": "international_regulations",
+            "content": ""
+          },
+          {
+            "title": "Chemical Weapon Convention List Schedules I, II & III Chemicals",
+            "normalised_key": "chemical_weapon_convention_list_schedules_i_ii_iii_chemicals",
+            "content": "Not listed."
+          },
+          {
+            "title": "Montreal Protocol",
+            "normalised_key": "montreal_protocol",
+            "content": "Not listed."
+          },
+          {
+            "title": "Stockholm Convention on Persistent Organic Pollutants",
+            "normalised_key": "stockholm_convention_on_persistent_organic_pollutants",
+            "content": "Not listed."
+          },
+          {
+            "title": "Rotterdam Convention on Prior Informed Consent (PIC)",
+            "normalised_key": "rotterdam_convention_on_prior_informed_consent_pic",
+            "content": "Not listed."
+          },
+          {
+            "title": "UNECE Aarhus Protocol on POPs and Heavy Metals",
+            "normalised_key": "unece_aarhus_protocol_on_pops_and_heavy_metals",
+            "content": "Not listed."
+          },
+          {
+            "title": "Inventory list",
+            "normalised_key": "inventory_list",
+            "content": ""
+          },
+          {
+            "title": "Australia",
+            "normalised_key": "australia",
+            "content": "This material is listed or exempted."
+          },
+          {
+            "title": "Canada",
+            "normalised_key": "canada",
+            "content": "This material is listed or exempted."
+          },
+          {
+            "title": "China",
+            "normalised_key": "china",
+            "content": "This material is listed or exempted."
+          },
+          {
+            "title": "Eurasian Economic Union",
+            "normalised_key": "eurasian_economic_union",
+            "content": "Russian Federation inventory : This material is listed or exempted."
+          },
+          {
+            "title": "Japan",
+            "normalised_key": "japan",
+            "content": "Japan inventory (CSCL) : Not determined."
+          },
+          {
+            "title": "Japan inventory (ISHL)",
+            "normalised_key": "japan_inventory_ishl",
+            "content": "Not determined."
+          },
+          {
+            "title": "New Zealand",
+            "normalised_key": "new_zealand",
+            "content": "This material is listed or exempted."
+          },
+          {
+            "title": "Philippines",
+            "normalised_key": "philippines",
+            "content": "This material is listed or exempted."
+          },
+          {
+            "title": "Republic of Korea",
+            "normalised_key": "republic_of_korea",
+            "content": "This material is listed or exempted."
+          },
+          {
+            "title": "Taiwan",
+            "normalised_key": "taiwan",
+            "content": "This material is listed or exempted."
+          },
+          {
+            "title": "Thailand",
+            "normalised_key": "thailand",
+            "content": "This material is listed or exempted."
+          },
+          {
+            "title": "Turkey",
+            "normalised_key": "turkey",
+            "content": "Not determined."
+          },
+          {
+            "title": "United States",
+            "normalised_key": "united_states",
+            "content": "This material is active or exempted."
+          },
+          {
+            "title": "Viet Nam",
+            "normalised_key": "viet_nam",
+            "content": "This material is listed or exempted."
+          }
+        ],
+        "page_range": [
+          8,
+          9
+        ]
+      },
+      {
+        "section_number": "16",
+        "section_title": "Other information",
+        "subsections": [
+          {
+            "title": "Hazardous Material Information System (U.S.A.)",
+            "normalised_key": "hazardous_material_information_system_usa",
+            "content": ""
+          },
+          {
+            "title": "Health",
+            "normalised_key": "health",
+            "content": "/ 0"
+          },
+          {
+            "title": "Flammability",
+            "normalised_key": "flammability",
+            "content": "0"
+          },
+          {
+            "title": "Physical hazards",
+            "normalised_key": "physical_hazards",
+            "content": "3 Caution: HMIS® ratings are based on a 0-4 rating scale, with 0 representing minimal hazards or risks, and 4 representing significant hazards or risks. Although HMIS® ratings and the associated label are not required on SDSs or products leaving a facility under 29 CFR 1910.1200, the preparer may choose to provide them. HMIS® ratings are to be used with a fully implemented HMIS® program. HMIS® is a registered trademark and service mark of the American Coatings Association, Inc. The customer is responsible for determining the PPE code for this material. For more information on HMIS® Personal Protective Equipment (PPE) codes, consult the HMIS® Implementation Manual."
+          },
+          {
+            "title": "Date of issue/Date of revision",
+            "normalised_key": "date_of_issue_or_date_of_revision",
+            "content": "12/3/2025 Date of previous issue : 11/18/2025 Version : 7.1 0/11 0 Flammability Health 0 Instability/Reactivity"
+          },
+          {
+            "title": "National Fire Protection Association (U.S.A.)",
+            "normalised_key": "national_fire_protection_association_usa",
+            "content": "SA Special Reprinted with permission from NFPA 704-2001, Identification of the Hazards of Materials for Emergency Response Copyright ©1997, National Fire Protection Association, Quincy, MA 02269. This reprinted material is not the complete and official position of the National Fire Protection Association, on the referenced subject which is represented only by the standard in its entirety. Copyright ©2001, National Fire Protection Association, Quincy, MA 02269. This warning system is intended to be interpreted and applied only by properly trained individuals to identify fire, health and reactivity hazards of chemicals. The user is referred to certain limited number of chemicals with recommended classifications in NFPA 49 and NFPA 325, which would be used as a guideline only. Whether the chemicals are classified by NFPA or not, anyone using the 704 systems to classify chemicals does so at their own risk.",
+            "entities": [
+              {
+                "text": "warning",
+                "label": "SIGNAL_WORD"
+              }
+            ]
+          },
+          {
+            "title": "Procedure used to derive the classification",
+            "normalised_key": "procedure_used_to_derive_the_classification",
+            "content": "",
+            "table": {
+              "headers": [
+                "Classification",
+                "Justification"
+              ],
+              "rows": [
+                {
+                  "Classification": "GASES UNDER PRESSURE - Compressed gas",
+                  "Justification": "Expert judgment"
+                },
+                {
+                  "Classification": "SIMPLE ASPHYXIANTS",
+                  "Justification": "Expert judgment"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Version",
+            "normalised_key": "version",
+            "content": "7.1"
+          },
+          {
+            "title": "Key to abbreviations",
+            "normalised_key": "key_to_abbreviations",
+            "content": "ATE = Acute Toxicity Estimate BCF = Bioconcentration Factor GHS = Globally Harmonized System of Classification and Labelling of Chemicals IATA = International Air Transport Association IBC = Intermediate Bulk Container IMDG = International Maritime Dangerous Goods LogPow = logarithm of the octanol/water partition coefficient MARPOL = International Convention for the Prevention of Pollution From Ships, 1973 as modified by the Protocol of 1978. (\"Marpol\" = marine pollution) UN = United Nations"
+          },
+          {
+            "title": "References",
+            "normalised_key": "references",
+            "content": "Not available. To the best of our knowledge, the information contained herein is accurate. However, neither the above-named supplier, nor any of its subsidiaries, assumes any liability whatsoever for the accuracy or completeness of the information contained herein. Final determination of suitability of any material is the sole responsibility of the user. All materials may present unknown hazards and should be used with caution. Although certain hazards are described herein, we cannot guarantee that these are the only hazards that exist."
+          },
+          {
+            "title": "Notice to reader",
+            "normalised_key": "notice_to_reader",
+            "content": ""
+          },
+          {
+            "title": "Date of issue/Date of revision",
+            "normalised_key": "date_of_issue_or_date_of_revision",
+            "content": "12/3/2025 Date of previous issue : 11/18/2025 Version : 7.1 /11"
+          }
+        ],
+        "page_range": [
+          9,
+          10
+        ],
+        "tables": [
+          {
+            "page": 10,
+            "bbox": [
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "headers": [
+              "Classification",
+              "Justification"
+            ],
+            "rows": [
+              {
+                "Classification": "GASES UNDER PRESSURE - Compressed gas",
+                "Justification": "Expert judgment"
+              },
+              {
+                "Classification": "SIMPLE ASPHYXIANTS",
+                "Justification": "Expert judgment"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

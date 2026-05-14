@@ -1,0 +1,1650 @@
+{
+  "ethanol": {
+    "normalized": {
+      "document_metadata": {
+        "file_name": null,
+        "upload_id": null,
+        "pages": null
+      },
+      "identity": {
+        "product_name": "Ethanol Solution 96% Cat No. BP8202-1; BP8202-4; BP8202-500",
+        "product_identifier": null,
+        "synonyms": [],
+        "cas_number": null,
+        "ec_number": null,
+        "molecular_formula": null
+      },
+      "supplier": {
+        "supplier_name": null,
+        "supplier_address": null,
+        "emergency_phone": null
+      },
+      "hazards": {
+        "signal_word": "Danger",
+        "hazard_statements": [],
+        "precautionary_statements": [],
+        "hazard_codes": [],
+        "precautionary_codes": [],
+        "ghs_pictograms": []
+      },
+      "physical_properties": {
+        "physical_state": null,
+        "color": null,
+        "odor": null,
+        "ph": null
+      },
+      "transport": {
+        "un_number": null,
+        "shipping_name": null,
+        "hazard_class": null
+      },
+      "meta": {
+        "revision_date": null,
+        "sds_version": null
+      }
+    },
+    "raw_extracted": {
+      "product_name": "Ethanol Solution 96%",
+      "hazard_pictograms": [
+        {
+          "ghs_code": "GHS02",
+          "description": "Flame (Flammable)",
+          "source": "hazard_statement"
+        },
+        {
+          "ghs_code": "GHS07",
+          "description": "Exclamation Mark (Irritant/Harmful)",
+          "source": "hazard_statement"
+        }
+      ],
+      "sections": [
+        {
+          "section_number": "1",
+          "section_title": "Identification",
+          "subsections": [
+            {
+              "title": "Product Name",
+              "normalised_key": "product_name",
+              "content": "Ethanol Solution 96% Cat No. BP8202-1; BP8202-4; BP8202-500",
+              "list_items": [
+                "Ethanol Solution 96% Cat No. BP8202-1",
+                "BP8202-4",
+                "BP8202-500"
+              ],
+              "entities": [
+                {
+                  "text": "96%",
+                  "label": "PERCENTAGE"
+                }
+              ]
+            },
+            {
+              "title": "CAS No",
+              "normalised_key": "cas_number",
+              "content": "64-17-5"
+            },
+            {
+              "title": "Synonyms",
+              "normalised_key": "synonyms",
+              "content": "Ethyl alcohol"
+            },
+            {
+              "title": "Recommended Use",
+              "normalised_key": "recommended_use",
+              "content": "Laboratory chemicals."
+            },
+            {
+              "title": "Uses advised against",
+              "normalised_key": "uses_advised_against",
+              "content": "Food, drug, pesticide or biocidal product use."
+            },
+            {
+              "title": "Details of the supplier of the safety data sheet",
+              "normalised_key": "details_of_the_supplier_of_the_safety_data_sheet",
+              "content": ""
+            },
+            {
+              "title": "Company",
+              "normalised_key": "company",
+              "content": "Fisher Scientific Company One Reagent Lane Fair Lawn, NJ 07410 Tel: (201) 796-7100"
+            },
+            {
+              "title": "Emergency Telephone Number",
+              "normalised_key": "emergency_telephone_number",
+              "content": "CHEMTREC Ò , Inside the USA: 800-424-9300 CHEMTREC Ò , Outside the USA: 001-703-527-3887"
+            }
+          ],
+          "page_range": [
+            0,
+            0
+          ]
+        },
+        {
+          "section_number": "2",
+          "section_title": "Hazard(s) identification",
+          "subsections": [
+            {
+              "title": "Classification",
+              "normalised_key": "classification",
+              "content": "This chemical is considered hazardous according to [US] OSHA (29 CFR 1910.1200, 2024)"
+            },
+            {
+              "title": "Flammable liquids",
+              "normalised_key": "flammable_liquids",
+              "content": "Category 2"
+            },
+            {
+              "title": "Serious Eye Damage/Eye Irritation",
+              "normalised_key": "serious_eye_damage_or_eye_irritation",
+              "content": "Category 2"
+            },
+            {
+              "title": "Label Elements",
+              "normalised_key": "label_elements",
+              "content": "",
+              "group": "Label Elements"
+            },
+            {
+              "title": "Signal Word",
+              "normalised_key": "signal_word",
+              "content": "Danger",
+              "group": "Label Elements",
+              "entities": [
+                {
+                  "text": "Danger",
+                  "label": "SIGNAL_WORD"
+                }
+              ]
+            },
+            {
+              "title": "Hazard Statements",
+              "normalised_key": "hazard_statements",
+              "content": "Highly flammable liquid and vapor Causes serious eye irritation",
+              "group": "Label Elements"
+            },
+            {
+              "title": "Precautionary Statements",
+              "normalised_key": "precautionary_statements",
+              "content": "",
+              "group": "Precautionary Statements"
+            },
+            {
+              "title": "Prevention",
+              "normalised_key": "prevention",
+              "content": "Wash face, hands and any exposed skin thoroughly after handling Wear eye/face protection Do not breathe dust/fume/gas/mist/vapors/spray Use only outdoors or in a well-ventilated area Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking Keep container tightly closed Ground and bond container and receiving equipment Use explosion-proof electrical/ventilating/lighting equipment Keep cool Wear protective gloves/protective clothing/eye protection/face protection Take action to prevent static discharges Use non-sparking tools",
+              "group": "Precautionary Statements"
+            },
+            {
+              "title": "Response",
+              "normalised_key": "response",
+              "content": "IF exposed or concerned: Get medical attention/advice",
+              "group": "Precautionary Statements"
+            },
+            {
+              "title": "Inhalation",
+              "normalised_key": "inhalation",
+              "content": "IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+              "group": "Precautionary Statements"
+            },
+            {
+              "title": "Skin",
+              "normalised_key": "skin",
+              "content": "IF ON SKIN (or hair): Take off immediately all contaminated clothing. Rinse skin with water or shower",
+              "group": "Precautionary Statements"
+            },
+            {
+              "title": "Eyes",
+              "normalised_key": "eyes",
+              "content": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing If eye irritation persists: Get medical advice/attention",
+              "group": "Precautionary Statements"
+            },
+            {
+              "title": "Fire",
+              "normalised_key": "fire",
+              "content": "In case of fire: Use CO2, dry chemical, or foam to extinguish",
+              "group": "Precautionary Statements"
+            },
+            {
+              "title": "Storage",
+              "normalised_key": "storage",
+              "content": "Store locked up Store in a well-ventilated place. Keep container tightly closed",
+              "group": "Precautionary Statements"
+            },
+            {
+              "title": "Disposal",
+              "normalised_key": "disposal",
+              "content": "Dispose of contents/container to an approved waste disposal plant",
+              "group": "Precautionary Statements"
+            },
+            {
+              "title": "Hazards not otherwise classified (HNOC)",
+              "normalised_key": "hazards_not_otherwise_classified_hnoc",
+              "content": "",
+              "group": "Precautionary Statements"
+            },
+            {
+              "title": "Hazards classified under paragraph (d)(1)(ii) of 1910.1200",
+              "normalised_key": "hazards_classified_under_paragraph_d1ii_of_19101200",
+              "content": "No information available WARNING. Cancer and Reproductive Harm - https://www.p65warnings.ca.gov/.",
+              "group": "Precautionary Statements",
+              "entities": [
+                {
+                  "text": "WARNING",
+                  "label": "SIGNAL_WORD"
+                }
+              ]
+            }
+          ],
+          "page_range": [
+            0,
+            1
+          ],
+          "tables": [
+            {
+              "page": 1,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "CAS No",
+                "Weight %"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "CAS No": "64-17-5",
+                  "Weight %": "95-96"
+                }
+              ]
+            }
+          ],
+          "hazard_pictograms": [
+            {
+              "ghs_code": "GHS02",
+              "description": "Flame (Flammable)",
+              "source": "hazard_statement"
+            },
+            {
+              "ghs_code": "GHS07",
+              "description": "Exclamation Mark (Irritant/Harmful)",
+              "source": "hazard_statement"
+            }
+          ]
+        },
+        {
+          "section_number": "3",
+          "section_title": "Composition/information on Ingredients",
+          "subsections": [
+            {
+              "title": "Component CAS No Weight %",
+              "normalised_key": "component_cas_no_weight_%",
+              "content": "",
+              "table": {
+                "headers": [
+                  "Component",
+                  "CAS No",
+                  "Weight %"
+                ],
+                "rows": [
+                  {
+                    "Component": "Ethyl alcohol",
+                    "CAS No": "64-17-5",
+                    "Weight %": "95-96"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Eye Contact",
+              "normalised_key": "eye_contact",
+              "content": "Rinse immediately with plenty of water, also under the eyelids, for at least 15 minutes. Get medical attention."
+            },
+            {
+              "title": "Skin Contact",
+              "normalised_key": "skin_contact",
+              "content": "Wash off immediately with plenty of water for at least 15 minutes. If skin irritation persists, call a physician."
+            },
+            {
+              "title": "Inhalation",
+              "normalised_key": "inhalation",
+              "content": "Remove to fresh air. If not breathing, give artificial respiration. Get medical attention if symptoms occur."
+            },
+            {
+              "title": "Ingestion",
+              "normalised_key": "ingestion",
+              "content": "Clean mouth with water and drink afterwards plenty of water."
+            },
+            {
+              "title": "Most important symptoms and effects",
+              "normalised_key": "most_important_symptoms_and_effects",
+              "content": "Difficulty in breathing. Inhalation of high vapor concentrations may cause symptoms like headache, dizziness, tiredness, nausea and vomiting"
+            },
+            {
+              "title": "Notes to Physician",
+              "normalised_key": "notes_to_physician",
+              "content": "Treat symptomatically"
+            }
+          ],
+          "page_range": [
+            1,
+            2
+          ]
+        },
+        {
+          "section_number": "5",
+          "section_title": "Fire-fighting measures",
+          "subsections": [
+            {
+              "title": "Suitable Extinguishing Media",
+              "normalised_key": "suitable_extinguishing_media",
+              "content": "Water spray, carbon dioxide (CO2), dry chemical, alcohol-resistant foam. Water mist may be used to cool closed containers."
+            },
+            {
+              "title": "Unsuitable Extinguishing Media",
+              "normalised_key": "unsuitable_extinguishing_media",
+              "content": "Water may be ineffective"
+            },
+            {
+              "title": "Flash Point",
+              "normalised_key": "flash_point",
+              "content": "13 - 17 °C / 55.4 - 62.6 °F"
+            },
+            {
+              "title": "Method -",
+              "normalised_key": "method",
+              "content": "No information available"
+            },
+            {
+              "title": "Autoignition Temperature",
+              "normalised_key": "autoignition_temperature",
+              "content": "363 °C / 685.4 °F"
+            },
+            {
+              "title": "Explosion Limits",
+              "normalised_key": "explosion_limits",
+              "content": ""
+            },
+            {
+              "title": "Upper",
+              "normalised_key": "upper",
+              "content": "19 vol %"
+            },
+            {
+              "title": "Lower",
+              "normalised_key": "lower",
+              "content": "3.3 vol %"
+            },
+            {
+              "title": "Sensitivity to Mechanical Impact",
+              "normalised_key": "sensitivity_to_mechanical_impact",
+              "content": "No information available"
+            },
+            {
+              "title": "Sensitivity to Static Discharge",
+              "normalised_key": "sensitivity_to_static_discharge",
+              "content": "No information available"
+            },
+            {
+              "title": "Specific Hazards Arising from the Chemical",
+              "normalised_key": "specific_hazards_arising_from_the_chemical",
+              "content": "Flammable. Risk of ignition. Vapors may form explosive mixtures with air. Vapors may travel to source of ignition and flash back. Containers may explode when heated. Thermal decomposition can lead to release of irritating gases and vapors. Keep product and empty container away from heat and sources of ignition."
+            },
+            {
+              "title": "Hazardous Combustion Products",
+              "normalised_key": "hazardous_combustion_products",
+              "content": ""
+            },
+            {
+              "title": "Carbon monoxide (CO). Carbon dioxide (CO",
+              "normalised_key": "carbon_monoxide_co_carbon_dioxide_co",
+              "content": "2 )."
+            },
+            {
+              "title": "Protective Equipment and Precautions for Firefighters",
+              "normalised_key": "protective_equipment_and_precautions_for_firefighters",
+              "content": "As in any fire, wear self-contained breathing apparatus pressure-demand, MSHA/NIOSH (approved or equivalent) and full protective gear."
+            },
+            {
+              "title": "NFPA",
+              "normalised_key": "nfpa",
+              "content": ""
+            },
+            {
+              "title": "Health",
+              "normalised_key": "health",
+              "content": "Flammability Instability Physical hazards 2 3 0 N/A"
+            }
+          ],
+          "page_range": [
+            2,
+            2
+          ]
+        },
+        {
+          "section_number": "6",
+          "section_title": "Accidental release measures",
+          "subsections": [
+            {
+              "title": "Personal Precautions",
+              "normalised_key": "personal_precautions",
+              "content": "Use personal protective equipment as required. Ensure adequate ventilation. Remove all sources of ignition. Take precautionary measures against static discharges.",
+              "group": "Personal Precautions"
+            },
+            {
+              "title": "Environmental Precautions",
+              "normalised_key": "environmental_precautions",
+              "content": "Do not flush into surface water or sanitary sewer system.",
+              "group": "Environmental Precautions"
+            },
+            {
+              "title": "Methods for Containment and Clean",
+              "normalised_key": "methods_for_containment_and_clean",
+              "content": "Soak up with inert absorbent material. Keep in suitable, closed containers for disposal.",
+              "group": "Environmental Precautions"
+            },
+            {
+              "title": "Up",
+              "normalised_key": "up",
+              "content": "Remove all sources of ignition. Use spark-proof tools and explosion-proof equipment.",
+              "group": "Environmental Precautions"
+            }
+          ],
+          "page_range": [
+            2,
+            2
+          ]
+        },
+        {
+          "section_number": "7",
+          "section_title": "Handling and Storage",
+          "subsections": [
+            {
+              "title": "Handling",
+              "normalised_key": "handling",
+              "content": "Wear personal protective equipment/face protection. Ensure adequate ventilation. Avoid ingestion and inhalation. Do not get in eyes, on skin, or on clothing. Keep away from open flames, hot surfaces and sources of ignition. Use only non-sparking tools. To avoid ignition of vapors by static electricity discharge, all metal parts of the equipment must be grounded. Take precautionary measures against static discharges. Storage. Keep containers tightly closed in a dry, cool and well-ventilated place. Keep away from heat, sparks and flame. Flammables area. Incompatible Materials. Strong oxidizing agents. Strong acids. Acid anhydrides. Acid chlorides."
+            }
+          ],
+          "page_range": [
+            2,
+            3
+          ],
+          "tables": [
+            {
+              "page": 3,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "ACGIH TLV",
+                "OSHA PEL",
+                "NIOSH",
+                "Mexico OEL (TWA)"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "ACGIH TLV": "STEL: 1000 ppm",
+                  "OSHA PEL": "(Vacated) TWA: 1000 ppm (Vacated) TWA: 1900 mg/m3 TWA: 1000 ppm TWA: 1900 mg/m3",
+                  "NIOSH": "IDLH: 3300 ppm REL = 1000 ppm (TWA) REL = 1900 mg/m3 (TWA)",
+                  "Mexico OEL (TWA)": "STEL: 1000 ppm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_number": "8",
+          "section_title": "Exposure controls / personal protection",
+          "subsections": [
+            {
+              "title": "Exposure Guidelines",
+              "normalised_key": "exposure_guidelines",
+              "content": ""
+            },
+            {
+              "title": "Engineering Measures",
+              "normalised_key": "engineering_measures",
+              "content": "Ensure adequate ventilation, especially in confined areas. Use explosion-proof electrical/ventilating/lighting equipment. Ensure that eyewash stations and safety showers are close to the workstation location."
+            },
+            {
+              "title": "Personal Protective Equipment",
+              "normalised_key": "personal_protective_equipment",
+              "content": ""
+            },
+            {
+              "title": "Eye/face Protection",
+              "normalised_key": "eye_or_face_protection",
+              "content": "Wear appropriate protective eyeglasses or chemical safety goggles as described by OSHA's eye and face protection regulations in 29 CFR 1910.133 or European Standard EN166."
+            },
+            {
+              "title": "Skin and body protection",
+              "normalised_key": "skin_and_body_protection",
+              "content": "Wear appropriate protective gloves and clothing to prevent skin exposure."
+            },
+            {
+              "title": "Respiratory Protection",
+              "normalised_key": "respiratory_protection",
+              "content": "Follow the OSHA respirator regulations found in 29 CFR 1910.134 or European Standard EN 149. Use a NIOSH/MSHA or European Standard EN 149 approved respirator if exposure limits are exceeded or if irritation or other symptoms are experienced."
+            },
+            {
+              "title": "Recommended Filter type",
+              "normalised_key": "recommended_filter_type",
+              "content": "Organic gases and vapours filter. Type A. Brown. conforming to EN14387.",
+              "list_items": [
+                "Organic gases and vapours filter",
+                "Type A",
+                "Brown",
+                "conforming to EN14387."
+              ]
+            },
+            {
+              "title": "Hygiene Measures",
+              "normalised_key": "hygiene_measures",
+              "content": "When using do not eat, drink or smoke. Provide regular cleaning of equipment, work area and clothing."
+            }
+          ],
+          "page_range": [
+            3,
+            3
+          ]
+        },
+        {
+          "section_number": "9",
+          "section_title": "Physical and chemical properties",
+          "subsections": [
+            {
+              "title": "Appearance",
+              "normalised_key": "appearance",
+              "content": ""
+            },
+            {
+              "title": "Physical State",
+              "normalised_key": "physical_state",
+              "content": "Liquid"
+            },
+            {
+              "title": "Color",
+              "normalised_key": "color",
+              "content": "Clear, Colorless"
+            },
+            {
+              "title": "Odor",
+              "normalised_key": "odor",
+              "content": "sweet, Characteristic"
+            },
+            {
+              "title": "Odor Threshold",
+              "normalised_key": "odor_threshold",
+              "content": "No information available"
+            },
+            {
+              "title": "Property",
+              "normalised_key": "property",
+              "content": "Values Remarks • Method"
+            },
+            {
+              "title": "Melting Point/Range",
+              "normalised_key": "melting_point_or_range",
+              "content": "-114 °C / -173.2 °F"
+            },
+            {
+              "title": "Softening Point",
+              "normalised_key": "softening_point",
+              "content": "No data available"
+            },
+            {
+              "title": "Boiling Point/Range",
+              "normalised_key": "boiling_point_or_range",
+              "content": "78 °C / 172.4 °F"
+            },
+            {
+              "title": "Flash Point",
+              "normalised_key": "flash_point",
+              "content": "13 - 17 °C / 55.4 - 62.6 °F Method - No information available"
+            },
+            {
+              "title": "Flammability (liquid)",
+              "normalised_key": "flammability_liquid",
+              "content": "Highly flammable On basis of test data"
+            },
+            {
+              "title": "Flammability (solid,gas)",
+              "normalised_key": "flammability_solidgas",
+              "content": "Not applicable Liquid"
+            },
+            {
+              "title": "Explosion Limits",
+              "normalised_key": "explosion_limits",
+              "content": "Lower 3.3 vol % Upper 19 vol %"
+            },
+            {
+              "title": "Autoignition Temperature",
+              "normalised_key": "autoignition_temperature",
+              "content": "363 °C / 685.4 °F"
+            },
+            {
+              "title": "Decomposition Temperature",
+              "normalised_key": "decomposition_temperature",
+              "content": "No data available"
+            },
+            {
+              "title": "pH",
+              "normalised_key": "ph",
+              "content": "No information available"
+            },
+            {
+              "title": "Viscosity",
+              "normalised_key": "viscosity",
+              "content": "No data available"
+            },
+            {
+              "title": "Water Solubility",
+              "normalised_key": "water_solubility",
+              "content": "Soluble"
+            },
+            {
+              "title": "Solubility in other solvents",
+              "normalised_key": "solubility_in_other_solvents",
+              "content": "No information available"
+            },
+            {
+              "title": "Partition Coefficient (n-octanol/water)",
+              "normalised_key": "partition_coefficient_n_octanol_or_water",
+              "content": ""
+            },
+            {
+              "title": "Component log Pow",
+              "normalised_key": "component_log_pow",
+              "content": "",
+              "table": {
+                "headers": [
+                  "Component",
+                  "log Pow"
+                ],
+                "rows": [
+                  {
+                    "Component": "Ethyl alcohol",
+                    "log Pow": "-0.32"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Bulk Density",
+              "normalised_key": "bulk_density",
+              "content": "Not applicable Liquid"
+            },
+            {
+              "title": "Vapor Density",
+              "normalised_key": "vapor_density",
+              "content": "No data available (Air = 1.0)"
+            },
+            {
+              "title": "Particle characteristics",
+              "normalised_key": "particle_characteristics",
+              "content": "Not applicable (liquid)"
+            },
+            {
+              "title": "Other Information",
+              "normalised_key": "other_information",
+              "content": ""
+            },
+            {
+              "title": "Molecular Formula",
+              "normalised_key": "molecular_formula",
+              "content": "C2 H6 O"
+            },
+            {
+              "title": "Molecular Weight",
+              "normalised_key": "molecular_weight",
+              "content": "46.07"
+            },
+            {
+              "title": "Explosive Properties",
+              "normalised_key": "explosive_properties",
+              "content": "Vapors may form explosive mixtures with air"
+            }
+          ],
+          "page_range": [
+            3,
+            4
+          ],
+          "tables": [
+            {
+              "page": 4,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "LD50 Oral",
+                "LD50 Dermal",
+                "LC50 Inhalation"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "LD50 Oral": "LD50 = 10470 mg/kg OECD 401 (Rat) 3450 mg/kg ( Mouse )",
+                  "LD50 Dermal": "-",
+                  "LC50 Inhalation": "LC50 = 117-125 mg/l (4h) OECD 403 (rat) 20000 ppm/10H (rat)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_number": "10",
+          "section_title": "Stability and reactivity",
+          "subsections": [
+            {
+              "title": "Reactive Hazard",
+              "normalised_key": "reactive_hazard",
+              "content": "None known, based on information available"
+            },
+            {
+              "title": "Stability",
+              "normalised_key": "stability",
+              "content": "Stable under normal conditions."
+            },
+            {
+              "title": "Conditions to Avoid",
+              "normalised_key": "conditions_to_avoid",
+              "content": "Keep away from open flames, hot surfaces and sources of ignition. Incompatible products."
+            },
+            {
+              "title": "Incompatible Materials",
+              "normalised_key": "incompatible_materials",
+              "content": "Strong oxidizing agents, Strong acids, Acid anhydrides, Acid chlorides"
+            },
+            {
+              "title": "Hazardous Decomposition Products",
+              "normalised_key": "hazardous_decomposition_products",
+              "content": "Carbon monoxide (CO), Carbon dioxide (CO 2 )"
+            },
+            {
+              "title": "Hazardous Polymerization",
+              "normalised_key": "hazardous_polymerization",
+              "content": "Hazardous polymerization does not occur."
+            },
+            {
+              "title": "Hazardous Reactions",
+              "normalised_key": "hazardous_reactions",
+              "content": "None under normal processing."
+            }
+          ],
+          "page_range": [
+            4,
+            4
+          ]
+        },
+        {
+          "section_number": "11",
+          "section_title": "Toxicological information",
+          "subsections": [
+            {
+              "title": "Information on expected route of exposure",
+              "normalised_key": "information_on_expected_route_of_exposure",
+              "content": ""
+            },
+            {
+              "title": "Inhalation",
+              "normalised_key": "inhalation",
+              "content": "May cause irritation of respiratory tract. May be harmful if inhaled. INHALATION MAY CAUSE CENTRAL NERVOUS SYSTEM EFFECTS.",
+              "context": "Routes of exposure"
+            },
+            {
+              "title": "Ingestion",
+              "normalised_key": "ingestion",
+              "content": "May be harmful if swallowed. Aspiration hazard if swallowed - can enter lungs and cause damage. Ingestion may cause gastrointestinal irritation, nausea, vomiting and diarrhea.",
+              "context": "Routes of exposure"
+            },
+            {
+              "title": "Eyes",
+              "normalised_key": "eyes",
+              "content": "Irritating to eyes."
+            },
+            {
+              "title": "Skin",
+              "normalised_key": "skin",
+              "content": "Irritating to skin. May be harmful in contact with skin."
+            },
+            {
+              "title": "Toxicology data for the components",
+              "normalised_key": "toxicology_data_for_the_components",
+              "content": "",
+              "table": {
+                "headers": [
+                  "Component",
+                  "Test method",
+                  "Test species",
+                  "Study result"
+                ],
+                "rows": [
+                  {
+                    "Component": "Ethyl alcohol 64-17-5 ( 95-96 )",
+                    "Test method": "Mouse Ear Swelling Test (MEST) ------------------------------------------ OECD Test Guideline 429 Local Lymph Node Assay",
+                    "Test species": "mouse ------------------------------------------ mouse",
+                    "Study result": "non-sensitising ------------------------------------------ non-sensitising"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Toxicologically Synergistic",
+              "normalised_key": "toxicologically_synergistic",
+              "content": "No information available"
+            },
+            {
+              "title": "Products",
+              "normalised_key": "products",
+              "content": ""
+            },
+            {
+              "title": "(b) skin corrosion/irritation;",
+              "normalised_key": "b_skin_corrosion_or_irritation;",
+              "content": "Based on available data, the classification criteria are not met"
+            },
+            {
+              "title": "(c) serious eye damage/irritation;",
+              "normalised_key": "c_serious_eye_damage_or_irritation;",
+              "content": "Category 2"
+            },
+            {
+              "title": "(d) respiratory or skin sensitization;",
+              "normalised_key": "d_respiratory_or_skin_sensitization;",
+              "content": "Based on available data, the classification criteria are not met"
+            },
+            {
+              "title": "Respiratory",
+              "normalised_key": "respiratory",
+              "content": "Based on available data, the classification criteria are not met"
+            },
+            {
+              "title": "(e) germ cell mutagenicity;",
+              "normalised_key": "e_germ_cell_mutagenicity;",
+              "content": "Based on available data, the classification criteria are not met"
+            },
+            {
+              "title": "(f) carcinogenicity;",
+              "normalised_key": "f_carcinogenicity;",
+              "content": "Based on available data, the classification criteria are not met Ethanol has been shown to be carcinogenic in long-term studies only when consumed and abused as an alcoholic beverage."
+            },
+            {
+              "title": "(g) reproductive toxicity;",
+              "normalised_key": "g_reproductive_toxicity;",
+              "content": "Based on available data, the classification criteria are not met"
+            },
+            {
+              "title": "(h) STOT-single exposure;",
+              "normalised_key": "h_stot_single_exposure;",
+              "content": "Based on available data, the classification criteria are not met"
+            },
+            {
+              "title": "(i) STOT-repeated exposure;",
+              "normalised_key": "i_stot_repeated_exposure;",
+              "content": "Based on available data, the classification criteria are not met"
+            },
+            {
+              "title": "Target Organs",
+              "normalised_key": "target_organs",
+              "content": "None known."
+            },
+            {
+              "title": "(j) aspiration hazard;",
+              "normalised_key": "j_aspiration_hazard;",
+              "content": "Based on available data, the classification criteria are not met"
+            },
+            {
+              "title": "Other Adverse Effects",
+              "normalised_key": "other_adverse_effects",
+              "content": "The hazards associated with ethanol may be seen in this product."
+            },
+            {
+              "title": "Symptoms  / effects,both acute and delayed",
+              "normalised_key": "symptoms_or_effectsboth_acute_and_delayed",
+              "content": "Inhalation of high vapor concentrations may cause symptoms like headache, dizziness, tiredness, nausea and vomiting."
+            },
+            {
+              "title": "Other Adverse Effects",
+              "normalised_key": "other_adverse_effects",
+              "content": "The hazards associated with ethanol may be seen in this product."
+            },
+            {
+              "title": "Endocrine Disrupting Properties",
+              "normalised_key": "endocrine_disrupting_properties",
+              "content": "This product does not contain any known or suspected endocrine disruptors."
+            }
+          ],
+          "page_range": [
+            4,
+            6
+          ],
+          "tables": [
+            {
+              "page": 5,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "Test method",
+                "Test species",
+                "Study result"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol 64-17-5 ( 95-96 )",
+                  "Test method": "Mouse Ear Swelling Test (MEST) ------------------------------------------ OECD Test Guideline 429 Local Lymph Node Assay",
+                  "Test species": "mouse ------------------------------------------ mouse",
+                  "Study result": "non-sensitising ------------------------------------------ non-sensitising"
+                }
+              ]
+            },
+            {
+              "page": 5,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "Test method",
+                "Test species",
+                "Study result"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol 64-17-5 ( 95-96 )",
+                  "Test method": "AMES test OECD Test Guideline 471 ------------------------------------------ Gene cell mutation OECD Test Guideline 476",
+                  "Test species": "in vitro Bacteria ------------------------------------------ in vitro Mammalian",
+                  "Study result": "negative ------------------------------------------ negative"
+                }
+              ]
+            },
+            {
+              "page": 5,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "CAS No",
+                "IARC",
+                "NTP",
+                "ACGIH",
+                "OSHA",
+                "Mexico"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "CAS No": "64-17-5",
+                  "IARC": "Not listed",
+                  "NTP": "Known",
+                  "ACGIH": "A3",
+                  "OSHA": "Not listed",
+                  "Mexico": "A3"
+                }
+              ]
+            },
+            {
+              "page": 5,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "Test method",
+                "Test species / Duration",
+                "Study result"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol 64-17-5 ( 95-96 )",
+                  "Test method": "OECD Test Guideline 416 ------------------------------------------ OECD Test Guideline 414",
+                  "Test species / Duration": "Oral / mouse 2 Generation ------------------------------------------ Inhalation / Rat",
+                  "Study result": "NOAEL = 13.8 g/kg/day ------------------------------------------ NOAEC = 16000 ppm"
+                }
+              ]
+            },
+            {
+              "page": 6,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "Freshwater Algae",
+                "Freshwater Fish",
+                "Microtox",
+                "Water Flea"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "Freshwater Algae": "EC50 (72h) = 275 mg/l (Chlorella vulgaris)",
+                  "Freshwater Fish": "Fathead minnow (Pimephales promelas) LC50 = 14200 mg/l/96h",
+                  "Microtox": "Photobacterium phosphoreum:EC50 = 34634 mg/L/30 min Photobacterium phosphoreum:EC50 = 35470 mg/L/5 min",
+                  "Water Flea": "EC50 = 9268 mg/L/48h EC50 = 10800 mg/L/24h"
+                }
+              ]
+            },
+            {
+              "page": 6,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "log Pow"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "log Pow": "-0.32"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_number": "12",
+          "section_title": "Ecological information",
+          "subsections": [
+            {
+              "title": "Ecotoxicity",
+              "normalised_key": "ecotoxicity",
+              "content": "Do not empty into drains."
+            },
+            {
+              "title": "Persistence and Degradability",
+              "normalised_key": "persistence_and_degradability",
+              "content": "Persistence is unlikely based on information available."
+            },
+            {
+              "title": "Bioaccumulation/ Accumulation",
+              "normalised_key": "bioaccumulation_or_accumulation",
+              "content": "No information available."
+            },
+            {
+              "title": "Mobility",
+              "normalised_key": "mobility",
+              "content": "Will likely be mobile in the environment due to its volatility."
+            }
+          ],
+          "page_range": [
+            6,
+            6
+          ]
+        },
+        {
+          "section_number": "13",
+          "section_title": "Disposal considerations",
+          "subsections": [
+            {
+              "title": "Waste Disposal Methods",
+              "normalised_key": "waste_disposal_methods",
+              "content": "Chemical waste generators must determine whether a discarded chemical is classified as a hazardous waste. Chemical waste generators must also consult local, regional, and national hazardous waste regulations to ensure complete and accurate classification."
+            }
+          ],
+          "page_range": [
+            6,
+            6
+          ]
+        },
+        {
+          "section_number": "14",
+          "section_title": "Transport information",
+          "subsections": [
+            {
+              "title": "DOT",
+              "normalised_key": "dot",
+              "content": ""
+            },
+            {
+              "title": "UN-No",
+              "normalised_key": "un_number",
+              "content": "UN1170",
+              "entities": [
+                {
+                  "text": "UN1170",
+                  "label": "UN_NUMBER"
+                }
+              ]
+            },
+            {
+              "title": "Proper Shipping Name",
+              "normalised_key": "proper_shipping_name",
+              "content": "ETHANOL"
+            },
+            {
+              "title": "Hazard Class",
+              "normalised_key": "hazard_class",
+              "content": "3"
+            },
+            {
+              "title": "Packing Group",
+              "normalised_key": "packing_group",
+              "content": "II"
+            },
+            {
+              "title": "TDG",
+              "normalised_key": "tdg",
+              "content": ""
+            },
+            {
+              "title": "UN-No",
+              "normalised_key": "un_number",
+              "content": "UN1170",
+              "entities": [
+                {
+                  "text": "UN1170",
+                  "label": "UN_NUMBER"
+                }
+              ]
+            },
+            {
+              "title": "Proper Shipping Name",
+              "normalised_key": "proper_shipping_name",
+              "content": "ETHANOL"
+            },
+            {
+              "title": "Hazard Class",
+              "normalised_key": "hazard_class",
+              "content": "3"
+            },
+            {
+              "title": "Packing Group",
+              "normalised_key": "packing_group",
+              "content": "II"
+            },
+            {
+              "title": "IATA",
+              "normalised_key": "iata",
+              "content": ""
+            },
+            {
+              "title": "UN-No",
+              "normalised_key": "un_number",
+              "content": "UN1170",
+              "entities": [
+                {
+                  "text": "UN1170",
+                  "label": "UN_NUMBER"
+                }
+              ]
+            },
+            {
+              "title": "Proper Shipping Name",
+              "normalised_key": "proper_shipping_name",
+              "content": "ETHANOL"
+            },
+            {
+              "title": "Hazard Class",
+              "normalised_key": "hazard_class",
+              "content": "3"
+            },
+            {
+              "title": "Packing Group",
+              "normalised_key": "packing_group",
+              "content": "II"
+            },
+            {
+              "title": "IMDG/IMO",
+              "normalised_key": "imdg_or_imo",
+              "content": ""
+            },
+            {
+              "title": "UN-No",
+              "normalised_key": "un_number",
+              "content": "UN1170",
+              "entities": [
+                {
+                  "text": "UN1170",
+                  "label": "UN_NUMBER"
+                }
+              ]
+            },
+            {
+              "title": "Proper Shipping Name",
+              "normalised_key": "proper_shipping_name",
+              "content": "ETHANOL"
+            },
+            {
+              "title": "Hazard Class",
+              "normalised_key": "hazard_class",
+              "content": "3"
+            },
+            {
+              "title": "Packing Group",
+              "normalised_key": "packing_group",
+              "content": "II"
+            }
+          ],
+          "page_range": [
+            6,
+            7
+          ],
+          "tables": [
+            {
+              "page": 7,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "CAS No",
+                "TSCA",
+                "TSCA Inventory notification -\nActive-Inactive",
+                "TSCA - EPA Regulatory\nFlags"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "CAS No": "64-17-5",
+                  "TSCA": "X",
+                  "TSCA Inventory notification -\nActive-Inactive": "ACTIVE",
+                  "TSCA - EPA Regulatory\nFlags": "-"
+                }
+              ]
+            },
+            {
+              "page": 7,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "CAS No",
+                "DSL",
+                "NDSL",
+                "EINECS",
+                "PICCS",
+                "ENCS",
+                "ISHL",
+                "AICS",
+                "IECSC",
+                "KECL"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "CAS No": "64-17-5",
+                  "DSL": "X",
+                  "NDSL": "-",
+                  "EINECS": "200-578-6",
+                  "PICCS": "X",
+                  "ENCS": "X",
+                  "ISHL": "X",
+                  "AICS": "X",
+                  "IECSC": "X",
+                  "KECL": "KE-13217"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_number": "15",
+          "section_title": "Regulatory Information",
+          "subsections": [
+            {
+              "title": "United States of America Inventory",
+              "normalised_key": "united_states_of_america_inventory",
+              "content": ""
+            },
+            {
+              "title": "TSCA - Per 40 CFR 751, Regulation of Certain Chemical",
+              "normalised_key": "tsca_per_40_cfr_751_regulation_of_certain_chemical",
+              "content": "Not applicable"
+            },
+            {
+              "title": "Substances & Mixtures, Under TSCA Section 6(h) (PBT)",
+              "normalised_key": "substances_mixtures_under_tsca_section_6h_pbt",
+              "content": ""
+            },
+            {
+              "title": "TSCA 12(b) - Notices of Export",
+              "normalised_key": "tsca_12b_notices_of_export",
+              "content": "Not applicable"
+            },
+            {
+              "title": "International Inventories",
+              "normalised_key": "international_inventories",
+              "content": ""
+            },
+            {
+              "title": "U.S. Federal Regulations",
+              "normalised_key": "us_federal_regulations",
+              "content": ""
+            },
+            {
+              "title": "SARA 313",
+              "normalised_key": "sara_313",
+              "content": "Section 313 of Title III of the Superfund Amendments and Reauthorization Act of 1986 (SARA). This product does not contain any chemicals which are subject to the reporting requirements of the Act and Title 40 of the Code of Federal Regulations, Part 372"
+            },
+            {
+              "title": "SARA 311/312 Hazard Categories",
+              "normalised_key": "sara_311_or_312_hazard_categories",
+              "content": "Should this product meet EPCRA 311/312 Tier reporting criteria at 40 CFR 370, refer to Section 2 of this SDS for appropriate classifications."
+            },
+            {
+              "title": "CWA (Clean Water Act)",
+              "normalised_key": "cwa_clean_water_act",
+              "content": "Not applicable"
+            },
+            {
+              "title": "Clean Air Act",
+              "normalised_key": "clean_air_act",
+              "content": "Not applicable"
+            },
+            {
+              "title": "OSHA - Occupational Safety and",
+              "normalised_key": "osha_occupational_safety_and",
+              "content": "Not applicable Health Administration California Proposition 65 This product contains the following Proposition 65 chemicals. Ethyl alcohol is only a"
+            },
+            {
+              "title": "CERCLA",
+              "normalised_key": "cercla",
+              "content": "This material, as supplied, does not contain any substances regulated as hazardous substances under the Comprehensive Environmental Response Compensation and Liability Act (CERCLA) (40 CFR 302) or the Superfund Amendments and Reauthorization Act (SARA) (40 CFR 355). There may be specific reporting requirements at the local, regional, or state level pertaining to releases of this material. considered a Proposition 65 developmental hazard when it is ingested as an alcoholic beverage."
+            },
+            {
+              "title": "Component CAS No California Prop. 65 Prop 65 NSRL Category",
+              "normalised_key": "component_cas_no_california_prop_65_prop_65_nsrl_category",
+              "content": "",
+              "table": {
+                "headers": [
+                  "Component",
+                  "CAS No",
+                  "California Prop. 65",
+                  "Prop 65 NSRL",
+                  "Category"
+                ],
+                "rows": [
+                  {
+                    "Component": "Ethyl alcohol",
+                    "CAS No": "64-17-5",
+                    "California Prop. 65": "Development (alcoholic beverages only) Carcinogen",
+                    "Prop 65 NSRL": "-",
+                    "Category": "Developmental Carcinogen"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Component Massachusetts New Jersey Pennsylvania Illinois Rhode Island",
+              "normalised_key": "component_massachusetts_new_jersey_pennsylvania_illinois_rhode_island",
+              "content": "",
+              "table": {
+                "headers": [
+                  "Component",
+                  "Massachusetts",
+                  "New Jersey",
+                  "Pennsylvania",
+                  "Illinois",
+                  "Rhode Island"
+                ],
+                "rows": [
+                  {
+                    "Component": "Ethyl alcohol",
+                    "Massachusetts": "X",
+                    "New Jersey": "X",
+                    "Pennsylvania": "X",
+                    "Illinois": "X",
+                    "Rhode Island": "X"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "DOT Marine Pollutant",
+              "normalised_key": "dot_marine_pollutant",
+              "content": "N"
+            },
+            {
+              "title": "DOT Severe Marine Pollutant",
+              "normalised_key": "dot_severe_marine_pollutant",
+              "content": "N"
+            },
+            {
+              "title": "U.S. Department of Homeland",
+              "normalised_key": "us_department_of_homeland",
+              "content": "This product does not contain any DHS chemicals."
+            },
+            {
+              "title": "Security",
+              "normalised_key": "security",
+              "content": ""
+            },
+            {
+              "title": "Other International Regulations",
+              "normalised_key": "other_international_regulations",
+              "content": ""
+            },
+            {
+              "title": "Mexico - Grade",
+              "normalised_key": "mexico_grade",
+              "content": "Serious risk, Grade 3"
+            },
+            {
+              "title": "Authorisation/Restrictions according to EU REACH",
+              "normalised_key": "authorisation_or_restrictions_according_to_eu_reach",
+              "content": "Not applicable Safety, health and environmental regulations/legislation specific for the substance or mixture Contains component(s) that meet a 'definition' of per & poly fluoroalkyl substance (PFAS)? Not applicable"
+            },
+            {
+              "title": "Other International Regulations",
+              "normalised_key": "other_international_regulations",
+              "content": ""
+            }
+          ],
+          "page_range": [
+            7,
+            8
+          ],
+          "tables": [
+            {
+              "page": 8,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "CAS No",
+                "California Prop. 65",
+                "Prop 65 NSRL",
+                "Category"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "CAS No": "64-17-5",
+                  "California Prop. 65": "Development (alcoholic beverages only) Carcinogen",
+                  "Prop 65 NSRL": "-",
+                  "Category": "Developmental Carcinogen"
+                }
+              ]
+            },
+            {
+              "page": 8,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "Massachusetts",
+                "New Jersey",
+                "Pennsylvania",
+                "Illinois",
+                "Rhode Island"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "Massachusetts": "X",
+                  "New Jersey": "X",
+                  "Pennsylvania": "X",
+                  "Illinois": "X",
+                  "Rhode Island": "X"
+                }
+              ]
+            },
+            {
+              "page": 8,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "CAS No",
+                "REACH (1907/2006) -\nAnnex XIV - Substances\nSubject to Authorization",
+                "REACH (1907/2006) -\nAnnex XVII - Restrictions\non Certain Dangerous\nSubstances",
+                "REACH Regulation (EC\n1907/2006) article 59 -\nCandidate List of\nSubstances of Very High\nConcern (SVHC)"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "CAS No": "64-17-5",
+                  "REACH (1907/2006) -\nAnnex XIV - Substances\nSubject to Authorization": "-",
+                  "REACH (1907/2006) -\nAnnex XVII - Restrictions\non Certain Dangerous\nSubstances": "-",
+                  "REACH Regulation (EC\n1907/2006) article 59 -\nCandidate List of\nSubstances of Very High\nConcern (SVHC)": "-"
+                }
+              ]
+            },
+            {
+              "page": 8,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "CAS No",
+                "OECD HPV",
+                "Persistent Organic\nPollutant",
+                "Ozone Depletion\nPotential",
+                "Restriction of\nHazardous\nSubstances (RoHS)"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "CAS No": "64-17-5",
+                  "OECD HPV": "Listed",
+                  "Persistent Organic\nPollutant": "Not applicable",
+                  "Ozone Depletion\nPotential": "Not applicable",
+                  "Restriction of\nHazardous\nSubstances (RoHS)": "Not applicable"
+                }
+              ]
+            },
+            {
+              "page": 8,
+              "bbox": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "headers": [
+                "Component",
+                "CAS No",
+                "Seveso III Directive\n(2012/18/EC) -\nQualifying Quantities\nfor Major Accident\nNotification",
+                "Seveso III Directive\n(2012/18/EC) -\nQualifying Quantities\nfor Safety Report\nRequirements",
+                "Rotterdam\nConvention (PIC)",
+                "Basel Convention\n(Hazardous Waste)"
+              ],
+              "rows": [
+                {
+                  "Component": "Ethyl alcohol",
+                  "CAS No": "64-17-5",
+                  "Seveso III Directive\n(2012/18/EC) -\nQualifying Quantities\nfor Major Accident\nNotification": "Not applicable",
+                  "Seveso III Directive\n(2012/18/EC) -\nQualifying Quantities\nfor Safety Report\nRequirements": "Not applicable",
+                  "Rotterdam\nConvention (PIC)": "Not applicable",
+                  "Basel Convention\n(Hazardous Waste)": "Annex I - Y42"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_number": "16",
+          "section_title": "Other Information",
+          "subsections": [
+            {
+              "title": "Prepared By",
+              "normalised_key": "prepared_by",
+              "content": "Product stewardship (Regulatory Affairs) Thermo Fisher Scientific Email: EMSDS.RA@thermofisher.com"
+            },
+            {
+              "title": "Creation Date",
+              "normalised_key": "creation_date",
+              "content": "21-May-2009"
+            },
+            {
+              "title": "Revision Date",
+              "normalised_key": "revision_date",
+              "content": "18-Dec-2025"
+            },
+            {
+              "title": "Print Date",
+              "normalised_key": "print_date",
+              "content": "18-Dec-2025"
+            },
+            {
+              "title": "Revision Summary",
+              "normalised_key": "revision_summary",
+              "content": "Updated to the U.S. Department of Labor’s Occupational Safety and Health Administration (OSHA) which published its Final Rule in the Federal Register revising the Hazard Communication Standard (HCS/HazCom), 29 CFR 1910.1200 (2024) (HCS §1910.1200,2024), May 20, 2024, effective July 19, 2024. Disclaimer The information provided in this Safety Data Sheet is correct to the best of our knowledge, information and belief at the date of its publication. The information given is designed only as a guidance for safe handling, use, processing, storage, transportation, disposal and release and is not to be considered a warranty or quality specification. The information relates only to the specific material designated and may not be valid for such material used in combination with any other materials or in any process, unless specified in the text End of SDS"
+            }
+          ],
+          "page_range": [
+            8,
+            9
+          ]
+        }
+      ]
+    }
+  }
+}

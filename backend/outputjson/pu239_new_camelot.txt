@@ -1,0 +1,554 @@
+============================================================
+  PAGE 1
+============================================================
+SRM 4330C 
+ 
+Page 1 of 7 
+Date of Issue:  
+31 July 2015 
+ 
+SAFETY DATA SHEET 
+ 
+1. SUBSTANCE AND SOURCE IDENTIFICATION  
+Product Identifier 
+SRM Number:  4330C 
+SRM Name:  Plutonium-239 Radioactivity Standard 
+Other Means of Identification: Not applicable.   
+Recommended Use of This Material and Restrictions of Use 
+This Standard Reference Material (SRM) is intended primarily for the calibration of instruments that are used to 
+measure radioactivity and for the monitoring of radiochemical procedures.  A unit of SRM 4330C consists of 
+3 mL of a 3.4 M (20 %) nitric acid solution in which a certified quantity of radioactive plutonium-239 is dissolved.  
+The solution is contained in a 5 mL flame sealed borosilicate glass ampoule. 
+Company Information 
+National Institute of Standards and Technology 
+ 
+Standard Reference Materials Program 
+ 
+100 Bureau Drive, Stop 2300 
+ 
+Gaithersburg, Maryland 20899-2300 
+ 
+ 
+ 
+Telephone:  301-975-2200 
+Emergency Telephone ChemTrec: 
+FAX:  301-948-3730 
+ 1-800-424-9300 
+(North America) 
+E-mail:  SRMMSDS@nist.gov 
+ +1-703-527-3887 
+(International) 
+Website:  http://www.nist.gov/srm 
+ 
+ 
+2. HAZARDS IDENTIFICATION 
+Radiological Hazard   
+Warning:  THIS MATERIAL SHOULD ONLY BE USED BY PERSONS QUALIFIED TO HANDLE 
+RADIOACTIVE MATERIAL!   
+ 
+This product contains licensed radioactive material and is therefore subject to the requirements of 10 CFR Part 20 
+(e.g., public and occupational exposure limits, waste disposal).  At a minimum, the basic radiation safety principles 
+of time, distance, and shielding, and appropriate radiation contamination control should be practiced to 
+avoid/minimize any external and/or internal exposure.  Consult with your Radiation Safety office for your facility’s 
+radiation safety requirements/precautions specific to the radionuclide(s) (including its activity and chemical/physical 
+form) in this Radioactive SRM. 
+SRM 4330C is a radioactive material, Plutonium-239, with a massic activity of approximately 38.41 Bq•g -1 in 
+a nitric acid solution.  Plutonium-239 decays by alpha-particle emission.  During the decay process X-rays and 
+gamma rays with energies from 10 keV to 1 MeV are emitted.     
+Classification. 
+Physical Hazard: There are no known physical hazards associated with this material. 
+Health Hazard: Skin Corrosion/Irritation  
+Category 1B 
+ Serious Eye Damage/Irritation  
+Category 1  
+Label Elements 
+Symbol  
+ 
+Signal Word 
+DANGER 
+
+============================================================
+  PAGE 2
+============================================================
+SRM 4330C 
+ 
+Page 2 of 7 
+Hazard Statement(s) 
+H314 
+Causes severe skin burns and eye damage. 
+Precautionary Statement(s) 
+P260 
+Do not breathe fumes, mists, vapors, or spray. 
+P264 
+Wash hands thoroughly after handling. 
+P280 
+Wear protective gloves, protective clothing, and eye protection. 
+P301+P330+P331 
+If swallowed: Rinse mouth.  Do NOT induce vomiting. 
+P303+P361+P353 
+If on skin (or hair):  Remove immediately all contaminated clothing.  Rinse skin with 
+water. 
+P304+P340 
+If inhaled: Remove person to fresh air and keep comfortable for breathing. 
+P305+P351+P338 
+If in eyes:  Rinse cautiously with water for several minutes.  Remove contact lenses, if 
+present and easy to do.  Continue rinsing. 
+P310 
+Immediately call a doctor. 
+P363 
+Wash contaminated clothing before reuse. 
+P405 
+Store locked up. 
+P501 
+Dispose of contents and container according to local regulations. 
+Hazards Not Otherwise Classified:  None. 
+Ingredients(s) with Unknown Acute Toxicity:  None. 
+3. COMPOSITION AND INFORMATION ON HAZARDOUS INGREDIENTS 
+Substance:  Radioactive plutonium-239 in 3.4 M nitric acid. 
+Other Designations:   
+ 
+Nitric Acid:  Aqua fortis; hydronitrate; azotic acid; engraver’s acid. 
+ 
+Plutonium-239:  Not applicable. 
+Components are listed in compliance with OSHA’s 29 CFR 1910.1200; for the actual values see the NIST Certificate.   
+Hazardous Component(s) 
+CAS Number 
+EC Number 
+(EINECS) 
+Nominal Mass Concentration
+(%) 
+Nitric acid 
+ 
+7697-37-2 
+231-714-2 
+20 
+Plutonium-239 
+Not applicable 
+Not applicable 
+0.000 002 
+Non-Hazardous Component(s) 
+ 
+ 
+ 
+Water 
+ 
+7732-18-5 
+231-791-2 
+>79 
+ 
+4. FIRST AID MEASURES 
+Description of First Aid Measures:  
+Inhalation:  If adverse effects occur, remove to uncontaminated area.  If not breathing, give artificial respiration 
+or oxygen by qualified personnel.  Seek immediate medical attention. 
+Skin Contact:  Rinse affected area with copious amounts of water followed by washing with soap and water for 
+at least 15 minutes while removing contaminated clothing.  Seek medical attention, if needed. 
+Eye Contact:  Immediately flush eyes, including under the eyelids with copious amounts of water for at least 
+30 minutes.  Seek immediate medical attention. 
+Ingestion:  Contact a poison control center immediately for instructions.  Wash out mouth with water, but do not 
+induce vomiting.  Seek medical aid at once, and bring the container or label. 
+Most Important Symptoms/Effects, Acute and Delayed:  Acid burns to skin and eyes. 
+Indication of any immediate medical attention and special treatment needed, if necessary:  If any of the above 
+symptoms are present, seek immediate medical attention.   
+5. FIRE FIGHTING MEASURES 
+Fire and Explosion Hazards:  Negligible fire hazard.  See Section 9, “Physical and Chemical Properties” for 
+flammability properties. 
+ 
+
+============================================================
+  PAGE 3
+============================================================
+SRM 4330C 
+ 
+Page 3 of 7 
+Extinguishing Media: 
+ 
+Suitable:  Use extinguishing media appropriate to the surrounding fire. 
+ 
+Unsuitable:  None listed. 
+Specific Hazards Arising from the Chemical:  Oxides of nitrogen. 
+Special Protective Equipment and Precautions for Fire-Fighters:  Avoid inhalation of material or combustion 
+byproducts.  Wear full protective clothing and NIOSH approved self-contained breathing apparatus (SCBA). 
+NFPA Ratings:  (0 = Minimal; 1 = Slight; 2 = Moderate; 3 = Serious; 4 = Severe) 
+ 
+ 
+Health = 3 
+Fire = 0 
+Reactivity = 0 
+6. ACCIDENTAL RELEASE MEASURES 
+This material is radioactive.  DO NOT touch spilled material.  Immediately notify safety personnel of a spill. 
+Personal Precautions, Protective Equipment, Methods and Materials for Containment and Clean up: 
+Radiological Emergency Procedures: 
+The following is a guide for first responders.  The following actions, including remediation, should be carried out by 
+qualified individuals.  In cases where a life-threatening injury occurs concurrent with personal contamination, treat 
+the injury first.   
+Do not touch damaged packages or spilled material.  Handle as a radioactive material spill.  In addition to those actions 
+described below, the guidelines in the Emergency Response Guidebook (ERG) provide more specific measures that 
+should be followed. 
+Spill and Leak Control: 
+Alert and clear everyone from the area affected by the spill. 
+Take actions to limit the spread of contamination.  
+Summon aid. 
+Damage to the Radioactive Source: 
+Evacuate the immediate vicinity around the source. 
+Place a barrier at a safe distance from the source. 
+Identify area as a radiation hazard. 
+Suggested Emergency Protective Equipment: 
+Gloves 
+Footwear Covers 
+Outer layer or easily removed protective clothing (as situation requires) 
+7. HANDLING AND STORAGE 
+Safe Handling Precautions and Storage:  This material is radioactive.  Store and handle in accordance with all 
+current regulations and standards.  See NRC 10 CFR 20 or state regulations.  See Section 8, “Exposure Controls and 
+Personal Protection”.   
+8. EXPOSURE CONTROLS AND PERSONAL PROTECTION 
+Exposure Limits: 
+Plutonium-239: 
+ 
+ALIinh: 
+0.006 μCi or 0.222 kBq (bone surface) (See NRC 10 CFR 20 Appendix B) 
+ 
+ALIing:   0.8 μCi or 29.6 kBq (bone surface) 
+ 
+OSHA:  See OSHA 29 CFR and NRC 10 CFR 20. 
+ 
+ACGIH:  See International Commission on Radiological Protection guidelines. 
+Nitric Acid: 
+NIOSH (REL):   
+5 mg/m3 (2 ppm; TWA) 
+ 
+10 mg/m3 (4 ppm; STEL) 
+ 
+65 mg/m3 (25 ppm; IDLH) 
+ACGIH (TLV):   
+5 mg/m3 (2 ppm; TWA) 
+ 
+10 mg/m3 (4 ppm; STEL) 
+OSHA (PEL):   
+5 mg/m3 (2 ppm; TWA) 
+Engineering Controls:  Provide local exhaust or process enclosure ventilation system.  Ensure compliance with 
+applicable exposure limits. 
+
+============================================================
+  PAGE 4
+============================================================
+SRM 4330C 
+ 
+Page 4 of 7 
+Personal Protection:  In accordance with OSHA 29 CFR 1910.132, subpart I, wear appropriate Personal Protective 
+Equipment (PPE) to minimize exposure to this material. 
+Respiratory Protection:  If workplace conditions warrant a respirator, a respiratory protection program that meets 
+OSHA 29CFR 1910.134 must be followed.  Refer to NIOSH 42 CFR 84 for applicable certified respirators. 
+Eye/Face Protection:  Wear splash resistant safety goggles with a face shield.  An eye wash station should be 
+readily available near areas of use. 
+Skin and Body Protection:  Wear protective clothing to prevent contact with skin.  Wear appropriate gloves. 
+9. PHYSICAL AND CHEMICAL PROPERTIES 
+ 
+Descriptive Properties: 
+Nitric Acid 
+Appearance (physical state, color, etc.): 
+colorless to yellow liquid 
+Molecular Formula: 
+HNO3 
+Molar Mass (g/mol): 
+63.01 
+Odor: 
+irritating odor 
+Odor threshold: 
+not available 
+pH: 
+1 (1 M) 
+Evaporation rate: 
+not available 
+Melting point/freezing point (ºC): 
+–42 (–43 ºF) 
+Relative Density (g/L) as specific gravity (water = 1): 
+1.5027 at 25 ºC 
+Vapor Pressure (mmHg): 
+47.9  at 20 ºC 
+Vapor Density (air = 1): 
+3.2 
+Viscosity (cP): 
+not available 
+Solubility(ies): 
+miscible with water and ether 
+Partition coefficient  
+(n-octanol/water): 
+not available 
+Thermal Stability Properties: 
+ 
+Autoignition Temperature (ºC): 
+not applicable 
+Thermal Decomposition (ºC): 
+not applicable 
+Initial boiling point and boiling range (ºC): 
+83 (181 ºF) 
+Explosive Limits, LEL (Volume %): 
+not applicable 
+Explosive Limits, UEL (Volume %): 
+not applicable 
+Flash Point (ºC): 
+not applicable 
+Flammability (solid, gas): 
+not applicable 
+ 
+10. STABILITY AND REACTIVITY 
+Reactivity:  Stable at normal temperatures and pressure. 
+Stability: 
+X 
+Stable 
+ 
+Unstable 
+Possible Hazardous Reactions:  None listed. 
+Conditions to Avoid:  Avoid contact with combustible materials and incompatible materials. 
+Incompatible Materials:  Acids, combustible materials, halo carbons, amines, bases, oxidizing materials, metals, 
+halogens, metal salts, metal oxides, reducing agents, peroxides, metal carbide, cyanides. 
+Fire/Explosion Information:  See Section 5, “Fire Fighting Measures”. 
+Hazardous Decomposition:  Oxides of nitrogen.  
+Hazardous Polymerization: 
+ 
+Will Occur 
+X 
+Will Not Occur 
+ 
+11. TOXICOLOGICAL INFORMATION 
+ 
+Route of Exposure: 
+X 
+Inhalation 
+X 
+Skin 
+X 
+Ingestion 
+Symptoms Related to the Physical, Chemical and Toxicological Characteristics:  Burning pain and severe 
+corrosive skin damage.  Permanent eye damage including blindness could result. 
+
+============================================================
+  PAGE 5
+============================================================
+SRM 4330C 
+ 
+Page 5 of 7 
+Potential Health Effects (Acute, Chronic and Delayed): 
+Inhalation:  Nitric acid, if inhaled, can damage the mucous membranes and respiratory tract.  Short term exposure 
+may cause irritation and inflammation of the upper respiratory tract, coughing, choking, sore throat, shortness of 
+breath, headache, dizziness, and nausea.  Long term exposure to acid fumes may cause damage to teeth, bronchial 
+irritation, chronic cough, bronchial pneumonia, and gastrointestinal disturbances.   
+Skin Contact:  Nitric acid can cause severe skin burns.  Severity of the damage depends on the concentration and 
+duration of exposure.  Effects of acid burns may be delayed. 
+Eye Contact:  Nitric acid can cause severe eye irritation, corneal burns, permanent eye damage, or blindness.  
+Severity of the damage depends on the concentration and duration of exposure. 
+Ingestion:  Ingestion of this material is unlikely under normal conditions of use.  If ingested, nitric acid can cause 
+severe burns and damage to the gastrointestinal tract. 
+Numerical Measures of Toxicity:  
+Acute Toxicity:  Not classified. 
+Nitric acid, Rat, Inhalation LC50:  130 mg/m3 (4 h) 
+Skin Corrosion/Irritation:  This SRM contains 20 % nitric acid and it is classified as Category 1B. 
+Serious Eye Damage/Eye Irritation:  This SRM contains 20 % nitric acid and it is classified as Category 1. 
+Respiratory Sensitization:  No data available. 
+Skin Sensitization:  No data available. 
+Germ Cell Mutagenicity:  No data available. 
+Carcinogenicity:  No data available. 
+Listed as a Carcinogen/Potential Carcinogen
+ 
+Yes 
+X 
+No 
+Nitric acid is not listed by NTP, IARC or OSHA as a carcinogen. 
+Radiological Hazard:  Plutonium-239 
+Ionizing radiation is a known carcinogen. 
+Reproductive Toxicity:  No data available. 
+Specific Target Organ Toxicity, Single Exposure:  No data available. 
+Specific Target Organ Toxicity, Repeated Exposure:  No data available. 
+Aspiration Hazard:  No data available.   
+12. ECOLOGICAL INFORMATION 
+Ecotoxicity Data: 
+Component:  Nitric Acid 
+Fish:  Starfish (Asterias rubens), LC50:  100-300 mg/L (48 h, renewal, aerated water) 
+Component:  Plutonium-239 
+No ecotoxicity data listed.   
+Persistence and Degradability:  No data available.  
+Bioaccumulative Potential:  No data available.  
+Mobility in Soil:  No data available. 
+Other Adverse Effects:  No data available. 
+13. DISPOSAL CONSIDERATIONS 
+Waste Disposal:  This material is radioactive.  Dispose in accordance with all applicable federal, state, and local 
+regulations for RADIOACTIVE materials.  See NRC 10 CFR 20 subpart K. 
+14. TRANSPORTATION INFORMATION 
+U.S. DOT and IATA:   
+Primary Risk:  UN2031, Nitric Acid, Hazard Class 8, Packing Group II, Excepted Quantity E2. 
+Subsidiary Risk:  Not radioactive for shipping purposes. 
+
+============================================================
+  PAGE 6
+============================================================
+SRM 4330C 
+ 
+Page 6 of 7 
+15. REGULATORY INFORMATION 
+U.S. Regulations: 
+CERCLA Sections 102a/103 (40 CFR 302.4):  Nitric Acid, 1000 lbs; 454 kg final RQ.    
+SARA Title III Section 302 (40 CFR 355.30):  Nitric Acid, 1000 lbs TPQ.   
+SARA Title III Section 304 (40 CFR 355.40):  Nitric Acid, 1000 lbs EPCRA RQ.   
+SARA Title III Section 313 (40 CFR 372.65):  Nitric Acid, 1.0 % de minimis concentrations. 
+OSHA Process Safety (29 CFR 1910.119):  Nitric Acid at higher concentrations 500 lbs. TQ (>94.5 %) is regulated.   
+SARA Title III Sections 311/312 Hazardous Categories (40 CFR 370.21): 
+ACUTE HEALTH: 
+Yes. 
+CHRONIC HEALTH: 
+Yes. 
+FIRE: 
+No. 
+REACTIVE: 
+No. 
+PRESSURE: 
+No. 
+State Regulations: 
+California Proposition 65:  No components are regulated. 
+U.S. TSCA Inventory:  Nitric acid is listed. 
+TSCA 12(b), Export Notification:  No components are listed. 
+Canadian Regulations: 
+WHMIS Information: Not provided for this material. 
+16. OTHER INFORMATION 
+Issue Date:  31 July 2015 
+Sources: ChemAdvisor, Inc., SDS Nitric Acid, 20 March 2015. 
+ 
+CDC; NIOSH; NIOSH Pocket Guide to Chemical Hazards; Department of Health and Human 
+Services (DHHS), Centers for Disease Control and Prevention (CDC), National Institute for Safety and 
+Health; Nitric Acid, 13 February 2015; available at http://www.cdc.gov/niosh/npg/npgd0447.html (accessed 
+Jul 2015).  
+ 
+ United States National Library of Medicine, Hazardous Substance Database (HSDB), Nitric Acid; available 
+at http://toxnet.nlm.nih.gov/newtoxnet/hsdb.htm (accessed Jul 2015). 
+ 
+ OSHA 29 CFR, Subpart Z, Ionizing radiation, 1910.1096. 
+NRC 10 CFR 20, Standards for Protection Against Radiation. 
+DOT 49 CFR 173, Shippers General Requirements for Shipments and Packages. 
+ 
+ 
+
+============================================================
+  PAGE 7
+============================================================
+SRM 4330C 
+ 
+Page 7 of 7 
+Key of Acronyms:   
+ACGIH 
+American Conference of Governmental Industrial 
+Hygienists 
+NIOSH  
+National Institute for Occupational Safety and 
+Health  
+ALI 
+Annual Limit on Intake 
+NIST 
+National Institute of Standards and Technology 
+CAS  
+Chemical Abstracts Service  
+NRC 
+Nuclear Regulatory Commission 
+CEN 
+European Committee for Standardization 
+NTP  
+National Toxicology Program 
+CERCLA  
+Comprehensive Environmental Response, 
+Compensation, and Liability Act  
+OSHA  
+Occupational Safety and Health Administration  
+CFR  
+Code of Federal Regulations  
+PEL  
+Permissible Exposure Limit 
+CPSU 
+Coal Mine Dust Personal Sample Unit 
+RCRA  
+Resource Conservation and Recovery Act  
+DOT  
+Department of Transportation  
+REL  
+Recommended Exposure Limit  
+EC50 
+Effective Concentration, 50 % 
+RM 
+Reference Material 
+EINECS 
+European Inventory of Existing Commercial 
+Chemical Substances  
+RQ  
+Reportable Quantity  
+EPCRA  
+Emergency Planning and Community Right-to-Know 
+Act  
+RTECS 
+Registry of Toxic Effects of Chemical Substances 
+IARC  
+International Agency for Research on Cancer  
+SARA  
+Superfund Amendments and Reauthorization Act  
+IATA  
+International Air Transportation Agency  
+SCBA  
+Self-Contained Breathing Apparatus  
+IDLH  
+Immediately Dangerous to Life and Health  
+SRM  
+Standard Reference Material  
+ISO 
+International Organization for Standardization 
+STEL  
+Short Term Exposure Limit  
+LC50 
+Lethal Concentration, 50 %  
+TDLo 
+Toxic Dose Low 
+LD50 
+Lethal Dose, 50 % 
+TLV  
+Threshold Limit Value  
+LEL  
+Lower Explosive Limit  
+TPQ  
+Threshold Planning Quantity  
+MSDS  
+Material Safety Data Sheet  
+TSCA  
+Toxic Substances Control Act  
+NFPA  
+National Fire Protection Association  
+TWA  
+Time Weighted Average  
+MSHA 
+Mine Safety and Health Administration 
+UEL  
+Upper Explosive Limit  
+ 
+ 
+WHMIS 
+Workplace Hazardous Materials Information System
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Disclaimer:  Physical and chemical data contained in this SDS are provided only for use in assessing the 
+hazardous nature of this material.  The SDS was prepared carefully, using current references; however, NIST does 
+not certify the data in the SDS.  The certified values for this material are given in the NIST Certificate. 
+Users of this SRM should ensure that the SDS in their possession is current.  This can be accomplished by contacting 
+the SRM Program: telephone (301) 975-2200; fax (301) 948-3730; e-mail srmmsds@nist.gov; or via the Internet at 
+http://www.nist.gov/srm. 
+ 
+

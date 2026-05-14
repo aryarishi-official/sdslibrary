@@ -22,6 +22,8 @@ class SDSDocument(Base):
     file_name = Column(String)
     product_name = Column(String)
     hazard_pictograms = Column(JSON, default=list)
+    uploaded_at = Column(DateTime, server_default=func.now())
+    signal_word = Column(String, nullable=True)
 
     sections = relationship(
         "Section",
