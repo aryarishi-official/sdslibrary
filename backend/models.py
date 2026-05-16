@@ -15,6 +15,13 @@ from database import Base
 
     sections = relationship("Section", back_populates="document", cascade="all, delete") """
 
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True, index=True)
+    name=Column(String)
+    email = Column(String, unique=True, index=True)
+    password = Column(String)
 class SDSDocument(Base):
     __tablename__ = "sds_documents"
 

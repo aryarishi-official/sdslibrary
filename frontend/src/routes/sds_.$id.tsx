@@ -92,12 +92,21 @@ function SdsDetailPage() {
   const [showComparePdf, setShowComparePdf] = useState(false);
 
   useEffect(() => {
+
+    const token = localStorage.getItem("token");
+
     setLoading(true);
-    fetch(`${API_BASE}/documents/${id}`)
+
+    fetch(`${API_BASE}/documents/${id}`, {
+      headers: {
+        Authorization: `Bearer ${token}`
+      }
+    })
       .then((r) => r.json())
       .then((d: DocumentDetail) => setDoc(d))
       .catch(console.error)
       .finally(() => setLoading(false));
+
   }, [id]);
 
   const TABS = [
@@ -220,8 +229,8 @@ function SdsDetailPage() {
                 <Row label="Trade Name / SRM Name" value={pick(sec1, "trade name", "srm name", "commercial name")} />
                 <Row label="Product Identifier" value={pick(sec1, "product identifier", "product code", "srm number", "article no")} />
                 <Row label="Manufacturer / Supplier" value={pick(sec1, "company", "supplier", "manufacturer", "producer")} />
-                <Row label="Recommended Use" value={pick(sec1, "recommended use", "product use", "intended use", "use of")} />
-                <Row label="Revision Date" value={pick(sec1, "revision date", "Date of issue/Date of revision")} />
+                <Row label="Recommended Use" value={doc?.normalized?.recommended_use || "—"} />
+                <Row label="Revision Date" value={doc?.normalized?.revision_date || "—"} />
                 < Row label="SDS Version" value={pick(sec1, "version", "revision no", "sds version")} />
                 <Row label="Upload ID" value={`#${id}`} />
               </InfoCard>
@@ -274,9 +283,12 @@ function SdsDetailPage() {
 
               {/* 4. Chemical Information */}
               <InfoCard icon={<Microscope className="h-4 w-4" />} label="Chemical Information">
-                <Row label="CAS Number(s)" value={pick(sec3, "cas number", "cas no", "cas-no", "cas:")} />
+                <Row label="CAS Number(s)" value={doc?.normalized?.cas_number || "—"} />
                 <Row label="EC Number" value={pick(sec3, "ec number", "einecs", "ec no") !== "—" ? pick(sec3, "ec number", "einecs", "ec no") : "N/A"} />
-                <Row label="UN Number" value={pick(sec3, "un number", "un no") !== "—" ? pick(sec3, "un number", "un no") : (pick(sec14, "un number", "un no") !== "—" ? pick(sec14, "un number", "un no") : "N/A")} />
+                <Row
+                  label="UN Number"
+                  value={doc?.normalized?.un_number || "—"}
+                />
                 <Row label="Chemical Formula" value={pick(sec3, "formula", "molecular formula")} />
                 <Row label="Substance / Mixture" value={pick(sec3, "substance", "mixture", "type of")} />
                 <Row label="Concentration" value={pick(sec3, "concentration", "percentage", "weight %")} />

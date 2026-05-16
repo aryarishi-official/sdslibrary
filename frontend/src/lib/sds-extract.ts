@@ -22,6 +22,13 @@ export type Pictogram = {
 export type DocumentDetail = {
   file_name: string;
   product_name: string;
+  normalized?: {
+    product_name?: string;
+    recommended_use?: string;
+    revision_date?: string;
+    cas_number?: string;
+    un_number?: string;
+  };
   signal_word: string | null;
   uploaded_at: string | null;
   hazard_pictograms: Pictogram[];

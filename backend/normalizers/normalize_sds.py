@@ -1,5 +1,6 @@
 from typing import Dict, Any
 import re
+from utils.text_utils import normalize_text
 
 def get_section(raw_sds, section_num):
     sections = raw_sds.get("sections", [])
@@ -22,7 +23,10 @@ def find_subsection(section, possible_titles):
             title = sub.get("title", "").lower()
 
             if wanted in title:
-                return sub.get("content", "")
+                content = sub.get("content", "").strip()
+
+                if content:
+                    return content
 
     return ""
 
@@ -36,6 +40,17 @@ FIELD_MAP = {
         "chemical name",
     ],
 
+    "recommended_use": [
+    "recommended use",
+    "recommended uses",
+    "product use",
+    "product use",
+    "identified uses",
+    "intended use",
+    "use of substance",
+    "recommended use of the chemical",
+    ],
+
     "supplier": [
         "supplier",
         "supplier's details",
@@ -47,9 +62,24 @@ FIELD_MAP = {
         "signal word",
     ],
 
+    "revision_date": [
+    "date of revision",
+    "revision date",
+    "date of issue/date of revision",
+    "date of issue",
+    ],
+
     "hazard_statements": [
         "hazard statements",
         "hazard statement(s)",
+    ],
+
+    "cas_number": [
+    "cas number",
+    "cas no",
+    "cas-no",
+    "cas #",
+    "cas number(s)",
     ],
 
     "physical_state": [
@@ -66,6 +96,14 @@ FIELD_MAP = {
         "odor",
         "odour",
     ],
+
+    "un_number": [
+    "un-no",
+    "un no",
+    "un number",
+    "un-number",
+    "un#",
+],
 
     "flash_point": [
         "flash point",
@@ -85,9 +123,13 @@ FIELD_MAP = {
 FIELD_SECTIONS = {
     "product_name": [1],
     "supplier": [1],
+    "recommended_use": [1],
+    "revision_date": [1, 16],
 
     "signal_word": [2],
     "hazard_statements": [2],
+    
+    "cas_number": [3],
 
     "physical_state": [9, 1],
     "color": [9],
@@ -146,14 +188,70 @@ def resolve_product_name(raw_sds):
 
     return value
 
+def extract_date(value: str) -> str:
+    if not value:
+        return ""
+
+    import re
+
+    match = re.search(
+        r"\b\d{1,2}[\/\-]\d{1,2}[\/\-]\d{2,4}\b",
+        value
+    )
+
+    if match:
+        return match.group(0)
+
+    return value
+
+CAS_REGEX = re.compile(r"\b\d{2,7}-\d{2}-\d\b")
+
+
+def resolve_cas_number(raw_sds):
+    """
+    Resolve CAS number robustly from subsection titles/content.
+    """
+
+    sections = raw_sds.get("sections", [])
+
+    for sec in sections:
+
+        # CAS mostly exists in Section 1 or 3
+        if str(sec.get("section_number")) not in ["1", "3"]:
+            continue
+
+        for sub in sec.get("subsections", []):
+
+            title = normalize_text(sub.get("title", ""))
+            content = sub.get("content", "")
+
+            combined = f"{title}\n{content}"
+
+            match = CAS_REGEX.search(combined)
+
+            if match:
+                return match.group(0)
+
+    return ""
+
 def normalize_sds(raw_sds):
 
     normalized = {
         "product_name": resolve_product_name(raw_sds),
+        
+        "recommended_use": resolve_field(raw_sds, "recommended_use"),
 
         "supplier": resolve_field(raw_sds, "supplier"),
 
         "signal_word": resolve_field(raw_sds, "signal_word"),
+
+        "revision_date": extract_date(
+            resolve_field(raw_sds, "revision_date")
+        ),
+
+        "un_number": resolve_field(raw_sds, "un_number"),
+
+        "cas_number": resolve_cas_number(raw_sds),
 
         "hazard_statements": resolve_field(raw_sds, "hazard_statements"),
 

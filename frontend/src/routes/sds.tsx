@@ -101,14 +101,13 @@ function AllSdsPage() {
           </div>
           <Select>
             <SelectTrigger className="h-10 w-[170px]">
-              <SelectValue placeholder="Hazard Class" />
+              <SelectValue placeholder="Tool Selection" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All hazards</SelectItem>
-              <SelectItem value="flammable">Flammable</SelectItem>
-              <SelectItem value="toxic">Toxic</SelectItem>
-              <SelectItem value="corrosive">Corrosive</SelectItem>
-              <SelectItem value="env">Environmental</SelectItem>
+              <SelectItem value="all">Traditional Nlp </SelectItem>
+              <SelectItem value="flammable">LLMs</SelectItem>
+              <SelectItem value="toxic">ML Model</SelectItem>
+
             </SelectContent>
           </Select>
           <Button variant="outline" className="h-10 gap-2 text-muted-foreground">

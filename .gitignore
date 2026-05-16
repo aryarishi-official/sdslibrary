@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env
+
+# Node
+node_modules/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Uploads / generated files
+uploads/
+outputjson/
+outputtxt/
+
+# Logs
+*.log

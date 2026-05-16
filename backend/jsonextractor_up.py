@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Optional
+from utils.text_utils import remove_footer_noise
 
 import fitz          # PyMuPDF
 import pdfplumber
@@ -1186,6 +1187,52 @@ def normalise_key(key: str) -> str:
     # Remove consecutively duplicated words e.g. reactions_reactions
     k = re.sub(r'\b(\w+)_\1\b', r'\1', k)
     return k
+
+CAS_REGEX = re.compile(r"\b\d{2,7}-\d{2}-\d\b")
+
+
+def extract_cas_numbers(text: str) -> list[str]:
+    """
+    Extract valid CAS numbers from messy SDS content.
+
+    Handles:
+    - tables
+    - multiline layouts
+    - inline paragraphs
+    - broken OCR
+    """
+
+    if not text:
+        return []
+
+    matches = CAS_REGEX.findall(text)
+
+    cleaned = []
+    seen = set()
+
+    for cas in matches:
+        cas = cas.strip()
+
+        # Validate checksum format roughly
+        parts = cas.split("-")
+
+        if len(parts) != 3:
+            continue
+
+        left, middle, right = parts
+
+        if not (
+            left.isdigit()
+            and middle.isdigit()
+            and right.isdigit()
+        ):
+            continue
+
+        if cas not in seen:
+            seen.add(cas)
+            cleaned.append(cas)
+
+    return cleaned
 
 
 # ══════════════════════════════════════════════════════
@@ -2595,6 +2642,7 @@ if __name__ == '__main__':
                     _f.write(f'  PAGE {_page_no}\n')
                     _f.write(f'{"=" * 60}\n')
                     _page_text = _page.get_text('text')
+                    _page_text = remove_footer_noise(_page_text)
                     _f.write(_page_text)
                     _f.write('\n')
         print(f'✓  Saved raw text → {txt_path}')
@@ -2608,6 +2656,32 @@ if __name__ == '__main__':
         pdf_tables_plumber = extract_pdf_tables(str(pdf_path))
         pdf_tables_camel   = extract_tables_camelot(str(pdf_path))
         pdf_tables = pdf_tables_camel + pdf_tables_plumber
+
+        all_cas_numbers = []
+
+        for table in pdf_tables:
+            for row in table.get("rows", []):
+
+                row_text = " ".join(
+                    str(v) for v in row.values() if v
+                )
+
+                found = extract_cas_numbers(row_text)
+
+                if found:
+                    all_cas_numbers.extend(found)
+
+        full_text = "\n".join(
+            line.get("text", "")
+            for line in layout_lines
+        )
+
+        if not all_cas_numbers:
+            all_cas_numbers = extract_cas_numbers(full_text)
+
+        all_cas_numbers = list(dict.fromkeys(all_cas_numbers))
+
+        sections = extract(layout_lines, pdf_tables=pdf_tables)
 
         # ❗ IMPORTANT: do NOT pass tables into extract
         sections = extract(layout_lines, pdf_tables=pdf_tables)

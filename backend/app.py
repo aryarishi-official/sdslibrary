@@ -6,14 +6,19 @@ import os
 from jsonextractor_up import extract_layout_lines, layout_lines_to_text_and_kvs, extract_pdf_tables, extract_tables_camelot, extract, extract_product_name, extract_hazard_pictograms
 from insert import insert_sds
 from normalizers.normalize_sds import normalize_sds
-from models import SDSDocument, Section, Subsection
+from models import SDSDocument, Section, Subsection,User
 from database import engine, Base
 from database import get_db
 from sqlalchemy.orm import Session
 from fastapi import Depends
 import json
 import copy
+# pyrefly: ignore [missing-import]
 from fastapi.staticfiles import StaticFiles
+from schemas import UserCreate, UserLogin
+from auth import hash_password, verify_password, create_access_token
+from fastapi.exceptions import HTTPException
+
 
 
 app = FastAPI()
@@ -66,10 +71,73 @@ def extract_signal_word(sections: list) -> str | None:
                     if re.search(rf'\b{word}\b', content, re.IGNORECASE):
                         return word
     return None
+@app.post("/register")
+def register(user: UserCreate, db: Session = Depends(get_db)):
 
+    existing_user = db.query(User).filter(
+        User.email == user.email
+    ).first()
+
+    if existing_user:
+        raise HTTPException(
+            status_code=400,
+            detail="Email already registered"
+        )
+
+    hashed_pw = hash_password(user.password)
+
+    new_user = User(
+        name=user.name,
+        email=user.email,
+        password=hashed_pw
+    )
+    db.add(new_user)
+    db.commit()
+    db.refresh(new_user)
+
+    return {"message": "User created"}
+
+# Login
+@app.post("/login")
+def login(user: UserLogin, db: Session = Depends(get_db)):
+
+    db_user = db.query(User).filter(
+        User.email == user.email
+    ).first()
+
+    if not db_user:
+        raise HTTPException(
+            status_code=401,
+            detail="Invalid credentials"
+        )
+
+    if not verify_password(
+        user.password,
+        db_user.password
+    ):
+     raise HTTPException(
+            status_code=401,
+            detail="Invalid credentials"
+        )
+
+    token = create_access_token(
+        data={"sub": db_user.email}
+    )
+
+    return {
+        "access_token": token,
+        "token_type": "bearer"
+    }
+from auth import verify_token    
+@app.get("/profile")
+def profile(current_user: str = Depends(verify_token)):
+    return {
+        "message": "Protected route",
+        "user": current_user
+    }
 
 @app.post("/analyze")
-async def analyze(file: UploadFile = File(...)):
+async def analyze(file: UploadFile = File(...),current_user: str = Depends(verify_token)):
     file_path = os.path.join(UPLOAD_DIR, file.filename)
 
     # Save file
@@ -164,7 +232,7 @@ async def analyze(file: UploadFile = File(...)):
 
 
 @app.get("/documents/{doc_id}")
-def get_document(doc_id: int, db: Session = Depends(get_db)):
+def get_document(doc_id: int,current_user: str = Depends(verify_token),db: Session = Depends(get_db)):
     doc = db.query(SDSDocument).filter(SDSDocument.id == doc_id).first()
 
     sections = db.query(Section).filter(Section.document_id == doc_id).all()
@@ -286,6 +354,7 @@ def get_documents(db: Session = Depends(get_db)):
 
 @app.delete("/documents/{doc_id}")
 def delete_document(doc_id: int, db: Session = Depends(get_db)):
+
     doc = db.query(SDSDocument).filter(SDSDocument.id == doc_id).first()
 
     if not doc:
