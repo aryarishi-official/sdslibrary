@@ -10,6 +10,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { API_BASE } from "@/lib/api"
 import {
     Select,
     SelectContent,
@@ -37,7 +38,7 @@ export function SignupDialog({
         e.preventDefault();
         setSubmitting(true);
         try {
-            const response = await fetch("http://127.0.0.1:8000/register", {
+            const response = await fetch(`${API_BASE}/register`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ name, email, password, role }),
