@@ -33,7 +33,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5174",
-        "https://sdslibrary-1o7vbwq4s-arya-s-projects-aba4ff24.vercel.app",],
+        "https://sdslibrary.vercel.app",],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
