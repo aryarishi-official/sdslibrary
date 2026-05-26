@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sdsmanager-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt && python -m spacy download en_core_web_sm
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
