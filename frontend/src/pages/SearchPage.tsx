@@ -4,8 +4,9 @@ import { PageShell } from "@/components/page-shell";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { getAuthToken } from "@/lib/auth";
+import { API_BASE } from "@/lib/api"
 
-const API_BASE = "http://localhost:8000";
+
 
 type SearchResult = {
   id: number;

@@ -21,6 +21,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { getAuthToken } from "@/lib/auth";
+import { API_BASE } from "@/lib/api"
 
 type Phase = "select" | "processing" | "done";
 
@@ -66,7 +67,7 @@ export function UploadSdsDialog({
       const formData = new FormData();
       formData.append("file", file);
 
-      const res = await fetch("http://localhost:8000/analyze", {
+      const res = await fetch(`${API_BASE}/analyze`, {
         method: "POST",
         headers: token ? { Authorization: `Bearer ${token}` } : {},
         body: formData,

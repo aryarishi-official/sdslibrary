@@ -14,8 +14,9 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { getAuthToken, getRole, can } from "@/lib/auth";
+import { API_BASE } from "@/lib/api"
 
-const API_BASE = "http://localhost:8000";
+// const API_BASE = "http://localhost:8000";
 
 export default function SdsPage() {
   const [tab, setTab] = useState<"processing" | "completed">("completed");

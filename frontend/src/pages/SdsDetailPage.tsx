@@ -14,7 +14,8 @@ import {
   getSection, pick, pickShort, formatDate,
 } from "@/lib/sds-extract";
 
-const API_BASE = "http://localhost:8000";
+import { API_BASE } from "@/lib/api"
+
 
 const GHS_PICTO: Record<string, { icon: typeof Flame; label: string; cls: string }> = {
   GHS01: { icon: Bomb, label: "Explosive", cls: "bg-rose-500/10 text-rose-600 ring-rose-500/30" },
