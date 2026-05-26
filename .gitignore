@@ -21,4 +21,7 @@ outputjson/
 outputtxt/
 
 # Logs
-*.log
+*.logbackend/venv/
+backend/__pycache__/
+**/__pycache__/
+**/*.pyc

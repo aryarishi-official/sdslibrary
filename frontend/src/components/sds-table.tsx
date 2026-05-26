@@ -12,7 +12,7 @@ import {
   Wind,
   Activity,
 } from "lucide-react";
-import { Link } from "@tanstack/react-router";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import {
   Tooltip,
@@ -21,6 +21,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
+import { can } from "@/lib/auth";
 
 type GhsPictogram = {
   ghs_code: string;
@@ -35,7 +36,6 @@ export type SdsRow = {
   normalized?: {
     product_name?: string;
   };
-
   signal_word: string | null;
   uploaded_at: string | null;
   hazard_pictograms: GhsPictogram[];
@@ -79,10 +79,14 @@ function formatDate(dateStr: string | null): string {
 export function SdsTable({
   rows = [],
   onDelete,
+  role = "viewer",
 }: {
   rows?: SdsRow[];
   onDelete?: (id: number) => void;
+  role?: string;
 }) {
+  const canDelete = can.delete(role);
+
   return (
     <TooltipProvider delayDuration={150}>
       <div className="overflow-hidden rounded-xl border bg-card shadow-sm">
@@ -116,8 +120,7 @@ export function SdsTable({
                   {/* Product Name */}
                   <td className="border-b px-5 py-4">
                     <Link
-                      to="/sds/$id"
-                      params={{ id: String(r.id) }}
+                      to={`/sds/${r.id}`}
                       className="font-medium text-foreground hover:underline hover:underline-offset-2"
                     >
                       {r.normalized?.product_name || r.product_name}
@@ -168,11 +171,11 @@ export function SdsTable({
                   {/* Actions */}
                   <td className="border-b px-5 py-4">
                     <div className="flex items-center gap-1 opacity-70 transition-opacity group-hover:opacity-100">
+                      {/* View Details — always visible */}
                       <Tooltip>
                         <TooltipTrigger asChild>
                           <Link
-                            to="/sds/$id"
-                            params={{ id: String(r.id) }}
+                            to={`/sds/${r.id}`}
                             className="inline-flex h-8 w-8 items-center justify-center rounded-md text-foreground/80 hover:bg-accent hover:text-accent-foreground"
                           >
                             <Eye className="h-4 w-4" />
@@ -180,6 +183,8 @@ export function SdsTable({
                         </TooltipTrigger>
                         <TooltipContent>View details</TooltipContent>
                       </Tooltip>
+
+                      {/* View PDF — always visible */}
                       <Tooltip>
                         <TooltipTrigger asChild>
                           {r.pdf_url ? (
@@ -201,19 +206,23 @@ export function SdsTable({
                           {r.pdf_url ? "View PDF" : "PDF not available"}
                         </TooltipContent>
                       </Tooltip>
-                      <Tooltip>
-                        <TooltipTrigger asChild>
-                          <Button
-                            size="icon"
-                            variant="ghost"
-                            className="h-8 w-8 text-destructive hover:bg-destructive/10 hover:text-destructive"
-                            onClick={() => onDelete?.(r.id)}
-                          >
-                            <Trash2 className="h-4 w-4" />
-                          </Button>
-                        </TooltipTrigger>
-                        <TooltipContent>Delete</TooltipContent>
-                      </Tooltip>
+
+                      {/* Delete — admin only */}
+                      {canDelete && (
+                        <Tooltip>
+                          <TooltipTrigger asChild>
+                            <Button
+                              size="icon"
+                              variant="ghost"
+                              className="h-8 w-8 text-destructive hover:bg-destructive/10 hover:text-destructive"
+                              onClick={() => onDelete?.(r.id)}
+                            >
+                              <Trash2 className="h-4 w-4" />
+                            </Button>
+                          </TooltipTrigger>
+                          <TooltipContent>Delete</TooltipContent>
+                        </Tooltip>
+                      )}
                     </div>
                   </td>
                 </tr>

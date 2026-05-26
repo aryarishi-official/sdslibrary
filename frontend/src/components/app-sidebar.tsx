@@ -1,14 +1,6 @@
-import { Link, useRouterState } from "@tanstack/react-router";
+import { Link, useLocation } from "react-router-dom";
 import {
-  LayoutDashboard,
   FileText,
-  MapPin,
-  Library,
-  Search,
-  ShieldCheck,
-  QrCode,
-  AlertTriangle,
-  BarChart3,
   ShieldHalf,
 } from "lucide-react";
 import {
@@ -39,7 +31,7 @@ const items = [
 export function AppSidebar() {
   const { state } = useSidebar();
   const collapsed = state === "collapsed";
-  const currentPath = useRouterState({ select: (r) => r.location.pathname });
+  const { pathname } = useLocation();
 
   return (
     <Sidebar collapsible="icon" className="border-r-0">
@@ -54,7 +46,7 @@ export function AppSidebar() {
                 My SDS Library
               </span>
               <span className="text-[11px] text-sidebar-foreground/60">
-                Safety & Compliance
+                Safety &amp; Compliance
               </span>
             </div>
           )}
@@ -71,7 +63,7 @@ export function AppSidebar() {
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => {
-                const active = currentPath === item.url;
+                const active = pathname === item.url;
                 return (
                   <SidebarMenuItem key={item.title}>
                     <SidebarMenuButton

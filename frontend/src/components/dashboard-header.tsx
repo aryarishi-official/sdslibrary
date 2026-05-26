@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { Bell, Search, LogOut } from "lucide-react";
-import { useNavigate } from "@tanstack/react-router";
+import { useNavigate } from "react-router-dom";
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -14,17 +14,26 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu";
+import { clearSession, getUserName, getRole, getInitials } from "@/lib/auth";
+
+const ROLE_LABELS: Record<string, { label: string; cls: string }> = {
+  admin: { label: "Admin", cls: "text-emerald-600" },
+  editor: { label: "Editor", cls: "text-blue-600" },
+  viewer: { label: "Viewer", cls: "text-muted-foreground" },
+};
 
 export function DashboardHeader({ leading }: { leading?: ReactNode }) {
   const navigate = useNavigate();
+  const name = getUserName();
+  const role = getRole();
+  const initials = getInitials(name);
+  const roleConfig = ROLE_LABELS[role] ?? { label: role, cls: "text-muted-foreground" };
+
   const handleLogout = () => {
-
-    // Remove JWT token
-    localStorage.removeItem("token");
-
-    // Redirect to login/home
-    navigate({ to: "/" });
+    clearSession();
+    navigate("/");
   };
+
   return (
     <header className="sticky top-0 z-30 flex h-16 items-center gap-3 border-b bg-background/80 px-4 backdrop-blur-md md:px-6">
       <SidebarTrigger className="text-foreground" />
@@ -51,17 +60,26 @@ export function DashboardHeader({ leading }: { leading?: ReactNode }) {
             >
               <Avatar className="h-7 w-7">
                 <AvatarFallback className="bg-primary text-xs text-primary-foreground">
-                  ZM
+                  {initials}
                 </AvatarFallback>
               </Avatar>
               <div className="hidden flex-col leading-tight sm:flex">
-                <span className="text-xs font-medium">Zara M.</span>
-                <span className="text-[10px] text-muted-foreground">Admin</span>
+                <span className="text-xs font-medium">{name}</span>
+                <span className={`text-[10px] font-medium ${roleConfig.cls}`}>
+                  {roleConfig.label}
+                </span>
               </div>
             </button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" className="w-44">
-            <DropdownMenuLabel>My Account</DropdownMenuLabel>
+            <DropdownMenuLabel>
+              <div className="flex flex-col">
+                <span>{name}</span>
+                <span className={`text-[11px] font-medium ${roleConfig.cls}`}>
+                  {roleConfig.label}
+                </span>
+              </div>
+            </DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuItem onClick={handleLogout}>
               <LogOut className="h-4 w-4" />

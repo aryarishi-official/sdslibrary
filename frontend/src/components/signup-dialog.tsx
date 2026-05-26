@@ -1,5 +1,4 @@
 import { useState, type FormEvent } from "react";
-import { useNavigate } from "@tanstack/react-router";
 import { Loader2 } from "lucide-react";
 import {
     Dialog,
@@ -11,6 +10,13 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select";
 
 export function SignupDialog({
     open,
@@ -21,53 +27,32 @@ export function SignupDialog({
     onOpenChange: (open: boolean) => void;
     onSwitchToLogin: () => void;
 }) {
-    const navigate = useNavigate();
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [role, setRole] = useState("viewer");
     const [submitting, setSubmitting] = useState(false);
 
     async function handleSubmit(e: FormEvent) {
         e.preventDefault();
-
         setSubmitting(true);
-
         try {
-
-            const response = await fetch(
-                "http://127.0.0.1:8000/register",
-                {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify({
-                        name,
-                        email,
-                        password,
-                    }),
-                }
-            );
-
+            const response = await fetch("http://127.0.0.1:8000/register", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ name, email, password, role }),
+            });
             const data = await response.json();
-
             if (!response.ok) {
                 throw new Error(data.detail || "Signup failed");
             }
-
             alert("Account created successfully");
-
-            setSubmitting(false);
-
             onOpenChange(false);
-
             onSwitchToLogin();
-
-        } catch (error: any) {
-
+        } catch (error: unknown) {
+            alert(error instanceof Error ? error.message : "Signup failed");
+        } finally {
             setSubmitting(false);
-
-            alert(error.message);
         }
     }
 
@@ -116,6 +101,34 @@ export function SignupDialog({
                             required
                             autoComplete="new-password"
                         />
+                    </div>
+                    <div className="space-y-1.5">
+                        <Label htmlFor="signup-role">Role</Label>
+                        <Select value={role} onValueChange={setRole}>
+                            <SelectTrigger id="signup-role" className="w-full">
+                                <SelectValue placeholder="Select a role" />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="viewer">
+                                    <div className="flex flex-col">
+                                        <span>Viewer</span>
+                                        <span className="text-xs text-muted-foreground">View only — no upload or delete</span>
+                                    </div>
+                                </SelectItem>
+                                <SelectItem value="editor">
+                                    <div className="flex flex-col">
+                                        <span>Editor</span>
+                                        <span className="text-xs text-muted-foreground">Upload allowed — no delete</span>
+                                    </div>
+                                </SelectItem>
+                                <SelectItem value="admin">
+                                    <div className="flex flex-col">
+                                        <span>Admin</span>
+                                        <span className="text-xs text-muted-foreground">Full access — upload &amp; delete</span>
+                                    </div>
+                                </SelectItem>
+                            </SelectContent>
+                        </Select>
                     </div>
                     <Button type="submit" className="w-full" disabled={submitting}>
                         {submitting ? <Loader2 className="h-4 w-4 animate-spin" /> : "Create account"}

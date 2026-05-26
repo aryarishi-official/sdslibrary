@@ -2,7 +2,7 @@
 from fastapi import FastAPI, UploadFile, File
 import re
 import shutil
-import os
+
 from jsonextractor_up import extract_layout_lines, layout_lines_to_text_and_kvs, extract_pdf_tables, extract_tables_camelot, extract, extract_product_name, extract_hazard_pictograms
 from insert import insert_sds
 from normalizers.normalize_sds import normalize_sds
@@ -20,7 +20,10 @@ from auth import hash_password, verify_password, create_access_token
 from fastapi.exceptions import HTTPException
 
 
-
+import os
+from dotenv import load_dotenv
+load_dotenv()
+BASE_URL = os.getenv("BASE_URL", "http://localhost:8000")
 app = FastAPI()
 import models
 Base.metadata.create_all(bind=engine)
@@ -34,6 +37,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
 
 # Get path of this file (app.py inside backend)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -89,7 +94,8 @@ def register(user: UserCreate, db: Session = Depends(get_db)):
     new_user = User(
         name=user.name,
         email=user.email,
-        password=hashed_pw
+        password=hashed_pw,
+        role=user.role or "viewer",
     )
     db.add(new_user)
     db.commit()
@@ -115,18 +121,23 @@ def login(user: UserLogin, db: Session = Depends(get_db)):
         user.password,
         db_user.password
     ):
-     raise HTTPException(
+        raise HTTPException(
             status_code=401,
             detail="Invalid credentials"
         )
 
+    role = db_user.role or "viewer"
+    name = db_user.name or db_user.email
+
     token = create_access_token(
-        data={"sub": db_user.email}
+        data={"sub": db_user.email, "role": role, "name": name}
     )
 
     return {
         "access_token": token,
-        "token_type": "bearer"
+        "token_type": "bearer",
+        "role": role,
+        "name": name,
     }
 from auth import verify_token    
 @app.get("/profile")
@@ -229,7 +240,40 @@ async def analyze(file: UploadFile = File(...),current_user: str = Depends(verif
 
     """ return {"document_id": doc.id, "hazard_pictograms": doc.hazard_pictograms or []} """
     return {"document_id": doc.id, "hazard_pictograms": doc.hazard_pictograms or [], "normalized": normalized}
+from sqlalchemy import or_
+from typing import Optional
+@app.get("/documents/search")
+def search_documents(
+    q: Optional[str] = None,
+    current_user = Depends(verify_token),
+    db: Session = Depends(get_db)
+):
+    query = db.query(SDSDocument)
 
+    if q:
+        query = query.filter(
+            or_(
+                SDSDocument.product_name.ilike(f"%{q}%"),
+                SDSDocument.file_name.ilike(f"%{q}%"),
+                SDSDocument.signal_word.ilike(f"%{q}%")
+            )
+        )
+
+    results = query.order_by(SDSDocument.id.desc()).all()
+
+    return [
+        {
+            "id": doc.id,
+            "file_name": doc.file_name,
+            "product_name": doc.product_name,
+            "signal_word": doc.signal_word,
+            "uploaded_at": doc.uploaded_at.isoformat()
+            if doc.uploaded_at else None,
+            "hazard_pictograms": doc.hazard_pictograms or [],
+            "pdf_url": f"{BASE_URL}/uploads/{doc.file_name}"
+        }
+        for doc in results
+    ]
 
 @app.get("/documents/{doc_id}")
 def get_document(doc_id: int,current_user: str = Depends(verify_token),db: Session = Depends(get_db)):
@@ -293,7 +337,7 @@ def get_documents(db: Session = Depends(get_db)):
         for doc in docs
     ] """
 @app.get("/documents")
-def get_documents(db: Session = Depends(get_db)):
+def get_documents(current_user = Depends(verify_token),db: Session = Depends(get_db)):
     docs = db.query(SDSDocument).order_by(SDSDocument.id.desc()).all()
 
     results = []
@@ -353,7 +397,7 @@ def get_documents(db: Session = Depends(get_db)):
 
 
 @app.delete("/documents/{doc_id}")
-def delete_document(doc_id: int, db: Session = Depends(get_db)):
+def delete_document(doc_id: int,current_user = Depends(verify_token), db: Session = Depends(get_db)):
 
     doc = db.query(SDSDocument).filter(SDSDocument.id == doc_id).first()
 
